@@ -1,14 +1,14 @@
 {
-  "name": "Hacker-News",
+  "name": "Koala-Hacker-News",
   "version": "1.0.0",
-  "description": "",
+  "description": "Koala Hacker News 周报",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "fs": "0.0.1-security",
     "http": "0.0.1-security",
