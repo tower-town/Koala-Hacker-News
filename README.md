@@ -172,7 +172,7 @@ b 站 up 主[Koala 聊开源](https://space.bilibili.com/489667127)的《Hacker 
 |[02:04](https://www.bilibili.com/video/av217441979?t=124)|SQLite 并发读取性能详解|https://fly.io/blog/sqlite-internals-wal|
 |[02:26](https://www.bilibili.com/video/av217441979?t=146)|80 岁计算机科学家仍在优化开源代码|https://news.ycombinator.com/item?id=32534173|
 
-#### [视频链接](https://www.bilibili.com/video/av514731265)
+#### [[Hacker News 周报]](https://www.bilibili.com/video/av514731265)
 
 | 时间轴 | 简介 | 链接 |
 |:--:|:--:|:--:|
@@ -183,7 +183,7 @@ b 站 up 主[Koala 聊开源](https://space.bilibili.com/489667127)的《Hacker 
 |[01:33](https://www.bilibili.com/video/av514731265?t=93)|Crunchy Data｜在浏览器中运行 Postgres|https://www.crunchydata.com/blog/learn-postgres-at-the-playground|
 |[01:53](https://www.bilibili.com/video/av514731265?t=113)|JSON5 作者的一篇博客|https://aseemk.substack.com/p/ignore-the-f-ing-haters-json5|
 
-#### [视频链接](https://www.bilibili.com/video/av601882126)
+#### [[Hacker News 周报]](https://www.bilibili.com/video/av601882126)
 
 | 时间轴 | 简介 | 链接 |
 |:--:|:--:|:--:|
@@ -194,7 +194,7 @@ b 站 up 主[Koala 聊开源](https://space.bilibili.com/489667127)的《Hacker 
 |[01:54](https://www.bilibili.com/video/av601882126?t=114)|Rancher 创始团队运营新开源产品 Acorn|https://acorn.io/|
 |[02:21](https://www.bilibili.com/video/av601882126?t=141)|一篇介绍 Redis 技术细节的文章|https://architecturenotes.co/redis/|
 
-#### [视频链接](https://www.bilibili.com/video/av899145721)
+#### [[Hacker News 周报]](https://www.bilibili.com/video/av899145721)
 
 | 时间轴 | 简介 | 链接 |
 |:--:|:--:|:--:|
@@ -205,7 +205,7 @@ b 站 up 主[Koala 聊开源](https://space.bilibili.com/489667127)的《Hacker 
 |[01:24](https://www.bilibili.com/video/av899145721?t=84)|一篇介绍 eBPF 技术的文章|https://www.groundcover.com/blog/what-is-ebpf|
 |[01:50](https://www.bilibili.com/video/av899145721?t=110)|用 DALL·E 2 生成 logo 图片的分享文章|https://jacobmartins.com/posts/how-i-used-dalle2-to-generate-the-logo-for-octosql/|
 
-#### [视频链接](https://www.bilibili.com/video/av471440344)
+#### [[Hacker News 周报]](https://www.bilibili.com/video/av471440344)
 
 | 时间轴 | 简介 | 链接 |
 |:--:|:--:|:--:|
@@ -216,7 +216,7 @@ b 站 up 主[Koala 聊开源](https://space.bilibili.com/489667127)的《Hacker 
 |[02:25](https://www.bilibili.com/video/av471440344?t=145)|Skeleton｜ 全功能 Svelte UI 组件库|https://skeleton.brainandbonesllc.com/|
 |[02:50](https://www.bilibili.com/video/av471440344?t=170)|K8s 提出了 Gateway 网关 API|https://www.armosec.io/blog/kubernetes-gateway-api|
 
-#### [视频链接](https://www.bilibili.com/video/av856201719)
+#### [[Hacker News 周报]](https://www.bilibili.com/video/av856201719)
 
 | 时间轴 | 简介 | 链接 |
 |:--:|:--:|:--:|
@@ -227,7 +227,7 @@ b 站 up 主[Koala 聊开源](https://space.bilibili.com/489667127)的《Hacker 
 |[02:58](https://www.bilibili.com/video/av856201719?t=178)|AI 系统 DALL·E 开放 Beta 测试|https://openai.com/blog/dall-e-now-available-in-beta|
 |[03:21](https://www.bilibili.com/video/av856201719?t=201)|一篇关于 Scratch 潜能的文章|https://www.bryanbraun.com/2022/07/16/scratch-is-a-big-deal|
 
-#### [视频链接](https://www.bilibili.com/video/av898526676)
+#### [[Hacker News 周报]](https://www.bilibili.com/video/av898526676)
 
 | 时间轴 | 简介 | 链接 |
 |:--:|:--:|:--:|
@@ -238,7 +238,7 @@ b 站 up 主[Koala 聊开源](https://space.bilibili.com/489667127)的《Hacker 
 |[02:14](https://www.bilibili.com/video/av898526676?t=134)|Vim 在线交互式学习平台|https://www.vimified.com/|
 |[02:36](https://www.bilibili.com/video/av898526676?t=156)|推荐《PostgreSQL 14 Internals》一书|https://postgrespro.com/community/books/internals|
 
-#### [视频链接](https://www.bilibili.com/video/av513340184)
+#### [[Hacker News 周报]](https://www.bilibili.com/video/av513340184)
 
 | 时间轴 | 简介 | 链接 |
 |:--:|:--:|:--:|
@@ -249,7 +249,7 @@ b 站 up 主[Koala 聊开源](https://space.bilibili.com/489667127)的《Hacker 
 |[01:44](https://www.bilibili.com/video/av513340184?t=104)|fuite｜自动探测 Web 应用内存泄漏|https://github.com/nolanlawson/fuite|
 |[02:05](https://www.bilibili.com/video/av513340184?t=125)|一篇关于 rsync 工作原理的文章|https://michael.stapelberg.ch/posts/2022-07-02-rsync-how-does-it-work|
 
-#### [视频链接](https://www.bilibili.com/video/av770511400)
+#### [[Hacker News 周报]](https://www.bilibili.com/video/av770511400)
 
 | 时间轴 | 简介 | 链接 |
 |:--:|:--:|:--:|
@@ -260,7 +260,7 @@ b 站 up 主[Koala 聊开源](https://space.bilibili.com/489667127)的《Hacker 
 |[01:49](https://www.bilibili.com/video/av770511400?t=109)|Spark 与 K8s 集成新动向|https://www.cncf.io/blog/2022/06/30/why-spark-chooses-volcano-as-built-in-batch-scheduler-on-kubernetes/|
 |[02:15](https://www.bilibili.com/video/av770511400?t=135)|Raindrop｜书签管理小工具|https://raindrop.io/|
 
-#### [视频链接](https://www.bilibili.com/video/av427756499)
+#### [[Hacker News 周报]](https://www.bilibili.com/video/av427756499)
 
 | 时间轴 | 简介 | 链接 |
 |:--:|:--:|:--:|
@@ -273,7 +273,7 @@ b 站 up 主[Koala 聊开源](https://space.bilibili.com/489667127)的《Hacker 
 |[02:43](https://www.bilibili.com/video/av427756499?t=163)|SQLite 发布 SQLite4 设计|https://sqlite.org/src4/doc/trunk/www/design.wiki|
 |[03:04](https://www.bilibili.com/video/av427756499?t=184)|Deno 完成 A 轮融资|https://deno.com/blog/series-a|
 
-#### [视频链接](https://www.bilibili.com/video/av257594368)
+#### [[Hacker News 周报]](https://www.bilibili.com/video/av257594368)
 
 | 时间轴 | 简介 | 链接 |
 |:--:|:--:|:--:|
@@ -285,7 +285,7 @@ b 站 up 主[Koala 聊开源](https://space.bilibili.com/489667127)的《Hacker 
 |[01:46](https://www.bilibili.com/video/av257594368?t=106)|一个寻找项目灵感的网站|https://mysideproject.rocks/|
 |[02:01](https://www.bilibili.com/video/av257594368?t=121)|程序员社交新尝试|https://connectdome.com/|
 
-#### [视频链接](https://www.bilibili.com/video/av727379202)
+#### [[Hacker News 周报]](https://www.bilibili.com/video/av727379202)
 
 | 时间轴 | 简介 | 链接 |
 |:--:|:--:|:--:|
@@ -296,7 +296,7 @@ b 站 up 主[Koala 聊开源](https://space.bilibili.com/489667127)的《Hacker 
 |[01:24](https://www.bilibili.com/video/av727379202?t=84)|opensourcealternative.to｜查找开源替代品的网站|https://www.opensourcealternative.to/|
 |[01:42](https://www.bilibili.com/video/av727379202?t=102)|untools｜一组帮助思考的工具和方法论|https://untools.co/|
 
-#### [视频链接](https://www.bilibili.com/video/av812156413)
+#### [[Hacker News 周报]](https://www.bilibili.com/video/av812156413)
 
 | 时间轴 | 简介 | 链接 |
 |:--:|:--:|:--:|
@@ -309,7 +309,7 @@ b 站 up 主[Koala 聊开源](https://space.bilibili.com/489667127)的《Hacker 
 |[03:05](https://www.bilibili.com/video/av812156413?t=185)|svelvet｜交互式关系图构建工具|https://svelvet.io/docs/basic-usage/|
 |[03:22](https://www.bilibili.com/video/av812156413?t=202)|ffmpeg buddy｜FFmpeg 命令生成工具|https://evanhahn.github.io/ffmpeg-buddy/|
 
-#### [视频链接](https://www.bilibili.com/video/av639600552)
+#### [[Hacker News 周报]](https://www.bilibili.com/video/av639600552)
 
 | 时间轴 | 简介 | 链接 |
 |:--:|:--:|:--:|
@@ -321,7 +321,7 @@ b 站 up 主[Koala 聊开源](https://space.bilibili.com/489667127)的《Hacker 
 |[01:32](https://www.bilibili.com/video/av639600552?t=92)|Arctype｜ SQL 数据库客户端|https://arctype.com/|
 |[01:47](https://www.bilibili.com/video/av639600552?t=107)|一个有趣的 3D 植物生成工具|https://plant.jim-fx.com/|
 
-#### [视频链接](https://www.bilibili.com/video/av214334199)
+#### [[Hacker News 周报]](https://www.bilibili.com/video/av214334199)
 
 | 时间轴 | 简介 | 链接 |
 |:--:|:--:|:--:|
@@ -333,7 +333,7 @@ b 站 up 主[Koala 聊开源](https://space.bilibili.com/489667127)的《Hacker 
 |[01:56](https://www.bilibili.com/video/av214334199?t=116)|Datadog 介绍第三代事件存储库 Husky|https://www.datadoghq.com/blog/engineering/introducing-husky|
 |[02:16](https://www.bilibili.com/video/av214334199?t=136)|Quastor｜一个汇集大厂架构分析的专栏频道|https://quastor.substack.com/|
 
-#### [视频链接](https://www.bilibili.com/video/av939044423)
+#### [[Hacker News 周报]](https://www.bilibili.com/video/av939044423)
 
 | 时间轴 | 简介 | 链接 |
 |:--:|:--:|:--:|
@@ -346,7 +346,7 @@ b 站 up 主[Koala 聊开源](https://space.bilibili.com/489667127)的《Hacker 
 |[02:16](https://www.bilibili.com/video/av939044423?t=136)|DFlex ｜一个适配所有 JS 框架的可拖拽的工具库|https://www.dflex.dev/|
 |[02:30](https://www.bilibili.com/video/av939044423?t=150)|一篇 JS 性能分析指南的文章|https://blog.atomrc.dev/p/js-performance-profiling/|
 
-#### [视频链接](https://www.bilibili.com/video/av596334116)
+#### [[Hacker News 周报]](https://www.bilibili.com/video/av596334116)
 
 | 时间轴 | 简介 | 链接 |
 |:--:|:--:|:--:|
@@ -359,7 +359,7 @@ b 站 up 主[Koala 聊开源](https://space.bilibili.com/489667127)的《Hacker 
 |[02:00](https://www.bilibili.com/video/av596334116?t=120)|一篇关于 Golang 的文章|https://fasterthanli.me/articles/lies-we-tell-ourselves-to-keep-using-golang|
 |[02:21](https://www.bilibili.com/video/av596334116?t=141)|移植到 web 上的《塞尔达传说》|https://hoten.cc/blog/porting-zelda-classic-to-the-web|
 
-#### [视频链接](https://www.bilibili.com/video/av511210837)
+#### [[Hacker News 周报]](https://www.bilibili.com/video/av511210837)
 
 | 时间轴 | 简介 | 链接 |
 |:--:|:--:|:--:|
@@ -371,7 +371,7 @@ b 站 up 主[Koala 聊开源](https://space.bilibili.com/489667127)的《Hacker 
 |[01:56](https://www.bilibili.com/video/av511210837?t=116)|workmode｜远程工作助手|https://workmode.co/|
 |[02:25](https://www.bilibili.com/video/av511210837?t=145)|pixy｜飞行相机|https://pixy.com/|
 
-#### [视频链接](https://www.bilibili.com/video/av595895504)
+#### [[Hacker News 周报]](https://www.bilibili.com/video/av595895504)
 
 | 时间轴 | 简介 | 链接 |
 |:--:|:--:|:--:|
@@ -383,7 +383,7 @@ b 站 up 主[Koala 聊开源](https://space.bilibili.com/489667127)的《Hacker 
 |[01:47](https://www.bilibili.com/video/av595895504?t=107)|GO 发表介绍泛型的文章|https://go.dev/blog/when-generics|
 |[02:03](https://www.bilibili.com/video/av595895504?t=123)|一个单手键盘|https://tipykeyboard.com/en/home/|
 
-#### [视频链接](https://www.bilibili.com/video/av553253895)
+#### [[Hacker News 周报]](https://www.bilibili.com/video/av553253895)
 
 | 时间轴 | 简介 | 链接 |
 |:--:|:--:|:--:|
@@ -395,7 +395,7 @@ b 站 up 主[Koala 聊开源](https://space.bilibili.com/489667127)的《Hacker 
 |[01:45](https://www.bilibili.com/video/av553253895?t=105)|｜Deno 推出 FaaS 服务|https://deno.com/blog/a-whole-website-in-a-single-js-file|
 |[02:13](https://www.bilibili.com/video/av553253895?t=133)|EIGHT COLORS ｜一个小游戏|https://eightcolors.net/|
 
-#### [视频链接](https://www.bilibili.com/video/av553093356)
+#### [[Hacker News 周报]](https://www.bilibili.com/video/av553093356)
 
 | 时间轴 | 简介 | 链接 |
 |:--:|:--:|:--:|
@@ -408,7 +408,7 @@ b 站 up 主[Koala 聊开源](https://space.bilibili.com/489667127)的《Hacker 
 |[02:04](https://www.bilibili.com/video/av553093356?t=124)|一篇博客｜TypeScript 编译器工作原理|https://www.huy.rocks/everyday/04-01-2022-typescript-how-the-compiler-compiles|
 |[02:18](https://www.bilibili.com/video/av553093356?t=138)|一篇博客｜一些易被忽略的 HTML 属性|https://www.smashingmagazine.com/2022/03/html-attributes-you-never-use|
 
-#### [视频链接](https://www.bilibili.com/video/av297873494)
+#### [[Hacker News 周报]](https://www.bilibili.com/video/av297873494)
 
 | 时间轴 | 简介 | 链接 |
 |:--:|:--:|:--:|
@@ -422,7 +422,7 @@ b 站 up 主[Koala 聊开源](https://space.bilibili.com/489667127)的《Hacker 
 |[02:21](https://www.bilibili.com/video/av297873494?t=141)|WebAssembly 运行 Python|https://2022.pycon.de/program/SBCNDY|
 |[02:49](https://www.bilibili.com/video/av297873494?t=169)|Blog Search｜技术类搜索引擎|https://blogsurf.io/|
 
-#### [视频链接](https://www.bilibili.com/video/av725137289)
+#### [[Hacker News 周报]](https://www.bilibili.com/video/av725137289)
 
 | 时间轴 | 简介 | 链接 |
 |:--:|:--:|:--:|
@@ -435,7 +435,7 @@ b 站 up 主[Koala 聊开源](https://space.bilibili.com/489667127)的《Hacker 
 |[02:07](https://www.bilibili.com/video/av725137289?t=127)|mdn 推出 plus 订阅计划｜Mozilla 商业化新尝试|https://hacks.mozilla.org/2022/03/introducing-mdn-plus-make-mdn-your-own/|
 |[02:45](https://www.bilibili.com/video/av725137289?t=165)|一篇题为《Data Mesh 架构》的文章|https://www.datamesh-architecture.com/|
 
-#### [视频链接](https://www.bilibili.com/video/av682476244)
+#### [[Hacker News 周报]](https://www.bilibili.com/video/av682476244)
 
 | 时间轴 | 简介 | 链接 |
 |:--:|:--:|:--:|
@@ -449,7 +449,7 @@ b 站 up 主[Koala 聊开源](https://space.bilibili.com/489667127)的《Hacker 
 |[02:14](https://www.bilibili.com/video/av682476244?t=134)|CSS-Tricks 网站被 DigitalOcean 收购|https://css-tricks.com/css-tricks-is-joining-digitalocean/|
 |[02:35](https://www.bilibili.com/video/av682476244?t=155)|Veloren ｜一个基于 Rust 开发的开源多人 RPG 游戏|https://www.youtube.com/watch?v=hCC1C5KIeUA|
 
-#### [视频链接](https://www.bilibili.com/video/av724739860)
+#### [[Hacker News 周报]](https://www.bilibili.com/video/av724739860)
 
 | 时间轴 | 简介 | 链接 |
 |:--:|:--:|:--:|
@@ -462,7 +462,7 @@ b 站 up 主[Koala 聊开源](https://space.bilibili.com/489667127)的《Hacker 
 |[02:24](https://www.bilibili.com/video/av724739860?t=144)|dasel ｜单一工具完成 JSON、TOML 等文件的读取和修改|https://github.com/TomWright/dasel|
 |[02:45](https://www.bilibili.com/video/av724739860?t=165)|“请停止使用 :latest 标签”｜一篇关于版本安全的文章|https://platformers.dev/log/2022/latest-literally-kills-puppies/|
 
-#### [视频链接](https://www.bilibili.com/video/av809507046)
+#### [[Hacker News 周报]](https://www.bilibili.com/video/av809507046)
 
 | 时间轴 | 简介 | 链接 |
 |:--:|:--:|:--:|
@@ -475,7 +475,7 @@ b 站 up 主[Koala 聊开源](https://space.bilibili.com/489667127)的《Hacker 
 |[02:30](https://www.bilibili.com/video/av809507046?t=150)|迷你掌上游戏机 playdate 开源了 SDK|https://play.date/dev/|
 |[02:52](https://www.bilibili.com/video/av809507046?t=172)|轻松一刻时间｜小游戏|https://www.lessmilk.com/almost-pong/|
 
-#### [视频链接](https://www.bilibili.com/video/av809272615)
+#### [[Hacker News 周报]](https://www.bilibili.com/video/av809272615)
 
 | 时间轴 | 简介 | 链接 |
 |:--:|:--:|:--:|
@@ -488,7 +488,7 @@ b 站 up 主[Koala 聊开源](https://space.bilibili.com/489667127)的《Hacker 
 |[02:34](https://www.bilibili.com/video/av809272615?t=154)|Supernotes｜笔记软件|https://supernotes.app/|
 |[02:45](https://www.bilibili.com/video/av809272615?t=165)|Sioyek｜论文专用 PDF 阅读器|https://github.com/ahrm/sioyek|
 
-#### [视频链接](https://www.bilibili.com/video/av894239914)
+#### [[Hacker News 周报]](https://www.bilibili.com/video/av894239914)
 
 | 时间轴 | 简介 | 链接 |
 |:--:|:--:|:--:|
@@ -500,7 +500,7 @@ b 站 up 主[Koala 聊开源](https://space.bilibili.com/489667127)的《Hacker 
 |[02:09](https://www.bilibili.com/video/av894239914?t=129)|Hue.tools ｜ 颜色处理工具|https://hue.tools/|
 |[02:31](https://www.bilibili.com/video/av894239914?t=151)|shortwave ｜ 邮件工具|https://www.shortwave.com/blog/introducing-shortwave/|
 
-#### [视频链接](https://www.bilibili.com/video/av211446987)
+#### [[Hacker News 周报]](https://www.bilibili.com/video/av211446987)
 
 | 时间轴 | 简介 | 链接 |
 |:--:|:--:|:--:|
@@ -515,7 +515,7 @@ b 站 up 主[Koala 聊开源](https://space.bilibili.com/489667127)的《Hacker 
 |[02:25](https://www.bilibili.com/video/av211446987?t=145)|《Top web hacking techniques of 2021》｜文章||
 |[02:41](https://www.bilibili.com/video/av211446987?t=161)|SHA256 算法可视化演示|https://sha256algorithm.com/|
 
-#### [视频链接](https://www.bilibili.com/video/av851363567)
+#### [[Hacker News 周报]](https://www.bilibili.com/video/av851363567)
 
 | 时间轴 | 简介 | 链接 |
 |:--:|:--:|:--:|
@@ -525,7 +525,7 @@ b 站 up 主[Koala 聊开源](https://space.bilibili.com/489667127)的《Hacker 
 |[01:23](https://www.bilibili.com/video/av851363567?t=83)|Rich Cli 由 Python 编写，可打印各种格式丰富的内容|https://github.com/Textualize/rich-cli|
 |[01:45](https://www.bilibili.com/video/av851363567?t=105)|《我是如何在 AWS 上发现数千个开放数据库的》|https://infosecwriteups.com/how-i-discovered-thousands-of-open-databases-on-aws-764729aa7f32|
 
-#### [视频链接](https://www.bilibili.com/video/av808652802)
+#### [[Hacker News 周报]](https://www.bilibili.com/video/av808652802)
 
 | 时间轴 | 简介 | 链接 |
 |:--:|:--:|:--:|
@@ -540,7 +540,7 @@ b 站 up 主[Koala 聊开源](https://space.bilibili.com/489667127)的《Hacker 
 |[03:19](https://www.bilibili.com/video/av808652802?t=199)|《将 SQLite 存储在 Cloudflare 耐用对象中》|https://ma.rkusa.st/store-sqlite-in-cloudflare-durable-objects|
 |[03:44](https://www.bilibili.com/video/av808652802?t=224)|《Kubernetes 如此复杂有两个原因》|https://buttondown.email/nelhage/archive/two-reasons-kubernetes-is-so-complex/|
 
-#### [视频链接](https://www.bilibili.com/video/av935758161)
+#### [[Hacker News 周报]](https://www.bilibili.com/video/av935758161)
 
 | 时间轴 | 简介 | 链接 |
 |:--:|:--:|:--:|
@@ -556,7 +556,7 @@ b 站 up 主[Koala 聊开源](https://space.bilibili.com/489667127)的《Hacker 
 |[03:32](https://www.bilibili.com/video/av935758161?t=212)|curl ｜ 最近支持了 JSON|https://curl.se/|
 |[03:42](https://www.bilibili.com/video/av935758161?t=222)|轻松一刻｜弹珠撞击木块游戏|https://wallsmash.com/|
 
-#### [视频链接](https://www.bilibili.com/video/av935663579)
+#### [[Hacker News 周报]](https://www.bilibili.com/video/av935663579)
 
 | 时间轴 | 简介 | 链接 |
 |:--:|:--:|:--:|
@@ -570,7 +570,7 @@ b 站 up 主[Koala 聊开源](https://space.bilibili.com/489667127)的《Hacker 
 |[04:07](https://www.bilibili.com/video/av935663579?t=247)|介绍两个 Cli 工具：dsq 和 fx|https://datastation.multiprocess.io/blog/2022-01-11-dsq.html<br>https://github.com/antonmedv/fx|
 |[04:38](https://www.bilibili.com/video/av935663579?t=278)|轻松一刻时间｜介绍一个打发时间的小游戏|https://looptap.vasanthv.com/|
 
-#### [视频链接](https://www.bilibili.com/video/av850617825)
+#### [[Hacker News 周报]](https://www.bilibili.com/video/av850617825)
 
 | 时间轴 | 简介 | 链接 |
 |:--:|:--:|:--:|
@@ -587,7 +587,7 @@ b 站 up 主[Koala 聊开源](https://space.bilibili.com/489667127)的《Hacker 
 |[04:50](https://www.bilibili.com/video/av850617825?t=290)|利用浏览器 web GL 实现的东京地铁实时可视化地图||
 |[05:13](https://www.bilibili.com/video/av850617825?t=313)|SpaceX Dragon 2 与国际空间站对接的模拟机|https://iss-sim.spacex.com/|
 
-#### [视频链接](https://www.bilibili.com/video/av722854302)
+#### [[Hacker News 周报]](https://www.bilibili.com/video/av722854302)
 
 | 时间轴 | 简介 | 链接 |
 |:--:|:--:|:--:|
@@ -604,7 +604,7 @@ b 站 up 主[Koala 聊开源](https://space.bilibili.com/489667127)的《Hacker 
 |[03:37](https://www.bilibili.com/video/av722854302?t=217)|《2021 年的数据库：回顾的一年》|https://ottertune.com/blog/2021-databases-retrospective/|
 |[04:07](https://www.bilibili.com/video/av722854302?t=247)|Miller -用于查询、塑造、重新格式化 CSV、TSV 和 JSON 中的数据的工具|https://miller.readthedocs.io/en/latest/|
 
-#### [视频链接](https://www.bilibili.com/video/av465206549)
+#### [[Hacker News 周报]](https://www.bilibili.com/video/av465206549)
 
 | 时间轴 | 简介 | 链接 |
 |:--:|:--:|:--:|
