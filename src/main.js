@@ -1,35 +1,15 @@
-const Info = require('./componet/info')
-const info = require('./componet/info')
+const path = require('path');
+const fs = require('fs');
+const HackerNews = require('./componet/HackerNews');
 
-
-/*
-url = {
-    "get_aids": {
-        "url": 'https://api.bilibili.com/x/polymer/space/seasons_archives_list',
-        "params": {
-            'mid': '489667127',
-            'season_id': '249279',
-            'sort_reverse': 'false',
-            'page_num': str(page_num),
-            'page_size': '30'
-        }
-    },
-    "get_commit": {
-        "url": 'http://api.bilibili.com/x/v2/reply/main',
-        "params": {
-            'type': 1,
-            'oid': aid
-        }
-    },
-    "get_title": {
-        "url": "http://api.bilibili.com/x/web-interface/view"
-        "params": {
-            'aid': aid
-        }
+url_json = path.resolve(__dirname, './url.json');
+fs.readFile(url_json, 'utf-8', (error, _data) => {
+    if (!error) {
+        json_data = JSON.parse(_data)['get_aids'];
+        let url = json_data['url'];
+        let params = json_data['params'];
+        let json_path = path.resolve(__dirname, './info.json');
+        info = new HackerNews;
+        info.fetchJson(url, params, json_path);
     }
-    ""
-}
-
-*/
-
-Info.fetchJson();
+})
