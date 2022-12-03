@@ -31,7 +31,8 @@ class HackerNews {
                 fetch_keys.forEach(element => {
                     if (element === 'archives'){
                         video_data[element].forEach((value, _) => {
-                            video_info[value['bvid']] = {
+                            let aid = value['aid'].toString();
+                            video_info[aid] = {
                                 "title": value['title'],
                                 'aid': value['aid'],
                                 'bvid': value['bvid'],
@@ -39,8 +40,19 @@ class HackerNews {
                             }
                         })
                     }
+                    else if (element === 'top'){
+                        let aid = params['oid'].toString();
+                        content = video_data[element]['content'];
+                        video_info[aid] = {
+                            "aid": Number(aid),
+                            "data": {
+                                "name": "",
+                                "intro": "",
+                                "link": ""
+                            }
+                        }
+                    }
                 });
-                
                 let video_file = JSON.stringify(video_info, null, "\t");
                 fs.writeFile(json_path, data=video_file, (error) => {
                     if (error)
@@ -52,6 +64,43 @@ class HackerNews {
         }).on('error', (error) => console.log(error.message));
 
     }
-};
+    generate_md(json_data, md_path) {
+        let data_keys = Object.keys(json_data);
+        let table_tr = '';
+        data_keys.forEach((value, index) => {
+            let data = json_data[value]['data'];
+            data.forEach((item, _) => {
+                table_tr += `
+                <tr>
+                    <td>${item['name']}</td>
+                    <td>${item['intr']}</td>
+                    <td>${item['link']}</td>
+                </tr>
+            `;
+            }) 
+        })
 
+        let table_hander = `
+            <theader>
+                <th>项目名称</th>
+                <th>简介</th>
+                <th>链接</th>
+            </theader>
+        `;
+
+        let table_body = `
+            <tbody>
+                ${table_tr}
+            </tbody>
+        `;
+        let table = `
+            <table>
+                ${table_hander}
+                ${table_body}
+            </table>
+        `;
+        console.log(table);
+
+    }
+};
 module.exports = HackerNews;

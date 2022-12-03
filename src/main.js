@@ -2,7 +2,7 @@ const path = require('path');
 const fs = require('fs');
 const HackerNews = require('./componet/HackerNews');
 
-url_json = path.resolve(__dirname, './url.json');
+url_json = path.resolve(__dirname, './bilibili-api.json');
 fs.readFile(url_json, 'utf-8', (error, _data) => {
     if (!error) {
         json_data = JSON.parse(_data)['get_aids'];
