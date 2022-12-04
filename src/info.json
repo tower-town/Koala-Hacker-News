@@ -3,115 +3,364 @@
 		"title": "[Hacker News 周报] 数据可视化神器；10大 web 黑客技术；Postman 支持 gRPC",
 		"aid": 211446987,
 		"bvid": "BV16a411y7fw",
-		"pubdate": 1644712211
+		"pubdate": 1644712211,
+		"data": [
+			{
+				"name": "Files Gallery",
+				"intro": "应用"
+			},
+			{
+				"name": "Tally",
+				"intro": "工具"
+			},
+			{
+				"name": "Datawrapper",
+				"intro": "工具"
+			},
+			{
+				"name": "onemodel",
+				"intro": "工具"
+			},
+			{
+				"name": "Postman",
+				"intro": "工具"
+			},
+			{
+				"name": "",
+				"intro": "Laravel 9.0 发布"
+			},
+			{
+				"name": "Mailwind",
+				"intro": "邮件模版"
+			},
+			{
+				"name": "《 backend.sql + frontend.js = love》",
+				"intro": "文章"
+			},
+			{
+				"name": "《Top web hacking techniques of 2021》",
+				"intro": "文章"
+			},
+			{
+				"name": "",
+				"intro": "SHA256 算法可视化演示"
+			}
+		]
 	},
 	"297873494": {
 		"title": "[Hacker News 周报] WebAssembly 运行 Python；云原生 CI/CD 开发包；React 18 发布",
 		"aid": 297873494,
 		"bvid": "BV1aF41137oA",
-		"pubdate": 1648945800
+		"pubdate": 1648945800,
+		"data": [
+			{
+				"name": "",
+				"intro": "GitHub issues 打印机"
+			},
+			{
+				"name": "Oh heck",
+				"intro": "一个智能终端指令输入工具"
+			},
+			{
+				"name": "dagger",
+				"intro": "一个现代化的 CI/CD 工具包"
+			},
+			{
+				"name": "",
+				"intro": "React 发布18.0版本"
+			},
+			{
+				"name": "",
+				"intro": "Chrome Experiments 的银河系实验"
+			},
+			{
+				"name": "arpchat",
+				"intro": "用 ARP 协议实现的在线聊天工具"
+			},
+			{
+				"name": "Calenday",
+				"intro": "一个多人共享日历"
+			},
+			{
+				"name": "",
+				"intro": "WebAssembly 运行 Python"
+			},
+			{
+				"name": "Blog Search",
+				"intro": "技术类搜索引擎"
+			}
+		]
 	},
 	"465206549": {
 		"title": "[Hacker News 周报] Blender 3.0 发布；GitHub 再出 Code Search",
 		"aid": 465206549,
 		"bvid": "BV1NL411L7U1",
-		"pubdate": 1640736002
+		"pubdate": 1640736002,
+		"data": [
+			{
+				"name": "",
+				"intro": "",
+				"link": ""
+			}
+		]
 	},
 	"511210837": {
 		"title": "[Hacker News周报] 性能分析工具合集；通过 TDD 学习 GO 语言；基于 Deno 的 serverless 平台",
 		"aid": 511210837,
 		"bvid": "BV1fu41167ME",
-		"pubdate": 1651365169
+		"pubdate": 1651365169,
+		"data": [
+			{
+				"name": "Clinic.js",
+				"intro": "Node.js 性能分析工具",
+				"link": "https://clinicjs.org/ "
+			},
+			{
+				"name": "magic-trace",
+				"intro": "Jane Street 开源的进程监控工具",
+				"link": "https://github.com/janestreet/magic-trace "
+			},
+			{
+				"name": "memray",
+				"intro": "Bloomberg 开源的 Python 性能分析工具",
+				"link": "https://github.com/bloomberg/memray "
+			},
+			{
+				"name": "《learn GO with Tests》",
+				"intro": "练习 GO 的工具书",
+				"link": "https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/hello-world "
+			},
+			{
+				"name": "Edge Function",
+				"intro": "Netlify 新推出的 PaaS 平台",
+				"link": "https://www.netlify.com/blog/announcing-serverless-compute-with-edge-functions "
+			},
+			{
+				"name": "workmode",
+				"intro": "远程工作助手",
+				"link": "https://workmode.co/ "
+			},
+			{
+				"name": "pixy",
+				"intro": "飞行相机",
+				"link": "https://pixy.com/"
+			}
+		]
 	},
 	"553093356": {
 		"title": "[Hacker News 周报] 自部署 PaaS coolify；现代化终端 Warp；Ruby 增加 WASM 支持",
 		"aid": 553093356,
 		"bvid": "BV12i4y1D78x",
-		"pubdate": 1649557083
+		"pubdate": 1649557083,
+		"data": [
+			{
+				"name": "Coolify",
+				"intro": "自部署 PaaS"
+			},
+			{
+				"name": "warp",
+				"intro": "现代化终端"
+			},
+			{
+				"name": "redo",
+				"intro": "开源命令行工具"
+			},
+			{
+				"name": "MetricFlow",
+				"intro": "数据仓库管理工具"
+			},
+			{
+				"name": "",
+				"intro": "Ruby 增加 WASM 支持"
+			},
+			{
+				"name": "Rome 发布 Rome Formatter",
+				"intro": "对标 Prettier"
+			},
+			{
+				"name": "一篇博客",
+				"intro": "TypeScript 编译器工作原理"
+			},
+			{
+				"name": "一篇博客",
+				"intro": "一些易被忽略的 HTML 属性"
+			}
+		]
 	},
 	"553253895": {
 		"title": "[Hacker News 周报] 现代 CLI 大全；Deno 推出 FaaS 服务；基于 Rust 的隧道工具",
 		"aid": 553253895,
 		"bvid": "BV1yi4y1U7Ms",
-		"pubdate": 1650155400
+		"pubdate": 1650155400,
+		"data": [
+			{
+				"name": "",
+				"intro": "现代 CLI 大全"
+			},
+			{
+				"name": "bore",
+				"intro": "基于 Rust 的隧道工具"
+			},
+			{
+				"name": "WeekToDo",
+				"intro": "本地计划管理工具"
+			},
+			{
+				"name": "Zas",
+				"intro": "专注于 GO 和 Rust 的编辑器"
+			},
+			{
+				"name": "Pinry",
+				"intro": "Pinterest 的开源替代品"
+			},
+			{
+				"name": "",
+				"intro": "Deno 推出 FaaS 服务"
+			},
+			{
+				"name": "EIGHT COLORS",
+				"intro": "一个小游戏"
+			}
+		]
 	},
 	"595895504": {
 		"title": "[Hacker News 周报] Meta 开源富文本编辑器 lexical；Yandex 开源分布式数据库 YDB；Node.js 18 发布",
 		"aid": 595895504,
 		"bvid": "BV16B4y127vi",
-		"pubdate": 1650760249
+		"pubdate": 1650760249,
+		"data": [
+			{
+				"name": "",
+				"intro": "一个有用网站的合集"
+			},
+			{
+				"name": "",
+				"intro": "一个开源的 web 文本编辑器"
+			},
+			{
+				"name": "",
+				"intro": "一个开源的分布式数据库"
+			},
+			{
+				"name": "OpenRefine",
+				"intro": "开源数据清洗工具"
+			},
+			{
+				"name": "",
+				"intro": "Node.js 发布18版本"
+			},
+			{
+				"name": "",
+				"intro": "GO 发表介绍泛型的文章"
+			},
+			{
+				"name": "",
+				"intro": "一个单手键盘"
+			}
+		]
 	},
 	"682476244": {
 		"title": "[Hacker News 周报] Zotero 发布 6.0 版本；500 行代码学习 OpenGL；GO 支持泛型",
 		"aid": 682476244,
 		"bvid": "BV1HU4y1d7da",
-		"pubdate": 1647748266
+		"pubdate": 1647748266,
+		"data": [
+			{
+				"name": "",
+				"intro": "文献管理工具 Zotero 发布 6.0 版本"
+			},
+			{
+				"name": "Plasticity",
+				"intro": "用 web 开发的3D 艺术建模开源软件"
+			},
+			{
+				"name": "Lapce",
+				"intro": "基于原生 GUI 和 Rust 编写的开源代码编辑器"
+			},
+			{
+				"name": "Awesome TUIs",
+				"intro": "收集提供终端用户界面项目清单"
+			},
+			{
+				"name": "K9s",
+				"intro": "一个终端中 UI 强大的 K8s 客户端"
+			},
+			{
+				"name": "Tiny renderer",
+				"intro": "500 行代码学习 openGL｜附演示教程"
+			},
+			{
+				"name": "",
+				"intro": "GO 发布1.18版本支持泛型"
+			},
+			{
+				"name": "",
+				"intro": "CSS-Tricks 网站被 DigitalOcean 收购"
+			},
+			{
+				"name": "Veloren",
+				"intro": "一个基于 Rust 开发的开源多人 RPG 游戏"
+			}
+		]
 	},
 	"722854302": {
 		"title": "[Hacker News 周报] 波斯王子在浏览器中运行；开发者工具大集合；数据库年度报告",
 		"aid": 722854302,
 		"bvid": "BV1GD4y1F7Ri",
-		"pubdate": 1641096579
+		"pubdate": 1641096579,
+		"data": [
+			{
+				"name": "",
+				"intro": "",
+				"link": ""
+			}
+		]
 	},
 	"724739860": {
 		"title": "[Hacker News 周报]  JS 类型系统提案；开源游戏引擎 Godot；数据库索引工作原理",
 		"aid": 724739860,
 		"bvid": "BV1VS4y1D768",
-		"pubdate": 1647143697
+		"pubdate": 1647143697,
+		"data": [
+			{
+				"name": "",
+				"intro": "关于 TypeScript 的两条新闻"
+			},
+			{
+				"name": "",
+				"intro": "TypeScript 向 JS 提议增加类型系统"
+			},
+			{
+				"name": "",
+				"intro": "Stripe 将 JS 代码库从 Flow 迁移到 TypeScript"
+			},
+			{
+				"name": "Godot",
+				"intro": "一个开源游戏引擎"
+			},
+			{
+				"name": "苹果将发售 Mac Studio",
+				"intro": "M1 芯片成为新杀手锏"
+			},
+			{
+				"name": "",
+				"intro": "关于数据库索引工作原理的解答"
+			},
+			{
+				"name": "dasel",
+				"intro": "单一工具完成 JSON、TOML 等文件的读取和修改"
+			},
+			{
+				"name": "“请停止使用 :latest 标签”",
+				"intro": "一篇关于版本安全的文章"
+			}
+		]
 	},
 	"725137289": {
 		"title": "[Hacker News 周报] Firebase 开源替代方案；高效阅读工具；MDN 推出 plus 订阅计划",
 		"aid": 725137289,
 		"bvid": "BV19S4y127wz",
-		"pubdate": 1648355021
-	},
-	"808652802": {
-		"title": "[Hacker News 周报] GitHub Action 教程；基于 web 的远程桌面工具；在 serverless 中使用 SQLite",
-		"aid": 808652802,
-		"bvid": "BV1r34y127VU",
-		"pubdate": 1643610080
-	},
-	"809272615": {
-		"title": "[Hacker News 周报] CRUD 最佳工具；论文专用 PDF 阅读器；JS 协同算法库",
-		"aid": 809272615,
-		"bvid": "BV1m34y1r7EY",
-		"pubdate": 1645921816
-	},
-	"809507046": {
-		"title": "[Hacker News 周报]  MDN 文档全新上线；SaaS 产品开源替代品大全；使用 Python 直接开发 Web UI",
-		"aid": 809507046,
-		"bvid": "BV1Y34y1b7cJ",
-		"pubdate": 1646542378
-	},
-	"850617825": {
-		"title": "[Hacker News 周报]  任天堂掌机发展史；开源学术工具 Zotero；SpaceX 空间站对接模拟器",
-		"aid": 850617825,
-		"bvid": "BV1vL4y1b78S",
-		"pubdate": 1641711972
-	},
-	"851363567": {
-		"title": "[Hacker News 周报] Python 开发者的完美终端工具；、Systemd 示例教程；你的云上数据库安全吗？",
-		"aid": 851363567,
-		"bvid": "BV1nL4y1s7q1",
-		"pubdate": 1644106890
-	},
-	"894239914": {
-		"title": "[Hacker News 周报] 基于 WASM 在浏览器中运行 Office；K8s 纪录片；GitHub markdown 功能增强",
-		"aid": 894239914,
-		"bvid": "BV19P4y1F7s7",
-		"pubdate": 1645315081
-	},
-	"935663579": {
-		"title": "[Hacker News周报] 开源软件被植入恶意代码；浏览器中实现 POSIX；开源 wiki 工具推荐",
-		"aid": 935663579,
-		"bvid": "BV1eT4y117Xh",
-		"pubdate": 1642312579
-	},
-	"935758161": {
-		"title": "[Hacker News周报] faker.js 删库事件新进展；暴雪被收购；GPS 工作原理详解",
-		"aid": 935758161,
-		"bvid": "BV1AT4y127tr",
-		"pubdate": 1642897812,
+		"pubdate": 1648355021,
 		"data": [
 			{
 				"name": "appwrite",
@@ -144,6 +393,277 @@
 			{
 				"name": "",
 				"intro": "一篇题为 《Data Mesh 架构》的文章"
+			}
+		]
+	},
+	"808652802": {
+		"title": "[Hacker News 周报] GitHub Action 教程；基于 web 的远程桌面工具；在 serverless 中使用 SQLite",
+		"aid": 808652802,
+		"bvid": "BV1r34y127VU",
+		"pubdate": 1643610080,
+		"data": [
+			{
+				"name": "",
+				"intro": "",
+				"link": ""
+			}
+		]
+	},
+	"809272615": {
+		"title": "[Hacker News 周报] CRUD 最佳工具；论文专用 PDF 阅读器；JS 协同算法库",
+		"aid": 809272615,
+		"bvid": "BV1m34y1r7EY",
+		"pubdate": 1645921816,
+		"data": [
+			{
+				"name": "怎样实现一个最简单的 CRUD 应用？",
+				"intro": "本期专题问答"
+			},
+			{
+				"name": "Django",
+				"intro": "CRUD 最佳工具/答案1"
+			},
+			{
+				"name": "PostgREST",
+				"intro": "CRUD 最佳工具/答案2"
+			},
+			{
+				"name": "nHOST",
+				"intro": "CRUD 最佳工具/答案3"
+			},
+			{
+				"name": "Grist",
+				"intro": "Airtable 的开源替代"
+			},
+			{
+				"name": "Automerge",
+				"intro": "JS 协同算法库"
+			},
+			{
+				"name": "Supernotes",
+				"intro": "笔记软件"
+			},
+			{
+				"name": "Sioyek",
+				"intro": "论文专用 PDF 阅读器"
+			}
+		]
+	},
+	"809507046": {
+		"title": "[Hacker News 周报]  MDN 文档全新上线；SaaS 产品开源替代品大全；使用 Python 直接开发 Web UI",
+		"aid": 809507046,
+		"bvid": "BV1Y34y1b7cJ",
+		"pubdate": 1646542378,
+		"data": [
+			{
+				"name": "",
+				"intro": "Mozilla 的 MDN 文档全新上线"
+			},
+			{
+				"name": "",
+				"intro": "Mozilla 的3D虚拟空间产品"
+			},
+			{
+				"name": "HOPPSCOTCH",
+				"intro": "一个开源网络请求发送工具"
+			},
+			{
+				"name": "Streamlit",
+				"intro": "一个使用 Python 直接开发 web UI 的工具"
+			},
+			{
+				"name": "Textframe",
+				"intro": "一个动画产品教程创建工具"
+			},
+			{
+				"name": "",
+				"intro": "SaaS 产品开源替代品大全"
+			},
+			{
+				"name": "",
+				"intro": "迷你掌上游戏机 playdate 开源了 SDK"
+			},
+			{
+				"name": "轻松一刻时间",
+				"intro": "小游戏"
+			}
+		]
+	},
+	"850617825": {
+		"title": "[Hacker News 周报]  任天堂掌机发展史；开源学术工具 Zotero；SpaceX 空间站对接模拟器",
+		"aid": 850617825,
+		"bvid": "BV1vL4y1b78S",
+		"pubdate": 1641711972,
+		"data": [
+			{
+				"name": "",
+				"intro": "任天堂掌上游戏机发展史回顾"
+			},
+			{
+				"name": "",
+				"intro": "《为什么要运行自己的 DNS 服务器？》"
+			},
+			{
+				"name": "Zotero",
+				"intro": "一个开源的经典文献管理工具"
+			},
+			{
+				"name": "Darling",
+				"intro": "一个帮助你在 Linux 上运行 Mac 应用程序的工具"
+			},
+			{
+				"name": "coqui",
+				"intro": "克隆你的声音说外语"
+			},
+			{
+				"name": "OpenDrop",
+				"intro": "一个开源版的 AirDrop"
+			},
+			{
+				"name": "Portmaster",
+				"intro": "一个帮助你管理电脑网络的开源软件"
+			},
+			{
+				"name": "Papers We Love",
+				"intro": "一个专门研读学术类计算机科学论文的开源社区"
+			},
+			{
+				"name": "",
+				"intro": "关于 Zig 这个新兴编程语言的分析"
+			},
+			{
+				"name": "",
+				"intro": "Raycast 团队信奉无需 code review 的理念"
+			},
+			{
+				"name": "",
+				"intro": "利用浏览器 web GL 实现的东京地铁实时可视化地图"
+			},
+			{
+				"name": "",
+				"intro": "SpaceX Dragon 2 与国际空间站对接的模拟机"
+			}
+		]
+	},
+	"851363567": {
+		"title": "[Hacker News 周报] Python 开发者的完美终端工具；、Systemd 示例教程；你的云上数据库安全吗？",
+		"aid": 851363567,
+		"bvid": "BV1nL4y1s7q1",
+		"pubdate": 1644106890,
+		"data": [
+			{
+				"name": "",
+				"intro": "",
+				"link": ""
+			}
+		]
+	},
+	"894239914": {
+		"title": "[Hacker News 周报] 基于 WASM 在浏览器中运行 Office；K8s 纪录片；GitHub markdown 功能增强",
+		"aid": 894239914,
+		"bvid": "BV19P4y1F7s7",
+		"pubdate": 1645315081,
+		"data": [
+			{
+				"name": "",
+				"intro": "",
+				"link": ""
+			}
+		]
+	},
+	"935663579": {
+		"title": "[Hacker News周报] 开源软件被植入恶意代码；浏览器中实现 POSIX；开源 wiki 工具推荐",
+		"aid": 935663579,
+		"bvid": "BV1eT4y117Xh",
+		"pubdate": 1642312579,
+		"data": [
+			{
+				"name": "",
+				"intro": "开源软件被植入恶意代码"
+			},
+			{
+				"name": "",
+				"intro": "Browsix 浏览器中实现 POSIX"
+			},
+			{
+				"name": "",
+				"intro": "GitHub Copilot"
+			},
+			{
+				"name": "",
+				"intro": "Learn and Test DMARC 一个可视化工具"
+			},
+			{
+				"name": "",
+				"intro": "BookStack 一个开源 wiki 工具"
+			},
+			{
+				"name": "",
+				"intro": "Poly Haven 如何花不到400美金处理80TB数据和500万次页面访问的"
+			},
+			{
+				"name": "",
+				"intro": "Kogi 一个新型高级付费搜索引擎"
+			},
+			{
+				"name": "",
+				"intro": "介绍两个 Cli 工具: dsq 和 fx"
+			},
+			{
+				"name": "轻松一刻时间",
+				"intro": "介绍一个打发时间的小游戏"
+			}
+		]
+	},
+	"935758161": {
+		"title": "[Hacker News周报] faker.js 删库事件新进展；暴雪被收购；GPS 工作原理详解",
+		"aid": 935758161,
+		"bvid": "BV1AT4y127tr",
+		"pubdate": 1642897812,
+		"data": [
+			{
+				"name": "",
+				"intro": "faker.js 删库事件新进展"
+			},
+			{
+				"name": "",
+				"intro": "暴雪被收购"
+			},
+			{
+				"name": "PyFlow",
+				"intro": "一个可视化编程环境"
+			},
+			{
+				"name": "",
+				"intro": "CSS 选择器练习题网站"
+			},
+			{
+				"name": "",
+				"intro": "GPS 工作原理详解"
+			},
+			{
+				"name": "Lichess",
+				"intro": "一个国际象棋服务器的支出分析"
+			},
+			{
+				"name": "",
+				"intro": "谷歌分析在欧盟合法性及其替代品"
+			},
+			{
+				"name": "",
+				"intro": "AWS DynamoDB 十年回顾"
+			},
+			{
+				"name": "CyberChef",
+				"intro": "一个数据格式转换工具"
+			},
+			{
+				"name": "curl",
+				"intro": "最近支持了 JSON"
+			},
+			{
+				"name": "轻松一刻",
+				"intro": "弹珠撞击木块游戏"
 			}
 		]
 	}

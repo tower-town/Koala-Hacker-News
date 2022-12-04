@@ -1,61 +1,29 @@
 const http = require("http");
 const fs = require('fs');
 const path = require('path');
+const async = require('async');
 
 class HackerNews {
-    constructor(data_path) {
+    constructor() {
         this.params = {};
         this.url = '';
 
-        this.data_path = data_path;
-        this.json_data = JSON.parse(this.read_file(data_path));
+        this.data_path = path.join(__dirname, '../info.json');
+        this.json_data = JSON.parse(this.read_file(this.data_path));
         this.aids = Object.keys(this.json_data)
         
         this.api_path = path.join(__dirname, '../bilibili-api.json');
         this.api_data = JSON.parse(this.read_file(this.api_path))
     }
-    fetchJson() {
-
-        let params_keys = Object.keys(this.params);
+    parse_url(url, params) {
+        let urls = [];
+        let params_keys = Object.keys(params);
 
         params_keys.forEach((value, index) => {
-            params_keys[index] = `${value}=${this.params[value]}`;
+            params_keys[index] = `${value}=${params[value]}`;
         });
-
-        let url = `${this.url}?${params_keys.join('&')}`;
-
-        let video_info = this.json_data;
-
-        http.get(url, (resp) => {
-            let data = "";
-            resp.on("data", (chunk) => {
-                data += chunk;
-            });
-            resp.on("end", () => {
-                let video_data = JSON.parse(data)['data'];
-                for (let key in video_data) {
-                    if (key === 'archives') {
-                        video_data[key].forEach((value, _) => {
-                            let aid = value['aid'].toString();
-                            video_info[aid] = {
-                                "title": value['title'],
-                                'aid': value['aid'],
-                                'bvid': value['bvid'],
-                                'pubdate': value['pubdate']
-                            }
-                        })
-                    }
-                    else if (key === 'top') {
-                        let aid = this.params['oid'].toString();
-                        let message = this.get_top_commment(video_data);
-                        let intro_data = this.parse_comment(message);
-                        video_info[aid]['data'] = intro_data;
-                    }
-                    this.write_file(video_info);
-                }
-        }).on('error', (error) => console.log(error.message));
-
-        })
+        urls = `${url}?${params_keys.join('&')}`;
+        return urls;
     }
 
     read_file(path) {
@@ -85,17 +53,64 @@ class HackerNews {
         let api_data = this.api_data['get_aids'];
         this.url = api_data['url'];
         this.params = api_data['params'];
-        this.fetchJson();
+        let that = this;
+
+        let urls = [];
+        urls.push(this.parse_url(this.url, this.params));
+
+        async.mapLimit(urls, 5, async function (url) {
+            const response = await fetch(url)
+            return response.json()
+        }, (err, results) => {
+            if (err) { throw err }
+
+            let video_info = this.json_data;
+            results.forEach((data, index) => {
+                let ids_data = data['data'];
+                ids_data['archives'].forEach((value, _) => {
+                    let aid = value['aid'].toString();
+                    video_info[aid] = {
+                        "title": value['title'],
+                        'aid': value['aid'],
+                        'bvid': value['bvid'],
+                        'pubdate': value['pubdate']
+                    }
+                })
+                that.write_file(video_info);
+            })
+        })
     }
 
-    get_comment(){
-        let api_data = this.api_data['get_comment'];
-        this.url = api_data['url'];
-        this.params = api_data['params'];
-        this.aids.forEach((aid, _) => {
+    get_comment() {
 
-            this.params['oid'] = aid;
-            this.fetchJson();
+        let aids = this.aids;
+        let comment_data = this.api_data['get_comment'];
+        let comment_params = comment_data['params'];
+        let that = this;
+
+        let urls = [];
+        aids.forEach((aid, index) => {
+            comment_params['oid'] = aid;
+            let url = this.parse_url(comment_data['url'], comment_params);
+            urls.push(url);
+        })
+
+        async.mapLimit(urls, 5, async function (url) {
+            const response = await fetch(url)
+            return response.json()
+        }, (err, results) => {
+            if (err) { throw err }
+            // results is now an array of the response bodies
+            let video_info = that.json_data;
+            results.forEach((value, index) => {
+                let aid = aids[index].toString();
+                let data = value['data'];
+                let message = that.get_top_commment(data);
+                let intro_data = that.parse_comment(message);
+                video_info[aid]['data'] = intro_data;
+
+                that.write_file(video_info);
+            })
         })
     }
     get_top_commment(comment) {
@@ -135,11 +150,16 @@ class HackerNews {
                 intro_link.push(value);
             }
             else {
-                if (/\||｜/.test(value)) {
-                    const regexp = /\d{2}:\d{2}(?:\s+)?([^｜|]+)?(?:｜|\|)([^｜|].*$)/g;
+                if (/[\|｜，,]/.test(value)) {
+                    const regexp = /\d{2}:\d{2}(?:\s+)?([^｜|，,]+)?(?:[｜\|，,])([^｜|,，].*$)/g
                     intro_info = [...value.matchAll(regexp)][0];
-                    name = (intro_info[1] === undefined) ? '' : intro_info[1].trim();
-                    content = intro_info[2].trim();
+                    if (intro_info) {
+                        name = (intro_info[1] === undefined) ? '' : intro_info[1].trim();
+                        content = intro_info[2].trim();
+                    }
+                    else {
+                        console.log(value);
+                    }
                 }
                 else {
                     const regexp = /\d{2}:\d{2}(?:\s+)?(.*$)/g;
