@@ -6,8 +6,10 @@ class HackerNews {
     constructor(data_path) {
         this.params = {};
         this.url = '';
+
         this.data_path = data_path;
         this.json_data = JSON.parse(this.read_file(data_path));
+        this.aids = Object.keys(this.json_data)
         
         this.api_path = path.join(__dirname, '../bilibili-api.json');
         this.api_data = JSON.parse(this.read_file(this.api_path))
@@ -45,21 +47,15 @@ class HackerNews {
                     }
                     else if (key === 'top') {
                         let aid = this.params['oid'].toString();
-                        let content = video_data[key]['upper']['content'];
-                        let message = content['message'].split('\n');
+                        let message = this.get_top_commment(video_data);
                         let intro_data = this.parse_comment(message);
                         video_info[aid]['data'] = intro_data;
                     }
+                    this.write_file(video_info);
                 }
-                let video_file = JSON.stringify(video_info, null, "\t");
-                fs.writeFile(this.data_path, data = video_file, (error) => {
-                    if (error) {
-                        console.log(`error is ${error.message}`);
-                    }
-                })
-            });
         }).on('error', (error) => console.log(error.message));
 
+        })
     }
 
     read_file(path) {
@@ -72,6 +68,19 @@ class HackerNews {
         return data;
     }
 
+    write_file(data) {
+
+        let file_data = JSON.stringify(data, null, "\t");
+        if (!file_data) {
+            file_data = '{}';
+        }
+        fs.writeFile(this.data_path, data = file_data, (error) => {
+            if (error) {
+                console.log(`error is ${error.message}`);
+            }
+        });
+    }
+
     get_aids(){
         let api_data = this.api_data['get_aids'];
         this.url = api_data['url'];
@@ -79,39 +88,73 @@ class HackerNews {
         this.fetchJson();
     }
 
-    get_comment(aid){
+    get_comment(){
         let api_data = this.api_data['get_comment'];
         this.url = api_data['url'];
         this.params = api_data['params'];
-        this.params['oid'] = aid;
-        this.fetchJson();
+        this.aids.forEach((aid, _) => {
 
+            this.params['oid'] = aid;
+            this.fetchJson();
+        })
     }
+    get_top_commment(comment) {
+        let top_comment = comment['top']['upper'];
+        let top_reply = comment['replies'][0];
+        let message = '';
+        if (top_comment === null) {
+
+            if (top_reply['member']['mid'] === '489667127') {
+                message = top_reply['content']['message'];
+            }
+        }
+        else {
+            message = top_comment['content']['message'];
+        }
+        return message.split('\n');
+    }
+
     parse_comment(message) {
 
         let message_data = message.filter(value => /^[0-9a-z].*/.test(value));
+        let intro_data = [{
+                'name': '',
+                'intro': '',
+                'link': ''
+        }];
 
-        let intro_data = [];
         let intro_name = [];
-        let link = [];
-        let intro = [];
+        let intro_link = [];
+        let intro_content = [];
         message_data.forEach((value, index) => {
             value.trim();
+            let name = '';
+            let content = '';
+            let intro_info = [];
             if (/^https?:\/\/\S+/.test(value)) {
-                link.push(value);
+                intro_link.push(value);
             }
             else {
-                const regexp = /\d{2}:\d{2}\s+([^｜|]+)(｜|\|)([^｜|].*)/g;
-                let intro_info = [...value.matchAll(regexp)];
-                intro_name.push(intro_info[0][1].trim());
-                intro.push(intro_info[0][3].trim());
+                if (/\||｜/.test(value)) {
+                    const regexp = /\d{2}:\d{2}(?:\s+)?([^｜|]+)?(?:｜|\|)([^｜|].*$)/g;
+                    intro_info = [...value.matchAll(regexp)][0];
+                    name = (intro_info[1] === undefined) ? '' : intro_info[1].trim();
+                    content = intro_info[2].trim();
+                }
+                else {
+                    const regexp = /\d{2}:\d{2}(?:\s+)?(.*$)/g;
+                    intro_info = [...value.matchAll(regexp)][0];
+                    content = intro_info[1].trim();
+                }
+                intro_name.push(name);
+                intro_content.push(content);
             }
         });
         intro_name.forEach((value, index) => {
             intro_data[index] = {
                 "name": value,
-                "intro": intro[index],
-                "link": link[index]
+                "intro": intro_content[index],
+                "link": intro_link[index]
             }
         })
         return intro_data;

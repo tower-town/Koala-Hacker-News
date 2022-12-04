@@ -1,16 +1,22 @@
 lockfileVersion: 5.4
 
 specifiers:
+  async: ^3.2.4
   fs: 0.0.1-security
   http: 0.0.1-security
   path: ^0.12.7
 
 dependencies:
+  async: 3.2.4
   fs: 0.0.1-security
   http: 0.0.1-security
   path: 0.12.7
 
 packages:
+
+  /async/3.2.4:
+    resolution: {integrity: sha512-iAB+JbDEGXhyIUavoDl9WP/Jj106Kz9DEn1DPgYw5ruDn0e3Wgi3sKFm55sASdGBNOQB8F59d9qQ7deqrHA8wQ==}
+    dev: false
 
   /fs/0.0.1-security:
     resolution: {integrity: sha512-3XY9e1pP0CVEUCdj5BmfIZxRBTSDycnbqhIOGec9QYtmVH2fbLpj86CFWkrNOkt/Fvty4KZG5lTglL9j/gJ87w==}
