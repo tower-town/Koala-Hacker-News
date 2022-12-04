@@ -171,6 +171,9 @@ class HackerNews {
             }
         });
         intro_name.forEach((value, index) => {
+            if (!intro_link[index]){
+                intro_link[index] = '';
+            }
             intro_data[index] = {
                 "name": value,
                 "intro": intro_content[index],

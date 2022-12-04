@@ -7,43 +7,53 @@
 		"data": [
 			{
 				"name": "Files Gallery",
-				"intro": "应用"
+				"intro": "应用",
+				"link": ""
 			},
 			{
 				"name": "Tally",
-				"intro": "工具"
+				"intro": "工具",
+				"link": ""
 			},
 			{
 				"name": "Datawrapper",
-				"intro": "工具"
+				"intro": "工具",
+				"link": ""
 			},
 			{
 				"name": "onemodel",
-				"intro": "工具"
+				"intro": "工具",
+				"link": ""
 			},
 			{
 				"name": "Postman",
-				"intro": "工具"
+				"intro": "工具",
+				"link": ""
 			},
 			{
 				"name": "",
-				"intro": "Laravel 9.0 发布"
+				"intro": "Laravel 9.0 发布",
+				"link": ""
 			},
 			{
 				"name": "Mailwind",
-				"intro": "邮件模版"
+				"intro": "邮件模版",
+				"link": ""
 			},
 			{
 				"name": "《 backend.sql + frontend.js = love》",
-				"intro": "文章"
+				"intro": "文章",
+				"link": ""
 			},
 			{
 				"name": "《Top web hacking techniques of 2021》",
-				"intro": "文章"
+				"intro": "文章",
+				"link": ""
 			},
 			{
 				"name": "",
-				"intro": "SHA256 算法可视化演示"
+				"intro": "SHA256 算法可视化演示",
+				"link": ""
 			}
 		]
 	},
@@ -55,39 +65,48 @@
 		"data": [
 			{
 				"name": "",
-				"intro": "GitHub issues 打印机"
+				"intro": "GitHub issues 打印机",
+				"link": ""
 			},
 			{
 				"name": "Oh heck",
-				"intro": "一个智能终端指令输入工具"
+				"intro": "一个智能终端指令输入工具",
+				"link": ""
 			},
 			{
 				"name": "dagger",
-				"intro": "一个现代化的 CI/CD 工具包"
+				"intro": "一个现代化的 CI/CD 工具包",
+				"link": ""
 			},
 			{
 				"name": "",
-				"intro": "React 发布18.0版本"
+				"intro": "React 发布18.0版本",
+				"link": ""
 			},
 			{
 				"name": "",
-				"intro": "Chrome Experiments 的银河系实验"
+				"intro": "Chrome Experiments 的银河系实验",
+				"link": ""
 			},
 			{
 				"name": "arpchat",
-				"intro": "用 ARP 协议实现的在线聊天工具"
+				"intro": "用 ARP 协议实现的在线聊天工具",
+				"link": ""
 			},
 			{
 				"name": "Calenday",
-				"intro": "一个多人共享日历"
+				"intro": "一个多人共享日历",
+				"link": ""
 			},
 			{
 				"name": "",
-				"intro": "WebAssembly 运行 Python"
+				"intro": "WebAssembly 运行 Python",
+				"link": ""
 			},
 			{
 				"name": "Blog Search",
-				"intro": "技术类搜索引擎"
+				"intro": "技术类搜索引擎",
+				"link": ""
 			}
 		]
 	},
@@ -155,35 +174,43 @@
 		"data": [
 			{
 				"name": "Coolify",
-				"intro": "自部署 PaaS"
+				"intro": "自部署 PaaS",
+				"link": ""
 			},
 			{
 				"name": "warp",
-				"intro": "现代化终端"
+				"intro": "现代化终端",
+				"link": ""
 			},
 			{
 				"name": "redo",
-				"intro": "开源命令行工具"
+				"intro": "开源命令行工具",
+				"link": ""
 			},
 			{
 				"name": "MetricFlow",
-				"intro": "数据仓库管理工具"
+				"intro": "数据仓库管理工具",
+				"link": ""
 			},
 			{
 				"name": "",
-				"intro": "Ruby 增加 WASM 支持"
+				"intro": "Ruby 增加 WASM 支持",
+				"link": ""
 			},
 			{
 				"name": "Rome 发布 Rome Formatter",
-				"intro": "对标 Prettier"
+				"intro": "对标 Prettier",
+				"link": ""
 			},
 			{
 				"name": "一篇博客",
-				"intro": "TypeScript 编译器工作原理"
+				"intro": "TypeScript 编译器工作原理",
+				"link": ""
 			},
 			{
 				"name": "一篇博客",
-				"intro": "一些易被忽略的 HTML 属性"
+				"intro": "一些易被忽略的 HTML 属性",
+				"link": ""
 			}
 		]
 	},
@@ -195,31 +222,38 @@
 		"data": [
 			{
 				"name": "",
-				"intro": "现代 CLI 大全"
+				"intro": "现代 CLI 大全",
+				"link": ""
 			},
 			{
 				"name": "bore",
-				"intro": "基于 Rust 的隧道工具"
+				"intro": "基于 Rust 的隧道工具",
+				"link": ""
 			},
 			{
 				"name": "WeekToDo",
-				"intro": "本地计划管理工具"
+				"intro": "本地计划管理工具",
+				"link": ""
 			},
 			{
 				"name": "Zas",
-				"intro": "专注于 GO 和 Rust 的编辑器"
+				"intro": "专注于 GO 和 Rust 的编辑器",
+				"link": ""
 			},
 			{
 				"name": "Pinry",
-				"intro": "Pinterest 的开源替代品"
+				"intro": "Pinterest 的开源替代品",
+				"link": ""
 			},
 			{
 				"name": "",
-				"intro": "Deno 推出 FaaS 服务"
+				"intro": "Deno 推出 FaaS 服务",
+				"link": ""
 			},
 			{
 				"name": "EIGHT COLORS",
-				"intro": "一个小游戏"
+				"intro": "一个小游戏",
+				"link": ""
 			}
 		]
 	},
@@ -231,31 +265,38 @@
 		"data": [
 			{
 				"name": "",
-				"intro": "一个有用网站的合集"
+				"intro": "一个有用网站的合集",
+				"link": ""
 			},
 			{
 				"name": "",
-				"intro": "一个开源的 web 文本编辑器"
+				"intro": "一个开源的 web 文本编辑器",
+				"link": ""
 			},
 			{
 				"name": "",
-				"intro": "一个开源的分布式数据库"
+				"intro": "一个开源的分布式数据库",
+				"link": ""
 			},
 			{
 				"name": "OpenRefine",
-				"intro": "开源数据清洗工具"
+				"intro": "开源数据清洗工具",
+				"link": ""
 			},
 			{
 				"name": "",
-				"intro": "Node.js 发布18版本"
+				"intro": "Node.js 发布18版本",
+				"link": ""
 			},
 			{
 				"name": "",
-				"intro": "GO 发表介绍泛型的文章"
+				"intro": "GO 发表介绍泛型的文章",
+				"link": ""
 			},
 			{
 				"name": "",
-				"intro": "一个单手键盘"
+				"intro": "一个单手键盘",
+				"link": ""
 			}
 		]
 	},
@@ -267,39 +308,48 @@
 		"data": [
 			{
 				"name": "",
-				"intro": "文献管理工具 Zotero 发布 6.0 版本"
+				"intro": "文献管理工具 Zotero 发布 6.0 版本",
+				"link": ""
 			},
 			{
 				"name": "Plasticity",
-				"intro": "用 web 开发的3D 艺术建模开源软件"
+				"intro": "用 web 开发的3D 艺术建模开源软件",
+				"link": ""
 			},
 			{
 				"name": "Lapce",
-				"intro": "基于原生 GUI 和 Rust 编写的开源代码编辑器"
+				"intro": "基于原生 GUI 和 Rust 编写的开源代码编辑器",
+				"link": ""
 			},
 			{
 				"name": "Awesome TUIs",
-				"intro": "收集提供终端用户界面项目清单"
+				"intro": "收集提供终端用户界面项目清单",
+				"link": ""
 			},
 			{
 				"name": "K9s",
-				"intro": "一个终端中 UI 强大的 K8s 客户端"
+				"intro": "一个终端中 UI 强大的 K8s 客户端",
+				"link": ""
 			},
 			{
 				"name": "Tiny renderer",
-				"intro": "500 行代码学习 openGL｜附演示教程"
+				"intro": "500 行代码学习 openGL｜附演示教程",
+				"link": ""
 			},
 			{
 				"name": "",
-				"intro": "GO 发布1.18版本支持泛型"
+				"intro": "GO 发布1.18版本支持泛型",
+				"link": ""
 			},
 			{
 				"name": "",
-				"intro": "CSS-Tricks 网站被 DigitalOcean 收购"
+				"intro": "CSS-Tricks 网站被 DigitalOcean 收购",
+				"link": ""
 			},
 			{
 				"name": "Veloren",
-				"intro": "一个基于 Rust 开发的开源多人 RPG 游戏"
+				"intro": "一个基于 Rust 开发的开源多人 RPG 游戏",
+				"link": ""
 			}
 		]
 	},
@@ -324,35 +374,43 @@
 		"data": [
 			{
 				"name": "",
-				"intro": "关于 TypeScript 的两条新闻"
+				"intro": "关于 TypeScript 的两条新闻",
+				"link": ""
 			},
 			{
 				"name": "",
-				"intro": "TypeScript 向 JS 提议增加类型系统"
+				"intro": "TypeScript 向 JS 提议增加类型系统",
+				"link": ""
 			},
 			{
 				"name": "",
-				"intro": "Stripe 将 JS 代码库从 Flow 迁移到 TypeScript"
+				"intro": "Stripe 将 JS 代码库从 Flow 迁移到 TypeScript",
+				"link": ""
 			},
 			{
 				"name": "Godot",
-				"intro": "一个开源游戏引擎"
+				"intro": "一个开源游戏引擎",
+				"link": ""
 			},
 			{
 				"name": "苹果将发售 Mac Studio",
-				"intro": "M1 芯片成为新杀手锏"
+				"intro": "M1 芯片成为新杀手锏",
+				"link": ""
 			},
 			{
 				"name": "",
-				"intro": "关于数据库索引工作原理的解答"
+				"intro": "关于数据库索引工作原理的解答",
+				"link": ""
 			},
 			{
 				"name": "dasel",
-				"intro": "单一工具完成 JSON、TOML 等文件的读取和修改"
+				"intro": "单一工具完成 JSON、TOML 等文件的读取和修改",
+				"link": ""
 			},
 			{
 				"name": "“请停止使用 :latest 标签”",
-				"intro": "一篇关于版本安全的文章"
+				"intro": "一篇关于版本安全的文章",
+				"link": ""
 			}
 		]
 	},
@@ -364,35 +422,43 @@
 		"data": [
 			{
 				"name": "appwrite",
-				"intro": "为 web、mobile 和 flutter 开发者提供的开源后端服务"
+				"intro": "为 web、mobile 和 flutter 开发者提供的开源后端服务",
+				"link": ""
 			},
 			{
 				"name": "Bionic Reading",
-				"intro": "一个用高亮标注的阅读工具"
+				"intro": "一个用高亮标注的阅读工具",
+				"link": ""
 			},
 			{
 				"name": "diagrams.net",
-				"intro": "老牌绘图工具更新功能"
+				"intro": "老牌绘图工具更新功能",
+				"link": ""
 			},
 			{
 				"name": "Smort",
-				"intro": "一个可编辑其它网站文章的工具"
+				"intro": "一个可编辑其它网站文章的工具",
+				"link": ""
 			},
 			{
 				"name": "fzf",
-				"intro": "命令行中通用的模糊查询工具"
+				"intro": "命令行中通用的模糊查询工具",
+				"link": ""
 			},
 			{
 				"name": "",
-				"intro": "一个 node.js 的 Postgres 数据库客户端"
+				"intro": "一个 node.js 的 Postgres 数据库客户端",
+				"link": ""
 			},
 			{
 				"name": "mdn 推出 plus 订阅计划",
-				"intro": "Mozilla 商业化新尝试"
+				"intro": "Mozilla 商业化新尝试",
+				"link": ""
 			},
 			{
 				"name": "",
-				"intro": "一篇题为 《Data Mesh 架构》的文章"
+				"intro": "一篇题为 《Data Mesh 架构》的文章",
+				"link": ""
 			}
 		]
 	},
@@ -417,35 +483,43 @@
 		"data": [
 			{
 				"name": "怎样实现一个最简单的 CRUD 应用？",
-				"intro": "本期专题问答"
+				"intro": "本期专题问答",
+				"link": ""
 			},
 			{
 				"name": "Django",
-				"intro": "CRUD 最佳工具/答案1"
+				"intro": "CRUD 最佳工具/答案1",
+				"link": ""
 			},
 			{
 				"name": "PostgREST",
-				"intro": "CRUD 最佳工具/答案2"
+				"intro": "CRUD 最佳工具/答案2",
+				"link": ""
 			},
 			{
 				"name": "nHOST",
-				"intro": "CRUD 最佳工具/答案3"
+				"intro": "CRUD 最佳工具/答案3",
+				"link": ""
 			},
 			{
 				"name": "Grist",
-				"intro": "Airtable 的开源替代"
+				"intro": "Airtable 的开源替代",
+				"link": ""
 			},
 			{
 				"name": "Automerge",
-				"intro": "JS 协同算法库"
+				"intro": "JS 协同算法库",
+				"link": ""
 			},
 			{
 				"name": "Supernotes",
-				"intro": "笔记软件"
+				"intro": "笔记软件",
+				"link": ""
 			},
 			{
 				"name": "Sioyek",
-				"intro": "论文专用 PDF 阅读器"
+				"intro": "论文专用 PDF 阅读器",
+				"link": ""
 			}
 		]
 	},
@@ -457,35 +531,43 @@
 		"data": [
 			{
 				"name": "",
-				"intro": "Mozilla 的 MDN 文档全新上线"
+				"intro": "Mozilla 的 MDN 文档全新上线",
+				"link": ""
 			},
 			{
 				"name": "",
-				"intro": "Mozilla 的3D虚拟空间产品"
+				"intro": "Mozilla 的3D虚拟空间产品",
+				"link": ""
 			},
 			{
 				"name": "HOPPSCOTCH",
-				"intro": "一个开源网络请求发送工具"
+				"intro": "一个开源网络请求发送工具",
+				"link": ""
 			},
 			{
 				"name": "Streamlit",
-				"intro": "一个使用 Python 直接开发 web UI 的工具"
+				"intro": "一个使用 Python 直接开发 web UI 的工具",
+				"link": ""
 			},
 			{
 				"name": "Textframe",
-				"intro": "一个动画产品教程创建工具"
+				"intro": "一个动画产品教程创建工具",
+				"link": ""
 			},
 			{
 				"name": "",
-				"intro": "SaaS 产品开源替代品大全"
+				"intro": "SaaS 产品开源替代品大全",
+				"link": ""
 			},
 			{
 				"name": "",
-				"intro": "迷你掌上游戏机 playdate 开源了 SDK"
+				"intro": "迷你掌上游戏机 playdate 开源了 SDK",
+				"link": ""
 			},
 			{
 				"name": "轻松一刻时间",
-				"intro": "小游戏"
+				"intro": "小游戏",
+				"link": ""
 			}
 		]
 	},
@@ -497,51 +579,63 @@
 		"data": [
 			{
 				"name": "",
-				"intro": "任天堂掌上游戏机发展史回顾"
+				"intro": "任天堂掌上游戏机发展史回顾",
+				"link": ""
 			},
 			{
 				"name": "",
-				"intro": "《为什么要运行自己的 DNS 服务器？》"
+				"intro": "《为什么要运行自己的 DNS 服务器？》",
+				"link": ""
 			},
 			{
 				"name": "Zotero",
-				"intro": "一个开源的经典文献管理工具"
+				"intro": "一个开源的经典文献管理工具",
+				"link": ""
 			},
 			{
 				"name": "Darling",
-				"intro": "一个帮助你在 Linux 上运行 Mac 应用程序的工具"
+				"intro": "一个帮助你在 Linux 上运行 Mac 应用程序的工具",
+				"link": ""
 			},
 			{
 				"name": "coqui",
-				"intro": "克隆你的声音说外语"
+				"intro": "克隆你的声音说外语",
+				"link": ""
 			},
 			{
 				"name": "OpenDrop",
-				"intro": "一个开源版的 AirDrop"
+				"intro": "一个开源版的 AirDrop",
+				"link": ""
 			},
 			{
 				"name": "Portmaster",
-				"intro": "一个帮助你管理电脑网络的开源软件"
+				"intro": "一个帮助你管理电脑网络的开源软件",
+				"link": ""
 			},
 			{
 				"name": "Papers We Love",
-				"intro": "一个专门研读学术类计算机科学论文的开源社区"
+				"intro": "一个专门研读学术类计算机科学论文的开源社区",
+				"link": ""
 			},
 			{
 				"name": "",
-				"intro": "关于 Zig 这个新兴编程语言的分析"
+				"intro": "关于 Zig 这个新兴编程语言的分析",
+				"link": ""
 			},
 			{
 				"name": "",
-				"intro": "Raycast 团队信奉无需 code review 的理念"
+				"intro": "Raycast 团队信奉无需 code review 的理念",
+				"link": ""
 			},
 			{
 				"name": "",
-				"intro": "利用浏览器 web GL 实现的东京地铁实时可视化地图"
+				"intro": "利用浏览器 web GL 实现的东京地铁实时可视化地图",
+				"link": ""
 			},
 			{
 				"name": "",
-				"intro": "SpaceX Dragon 2 与国际空间站对接的模拟机"
+				"intro": "SpaceX Dragon 2 与国际空间站对接的模拟机",
+				"link": ""
 			}
 		]
 	},
@@ -579,39 +673,48 @@
 		"data": [
 			{
 				"name": "",
-				"intro": "开源软件被植入恶意代码"
+				"intro": "开源软件被植入恶意代码",
+				"link": ""
 			},
 			{
 				"name": "",
-				"intro": "Browsix 浏览器中实现 POSIX"
+				"intro": "Browsix 浏览器中实现 POSIX",
+				"link": ""
 			},
 			{
 				"name": "",
-				"intro": "GitHub Copilot"
+				"intro": "GitHub Copilot",
+				"link": ""
 			},
 			{
 				"name": "",
-				"intro": "Learn and Test DMARC 一个可视化工具"
+				"intro": "Learn and Test DMARC 一个可视化工具",
+				"link": ""
 			},
 			{
 				"name": "",
-				"intro": "BookStack 一个开源 wiki 工具"
+				"intro": "BookStack 一个开源 wiki 工具",
+				"link": ""
 			},
 			{
 				"name": "",
-				"intro": "Poly Haven 如何花不到400美金处理80TB数据和500万次页面访问的"
+				"intro": "Poly Haven 如何花不到400美金处理80TB数据和500万次页面访问的",
+				"link": ""
 			},
 			{
 				"name": "",
-				"intro": "Kogi 一个新型高级付费搜索引擎"
+				"intro": "Kogi 一个新型高级付费搜索引擎",
+				"link": ""
 			},
 			{
 				"name": "",
-				"intro": "介绍两个 Cli 工具: dsq 和 fx"
+				"intro": "介绍两个 Cli 工具: dsq 和 fx",
+				"link": ""
 			},
 			{
 				"name": "轻松一刻时间",
-				"intro": "介绍一个打发时间的小游戏"
+				"intro": "介绍一个打发时间的小游戏",
+				"link": ""
 			}
 		]
 	},
@@ -623,47 +726,58 @@
 		"data": [
 			{
 				"name": "",
-				"intro": "faker.js 删库事件新进展"
+				"intro": "faker.js 删库事件新进展",
+				"link": ""
 			},
 			{
 				"name": "",
-				"intro": "暴雪被收购"
+				"intro": "暴雪被收购",
+				"link": ""
 			},
 			{
 				"name": "PyFlow",
-				"intro": "一个可视化编程环境"
+				"intro": "一个可视化编程环境",
+				"link": ""
 			},
 			{
 				"name": "",
-				"intro": "CSS 选择器练习题网站"
+				"intro": "CSS 选择器练习题网站",
+				"link": ""
 			},
 			{
 				"name": "",
-				"intro": "GPS 工作原理详解"
+				"intro": "GPS 工作原理详解",
+				"link": ""
 			},
 			{
 				"name": "Lichess",
-				"intro": "一个国际象棋服务器的支出分析"
+				"intro": "一个国际象棋服务器的支出分析",
+				"link": ""
 			},
 			{
 				"name": "",
-				"intro": "谷歌分析在欧盟合法性及其替代品"
+				"intro": "谷歌分析在欧盟合法性及其替代品",
+				"link": ""
 			},
 			{
 				"name": "",
-				"intro": "AWS DynamoDB 十年回顾"
+				"intro": "AWS DynamoDB 十年回顾",
+				"link": ""
 			},
 			{
 				"name": "CyberChef",
-				"intro": "一个数据格式转换工具"
+				"intro": "一个数据格式转换工具",
+				"link": ""
 			},
 			{
 				"name": "curl",
-				"intro": "最近支持了 JSON"
+				"intro": "最近支持了 JSON",
+				"link": ""
 			},
 			{
 				"name": "轻松一刻",
-				"intro": "弹珠撞击木块游戏"
+				"intro": "弹珠撞击木块游戏",
+				"link": ""
 			}
 		]
 	}
