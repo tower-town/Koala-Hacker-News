@@ -21,7 +21,44 @@
 		"title": "[Hacker News周报] 性能分析工具合集；通过 TDD 学习 GO 语言；基于 Deno 的 serverless 平台",
 		"aid": 511210837,
 		"bvid": "BV1fu41167ME",
-		"pubdate": 1651365169
+		"pubdate": 1651365169,
+		"data": [
+			{
+				"name": "Clinic.js",
+				"intro": "Node.js 性能分析工具",
+				"link": "https://clinicjs.org/ "
+			},
+			{
+				"name": "magic-trace",
+				"intro": "Jane Street 开源的进程监控工具",
+				"link": "https://github.com/janestreet/magic-trace "
+			},
+			{
+				"name": "memray",
+				"intro": "Bloomberg 开源的 Python 性能分析工具",
+				"link": "https://github.com/bloomberg/memray "
+			},
+			{
+				"name": "《learn GO with Tests》",
+				"intro": "练习 GO 的工具书",
+				"link": "https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/hello-world "
+			},
+			{
+				"name": "Edge Function",
+				"intro": "Netlify 新推出的 PaaS 平台",
+				"link": "https://www.netlify.com/blog/announcing-serverless-compute-with-edge-functions "
+			},
+			{
+				"name": "workmode",
+				"intro": "远程工作助手",
+				"link": "https://workmode.co/ "
+			},
+			{
+				"name": "pixy",
+				"intro": "飞行相机",
+				"link": "https://pixy.com/"
+			}
+		]
 	},
 	"553093356": {
 		"title": "[Hacker News 周报] 自部署 PaaS coolify；现代化终端 Warp；Ruby 增加 WASM 支持",

@@ -44,7 +44,7 @@ class HackerNews {
                         })
                     }
                     else if (key === 'top') {
-                        let aid = params['oid'].toString();
+                        let aid = this.params['oid'].toString();
                         let content = video_data[key]['upper']['content'];
                         let message = content['message'].split('\n');
                         let intro_data = this.parse_comment(message);
