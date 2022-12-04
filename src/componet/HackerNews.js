@@ -72,14 +72,14 @@ class HackerNews {
         return data;
     }
 
-    get_aids(path){
+    get_aids(){
         let api_data = this.api_data['get_aids'];
         this.url = api_data['url'];
         this.params = api_data['params'];
         this.fetchJson();
     }
 
-    get_comment(path, aid){
+    get_comment(aid){
         let api_data = this.api_data['get_comment'];
         this.url = api_data['url'];
         this.params = api_data['params'];
