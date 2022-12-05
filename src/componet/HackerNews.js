@@ -346,6 +346,7 @@ class HackerNews {
 
             let doc_path = docs['path'][index];
             let re_path = path.relative(path.basename(readme_path), doc_path);
+            re_path = re_path.replaceAll('\\', '/');
             chapters += `- [${value}: [Hacker News 周报]](${re_path})\n`;
         })
 
