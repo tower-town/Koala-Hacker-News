@@ -2,9 +2,9 @@
   "name": "Koala-Hacker-News",
   "version": "1.0.0",
   "description": "Koala Hacker News 周报",
-  "main": "index.js",
+  "main": "./src/main",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"\nothing to test\" && exit 0",
     "build": "node ./src/main"
   },
   "keywords": [],
