@@ -1,0 +1,34 @@
+name: auto update Koala-Hacker-News
+
+on:
+  schedule:
+    - cron: '0 20 * * MON'
+  push:
+    branches:
+      - main
+
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [14.x, 16.x, 18.x]
+
+    steps:
+    - uses: actions/checkout@v3
+    - uses: pnpm/action-setup@646cdf48217256a3d0b80361c5a50727664284f2
+      with:
+        version: 7.17.0
+    - uses: actions/setup-node@v3
+      with:
+        node-version: '18'
+        cache: 'pnpm'
+    - run: pnpm install
+    - run: pnpm build
+
+    - uses: stefanzweifel/git-auto-commit-action@v4
+          with:
+            commit_message: update README by github-action.
