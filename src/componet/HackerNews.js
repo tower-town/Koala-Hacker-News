@@ -16,6 +16,7 @@ class HackerNews {
         this.api_path = path.join(__dirname, '../bilibili-api.json');
         this.api_data = JSON.parse(this.read_file(this.api_path))
     }
+
     parse_url(url, params) {
         let urls = [];
         let params_keys = Object.keys(params);
@@ -58,12 +59,6 @@ class HackerNews {
         });
     }
 
-    sort_json(data_a, data_b) {
-        for (let key in data) {
-            data[key]['pubdate']
-        }
-
-    }
     get_aids() {
         let api_data = this.api_data['get_aids'];
         this.url = api_data['url'];

@@ -2,7 +2,7 @@ const path = require('path');
 const fs = require('fs');
 const HackerNews = require('./componet/HackerNews');
 
-let md_path = path.join(__dirname, '../../Hacker-News/');
+let md_path = path.join(__dirname, '../Hacker-News/');
 let readme_path = path.join(__dirname, '../README.md');
 
 let HN = new HackerNews();
