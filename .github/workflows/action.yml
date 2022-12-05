@@ -18,6 +18,11 @@ jobs:
         node-version: [14.x, 16.x, 18.x]
 
     steps:
+    
+    - uses: actions/checkout@v2
+      with:
+        ref: ${{ github.head_ref }}
+
     - uses: actions/checkout@v3
     - uses: pnpm/action-setup@646cdf48217256a3d0b80361c5a50727664284f2
       with:
@@ -28,7 +33,7 @@ jobs:
         cache: 'pnpm'
     - run: pnpm install
     - run: pnpm build
-
+    
     - uses: stefanzweifel/git-auto-commit-action@v4
       with:
         commit_message: update README by github-action.
