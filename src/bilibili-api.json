@@ -1,0 +1,25 @@
+{
+    "get_aids": {
+        "url": "http://api.bilibili.com/x/polymer/space/seasons_archives_list",
+        "params": {
+            "mid": "489667127",
+            "season_id": "249279",
+            "sort_reverse": "false",
+            "page_num": "1",
+            "page_size": "30"
+        }
+    },
+    "get_comment": {
+        "url": "http://api.bilibili.com/x/v2/reply/main",
+        "params": {
+            "type": 1,
+            "oid": "aid"
+        }
+    },
+    "get_title": {
+        "url": "http://api.bilibili.com/x/web-interface/view",
+        "params": {
+            "aid": "aid"
+        }
+    }
+}
