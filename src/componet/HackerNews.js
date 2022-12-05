@@ -281,7 +281,7 @@ class HackerNews {
     generate_docs(){
         let tables = this.generate_tables();
         let content = tables['content'];
-        let pubdates = tables['title']['pubdates'];
+        let pubdates = tables['title']['pubdate'];
 
         let docs = {};
         let pub_list = [];
