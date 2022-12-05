@@ -1,3 +1,33 @@
+[[Hacker News 周报] 多功能 serverless JS 运行时；Grammarly 开源替代品；K8s 轻量级虚拟化插件](https://www.bilibili.com/video/BV1mT411j7LR)
+            <table>            <theader>
+                <th>名称</th>
+                <th>简介</th>
+                <th>链接</th>
+            </theader>            <tbody>                <tr>
+                    <td>Blueboat</td>
+                    <td>多功能 serverless JS 运行时</td>
+                    <td>https://blueboat.io/ </td>
+                </tr>                <tr>
+                    <td>languageTool</td>
+                    <td>Grammarly 开源替代品</td>
+                    <td>https://languagetool.org/dev </td>
+                </tr>                <tr>
+                    <td>Publii</td>
+                    <td>桌面端的 CMS 工具</td>
+                    <td>https://github.com/GetPublii/Publii </td>
+                </tr>                <tr>
+                    <td>Virtink</td>
+                    <td>K8s 轻量级虚拟化插件</td>
+                    <td>https://github.com/smartxworks/virtink   </td>
+                </tr>                <tr>
+                    <td>Skeleton</td>
+                    <td>全功能 Svelte UI 组件库</td>
+                    <td>https://skeleton.brainandbonesllc.com/ </td>
+                </tr>                <tr>
+                    <td></td>
+                    <td>K8s 提出了 Gateway 网关 API</td>
+                    <td>https://www.armosec.io/blog/kubernetes-gateway-api</td>
+                </tr>            </tbody>            </table>
 [[Hacker News 周报] Google 发布新编程语言 Carbon；低代码工具开发框架榫卯；AI 系统 DALL·E 开放 Beta 测试](https://www.bilibili.com/video/BV1hV4y177P9)
             <table>            <theader>
                 <th>名称</th>
@@ -117,42 +147,4 @@
                     <td>Raindrop</td>
                     <td>书签管理小工具</td>
                     <td>https://raindrop.io/</td>
-                </tr>            </tbody>            </table>
-[[Hacker News 周报] GitHub AI 代码助手 Copilot 正式发布；增强版 watch 命令；Deno 完成 A 轮融资](https://www.bilibili.com/video/BV1B3411u7ZG)
-            <table>            <theader>
-                <th>名称</th>
-                <th>简介</th>
-                <th>链接</th>
-            </theader>            <tbody>                <tr>
-                    <td></td>
-                    <td>Github AI 代码助手 Copilot 正式发布</td>
-                    <td>https://github.blog/2022-06-21-github-copilot-is-generally-available-to-all-developers/ </td>
-                </tr>                <tr>
-                    <td>Markone</td>
-                    <td>绘制时间轴的工具</td>
-                    <td>https://markwhen.com/ </td>
-                </tr>                <tr>
-                    <td>Viddy</td>
-                    <td>现代的 watch 替代品</td>
-                    <td>https://github.com/sachaos/viddy </td>
-                </tr>                <tr>
-                    <td>Elastic UI</td>
-                    <td>Elastic 开源的前端 UI 组件库</td>
-                    <td>https://elastic.github.io/eui/#/ </td>
-                </tr>                <tr>
-                    <td>Avo</td>
-                    <td>构建在 Ruby on Rails 方案之上的应用开发框架</td>
-                    <td>https://avohq.io/ </td>
-                </tr>                <tr>
-                    <td>Unclutter</td>
-                    <td>整理网页的浏览器插件</td>
-                    <td>https://unclutter.lindylearn.io/ </td>
-                </tr>                <tr>
-                    <td></td>
-                    <td>SQLite 发布 SQLite4 设计</td>
-                    <td>https://sqlite.org/src4/doc/trunk/www/design.wiki </td>
-                </tr>                <tr>
-                    <td></td>
-                    <td>Deno 完成 A 轮融资</td>
-                    <td>https://deno.com/blog/series-a</td>
                 </tr>            </tbody>            </table>

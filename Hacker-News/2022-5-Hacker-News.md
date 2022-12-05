@@ -1,3 +1,37 @@
+[[Hacker News 周报] 超轻量级 Python 引擎；快速阅读英文插件；TypeScript 发布新版本](https://www.bilibili.com/video/BV1pY4y1z7Vx)
+            <table>            <theader>
+                <th>名称</th>
+                <th>简介</th>
+                <th>链接</th>
+            </theader>            <tbody>                <tr>
+                    <td>PikaScript</td>
+                    <td>超轻量级 Python 引擎</td>
+                    <td>https://github.com/pikasTech/pikascript </td>
+                </tr>                <tr>
+                    <td></td>
+                    <td>bionic-reading 的快速阅读英文插件</td>
+                    <td>https://github.com/ansh/bionic-reading </td>
+                </tr>                <tr>
+                    <td>IndigoStack</td>
+                    <td>MacOS 平台上的本地开发环境</td>
+                    <td>https://indigostack.app/ </td>
+                </tr>                <tr>
+                    <td></td>
+                    <td>TypeScript 发布4.7版本</td>
+                    <td>https://devblogs.microsoft.com/typescript/announcing-typescript-4-7/ </td>
+                </tr>                <tr>
+                    <td>AnimatiSS</td>
+                    <td>一组 CSS 动画合集</td>
+                    <td>https://xsgames.co/animatiss </td>
+                </tr>                <tr>
+                    <td>Arctype</td>
+                    <td>SQL 数据库客户端</td>
+                    <td>https://arctype.com/ </td>
+                </tr>                <tr>
+                    <td></td>
+                    <td>一个有趣的3D 植物生成工具</td>
+                    <td>https://plant.jim-fx.com/</td>
+                </tr>            </tbody>            </table>
 [[Hacker News 周报] GO 全栈开发框架；开发终端风格网站；大厂技术架构赏析](https://www.bilibili.com/video/BV13a411E7AQ)
             <table>            <theader>
                 <th>名称</th>
@@ -69,76 +103,4 @@
                     <td></td>
                     <td>一篇 JS 性能分析指南的文章</td>
                     <td>https://blog.atomrc.dev/p/js-performance-profiling/</td>
-                </tr>            </tbody>            </table>
-[[Hacker News 周报] 浏览器中运行 Python；JSON 可视化神器；避免电脑休眠的网页](https://www.bilibili.com/video/BV1PB4y1278B)
-            <table>            <theader>
-                <th>名称</th>
-                <th>简介</th>
-                <th>链接</th>
-            </theader>            <tbody>                <tr>
-                    <td>Anaconda 发布 PyScript</td>
-                    <td>浏览器中运行 Python</td>
-                    <td>https://www.anaconda.com/blog/pyscript-python-in-the-browser </td>
-                </tr>                <tr>
-                    <td>JSONHERO</td>
-                    <td>JSON 可视化工具</td>
-                    <td>https://jsonhero.io/j/JZw4Wx9Mgj6r/tree </td>
-                </tr>                <tr>
-                    <td>Spacedrive</td>
-                    <td>本地和云端同在的文件管理器</td>
-                    <td>https://www.spacedrive.app/</td>
-                </tr>                <tr>
-                    <td>Bash-Oneliner</td>
-                    <td>一个事例仓库</td>
-                    <td>https://github.com/onceupon/Bash-Oneliner </td>
-                </tr>                <tr>
-                    <td>Fig</td>
-                    <td>与 Warp 类似的终端</td>
-                    <td>https://fig.io/ </td>
-                </tr>                <tr>
-                    <td>nosleep</td>
-                    <td>避免电脑休眠的网页</td>
-                    <td>https://nosleep.page/ </td>
-                </tr>                <tr>
-                    <td></td>
-                    <td>一篇关于 Golang 的文章</td>
-                    <td>https://fasterthanli.me/articles/lies-we-tell-ourselves-to-keep-using-golang </td>
-                </tr>                <tr>
-                    <td></td>
-                    <td>移植到 web 上的《塞尔达传说》</td>
-                    <td>https://hoten.cc/blog/porting-zelda-classic-to-the-web</td>
-                </tr>            </tbody>            </table>
-[[Hacker News 周报] OpenAI 开放 ChatGPT 模型；NLP 在线课程；k8s 流量监测工具](https://www.bilibili.com/video/BV1tP4y1Q7Vt)
-            <table>            <theader>
-                <th>名称</th>
-                <th>简介</th>
-                <th>链接</th>
-            </theader>            <tbody>                <tr>
-                    <td></td>
-                    <td>OpenAI 开放 ChatGPT 模型</td>
-                    <td>https://openai.com/blog/chatgpt/  </td>
-                </tr>                <tr>
-                    <td></td>
-                    <td>Google 推出安全编程语言 Rune</td>
-                    <td>https://github.com/google/rune  </td>
-                </tr>                <tr>
-                    <td>Kubeshark</td>
-                    <td>k8s 流量观测工具</td>
-                    <td>https://github.com/kubeshark/kubeshark  </td>
-                </tr>                <tr>
-                    <td>cheat.sh</td>
-                    <td>技术小抄集合</td>
-                    <td>https://github.com/chubin/cheat.sh  </td>
-                </tr>                <tr>
-                    <td>go-coffeeshop</td>
-                    <td>GO 的微服务示例</td>
-                    <td>https://github.com/thangchung/go-coffeeshop </td>
-                </tr>                <tr>
-                    <td></td>
-                    <td>NLP 在线课程</td>
-                    <td>https://www.nlpdemystified.org/ </td>
-                </tr>                <tr>
-                    <td>《Sql for Devs》</td>
-                    <td>数据库详解电子书</td>
-                    <td>https://sqlfordevs.com/ebook</td>
                 </tr>            </tbody>            </table>

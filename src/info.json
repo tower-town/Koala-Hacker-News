@@ -1,4 +1,47 @@
 {
+    "BV1tP4y1Q7Vt": {
+        "title": "[Hacker News 周报] OpenAI 开放 ChatGPT 模型；NLP 在线课程；k8s 流量监测工具",
+        "aid": 903386514,
+        "bvid": "BV1tP4y1Q7Vt",
+        "pubdate": 1670214550,
+        "data": [
+            {
+                "name": "",
+                "intro": "OpenAI 开放 ChatGPT 模型",
+                "link": "https://openai.com/blog/chatgpt/  "
+            },
+            {
+                "name": "",
+                "intro": "Google 推出安全编程语言 Rune",
+                "link": "https://github.com/google/rune  "
+            },
+            {
+                "name": "Kubeshark",
+                "intro": "k8s 流量观测工具",
+                "link": "https://github.com/kubeshark/kubeshark  "
+            },
+            {
+                "name": "cheat.sh",
+                "intro": "技术小抄集合",
+                "link": "https://github.com/chubin/cheat.sh  "
+            },
+            {
+                "name": "go-coffeeshop",
+                "intro": "GO 的微服务示例",
+                "link": "https://github.com/thangchung/go-coffeeshop "
+            },
+            {
+                "name": "",
+                "intro": "NLP 在线课程",
+                "link": "https://www.nlpdemystified.org/ "
+            },
+            {
+                "name": "《Sql for Devs》",
+                "intro": "数据库详解电子书",
+                "link": "https://sqlfordevs.com/ebook"
+            }
+        ]
+    },
     "BV1Z24y1C793": {
         "title": "[Hacker News 周报] Stable Diffusion AI 作画 V2；开源数据可视化平台；命令行的艺术",
         "aid": 690620840,
@@ -1183,97 +1226,6 @@
                 "name": "",
                 "intro": "一篇 JS 性能分析指南的文章",
                 "link": "https://blog.atomrc.dev/p/js-performance-profiling/"
-            }
-        ]
-    },
-    "BV1PB4y1278B": {
-        "title": "[Hacker News 周报] 浏览器中运行 Python；JSON 可视化神器；避免电脑休眠的网页",
-        "aid": 596334116,
-        "bvid": "BV1PB4y1278B",
-        "pubdate": 1651970738,
-        "data": [
-            {
-                "name": "Anaconda 发布 PyScript",
-                "intro": "浏览器中运行 Python",
-                "link": "https://www.anaconda.com/blog/pyscript-python-in-the-browser "
-            },
-            {
-                "name": "JSONHERO",
-                "intro": "JSON 可视化工具",
-                "link": "https://jsonhero.io/j/JZw4Wx9Mgj6r/tree "
-            },
-            {
-                "name": "Spacedrive",
-                "intro": "本地和云端同在的文件管理器",
-                "link": "https://www.spacedrive.app/"
-            },
-            {
-                "name": "Bash-Oneliner",
-                "intro": "一个事例仓库",
-                "link": "https://github.com/onceupon/Bash-Oneliner "
-            },
-            {
-                "name": "Fig",
-                "intro": "与 Warp 类似的终端",
-                "link": "https://fig.io/ "
-            },
-            {
-                "name": "nosleep",
-                "intro": "避免电脑休眠的网页",
-                "link": "https://nosleep.page/ "
-            },
-            {
-                "name": "",
-                "intro": "一篇关于 Golang 的文章",
-                "link": "https://fasterthanli.me/articles/lies-we-tell-ourselves-to-keep-using-golang "
-            },
-            {
-                "name": "",
-                "intro": "移植到 web 上的《塞尔达传说》",
-                "link": "https://hoten.cc/blog/porting-zelda-classic-to-the-web"
-            }
-        ]
-    },
-    "BV1tP4y1Q7Vt": {
-        "title": "[Hacker News 周报] OpenAI 开放 ChatGPT 模型；NLP 在线课程；k8s 流量监测工具",
-        "aid": 903386514,
-        "bvid": "BV1tP4y1Q7Vt",
-        "pubdate": 1670214550,
-        "data": [
-            {
-                "name": "",
-                "intro": "OpenAI 开放 ChatGPT 模型",
-                "link": "https://openai.com/blog/chatgpt/  "
-            },
-            {
-                "name": "",
-                "intro": "Google 推出安全编程语言 Rune",
-                "link": "https://github.com/google/rune  "
-            },
-            {
-                "name": "Kubeshark",
-                "intro": "k8s 流量观测工具",
-                "link": "https://github.com/kubeshark/kubeshark  "
-            },
-            {
-                "name": "cheat.sh",
-                "intro": "技术小抄集合",
-                "link": "https://github.com/chubin/cheat.sh  "
-            },
-            {
-                "name": "go-coffeeshop",
-                "intro": "GO 的微服务示例",
-                "link": "https://github.com/thangchung/go-coffeeshop "
-            },
-            {
-                "name": "",
-                "intro": "NLP 在线课程",
-                "link": "https://www.nlpdemystified.org/ "
-            },
-            {
-                "name": "《Sql for Devs》",
-                "intro": "数据库详解电子书",
-                "link": "https://sqlfordevs.com/ebook"
             }
         ]
     }

@@ -346,8 +346,8 @@ class HackerNews {
 
             let doc_path = docs['path'][index];
             let re_path = path.relative(path.basename(readme_path), doc_path);
-            re_path = re_path.replaceAll('\\', '/');
-            chapters += `- [${value}: [Hacker News 周报]](${re_path})\n`;
+            let new_path = re_path.replaceAll('\\', '/');
+            chapters += `- [${value}: [Hacker News 周报]](${new_path})\n`;
         })
 
         let file_end = '\n## 参考\n\n - [bilibili-api-collect](https://github.com/SocialSisterYi/bilibili-API-collect)';

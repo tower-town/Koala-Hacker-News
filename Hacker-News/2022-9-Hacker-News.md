@@ -1,3 +1,41 @@
+[[Hacker News 周报] Git 终端 UI；开源短链接服务；AI 作画图库](https://www.bilibili.com/video/BV1Je4y1r7B4)
+            <table>            <theader>
+                <th>名称</th>
+                <th>简介</th>
+                <th>链接</th>
+            </theader>            <tbody>                <tr>
+                    <td>GitUI</td>
+                    <td>Git 终端 UI</td>
+                    <td>https://github.com/extrawurst/gitui </td>
+                </tr>                <tr>
+                    <td>Dub</td>
+                    <td>开源短链接服务</td>
+                    <td>https://dub.sh/ </td>
+                </tr>                <tr>
+                    <td>WunderBase</td>
+                    <td>serverless GraphQL 数据库</td>
+                    <td>https://github.com/wundergraph/wunderbase </td>
+                </tr>                <tr>
+                    <td>Rocketry</td>
+                    <td>现代化的 Python 调度框架</td>
+                    <td>https://github.com/Miksus/rocketry </td>
+                </tr>                <tr>
+                    <td>KREA</td>
+                    <td>AI 作画图库</td>
+                    <td>https://www.krea.ai/ </td>
+                </tr>                <tr>
+                    <td>Whisper</td>
+                    <td>OpenAI 开源的语音识别系统</td>
+                    <td>https://openai.com/blog/whisper </td>
+                </tr>                <tr>
+                    <td></td>
+                    <td>fly.io 开源新项目 LiteFS</td>
+                    <td>https://fly.io/blog/introducing-litefs </td>
+                </tr>                <tr>
+                    <td></td>
+                    <td>Azure CTO Mark Russinovich 发推引发热议</td>
+                    <td>https://twitter.com/markrussinovich/status/1571995117233504257</td>
+                </tr>            </tbody>            </table>
 [[Hacker News 周报] 在线设计工具新动向；交互式 Markdown；Mac 中体验 AI 作画](https://www.bilibili.com/video/BV1QP411H7rM)
             <table>            <theader>
                 <th>名称</th>
@@ -103,34 +141,4 @@
                     <td></td>
                     <td>GitHub 开发者关系副总裁回复移除 Trending</td>
                     <td></td>
-                </tr>            </tbody>            </table>
-[[Hacker News 周报] 野心勃勃的数据库 SurrealDB；80 岁计算机科学家仍在优化开源代码；将触屏设备变为触摸板](https://www.bilibili.com/video/BV1qa411G7kd)
-            <table>            <theader>
-                <th>名称</th>
-                <th>简介</th>
-                <th>链接</th>
-            </theader>            <tbody>                <tr>
-                    <td>Stable Diffusion</td>
-                    <td>开源的 AI 图片生成模型</td>
-                    <td>https://surrealdb.com/ </td>
-                </tr>                <tr>
-                    <td>react-design-editor</td>
-                    <td>Canva 的开源替代品</td>
-                    <td>https://github.com/CompVis/stable-diffusion</td>
-                </tr>                <tr>
-                    <td>Weylus</td>
-                    <td>将触屏设备变为触摸板</td>
-                    <td>https://github.com/layerhub-io/react-design-editor</td>
-                </tr>                <tr>
-                    <td>eInk-VNC</td>
-                    <td>将 VMC 输出到墨水屏</td>
-                    <td>https://github.com/H-M-H/Weylus</td>
-                </tr>                <tr>
-                    <td></td>
-                    <td>SQLite 并发读取性能详解</td>
-                    <td>https://zmarshall.nl/static/eink-vnc.html</td>
-                </tr>                <tr>
-                    <td></td>
-                    <td>80 岁计算机科学家仍在优化开源代码</td>
-                    <td>https://fly.io/blog/sqlite-internals-wal</td>
                 </tr>            </tbody>            </table>
