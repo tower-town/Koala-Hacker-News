@@ -281,13 +281,14 @@ class HackerNews {
     generate_docs(){
         let tables = this.generate_tables();
         let content = tables['content'];
-        let pubdate = tables['title']['pubdate'];
+        let pubdates = tables['title']['pubdates'];
 
         let docs = {};
         let pub_list = [];
 
         let state = '1';
-        pubdate.forEach((value, index) => {
+        pubdates.sort((a, b) => {return b - a});
+        pubdates.forEach((value, index) => {
             let date = new Date(value*1000);
             let pub_date = `${date.getFullYear()}-${date.getMonth()+1}`;
             if (state !== pub_date){
@@ -297,7 +298,7 @@ class HackerNews {
                 }
                 state = pub_date;
             }
-            if (value === pubdate[pubdate.length - 1]) {
+            if (value === pubdates[pubdates.length - 1]) {
                 docs[pub_date] = pub_list;
             }
             pub_list.push(content[index]);
