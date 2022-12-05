@@ -6,27 +6,27 @@
             </theader>            <tbody>                <tr>
                     <td>PikaScript</td>
                     <td>超轻量级 Python 引擎</td>
-                    <td>https://github.com/pikasTech/pikascript </td>
+                    <td>https://github.com/pikasTech/pikascript</td>
                 </tr>                <tr>
                     <td></td>
                     <td>bionic-reading 的快速阅读英文插件</td>
-                    <td>https://github.com/ansh/bionic-reading </td>
+                    <td>https://github.com/ansh/bionic-reading</td>
                 </tr>                <tr>
                     <td>IndigoStack</td>
                     <td>MacOS 平台上的本地开发环境</td>
-                    <td>https://indigostack.app/ </td>
+                    <td>https://indigostack.app/</td>
                 </tr>                <tr>
                     <td></td>
                     <td>TypeScript 发布4.7版本</td>
-                    <td>https://devblogs.microsoft.com/typescript/announcing-typescript-4-7/ </td>
+                    <td>https://devblogs.microsoft.com/typescript/announcing-typescript-4-7/</td>
                 </tr>                <tr>
                     <td>AnimatiSS</td>
                     <td>一组 CSS 动画合集</td>
-                    <td>https://xsgames.co/animatiss </td>
+                    <td>https://xsgames.co/animatiss</td>
                 </tr>                <tr>
                     <td>Arctype</td>
                     <td>SQL 数据库客户端</td>
-                    <td>https://arctype.com/ </td>
+                    <td>https://arctype.com/</td>
                 </tr>                <tr>
                     <td></td>
                     <td>一个有趣的3D 植物生成工具</td>
@@ -40,27 +40,27 @@
             </theader>            <tbody>                <tr>
                     <td>Bud</td>
                     <td>GO 的全栈 web 框架</td>
-                    <td>https://github.com/livebud/bud </td>
+                    <td>https://github.com/livebud/bud</td>
                 </tr>                <tr>
                     <td>Aspect</td>
                     <td>可视化开发 React 组件</td>
-                    <td>https://aspect.app/ </td>
+                    <td>https://aspect.app/</td>
                 </tr>                <tr>
                     <td></td>
                     <td>在 SQLite 中使用 JSON 和 virtual columns</td>
-                    <td>https://antonz.org/json-virtual-columns </td>
+                    <td>https://antonz.org/json-virtual-columns</td>
                 </tr>                <tr>
                     <td>Sliderland</td>
                     <td>一个极简风格的 JS 实验园地</td>
-                    <td>https://sliderland.blinry.org/ </td>
+                    <td>https://sliderland.blinry.org/</td>
                 </tr>                <tr>
                     <td>LiveTerm</td>
                     <td>开发终端风格网站</td>
-                    <td>https://liveterm.vercel.app/ </td>
+                    <td>https://liveterm.vercel.app/</td>
                 </tr>                <tr>
                     <td></td>
                     <td>Datadog 介绍第三代事件存储库 Husky</td>
-                    <td>https://www.datadoghq.com/blog/engineering/introducing-husky </td>
+                    <td>https://www.datadoghq.com/blog/engineering/introducing-husky</td>
                 </tr>                <tr>
                     <td>Quastor</td>
                     <td>一个汇集大厂架构分析的专栏频道</td>
@@ -74,31 +74,31 @@
             </theader>            <tbody>                <tr>
                     <td>BoltDB 作者的博客</td>
                     <td>如何在 fly.io 中使用 SQLite</td>
-                    <td>https://fly.io/blog/all-in-on-sqlite-litestream </td>
+                    <td>https://fly.io/blog/all-in-on-sqlite-litestream</td>
                 </tr>                <tr>
                     <td>Litestream</td>
                     <td>Sqlite 实时复制工具</td>
-                    <td>https://github.com/benbjohnson/litestream </td>
+                    <td>https://github.com/benbjohnson/litestream</td>
                 </tr>                <tr>
                     <td></td>
                     <td>Cloudflare 发布 D1</td>
-                    <td>https://blog.cloudflare.com/introducing-d1/ </td>
+                    <td>https://blog.cloudflare.com/introducing-d1/</td>
                 </tr>                <tr>
                     <td>rqlite</td>
                     <td>与 D1 相似的开源分布式数据库</td>
-                    <td>https://github.com/rqlite/rqlite </td>
+                    <td>https://github.com/rqlite/rqlite</td>
                 </tr>                <tr>
                     <td>CaskDB</td>
                     <td>一个 kv 存储引擎的教学工具</td>
-                    <td>https://github.com/avinassh/py-caskdb </td>
+                    <td>https://github.com/avinassh/py-caskdb</td>
                 </tr>                <tr>
                     <td>CubeDesk</td>
                     <td>魔方提速工具</td>
-                    <td>https://www.cubedesk.io/home </td>
+                    <td>https://www.cubedesk.io/home</td>
                 </tr>                <tr>
                     <td>DFlex</td>
                     <td>一个适配所有 JS 框架的可拖拽的工具库</td>
-                    <td>https://www.dflex.dev/ </td>
+                    <td>https://www.dflex.dev/</td>
                 </tr>                <tr>
                     <td></td>
                     <td>一篇 JS 性能分析指南的文章</td>

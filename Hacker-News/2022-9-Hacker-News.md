@@ -6,31 +6,31 @@
             </theader>            <tbody>                <tr>
                     <td>GitUI</td>
                     <td>Git 终端 UI</td>
-                    <td>https://github.com/extrawurst/gitui </td>
+                    <td>https://github.com/extrawurst/gitui</td>
                 </tr>                <tr>
                     <td>Dub</td>
                     <td>开源短链接服务</td>
-                    <td>https://dub.sh/ </td>
+                    <td>https://dub.sh/</td>
                 </tr>                <tr>
                     <td>WunderBase</td>
                     <td>serverless GraphQL 数据库</td>
-                    <td>https://github.com/wundergraph/wunderbase </td>
+                    <td>https://github.com/wundergraph/wunderbase</td>
                 </tr>                <tr>
                     <td>Rocketry</td>
                     <td>现代化的 Python 调度框架</td>
-                    <td>https://github.com/Miksus/rocketry </td>
+                    <td>https://github.com/Miksus/rocketry</td>
                 </tr>                <tr>
                     <td>KREA</td>
                     <td>AI 作画图库</td>
-                    <td>https://www.krea.ai/ </td>
+                    <td>https://www.krea.ai/</td>
                 </tr>                <tr>
                     <td>Whisper</td>
                     <td>OpenAI 开源的语音识别系统</td>
-                    <td>https://openai.com/blog/whisper </td>
+                    <td>https://openai.com/blog/whisper</td>
                 </tr>                <tr>
                     <td></td>
                     <td>fly.io 开源新项目 LiteFS</td>
-                    <td>https://fly.io/blog/introducing-litefs </td>
+                    <td>https://fly.io/blog/introducing-litefs</td>
                 </tr>                <tr>
                     <td></td>
                     <td>Azure CTO Mark Russinovich 发推引发热议</td>
@@ -78,27 +78,27 @@
             </theader>            <tbody>                <tr>
                     <td>Difftastic</td>
                     <td>结构化 diff 工具</td>
-                    <td>https://www.wilfred.me.uk/blog/2022/09/06/difftastic-the-fantastic-diff/ </td>
+                    <td>https://www.wilfred.me.uk/blog/2022/09/06/difftastic-the-fantastic-diff/</td>
                 </tr>                <tr>
                     <td>ruff</td>
                     <td>百倍快的 Python linter</td>
-                    <td>https://github.com/charliermarsh/ruff </td>
+                    <td>https://github.com/charliermarsh/ruff</td>
                 </tr>                <tr>
                     <td>DataEase</td>
                     <td>数据可视化分析工具</td>
-                    <td>https://github.com/dataease/dataease </td>
+                    <td>https://github.com/dataease/dataease</td>
                 </tr>                <tr>
                     <td>MATHLIVE</td>
                     <td>展示和编辑数学公式的 Web Component</td>
-                    <td>https://cortexjs.io/mathlive </td>
+                    <td>https://cortexjs.io/mathlive</td>
                 </tr>                <tr>
                     <td>VSCheatsheet</td>
                     <td>VS Code 快捷键合集</td>
-                    <td>https://www.vscheatsheet.com/ </td>
+                    <td>https://www.vscheatsheet.com/</td>
                 </tr>                <tr>
                     <td>Modern for Hacker News</td>
                     <td>美化 Hacker News 界面的浏览器插件</td>
-                    <td>https://www.modernhn.com/ </td>
+                    <td>https://www.modernhn.com/</td>
                 </tr>                <tr>
                     <td>signals</td>
                     <td>PREACT 状态管理新方案</td>

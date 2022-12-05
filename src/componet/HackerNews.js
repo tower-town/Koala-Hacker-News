@@ -140,6 +140,8 @@ class HackerNews {
         let top_comment = comment['top']['upper'];
         let top_reply = comment['replies'][0];
         let message = '';
+        let message_list = [];
+
         if (top_comment === null) {
 
             if (top_reply['member']['mid'] === '489667127') {
@@ -149,7 +151,11 @@ class HackerNews {
         else {
             message = top_comment['content']['message'];
         }
-        return message.split('\n');
+        message.split('\n').forEach((value, _) => {
+            message_list.push(value.trim());
+        });
+
+        return message_list;
     }
 
     parse_comment(message) {
@@ -168,7 +174,6 @@ class HackerNews {
             "content": []
         }
         message_data.forEach((value, index) => {
-            value.trim();
             let name = '';
             let content = '';
             let info = [];
@@ -180,8 +185,8 @@ class HackerNews {
                     const regexp = /\d{2}:\d{2}(?:\s+)?([^｜|，,]+)?(?:[｜\|，,])([^｜|,，].*$)/g
                     info = [...value.matchAll(regexp)][0];
                     if (info) {
-                        name = (info[1] === undefined) ? '' : info[1].trim();
-                        content = info[2].trim();
+                        name = (info[1] === undefined) ? '' : info[1];
+                        content = info[2];
                     }
                     else {
                         console.log(`Error: escaple capture is ${value}`);
@@ -191,7 +196,7 @@ class HackerNews {
                     const regexp = /\d{2}:\d{2}(?:\s+)?(.*$)/g;
                     info = [...value.matchAll(regexp)][0];
                     if (info) {
-                        content = info[1].trim();
+                        content = info[1];
                     }
                     else {
                         console.log(`Error: escaple capture is ${value}`);

@@ -8,32 +8,32 @@
             {
                 "name": "",
                 "intro": "OpenAI 开放 ChatGPT 模型",
-                "link": "https://openai.com/blog/chatgpt/  "
+                "link": "https://openai.com/blog/chatgpt/"
             },
             {
                 "name": "",
                 "intro": "Google 推出安全编程语言 Rune",
-                "link": "https://github.com/google/rune  "
+                "link": "https://github.com/google/rune"
             },
             {
                 "name": "Kubeshark",
                 "intro": "k8s 流量观测工具",
-                "link": "https://github.com/kubeshark/kubeshark  "
+                "link": "https://github.com/kubeshark/kubeshark"
             },
             {
                 "name": "cheat.sh",
                 "intro": "技术小抄集合",
-                "link": "https://github.com/chubin/cheat.sh  "
+                "link": "https://github.com/chubin/cheat.sh"
             },
             {
                 "name": "go-coffeeshop",
                 "intro": "GO 的微服务示例",
-                "link": "https://github.com/thangchung/go-coffeeshop "
+                "link": "https://github.com/thangchung/go-coffeeshop"
             },
             {
                 "name": "",
                 "intro": "NLP 在线课程",
-                "link": "https://www.nlpdemystified.org/ "
+                "link": "https://www.nlpdemystified.org/"
             },
             {
                 "name": "《Sql for Devs》",
@@ -51,37 +51,37 @@
             {
                 "name": "Script Kit",
                 "intro": "面向开发者的自动化工具，",
-                "link": "https://www.scriptkit.com/ "
+                "link": "https://www.scriptkit.com/"
             },
             {
                 "name": "D2",
                 "intro": "开源声明式绘图语言",
-                "link": "https://superset.apache.org/   "
+                "link": "https://d2lang.com/"
             },
             {
                 "name": "Superset",
                 "intro": "开源数据可视化平台",
-                "link": "https://stability.ai/blog/stable-diffusion-v2-release "
+                "link": "https://superset.apache.org/"
             },
             {
                 "name": "",
                 "intro": "Stable Diffusion 发布2.0版本",
-                "link": "https://github.com/ant-design/ant-design/issues/38671 "
+                "link": "https://stability.ai/blog/stable-diffusion-v2-release"
             },
             {
                 "name": "",
                 "intro": "蚂蚁 UI 组件库 Ant Design 发布 V5 版本",
-                "link": "https://github.com/jlevy/the-art-of-command-line  "
+                "link": "https://github.com/ant-design/ant-design/issues/38671"
             },
             {
                 "name": "",
                 "intro": "《命令行的艺术》项目",
-                "link": "https://diataxis.fr/"
+                "link": "https://github.com/jlevy/the-art-of-command-line"
             },
             {
                 "name": "Diátaxis",
                 "intro": "帮助创作技术文档的写作框架",
-                "link": ""
+                "link": "https://diataxis.fr/"
             }
         ]
     },
@@ -94,27 +94,27 @@
             {
                 "name": "Redpanda",
                 "intro": "与 Kafka PAI 兼容的流式数据平台",
-                "link": "https://redpanda.com/  "
+                "link": "https://redpanda.com/"
             },
             {
                 "name": "Autocut",
                 "intro": "通过字幕剪切视频的工具",
-                "link": "https://github.com/mli/autocut  "
+                "link": "https://github.com/mli/autocut"
             },
             {
                 "name": "Sapling",
                 "intro": "Meta 大规模代码管理方案",
-                "link": "https://engineering.fb.com/2022/11/15/open-source/sapling-source-control-scalable "
+                "link": "https://engineering.fb.com/2022/11/15/open-source/sapling-source-control-scalable"
             },
             {
                 "name": "Greptime",
                 "intro": "分布式时序数据库",
-                "link": "https://github.com/GreptimeTeam/greptimedb  "
+                "link": "https://github.com/GreptimeTeam/greptimedb"
             },
             {
                 "name": "COZO",
                 "intro": "事务型关系嵌入式数据库",
-                "link": "https://github.com/cozodb/cozo  "
+                "link": "https://github.com/cozodb/cozo"
             },
             {
                 "name": "Mathics",
@@ -131,33 +131,33 @@
         "data": [
             {
                 "name": "Github Next",
-                "intro": "GitHub 下一代功能",
-                "link": "https://blocks.githubnext.com/ "
+                "intro": " GitHub 下一代功能",
+                "link": "https://blocks.githubnext.com/"
             },
             {
                 "name": "podman desktop",
                 "intro": "可视化容器与 K8s 管理工具",
-                "link": "https://podman-desktop.io/ "
+                "link": "https://podman-desktop.io/"
             },
             {
                 "name": "",
                 "intro": "Docker 支持 Webassembly",
-                "link": "https://www.docker.com/blog/docker-wasm-technical-preview/ "
+                "link": "https://www.docker.com/blog/docker-wasm-technical-preview/"
             },
             {
                 "name": "",
                 "intro": "Rome 发布第一个稳定版本 Rome v10",
-                "link": "https://rome.tools/blog/2022/11/08/rome-10/ "
+                "link": "https://rome.tools/blog/2022/11/08/rome-10/"
             },
             {
                 "name": "Blessed",
                 "intro": "Rust 教程",
-                "link": "https://blessed.rs/crates "
+                "link": "https://blessed.rs/crates"
             },
             {
                 "name": "Pickcode",
                 "intro": "新式代码教学工具",
-                "link": "https://app.pickcode.io/course/hoc-ad-libs-chatbot  "
+                "link": "https://app.pickcode.io/course/hoc-ad-libs-chatbot"
             },
             {
                 "name": "",
@@ -188,32 +188,32 @@
             {
                 "name": "",
                 "intro": "Vercel 推出 webpack 替代品",
-                "link": "https://vercel.com/blog/turbopack "
+                "link": "https://vercel.com/blog/turbopack"
             },
             {
                 "name": "",
                 "intro": "Python 发布新版本",
-                "link": "https://discuss.python.org/t/python-3-11-0-final-is-now-available/20291 "
+                "link": "https://discuss.python.org/t/python-3-11-0-final-is-now-available/20291"
             },
             {
                 "name": "",
                 "intro": "轻量级搜索引擎 Sonic",
-                "link": "https://github.com/valeriansaliou/sonic "
+                "link": "https://github.com/valeriansaliou/sonic"
             },
             {
                 "name": "Answer",
                 "intro": "SegmentFault 开源的知识类库",
-                "link": "https://answer.dev/ "
+                "link": "https://answer.dev/"
             },
             {
                 "name": "openvim",
-                "intro": "交互式的 Vim 教程",
-                "link": "https://www.openvim.com/ "
+                "intro": " 交互式的 Vim 教程",
+                "link": "https://www.openvim.com/"
             },
             {
                 "name": "Bolt.css",
-                "intro": "HTML 的样式表",
-                "link": "https://boltcss.com/ "
+                "intro": " HTML 的样式表",
+                "link": "https://boltcss.com/"
             },
             {
                 "name": "Starter Tab",
@@ -231,37 +231,37 @@
             {
                 "name": "Tabby",
                 "intro": "用 web 开发的现代化终端",
-                "link": "https://github.com/Eugeny/tabby "
+                "link": "https://github.com/Eugeny/tabby"
             },
             {
                 "name": "",
                 "intro": "用 Github Page 部署 SQLite 数据库",
-                "link": "https://phiresky.github.io/blog/2021/hosting-sqlite-databases-on-github-pages/ "
+                "link": "https://phiresky.github.io/blog/2021/hosting-sqlite-databases-on-github-pages/"
             },
             {
                 "name": "stlite",
                 "intro": "Streamlit 的 serverless 版本",
-                "link": "https://edit.share.stlite.net/ "
+                "link": "https://edit.share.stlite.net/"
             },
             {
                 "name": "TypeRunner",
-                "intro": "高性能 TypeScript 编译器",
-                "link": "https://github.com/marcj/TypeRunner "
+                "intro": " 高性能 TypeScript 编译器",
+                "link": "https://github.com/marcj/TypeRunner"
             },
             {
                 "name": "Linen",
-                "intro": "Slack 替代品",
-                "link": "https://github.com/Linen-dev/linen.dev "
+                "intro": " Slack 替代品",
+                "link": "https://github.com/Linen-dev/linen.dev"
             },
             {
                 "name": "Replit Mobile App",
-                "intro": "手机编程 App",
-                "link": "https://blog.replit.com/mobile-app "
+                "intro": " 手机编程 App",
+                "link": "https://blog.replit.com/mobile-app"
             },
             {
                 "name": "",
                 "intro": "Koala 频道观众贡献的2个 Hacker News 周报检索项目",
-                "link": "https://github.com/ZutJoe/Koala_hacker_news "
+                "link": "https://github.com/ZutJoe/Koala_hacker_news"
             }
         ]
     },
@@ -274,32 +274,32 @@
             {
                 "name": "",
                 "intro": "Obsidian 发布 1.0",
-                "link": "https://obsidian.md/1.0 "
+                "link": "https://obsidian.md/1.0"
             },
             {
                 "name": "NocoDB",
-                "intro": "Airtable 开源替代品",
-                "link": "https://github.com/nocodb/nocodb "
+                "intro": " Airtable 开源替代品",
+                "link": "https://github.com/nocodb/nocodb"
             },
             {
                 "name": "",
                 "intro": "通过代码编辑视频",
-                "link": "https://github.com/mifi "
+                "link": "https://github.com/mifi"
             },
             {
                 "name": "Satori",
-                "intro": "从 HTML 生成 SVG",
-                "link": "https://github.com/vercel/satori "
+                "intro": " 从 HTML 生成 SVG",
+                "link": "https://github.com/vercel/satori"
             },
             {
                 "name": "aerc",
                 "intro": "在命令行中编辑视频与收发邮件",
-                "link": "https://aerc-mail.org/ "
+                "link": "https://aerc-mail.org/"
             },
             {
                 "name": "Fleet",
                 "intro": "Jet Brains 新一代 IDE",
-                "link": "https://www.jetbrains.com/fleet/ "
+                "link": "https://www.jetbrains.com/fleet/"
             },
             {
                 "name": "",
@@ -317,32 +317,32 @@
             {
                 "name": "sharing",
                 "intro": "将电脑中的文件通过二维码分享给手机",
-                "link": "https://github.com/parvardegr/sharing "
+                "link": "https://github.com/parvardegr/sharing"
             },
             {
                 "name": "Steampipe",
-                "intro": "浏览云服务资产的交互式命令行工具",
-                "link": "https://steampipe.io/ "
+                "intro": " 浏览云服务资产的交互式命令行工具",
+                "link": "https://steampipe.io/"
             },
             {
                 "name": "Horizon UI",
-                "intro": "基于 Chakra UI 的管理后台模版",
-                "link": "https://horizon-ui.com/ "
+                "intro": " 基于 Chakra UI 的管理后台模版",
+                "link": "https://horizon-ui.com/"
             },
             {
                 "name": "Postgres WASM",
-                "intro": "开源 WASM 运行 PostgresSQL 方案",
-                "link": "https://supabase.com/blog/postgres-wasm "
+                "intro": " 开源 WASM 运行 PostgresSQL 方案",
+                "link": "https://supabase.com/blog/postgres-wasm"
             },
             {
                 "name": "v86",
-                "intro": "通过 WebAssembly 运行 x86 兼容的虚拟机",
+                "intro": " 通过 WebAssembly 运行 x86 兼容的虚拟机",
                 "link": "https://github.com/copy/v86"
             },
             {
                 "name": "libSQL",
-                "intro": "SQLite 下游版本",
-                "link": "https://github.com/libsql/libsql & https://itnext.io/sqlite-qemu-all-over-again-aedad19c9a1c "
+                "intro": " SQLite 下游版本",
+                "link": "https://github.com/libsql/libsql & https://itnext.io/sqlite-qemu-all-over-again-aedad19c9a1c"
             },
             {
                 "name": "",
@@ -365,7 +365,7 @@
             {
                 "name": "Wails",
                 "intro": "使用 Go 和 Web 技术开发桌面端应用",
-                "link": "https://wails.io/ "
+                "link": "https://wails.io/"
             },
             {
                 "name": "",
@@ -403,37 +403,37 @@
             {
                 "name": "GitUI",
                 "intro": "Git 终端 UI",
-                "link": "https://github.com/extrawurst/gitui "
+                "link": "https://github.com/extrawurst/gitui"
             },
             {
                 "name": "Dub",
                 "intro": "开源短链接服务",
-                "link": "https://dub.sh/ "
+                "link": "https://dub.sh/"
             },
             {
                 "name": "WunderBase",
-                "intro": "serverless GraphQL 数据库",
-                "link": "https://github.com/wundergraph/wunderbase "
+                "intro": " serverless GraphQL 数据库",
+                "link": "https://github.com/wundergraph/wunderbase"
             },
             {
                 "name": "Rocketry",
                 "intro": "现代化的 Python 调度框架",
-                "link": "https://github.com/Miksus/rocketry "
+                "link": "https://github.com/Miksus/rocketry"
             },
             {
                 "name": "KREA",
                 "intro": "AI 作画图库",
-                "link": "https://www.krea.ai/ "
+                "link": "https://www.krea.ai/"
             },
             {
                 "name": "Whisper",
-                "intro": "OpenAI 开源的语音识别系统",
-                "link": "https://openai.com/blog/whisper "
+                "intro": " OpenAI 开源的语音识别系统",
+                "link": "https://openai.com/blog/whisper"
             },
             {
                 "name": "",
                 "intro": "fly.io 开源新项目 LiteFS",
-                "link": "https://fly.io/blog/introducing-litefs "
+                "link": "https://fly.io/blog/introducing-litefs"
             },
             {
                 "name": "",
@@ -475,7 +475,7 @@
             },
             {
                 "name": "SafeQL",
-                "intro": "校验 SQL 的 ESLint 插件",
+                "intro": " 校验 SQL 的 ESLint 插件",
                 "link": "https://engineering.fb.com/2022/09/12/open-source/memlab/"
             },
             {
@@ -494,32 +494,32 @@
             {
                 "name": "Difftastic",
                 "intro": "结构化 diff 工具",
-                "link": "https://www.wilfred.me.uk/blog/2022/09/06/difftastic-the-fantastic-diff/ "
+                "link": "https://www.wilfred.me.uk/blog/2022/09/06/difftastic-the-fantastic-diff/"
             },
             {
                 "name": "ruff",
                 "intro": "百倍快的 Python linter",
-                "link": "https://github.com/charliermarsh/ruff "
+                "link": "https://github.com/charliermarsh/ruff"
             },
             {
                 "name": "DataEase",
                 "intro": "数据可视化分析工具",
-                "link": "https://github.com/dataease/dataease "
+                "link": "https://github.com/dataease/dataease"
             },
             {
                 "name": "MATHLIVE",
                 "intro": "展示和编辑数学公式的 Web Component",
-                "link": "https://cortexjs.io/mathlive "
+                "link": "https://cortexjs.io/mathlive"
             },
             {
                 "name": "VSCheatsheet",
                 "intro": "VS Code 快捷键合集",
-                "link": "https://www.vscheatsheet.com/ "
+                "link": "https://www.vscheatsheet.com/"
             },
             {
                 "name": "Modern for Hacker News",
-                "intro": "美化 Hacker News 界面的浏览器插件",
-                "link": "https://www.modernhn.com/ "
+                "intro": " 美化 Hacker News 界面的浏览器插件",
+                "link": "https://www.modernhn.com/"
             },
             {
                 "name": "signals",
@@ -585,11 +585,11 @@
             {
                 "name": "Stable Diffusion",
                 "intro": "开源的 AI 图片生成模型",
-                "link": "https://surrealdb.com/ "
+                "link": "https://surrealdb.com/"
             },
             {
                 "name": "react-design-editor",
-                "intro": "Canva 的开源替代品",
+                "intro": " Canva 的开源替代品",
                 "link": "https://github.com/CompVis/stable-diffusion"
             },
             {
@@ -621,7 +621,7 @@
         "pubdate": 1661041800,
         "data": [
             {
-                "name": "Numpad",
+                "name": "Numpad ",
                 "intro": "一个新式文本编辑器",
                 "link": "https://numpad.io/"
             },
@@ -637,7 +637,7 @@
             },
             {
                 "name": "JiraCLI",
-                "intro": "对 Jira 的命令行客户端",
+                "intro": " 对 Jira 的命令行客户端",
                 "link": "https://github.com/ankitpokhrel/jira-cli"
             },
             {
@@ -661,7 +661,7 @@
             {
                 "name": "",
                 "intro": "远程开发方案 Coder",
-                "link": "https://coder.com/  "
+                "link": "https://coder.com/"
             },
             {
                 "name": "",
@@ -675,7 +675,7 @@
             },
             {
                 "name": "Multy",
-                "intro": "基于 Terraform 的跨云部署框架",
+                "intro": " 基于 Terraform 的跨云部署框架",
                 "link": "https://github.com/multycloud/multy"
             },
             {
@@ -699,27 +699,27 @@
             {
                 "name": "",
                 "intro": "开源知识库软件能否替代 Notion",
-                "link": "https://github.com/toeverything/AFFiNE "
+                "link": "https://github.com/toeverything/AFFiNE"
             },
             {
                 "name": "",
                 "intro": "Copilot 开源替代品",
-                "link": "https://github.com/moyix/fauxpilot "
+                "link": "https://github.com/moyix/fauxpilot"
             },
             {
                 "name": "",
                 "intro": "逆向工程工具箱",
-                "link": "https://github.com/WerWolv/ImHex "
+                "link": "https://github.com/WerWolv/ImHex"
             },
             {
                 "name": "Emery",
                 "intro": "效率工具",
-                "link": "https://emery.to/ "
+                "link": "https://emery.to/"
             },
             {
                 "name": "",
                 "intro": "一篇介绍 eBPF 技术的文章",
-                "link": "https://www.groundcover.com/blog/what-is-ebpf "
+                "link": "https://www.groundcover.com/blog/what-is-ebpf"
             },
             {
                 "name": "",
@@ -737,27 +737,27 @@
             {
                 "name": "Blueboat",
                 "intro": "多功能 serverless JS 运行时",
-                "link": "https://blueboat.io/ "
+                "link": "https://blueboat.io/"
             },
             {
-                "name": "languageTool",
+                "name": "languageTool ",
                 "intro": "Grammarly 开源替代品",
-                "link": "https://languagetool.org/dev "
+                "link": "https://languagetool.org/dev"
             },
             {
                 "name": "Publii",
                 "intro": "桌面端的 CMS 工具",
-                "link": "https://github.com/GetPublii/Publii "
+                "link": "https://github.com/GetPublii/Publii"
             },
             {
                 "name": "Virtink",
-                "intro": "K8s 轻量级虚拟化插件",
-                "link": "https://github.com/smartxworks/virtink   "
+                "intro": " K8s 轻量级虚拟化插件",
+                "link": "https://github.com/smartxworks/virtink"
             },
             {
                 "name": "Skeleton",
-                "intro": "全功能 Svelte UI 组件库",
-                "link": "https://skeleton.brainandbonesllc.com/ "
+                "intro": " 全功能 Svelte UI 组件库",
+                "link": "https://skeleton.brainandbonesllc.com/"
             },
             {
                 "name": "",
@@ -775,27 +775,27 @@
             {
                 "name": "",
                 "intro": "Google 发布新编程语言 Carbon",
-                "link": "https://github.com/carbon-language/carbon-lang "
+                "link": "https://github.com/carbon-language/carbon-lang"
             },
             {
                 "name": "榫卯",
-                "intro": "Sunmao ｜低代码工具开发框架",
-                "link": "https://github.com/smartxworks/sunmao-ui "
+                "intro": " Sunmao ｜低代码工具开发框架",
+                "link": "https://github.com/smartxworks/sunmao-ui"
             },
             {
                 "name": "Comcast",
                 "intro": "模拟弱网环境的工具",
-                "link": "https://github.com/tylertreat/comcast "
+                "link": "https://github.com/tylertreat/comcast"
             },
             {
                 "name": "Tweakpane",
-                "intro": "一个调节参数的 JS 库",
-                "link": "https://cocopon.github.io/tweakpane/ "
+                "intro": " 一个调节参数的 JS 库",
+                "link": "https://cocopon.github.io/tweakpane/"
             },
             {
                 "name": "",
                 "intro": "AI 系统 DALL·E 开放 Beta 测试",
-                "link": "https://openai.com/blog/dall-e-now-available-in-beta "
+                "link": "https://openai.com/blog/dall-e-now-available-in-beta"
             },
             {
                 "name": "",
@@ -813,27 +813,27 @@
             {
                 "name": "",
                 "intro": "Vite 发布3.0版本",
-                "link": "https://vitejs.dev/blog/announcing-vite3.html "
+                "link": "https://vitejs.dev/blog/announcing-vite3.html"
             },
             {
                 "name": "VictoriaMetrics",
                 "intro": "Prometheus 的开源替代品",
-                "link": "https://victoriametrics.com/products/open-source/ "
+                "link": "https://victoriametrics.com/products/open-source/"
             },
             {
                 "name": "",
                 "intro": "对 Bun 和 Node.js 对比实测",
-                "link": "https://techsparx.com/nodejs/bun/1st-trial.html "
+                "link": "https://techsparx.com/nodejs/bun/1st-trial.html"
             },
             {
                 "name": "Cleanupphotos",
                 "intro": "修图工具",
-                "link": "https://cleanupphotos.com/ "
+                "link": "https://cleanupphotos.com/"
             },
             {
                 "name": "",
                 "intro": "Vim 在线交互式学习平台",
-                "link": "https://www.vimified.com/ "
+                "link": "https://www.vimified.com/"
             },
             {
                 "name": "",
@@ -851,27 +851,27 @@
             {
                 "name": "Bun",
                 "intro": "高性能 JS 运行时",
-                "link": "https://bun.sh/ "
+                "link": "https://bun.sh/"
             },
             {
                 "name": "TAURI",
                 "intro": "Electron 轻量级替代品",
-                "link": "https://tauri.app/ "
+                "link": "https://tauri.app/"
             },
             {
                 "name": "Felt",
                 "intro": "在线地图编辑网站",
-                "link": "https://felt.com/ "
+                "link": "https://felt.com/"
             },
             {
                 "name": "PocketBase",
-                "intro": "开源实时后端方案",
-                "link": "https://pocketbase.io/ "
+                "intro": " 开源实时后端方案",
+                "link": "https://pocketbase.io/"
             },
             {
                 "name": "fuite",
                 "intro": "自动探测 Web 应用内存泄漏",
-                "link": "https://github.com/nolanlawson/fuite "
+                "link": "https://github.com/nolanlawson/fuite"
             },
             {
                 "name": "",
@@ -889,27 +889,27 @@
             {
                 "name": "Pyroscope",
                 "intro": "性能持续分析工具",
-                "link": "https://pyroscope.io/ "
+                "link": "https://pyroscope.io/"
             },
             {
                 "name": "daisyUI",
                 "intro": "前端组件库",
-                "link": "https://daisyui.com/ "
+                "link": "https://daisyui.com/"
             },
             {
                 "name": "",
                 "intro": "《数据库必须知道的那些事》",
-                "link": "https://architecturenotes.co/things-you-should-know-about-databases "
+                "link": "https://architecturenotes.co/things-you-should-know-about-databases"
             },
             {
                 "name": "",
                 "intro": "《浏览器是如何工作的》",
-                "link": "https://web.dev/howbrowserswork/ "
+                "link": "https://web.dev/howbrowserswork/"
             },
             {
                 "name": "",
                 "intro": "Spark 与 K8s 集成新动向",
-                "link": "https://www.cncf.io/blog/2022/06/30/why-spark-chooses-volcano-as-built-in-batch-scheduler-on-kubernetes/ "
+                "link": "https://www.cncf.io/blog/2022/06/30/why-spark-chooses-volcano-as-built-in-batch-scheduler-on-kubernetes/"
             },
             {
                 "name": "Raindrop",
@@ -927,37 +927,37 @@
             {
                 "name": "",
                 "intro": "Github AI 代码助手 Copilot 正式发布",
-                "link": "https://github.blog/2022-06-21-github-copilot-is-generally-available-to-all-developers/ "
+                "link": "https://github.blog/2022-06-21-github-copilot-is-generally-available-to-all-developers/"
             },
             {
                 "name": "Markone",
                 "intro": "绘制时间轴的工具",
-                "link": "https://markwhen.com/ "
+                "link": "https://markwhen.com/"
             },
             {
                 "name": "Viddy",
                 "intro": "现代的 watch 替代品",
-                "link": "https://github.com/sachaos/viddy "
+                "link": "https://github.com/sachaos/viddy"
             },
             {
                 "name": "Elastic UI",
                 "intro": "Elastic 开源的前端 UI 组件库",
-                "link": "https://elastic.github.io/eui/#/ "
+                "link": "https://elastic.github.io/eui/#/"
             },
             {
                 "name": "Avo",
                 "intro": "构建在 Ruby on Rails 方案之上的应用开发框架",
-                "link": "https://avohq.io/ "
+                "link": "https://avohq.io/"
             },
             {
                 "name": "Unclutter",
                 "intro": "整理网页的浏览器插件",
-                "link": "https://unclutter.lindylearn.io/ "
+                "link": "https://unclutter.lindylearn.io/"
             },
             {
                 "name": "",
                 "intro": "SQLite 发布 SQLite4 设计",
-                "link": "https://sqlite.org/src4/doc/trunk/www/design.wiki "
+                "link": "https://sqlite.org/src4/doc/trunk/www/design.wiki"
             },
             {
                 "name": "",
@@ -1018,27 +1018,27 @@
             {
                 "name": "Knight Lab",
                 "intro": "用代码更好地讲故事",
-                "link": "https://knightlab.northwestern.edu/projects/ "
+                "link": "https://knightlab.northwestern.edu/projects/"
             },
             {
                 "name": "plasmo",
                 "intro": "浏览器插件开发平台",
-                "link": "https://www.plasmo.com/ "
+                "link": "https://www.plasmo.com/"
             },
             {
                 "name": "Shotcut",
                 "intro": "开源免费跨平台视频编辑器",
-                "link": "https://shotcut.org/ "
+                "link": "https://shotcut.org/"
             },
             {
                 "name": "DEEPKIT",
                 "intro": "Typescript 高性能框架",
-                "link": "https://deepkit.io/ "
+                "link": "https://deepkit.io/"
             },
             {
                 "name": "opensourcealternative.to",
                 "intro": "查找开源替代品的网站",
-                "link": "https://www.opensourcealternative.to/ "
+                "link": "https://www.opensourcealternative.to/"
             },
             {
                 "name": "untools",
@@ -1056,37 +1056,37 @@
             {
                 "name": "Dragonfly",
                 "intro": "一个25倍快的 Redis 竞品",
-                "link": "https://github.com/dragonflydb/dragonfly "
+                "link": "https://github.com/dragonflydb/dragonfly"
             },
             {
                 "name": "PlantUML",
                 "intro": "快速编写 UML 图",
-                "link": "https://plantuml.com/ "
+                "link": "https://plantuml.com/"
             },
             {
                 "name": "Neon",
                 "intro": "开源 serverless Postgres 方案",
-                "link": "https://neon.tech/ "
+                "link": "https://neon.tech/"
             },
             {
                 "name": "ROAPI",
                 "intro": "数据聚合 API",
-                "link": "https://github.com/roapi/roapi "
+                "link": "https://github.com/roapi/roapi"
             },
             {
                 "name": "Tetra",
                 "intro": "一个全栈框架",
-                "link": "https://www.tetraframework.com/ "
+                "link": "https://www.tetraframework.com/"
             },
             {
                 "name": "fd",
                 "intro": "终端工具 Find 的替代品",
-                "link": "https://github.com/sharkdp/fd "
+                "link": "https://github.com/sharkdp/fd"
             },
             {
                 "name": "svelvet",
                 "intro": "交互式关系图构建工具",
-                "link": "https://svelvet.io/docs/basic-usage/ "
+                "link": "https://svelvet.io/docs/basic-usage/"
             },
             {
                 "name": "ffmpeg buddy",
@@ -1102,34 +1102,34 @@
         "pubdate": 1653784200,
         "data": [
             {
-                "name": "PikaScript",
-                "intro": "超轻量级 Python 引擎",
-                "link": "https://github.com/pikasTech/pikascript "
+                "name": "PikaScript ",
+                "intro": " 超轻量级 Python 引擎",
+                "link": "https://github.com/pikasTech/pikascript"
             },
             {
                 "name": "",
                 "intro": "bionic-reading 的快速阅读英文插件",
-                "link": "https://github.com/ansh/bionic-reading "
+                "link": "https://github.com/ansh/bionic-reading"
             },
             {
                 "name": "IndigoStack",
                 "intro": "MacOS 平台上的本地开发环境",
-                "link": "https://indigostack.app/ "
+                "link": "https://indigostack.app/"
             },
             {
                 "name": "",
                 "intro": "TypeScript 发布4.7版本",
-                "link": "https://devblogs.microsoft.com/typescript/announcing-typescript-4-7/ "
+                "link": "https://devblogs.microsoft.com/typescript/announcing-typescript-4-7/"
             },
             {
                 "name": "AnimatiSS",
                 "intro": "一组 CSS 动画合集",
-                "link": "https://xsgames.co/animatiss "
+                "link": "https://xsgames.co/animatiss"
             },
             {
                 "name": "Arctype",
-                "intro": "SQL 数据库客户端",
-                "link": "https://arctype.com/ "
+                "intro": " SQL 数据库客户端",
+                "link": "https://arctype.com/"
             },
             {
                 "name": "",
@@ -1145,34 +1145,34 @@
         "pubdate": 1653179401,
         "data": [
             {
-                "name": "Bud",
-                "intro": "GO 的全栈 web 框架",
-                "link": "https://github.com/livebud/bud "
+                "name": "Bud ",
+                "intro": " GO 的全栈 web 框架",
+                "link": "https://github.com/livebud/bud"
             },
             {
-                "name": "Aspect",
-                "intro": "可视化开发 React 组件",
-                "link": "https://aspect.app/ "
+                "name": "Aspect ",
+                "intro": " 可视化开发 React 组件",
+                "link": "https://aspect.app/"
             },
             {
                 "name": "",
                 "intro": "在 SQLite 中使用 JSON 和 virtual columns",
-                "link": "https://antonz.org/json-virtual-columns "
+                "link": "https://antonz.org/json-virtual-columns"
             },
             {
                 "name": "Sliderland",
                 "intro": "一个极简风格的 JS 实验园地",
-                "link": "https://sliderland.blinry.org/ "
+                "link": "https://sliderland.blinry.org/"
             },
             {
                 "name": "LiveTerm",
                 "intro": "开发终端风格网站",
-                "link": "https://liveterm.vercel.app/ "
+                "link": "https://liveterm.vercel.app/"
             },
             {
                 "name": "",
                 "intro": "Datadog 介绍第三代事件存储库 Husky",
-                "link": "https://www.datadoghq.com/blog/engineering/introducing-husky "
+                "link": "https://www.datadoghq.com/blog/engineering/introducing-husky"
             },
             {
                 "name": "Quastor",
@@ -1190,37 +1190,37 @@
             {
                 "name": "BoltDB 作者的博客",
                 "intro": "如何在 fly.io 中使用 SQLite",
-                "link": "https://fly.io/blog/all-in-on-sqlite-litestream "
+                "link": "https://fly.io/blog/all-in-on-sqlite-litestream"
             },
             {
                 "name": "Litestream",
-                "intro": "Sqlite 实时复制工具",
-                "link": "https://github.com/benbjohnson/litestream "
+                "intro": " Sqlite 实时复制工具",
+                "link": "https://github.com/benbjohnson/litestream"
             },
             {
                 "name": "",
                 "intro": "Cloudflare 发布 D1",
-                "link": "https://blog.cloudflare.com/introducing-d1/ "
+                "link": "https://blog.cloudflare.com/introducing-d1/"
             },
             {
                 "name": "rqlite",
-                "intro": "与 D1 相似的开源分布式数据库",
-                "link": "https://github.com/rqlite/rqlite "
+                "intro": " 与 D1 相似的开源分布式数据库",
+                "link": "https://github.com/rqlite/rqlite"
             },
             {
                 "name": "CaskDB",
                 "intro": "一个 kv 存储引擎的教学工具",
-                "link": "https://github.com/avinassh/py-caskdb "
+                "link": "https://github.com/avinassh/py-caskdb"
             },
             {
                 "name": "CubeDesk",
                 "intro": "魔方提速工具",
-                "link": "https://www.cubedesk.io/home "
+                "link": "https://www.cubedesk.io/home"
             },
             {
-                "name": "DFlex",
+                "name": "DFlex ",
                 "intro": "一个适配所有 JS 框架的可拖拽的工具库",
-                "link": "https://www.dflex.dev/ "
+                "link": "https://www.dflex.dev/"
             },
             {
                 "name": "",

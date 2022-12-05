@@ -6,7 +6,7 @@
             </theader>            <tbody>                <tr>
                     <td>Stable Diffusion</td>
                     <td>开源的 AI 图片生成模型</td>
-                    <td>https://surrealdb.com/ </td>
+                    <td>https://surrealdb.com/</td>
                 </tr>                <tr>
                     <td>react-design-editor</td>
                     <td>Canva 的开源替代品</td>
@@ -66,7 +66,7 @@
             </theader>            <tbody>                <tr>
                     <td></td>
                     <td>远程开发方案 Coder</td>
-                    <td>https://coder.com/  </td>
+                    <td>https://coder.com/</td>
                 </tr>                <tr>
                     <td></td>
                     <td>高性能 virtual DOM</td>
@@ -96,23 +96,23 @@
             </theader>            <tbody>                <tr>
                     <td></td>
                     <td>开源知识库软件能否替代 Notion</td>
-                    <td>https://github.com/toeverything/AFFiNE </td>
+                    <td>https://github.com/toeverything/AFFiNE</td>
                 </tr>                <tr>
                     <td></td>
                     <td>Copilot 开源替代品</td>
-                    <td>https://github.com/moyix/fauxpilot </td>
+                    <td>https://github.com/moyix/fauxpilot</td>
                 </tr>                <tr>
                     <td></td>
                     <td>逆向工程工具箱</td>
-                    <td>https://github.com/WerWolv/ImHex </td>
+                    <td>https://github.com/WerWolv/ImHex</td>
                 </tr>                <tr>
                     <td>Emery</td>
                     <td>效率工具</td>
-                    <td>https://emery.to/ </td>
+                    <td>https://emery.to/</td>
                 </tr>                <tr>
                     <td></td>
                     <td>一篇介绍 eBPF 技术的文章</td>
-                    <td>https://www.groundcover.com/blog/what-is-ebpf </td>
+                    <td>https://www.groundcover.com/blog/what-is-ebpf</td>
                 </tr>                <tr>
                     <td></td>
                     <td>用 DALL·E 2 生成 logo 图片的分享文章</td>
