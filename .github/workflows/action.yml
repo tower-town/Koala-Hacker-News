@@ -3,9 +3,6 @@ name: auto update Koala-Hacker-News
 on:
   schedule:
     - cron: '0 20 * * MON'
-  push:
-    branches:
-      - main
 
 
 jobs:
