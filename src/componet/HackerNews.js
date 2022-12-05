@@ -345,7 +345,7 @@ class HackerNews {
         docs.keys.forEach((value, index) => {
 
             let doc_path = docs['path'][index];
-            let re_path = path.relative(path.basename(readme_path), doc_path);
+            let re_path = path.relative(path.dirname(readme_path), doc_path);
             let new_path = re_path.replaceAll('\\', '/');
             chapters += `- [${value}: [Hacker News 周报]](${new_path})\n`;
         })
