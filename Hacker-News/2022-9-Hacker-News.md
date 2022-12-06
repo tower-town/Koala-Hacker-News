@@ -112,33 +112,33 @@
             </theader>            <tbody>                <tr>
                     <td>Devbox</td>
                     <td>快速启动隔离开发环境</td>
-                    <td></td>
+                    <td>https://github.com/jetpack-io/devbox</td>
                 </tr>                <tr>
                     <td></td>
                     <td>绘图语言 D2</td>
-                    <td></td>
+                    <td>https://d2-lang.com/tour/intro</td>
                 </tr>                <tr>
                     <td>YAO</td>
                     <td>开发应用引擎</td>
-                    <td></td>
+                    <td>https://yaoapps.com/</td>
                 </tr>                <tr>
                     <td>JSON Crack</td>
                     <td>JSON 可视化工具</td>
-                    <td></td>
+                    <td>https://jsoncrack.com/</td>
                 </tr>                <tr>
                     <td>Motionity</td>
                     <td>动效编辑器</td>
-                    <td></td>
+                    <td>https://github.com/alyssaxuu/motionity</td>
                 </tr>                <tr>
                     <td>mvSQLite</td>
                     <td>分布式 SQLite</td>
-                    <td></td>
+                    <td>https://univalence.me/posts/mvsqlite</td>
                 </tr>                <tr>
                     <td></td>
                     <td>Heroku 即将停止免费额度</td>
-                    <td></td>
+                    <td>https://dev.to/lorenzojkrl/bye-bye-heroku-2npi</td>
                 </tr>                <tr>
                     <td></td>
                     <td>GitHub 开发者关系副总裁回复移除 Trending</td>
-                    <td></td>
+                    <td>https://github.com/community/community/discussions/31644</td>
                 </tr>            </tbody>            </table>

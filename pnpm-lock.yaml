@@ -3,14 +3,12 @@ lockfileVersion: 5.4
 specifiers:
   async: ^3.2.4
   fs: 0.0.1-security
-  http: 0.0.1-security
   jest: ^29.3.1
   path: ^0.12.7
 
 dependencies:
   async: 3.2.4
   fs: 0.0.1-security
-  http: 0.0.1-security
   path: 0.12.7
 
 devDependencies:
@@ -1190,10 +1188,6 @@ packages:
   /html-escaper/2.0.2:
     resolution: {integrity: sha512-H2iMtd0I4Mt5eYiapRdIDjp+XzelXQ0tFE4JS7YFwFevXXMmOp9myNrUvCg0D6ws8iqkRPBfKHgbwig1SmlLfg==}
     dev: true
-
-  /http/0.0.1-security:
-    resolution: {integrity: sha512-RnDvP10Ty9FxqOtPZuxtebw1j4L/WiqNMDtuc1YMH1XQm5TgDRaR1G9u8upL6KD1bXHSp9eSXo/ED+8Q7FAr+g==}
-    dev: false
 
   /human-signals/2.1.0:
     resolution: {integrity: sha512-B4FFZ6q/T2jhhksgkbEW3HBvWIfDW85snkQgawt07S7J5QXTk6BkNV+0yAeZrM5QpMAdYlocGoljn0sJ/WQkFw==}

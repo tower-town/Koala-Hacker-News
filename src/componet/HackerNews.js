@@ -1,20 +1,46 @@
-const http = require("http");
 const fs = require('fs');
 const path = require('path');
 const async = require('async');
+const Sort = require('./sort');
 
 class HackerNews {
     constructor() {
         this.params = {};
         this.url = '';
+        this.init();
+    }
+
+    init(){
 
         this.data_path = path.join(__dirname, '../info.json');
+
         this.json_data = JSON.parse(this.read_file(this.data_path));
 
         this.bvids = Object.keys(this.json_data);
 
         this.api_path = path.join(__dirname, '../bilibili-api.json');
         this.api_data = JSON.parse(this.read_file(this.api_path))
+    }
+
+    sort_json(json_data){
+        let pubdates_dict = {};
+        let sort_data = {}
+
+        for (let key in json_data){
+            pubdates_dict[json_data[key]['pubdate']] = key;
+        }
+
+        let pubdates = Object.keys(pubdates_dict);
+        let right_index = pubdates.length - 1;
+        let sort = new Sort(0);
+        sort.quicksort(pubdates, 0, right_index);
+
+        pubdates.forEach((pubdate, _) => {
+            let key = pubdates_dict[pubdate];
+            sort_data[key] = json_data[key];
+        })
+
+        return sort_data;
     }
 
     parse_url(url, params) {
@@ -43,7 +69,8 @@ class HackerNews {
         let file_data = '';
 
         if (typeof data === "object") {
-            file_data = JSON.stringify(data, null, 4);
+            let sort_data = this.sort_json(data);
+            file_data = JSON.stringify(sort_data, null, 4);
         }
         else {
             file_data = data;
@@ -127,7 +154,7 @@ class HackerNews {
                 let aid_key = aids_key[index];
                 let bvid = aids[aid_key];
                 let data = value['data'];
-                let message = that.get_top_commment(data);
+                let message = that.get_top_commment(data, bvid);
                 let intro_data = that.parse_comment(message);
                 video_info[bvid]['data'] = intro_data;
 
@@ -136,31 +163,53 @@ class HackerNews {
         })
     }
 
-    get_top_commment(comment) {
-        let top_comment = comment['top']['upper'];
-        let top_reply = comment['replies'][0];
-        let message = '';
-        let message_list = [];
+    get_top_commment(comment, bvid) {
+        let top = {
+            "comment": comment['top']['upper'],
+            "reply": comment['replies'][0]
+        };
 
-        if (top_comment === null) {
-
-            if (top_reply['member']['mid'] === '489667127') {
-                message = top_reply['content']['message'];
+        let message = {
+            "content": '',
+            'comment': '',
+            'reply': '',
+            "dict": {
+                "bvid": bvid,
+                "list": []
             }
+        };
+
+        if (top['reply']['member']['mid'] === '489667127') {
+            message['reply'] = top['reply']['content']['message'];
+        }
+
+
+        if (top['comment'] === null) {
+            message['comment'] = '';
         }
         else {
-            message = top_comment['content']['message'];
+            message['comment'] = top['comment']['content']['message'];
+            if (top['comment']['replies'] !== null){
+                message['reply'] = top['comment']['replies'][0]['content']['message'];
+            }
         }
-        message.split('\n').forEach((value, _) => {
-            message_list.push(value.trim());
+
+        message['content'] = `${message['comment']}\n${message['reply']}`;
+
+        message['content'].split('\n').forEach((value, _) => {
+            message['dict']['list'].push(value.trim());
         });
 
-        return message_list;
+        return message['dict'];
     }
 
     parse_comment(message) {
 
-        let message_data = message.filter(value => /^[0-9hw].*/.test(value));
+        let message_data = message['list'].filter(value => /^[0-9hw].*/.test(value));
+
+        // if (message['bvid'] === 'BV1u14y157NA'){
+        //     console.log(message['list']);
+        // }
 
         let intro = {
             "data": [{
@@ -196,7 +245,7 @@ class HackerNews {
                     const regexp = /\d{2}:\d{2}(?:\s+)?(.*$)/g;
                     info = [...value.matchAll(regexp)][0];
                     if (info) {
-                        content = info[1];
+                        content = info[1].replaceAll(/\d{2}:\d{2}/g, ' ');
                     }
                     else {
                         console.log(`Error: escaple capture is ${value}`);
@@ -211,15 +260,16 @@ class HackerNews {
                 intro['link'][index] = '';
             }
             intro['data'][index] = {
-                "name": value,
-                "intro": intro['content'][index],
-                "link": intro['link'][index]
+                "name": value.trim(),
+                "intro": intro['content'][index].trim(),
+                "link": intro['link'][index].trim()
             }
         })
         return intro['data'];
     }
 
     generate_tables() {
+        this.init();
         let data_keys = Object.keys(this.json_data);
         let tables = {
             "content": [],

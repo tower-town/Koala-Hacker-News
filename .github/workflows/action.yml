@@ -16,11 +16,10 @@ jobs:
 
     steps:
     
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
       with:
         ref: ${{ github.head_ref }}
 
-    - uses: actions/checkout@v3
     - uses: pnpm/action-setup@646cdf48217256a3d0b80361c5a50727664284f2
       with:
         version: 7.17.0

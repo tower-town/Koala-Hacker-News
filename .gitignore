@@ -130,4 +130,4 @@ dist
 .pnp.*
 
 # define temp file
-./tests/*.md
+./test/*.md

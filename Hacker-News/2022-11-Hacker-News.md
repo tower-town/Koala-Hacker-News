@@ -103,6 +103,6 @@
                 <th>链接</th>
             </theader>            <tbody>                <tr>
                     <td></td>
-                    <td>phlare00:38 Apache AGE00:56 JC01:35 history01:56 ffmpeg guide02:14 trub...</td>
+                    <td>phlare  Apache AGE  JC  history  ffmpeg guide  trub...</td>
                     <td>https://www.bilibili.com/h5/note-app/view?cvid=19564870&pagefrom=comment&richtext=true</td>
                 </tr>            </tbody>            </table>
