@@ -1,7 +1,5 @@
-const fs = require('fs');
 const path = require('path');
 const async = require('async');
-const Sort = require('./sort');
 const Utils = require('./utils');
 
 class HackerNews {

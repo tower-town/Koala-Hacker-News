@@ -1,11 +1,11 @@
 const Sort = require('../src/componet/sort');
-const HackerNews = require('../src/componet/HackerNews')
+const Utils = require('../src/componet/utils')
 
 
 test("test quicksort", () => {
     let rand_list = [1, 6, 3, 9, 8, 67, 25, 4, 10, 7, 45, 89];
 
-    let sort = new Sort(flag=1);
+    const sort = new Sort(flag=1);
     sort.quicksort(rand_list, 0, rand_list.length - 1);
 
     let expect_list = [1, 3, 4, 6, 7, 8, 9, 10, 25, 45, 67, 89]
@@ -37,8 +37,9 @@ test("test sort json data", () => {
         }
     }
 
-    let HN = new HackerNews;
-    let recieve_json = HN.sort_json(json_data, 'pubdate');
+    const utils = new Utils();
+
+    let recieve_json = utils.sort_json(json_data, 'pubdate');
 
     expect(recieve_json).toStrictEqual(expect_json);
     

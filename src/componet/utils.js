@@ -1,3 +1,6 @@
+const fs = require('fs');
+const Sort = require('./sort');
+
 class Utils{
     constructor(){
 
@@ -39,7 +42,7 @@ class Utils{
         try {
             data = fs.readFileSync(path, 'utf-8');
         } catch (err) {
-            throw new Error(`no such file: ${path}`, { cause: err });
+            throw new Error(`no such file: ${path}\n${err}`, { cause: err });
         }
         return data;
     }
@@ -60,7 +63,7 @@ class Utils{
         }
         fs.writeFile(path, data = file_data, (error) => {
             if (error) {
-                console.log(`error is ${error.message}`);
+                throw new Error(`${path}\n${err}`, { cause: err });
             }
         });
     }
