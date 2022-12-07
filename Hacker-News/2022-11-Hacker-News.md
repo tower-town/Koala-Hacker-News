@@ -102,7 +102,31 @@
                 <th>简介</th>
                 <th>链接</th>
             </theader>            <tbody>                <tr>
+                    <td>phlare</td>
+                    <td>GrafanaLabs 推出持续性能分析平台 Phlare</td>
+                    <td>https://github.com/grafana/phlare</td>
+                </tr>                <tr>
                     <td></td>
-                    <td>phlare  Apache AGE  JC  history  ffmpeg guide  trub...</td>
-                    <td>https://www.bilibili.com/h5/note-app/view?cvid=19564870&pagefrom=comment&richtext=true</td>
+                    <td>PostgreSQL 提供图查询能力插件 ApacheAGE</td>
+                    <td>https://age.apache.org/</td>
+                </tr>                <tr>
+                    <td>JC</td>
+                    <td>命令结果转 JSON 工具 JC</td>
+                    <td>https://github.com/kellyjonbrazil/jc</td>
+                </tr>                <tr>
+                    <td></td>
+                    <td>shell 中 history 命令全新实现 (多设备共享历史命令)</td>
+                    <td>https://github.com/ddworken/hishtory</td>
+                </tr>                <tr>
+                    <td>ffmpeg</td>
+                    <td>过滤器图形化工具</td>
+                    <td>https://ffmpeg.guide/</td>
+                </tr>                <tr>
+                    <td></td>
+                    <td>turbopack 速度 10 倍于 vite？尤雨溪发文反击</td>
+                    <td>https://github.com/yyx990803/vite-vs-next-turbo-hmr/discussions/8</td>
+                </tr>                <tr>
+                    <td></td>
+                    <td>Heroku 免费替代品</td>
+                    <td>https://github.com/Engagespot/heroku-free-alternatives</td>
                 </tr>            </tbody>            </table>

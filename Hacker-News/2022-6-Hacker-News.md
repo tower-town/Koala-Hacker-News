@@ -44,31 +44,31 @@
             </theader>            <tbody>                <tr>
                     <td>FRESH</td>
                     <td>Deno 原生 SSR Web 框架</td>
-                    <td></td>
+                    <td>https://fresh.deno.dev/</td>
                 </tr>                <tr>
                     <td>Vitest</td>
                     <td>基于 vite 的单元测试框架</td>
-                    <td></td>
+                    <td>https://cn.vitest.dev/</td>
                 </tr>                <tr>
                     <td>Rulex</td>
                     <td>新的正则表达式语言</td>
-                    <td></td>
+                    <td>https://pomsky-lang.org/</td>
                 </tr>                <tr>
                     <td>Recut</td>
                     <td>视频剪辑工具</td>
-                    <td></td>
+                    <td>https://getrecut.com/</td>
                 </tr>                <tr>
                     <td>moon</td>
                     <td>构建工具</td>
-                    <td></td>
+                    <td>https://moonrepo.dev/</td>
                 </tr>                <tr>
                     <td></td>
                     <td>一个寻找项目灵感的网站</td>
-                    <td></td>
+                    <td>https://mysideproject.rocks/</td>
                 </tr>                <tr>
                     <td></td>
                     <td>程序员社交新尝试</td>
-                    <td></td>
+                    <td>https://connectdome.com/</td>
                 </tr>            </tbody>            </table>
 [[Hacker News 周报] TypeScript 高性能框架；浏览器插件开发平台；用代码更好地讲故事](https://www.bilibili.com/video/BV1rS4y1i72U)
             <table>            <theader>

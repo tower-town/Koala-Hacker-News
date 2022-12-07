@@ -147,9 +147,14 @@ class HackerNews {
 
         let message_data = message['list'].filter(value => /^[0-9hw].*/.test(value));
 
-        // if (message['bvid'] === 'BV1u14y157NA'){
-        //     console.log(message['list']);
-        // }
+        let note_path = path.join(__dirname, '../data/note.json');
+        let note_data = JSON.parse(this.utils.read_file(note_path));
+        
+        for (let key in note_data) {
+            if (message['bvid'] === key) {
+                return note_data[key]['data'];
+            }
+        }
 
         let intro = {
             "data": [{
@@ -162,6 +167,8 @@ class HackerNews {
             "link": [],
             "content": []
         }
+        
+
         message_data.forEach((value, index) => {
             let name = '';
             let content = '';

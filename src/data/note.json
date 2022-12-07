@@ -1,0 +1,81 @@
+{
+    "BV1sY411T7QL":{
+        "data": [
+            {
+                "name": "FRESH",
+                "intro": "Deno 原生 SSR Web 框架",
+                "link": "https://fresh.deno.dev/"
+            },
+            {
+                "name": "Vitest",
+                "intro": "基于 vite 的单元测试框架",
+                "link": "https://cn.vitest.dev/"
+            },
+            {
+                "name": "Rulex",
+                "intro": "新的正则表达式语言",
+                "link": "https://pomsky-lang.org/"
+            },
+            {
+                "name": "Recut",
+                "intro": "视频剪辑工具",
+                "link": "https://getrecut.com/"
+            },
+            {
+                "name": "moon",
+                "intro": "构建工具",
+                "link": "https://moonrepo.dev/"
+            },
+            {
+                "name": "",
+                "intro": "一个寻找项目灵感的网站",
+                "link": "https://mysideproject.rocks/"
+            },
+            {
+                "name": "",
+                "intro": "程序员社交新尝试",
+                "link": "https://connectdome.com/"
+            }
+        ]
+    },
+
+    "BV1u14y157NA": {
+        "data": [
+            {
+                "name": "phlare",
+                "intro": "GrafanaLabs 推出持续性能分析平台 Phlare",
+                "link": "https://github.com/grafana/phlare"
+            },
+            {
+                "name": "",
+                "intro": "PostgreSQL 提供图查询能力插件 ApacheAGE",
+                "link": "https://age.apache.org/"
+            },
+            {
+                "name": "JC",
+                "intro": "命令结果转 JSON 工具 JC",
+                "link": "https://github.com/kellyjonbrazil/jc"
+            },
+            {
+                "name": "",
+                "intro": "shell 中 history 命令全新实现 (多设备共享历史命令)",
+                "link": "https://github.com/ddworken/hishtory"
+            },
+            {
+                "name": "ffmpeg",
+                "intro": "过滤器图形化工具",
+                "link": "https://ffmpeg.guide/"
+            },
+            {
+                "name": "",
+                "intro": "turbopack 速度 10 倍于 vite？尤雨溪发文反击",
+                "link": "https://github.com/yyx990803/vite-vs-next-turbo-hmr/discussions/8"
+            },
+            {
+                "name": "",
+                "intro": "Heroku 免费替代品",
+                "link": "https://github.com/Engagespot/heroku-free-alternatives"
+            }
+        ]
+    }
+}

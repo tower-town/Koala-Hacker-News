@@ -59,3 +59,55 @@ test("test message", () => {
     let result = HN.parse_comment(message);
     expect(result).toEqual(result);
 })
+
+test ("test note", () => {
+    let message = {
+        "bvid": "BV1sY411T7QL",
+        "list": [
+            "01:78 one | 1",
+            "http://a.com"
+        ]
+    };
+
+    let expect_reslut = [
+            {
+                "name": "FRESH",
+                "intro": "Deno 原生 SSR Web 框架",
+                "link": "https://fresh.deno.dev/"
+            },
+            {
+                "name": "Vitest",
+                "intro": "基于 vite 的单元测试框架",
+                "link": "https://cn.vitest.dev/"
+            },
+            {
+                "name": "Rulex",
+                "intro": "新的正则表达式语言",
+                "link": "https://pomsky-lang.org/"
+            },
+            {
+                "name": "Recut",
+                "intro": "视频剪辑工具",
+                "link": "https://getrecut.com/"
+            },
+            {
+                "name": "moon",
+                "intro": "构建工具",
+                "link": "https://moonrepo.dev/"
+            },
+            {
+                "name": "",
+                "intro": "一个寻找项目灵感的网站",
+                "link": "https://mysideproject.rocks/"
+            },
+            {
+                "name": "",
+                "intro": "程序员社交新尝试",
+                "link": "https://connectdome.com/"
+            }
+        ];
+
+
+    let result = HN.parse_comment(message);
+    expect(result).toEqual(expect_reslut);
+})
