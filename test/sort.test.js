@@ -38,7 +38,7 @@ test("test sort json data", () => {
     }
 
     let HN = new HackerNews;
-    let recieve_json = HN.sort_json(json_data);
+    let recieve_json = HN.sort_json(json_data, 'pubdate');
 
     expect(recieve_json).toStrictEqual(expect_json);
     

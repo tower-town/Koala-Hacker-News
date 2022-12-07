@@ -2,6 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const async = require('async');
 const Sort = require('./sort');
+const Utils = require('./utils');
 
 class HackerNews {
     constructor() {
@@ -12,79 +13,17 @@ class HackerNews {
 
     init(){
 
-        this.data_path = path.join(__dirname, '../info.json');
+        this.utils = new Utils();
+        this.data_path = path.join(__dirname, '../data/data.json');
 
-        this.json_data = JSON.parse(this.read_file(this.data_path));
+        this.json_data = JSON.parse(this.utils.read_file(this.data_path));
 
         this.bvids = Object.keys(this.json_data);
 
-        this.api_path = path.join(__dirname, '../bilibili-api.json');
-        this.api_data = JSON.parse(this.read_file(this.api_path))
+        this.api_path = path.join(__dirname, '../data/bilibili-api.json');
+        this.api_data = JSON.parse(this.utils.read_file(this.api_path))
     }
 
-    sort_json(json_data){
-        let pubdates_dict = {};
-        let sort_data = {}
-
-        for (let key in json_data){
-            pubdates_dict[json_data[key]['pubdate']] = key;
-        }
-
-        let pubdates = Object.keys(pubdates_dict);
-        let right_index = pubdates.length - 1;
-        let sort = new Sort(0);
-        sort.quicksort(pubdates, 0, right_index);
-
-        pubdates.forEach((pubdate, _) => {
-            let key = pubdates_dict[pubdate];
-            sort_data[key] = json_data[key];
-        })
-
-        return sort_data;
-    }
-
-    parse_url(url, params) {
-        let urls = [];
-        let params_keys = Object.keys(params);
-
-        params_keys.forEach((value, index) => {
-            params_keys[index] = `${value}=${params[value]}`;
-        });
-        urls = `${url}?${params_keys.join('&')}`;
-        return urls;
-    }
-
-    read_file(path) {
-        let data = '{}';
-        try {
-            data = fs.readFileSync(path, 'utf-8');
-        } catch (err) {
-            console.log(err);
-        }
-        return data;
-    }
-
-    write_file(path, data) {
-
-        let file_data = '';
-
-        if (typeof data === "object") {
-            let sort_data = this.sort_json(data);
-            file_data = JSON.stringify(sort_data, null, 4);
-        }
-        else {
-            file_data = data;
-        }
-
-        if (!file_data) {
-            file_data = '{}';
-        }
-        fs.writeFile(path, data = file_data, (error) => {
-            if (error) {
-                console.log(`error is ${error.message}`);
-            }
-        });
-    }
 
     get_aids() {
         let api_data = this.api_data['get_aids'];
@@ -93,7 +32,7 @@ class HackerNews {
         let that = this;
 
         let urls = [];
-        urls.push(this.parse_url(this.url, this.params));
+        urls.push(this.utils.parse_url(this.url, this.params));
 
         async.mapLimit(urls, 5, async function (url) {
             const response = await fetch(url)
@@ -113,7 +52,9 @@ class HackerNews {
                         'pubdate': value['pubdate']
                     }
                 })
-                that.write_file(this.data_path, video_info);
+                
+                let sort_data = this.utils.sort_json(video_info, 'pubdate');
+                that.utils.write_file(this.data_path, sort_data);
             })
         })
     }
@@ -139,7 +80,7 @@ class HackerNews {
         let aids_key = Object.keys(aids);
         aids_key.forEach((value, _) => {
             comment_params['oid'] = value;
-            let url = this.parse_url(comment_data['url'], comment_params);
+            let url = this.utils.parse_url(comment_data['url'], comment_params);
             urls.push(url);
         });
 
@@ -158,7 +99,8 @@ class HackerNews {
                 let intro_data = that.parse_comment(message);
                 video_info[bvid]['data'] = intro_data;
 
-                that.write_file(this.data_path, video_info);
+                let sort_data = this.utils.sort_json(video_info, 'pubdate');
+                that.utils.write_file(this.data_path, sort_data);
             })
         })
     }
@@ -382,7 +324,7 @@ class HackerNews {
                 console.log(docs[key]);
             }
             paths.push(file['path']);
-            this.write_file(file['path'], file['content']);
+            this.utils.write_file(file['path'], file['content']);
         })
         
         return {
@@ -408,7 +350,7 @@ class HackerNews {
         let file_end = '\n## 参考\n\n - [bilibili-api-collect](https://github.com/SocialSisterYi/bilibili-API-collect)';
 
         let readme = `${title}${contents}${chapters}${file_end}`;
-        this.write_file(readme_path, readme);
+        this.utils.write_file(readme_path, readme);
     }
 };
 
