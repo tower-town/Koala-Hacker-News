@@ -1,6 +1,5 @@
-const path = require('path');
-const fs = require('fs');
-const HackerNews = require('./componet/HackerNews');
+import * as path from "path";
+import { HackerNews } from "./componet/HackerNews";
 
 let md_path = path.join(__dirname, '../Hacker-News/');
 let readme_path = path.join(__dirname, '../README.md');

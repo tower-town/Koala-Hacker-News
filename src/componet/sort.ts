@@ -1,9 +1,11 @@
-class Sort {
-    constructor(flag) {
+export class Sort {
+    flag : boolean;
+
+    constructor(flag: boolean) {
         this.flag = flag;
     }
 
-    quicksort(arr, p, r) {
+    quicksort(arr: number[] | string[], p: number, r: number) {
         if (p < r) {
             let q = this.rand_divide(arr, p, r);
             this.quicksort(arr, p, q - 1);
@@ -11,18 +13,18 @@ class Sort {
         }
     }
 
-    rand_divide(arr, p, r) {
+    rand_divide(arr: number[] | string[], p: number, r: number) : number {
         let i = Math.round(Math.random() * (r - p) + p);
         this.swap(arr, r, i);
 
         return this.divide(arr, p, r);
     }
 
-    divide(arr, p, r) {
-        let x = arr[r];
+    divide(arr: number[] | string[], p: number, r: number) : number {
+        let x = Number(arr[r]);
         let i = p - 1;
         for (let j = p; j <= r - 1; j++) {
-            if (this.flag === 1){
+            if (this.flag === true){
                 if (arr[j] <= x) {
                     i += 1;
                     this.swap(arr, i, j);
@@ -41,11 +43,9 @@ class Sort {
         return i + 1;
     }
 
-    swap(arr, i, j) {
-        let temp = arr[i];
-        arr[i] = arr[j];
+    swap(arr: number[] | string[], i: number, j: number) {
+        let temp = Number(arr[i]);
+        arr[i] = Number(arr[j]);
         arr[j] = temp;
     }
 }
-
-module.exports = Sort;

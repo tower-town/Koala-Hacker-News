@@ -1,4 +1,4 @@
-const HackerNews = require('../src/componet/HackerNews')
+import { HackerNews } from "../src/componet/HackerNews";
 
 const HN = new HackerNews();
 

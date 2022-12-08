@@ -1,11 +1,11 @@
-const Sort = require('../src/componet/sort');
-const Utils = require('../src/componet/utils')
+import { Sort } from "../src/componet/sort";
+import { Utils } from "../src/componet/utils";
 
 
 test("test quicksort", () => {
-    let rand_list = [1, 6, 3, 9, 8, 67, 25, 4, 10, 7, 45, 89];
+    let rand_list = ["1", 6, 3, 9, "8", 67, 25, "4", 10, 7, 45, "89"];
 
-    const sort = new Sort(flag=1);
+    const sort = new Sort(true);
     sort.quicksort(rand_list, 0, rand_list.length - 1);
 
     let expect_list = [1, 3, 4, 6, 7, 8, 9, 10, 25, 45, 67, 89]
