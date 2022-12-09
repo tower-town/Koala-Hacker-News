@@ -35,7 +35,7 @@ jobs:
       with:
         node-version: '18'
         cache: 'pnpm'
-    - run: pnpm install -g tsc
+    - run: pnpm install typescript
     - run: pnpm install
     - run: pnpm test
     - run: pnpm build
