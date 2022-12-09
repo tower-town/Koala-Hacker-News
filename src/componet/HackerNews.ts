@@ -23,25 +23,29 @@ export interface JsonData {
 		aid: number;
 		bvid: string;
 		pubdate: number;
-		data?: [
-			{
-				name: string;
-				intro: string;
-				link: string;
-			}[],
-		];
+		data?: IntroData[];
 	};
 }
 
 interface IntroData {
+	name: string;
+	intro: string;
+	link: string;
+}
+
+interface NoteData {
 	[bvid: string]: {
-		data: [
-			{
-				name: string;
-				intro: string;
-				link: string;
-			}[],
-		];
+		data: IntroData[];
+	};
+}
+
+interface Tables {
+	content: string[];
+	tr: string[];
+	title: {
+		content: string[];
+		link: string[];
+		pubdate: string[];
 	};
 }
 
@@ -95,8 +99,8 @@ export class HackerNews {
 				let video_info = this.json_data!;
 				results?.forEach((data: Response, index) => {
 					let ids_data = data["data"];
-					// rome-ignore lint/suspicious/noExplicitAny: <explanation>
 					ids_data?.["archives"].forEach(
+					// rome-ignore lint/suspicious/noExplicitAny: <explanation>
 						(value: { [key: string]: any }, _: number) => {
 							let bvid = value["bvid"];
 							video_info[bvid] = {
@@ -167,8 +171,8 @@ export class HackerNews {
 		);
 	}
 
-	// rome-ignore lint/suspicious/noExplicitAny: <explanation>
 	get_top_commment(
+	// rome-ignore lint/suspicious/noExplicitAny: <explanation>
 		comment: { [key: string]: any },
 		bvid: string,
 	): {
@@ -186,9 +190,11 @@ export class HackerNews {
 			reply: "",
 			dict: {
 				bvid: bvid,
-				list: [""],
+				list: [''],
 			},
 		};
+
+		message['dict']['list'] = [];
 
 		if (top["comment"] === null) {
 			message["comment"] = "";
@@ -214,19 +220,19 @@ export class HackerNews {
 	parse_comment(message: {
 		bvid: string;
 		list: string[];
-	}): [
+	}): 
 		{
 			name: string;
 			intro: string;
 			link: string;
-		}[],
-	] {
+		}[]
+	 {
 		let message_data = message["list"].filter((value) =>
 			/^[0-9hw].*/.test(value),
 		);
 
 		let note_path = path.join(__dirname, "../data/note.json");
-		let note_data: IntroData = JSON.parse(this.utils.read_file(note_path));
+		let note_data: NoteData = JSON.parse(this.utils.read_file(note_path));
 
 		for (let key in note_data) {
 			if (message["bvid"] === key) {
@@ -242,15 +248,19 @@ export class HackerNews {
 					link: "",
 				},
 			],
-			name: [""],
-			link: [""],
-			content: [""],
+			name: [''],
+			link: [''],
+			content: [''],
 		};
+
+		intro['name'] = [];
+		intro['link'] = [];
+		intro['content'] = [];
 
 		message_data.forEach((value, index) => {
 			let name = "";
 			let content = "";
-			let info = [""];
+			let info: string[] = [];
 
 			if (/^https?:\/\/\S+/.test(value)) {
 				intro["link"].push(value);
@@ -288,21 +298,22 @@ export class HackerNews {
 				link: intro["link"][index].trim(),
 			};
 		});
-		return [intro["data"]];
+		return intro["data"];
 	}
 
 	generate_tables() {
 		this.init();
 		let data_keys = Object.keys(this.json_data!);
-		let tables = {
-			content: [""],
-			tr: [""],
+		let tables: Tables = {
+			content: [],
+			tr: [],
 			title: {
-				content: [""],
-				link: [""],
-				pubdate: [""],
+				content: [],
+				link: [],
+				pubdate: [],
 			},
 		};
+		
 		data_keys.forEach((value, index) => {
 			let data = this.json_data?.[value]!;
 			let title_item = data["title"];
@@ -314,7 +325,7 @@ export class HackerNews {
 
 			if (data["data"]!) {
 				let tr_item = "";
-				data["data"][0].forEach((item, _) => {
+				data["data"].forEach((item, _) => {
 					tr_item += `
                 <tr>
                     <td>${item["name"]}</td>
@@ -349,7 +360,7 @@ export class HackerNews {
             </table>
         `;
 			const regexp = /\s+(\t+)?\r?\n/g;
-			tables["content"].push(table.trim().replaceAll(regexp, ""));
+			tables["content"].push(table.trim().replace(regexp, ""));
 		});
 
 		return tables;
@@ -361,7 +372,7 @@ export class HackerNews {
 		let pubdates = tables["title"]["pubdate"];
 
 		let docs: { [pubdate: string]: string[] } = {};
-		let pub_list = [""];
+		let pub_list: string[] = [];
 
 		let state = "1";
 		pubdates.sort((a, b) => {
