@@ -7,19 +7,19 @@ test("test message", () => {
     let message = {
         "bvid": "1",
         "list": [
-            '2:10 one is 1',
-            "3:04 ,two is 2",
-            "03:12 three | is 3",
-            "04.56 four , is 4",
-            "o5:00 five | 5",
+            '02:10 one is 1',
+            "03:04 ,two is 2",
+            "03:12 three | 3 |is 3",
+            "04:56 four 4 , is 4",
+            "05:00 five | 5",
             "06:66 six ? 6",
             "bgm is music",
-            "http:/a.com",
-            "http://b,com",
-            "https:/c.c0m",
-            "www.d.com",
-            "http://e.com",
-            "https//f.com",
+            "http://1.com",
+            "http://2.com",
+            "https://3.c0m",
+            "https://4.com",
+            "http://5.com",
+            "https://6.com",
         ]
     };
 
@@ -27,37 +27,37 @@ test("test message", () => {
     let expect_message = [
         {
             "name": "",
-            "link": "",
-            "intro": ""
+            "link": "http://1.com",
+            "intro": "one is 1"
         },
         {
             "name": "",
-            "link": "http://b,c0m",
+            "link": "http://2.com",
             "intro": "two is 2"
         },
         {
             "name": "three",
-            "link": "https://c.c0m",
-            "intro": "is 3"
+            "link": "https://3.c0m",
+            "intro": "3 |is 3"
         },
         {
-            "name": "",
-            "link": "",
-            "intro": ""
+            "name": "four 4",
+            "link": "https://4.com",
+            "intro": "is 4"
         },
         {
             "name": "five",
-            "link": "http://e.com",
+            "link": "http://5.com",
             "intro": "5"
         },
         {
             "name": "",
-            "link": "",
-            "intro": "",
+            "link": "https://6.com",
+            "intro": "six ? 6",
         }
     ]
     let result = HN.parse_comment(message);
-    expect(result).toEqual(result);
+    expect(result).toEqual(expect_message);
 })
 
 test ("test note", () => {

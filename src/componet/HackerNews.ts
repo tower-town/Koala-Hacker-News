@@ -76,9 +76,9 @@ export class HackerNews {
 	}
 
 	get_aids(): void {
-		let api_data = this.api_data?.["get_aids"];
-		this.url = api_data!["url"];
-		this.params = api_data!["params"];
+		let api_data = this.api_data?.["get_aids"]!;
+		this.url = api_data["url"]!;
+		this.params = api_data["params"];
 		let that = this;
 
 		let urls: URL[] = [];
@@ -93,14 +93,14 @@ export class HackerNews {
 			},
 			(err, results) => {
 				if (err) {
-					throw err;
+					throw new Error(`${err}`);
 				}
 
 				let video_info = this.json_data!;
 				results?.forEach((data: Response, index) => {
 					let ids_data = data["data"];
 					ids_data?.["archives"].forEach(
-					// rome-ignore lint/suspicious/noExplicitAny: <explanation>
+						// rome-ignore lint/suspicious/noExplicitAny: <explanation>
 						(value: { [key: string]: any }, _: number) => {
 							let bvid = value["bvid"];
 							video_info[bvid] = {
@@ -172,7 +172,7 @@ export class HackerNews {
 	}
 
 	get_top_commment(
-	// rome-ignore lint/suspicious/noExplicitAny: <explanation>
+		// rome-ignore lint/suspicious/noExplicitAny: <explanation>
 		comment: { [key: string]: any },
 		bvid: string,
 	): {
@@ -190,11 +190,11 @@ export class HackerNews {
 			reply: "",
 			dict: {
 				bvid: bvid,
-				list: [''],
+				list: [""],
 			},
 		};
 
-		message['dict']['list'] = [];
+		message["dict"]["list"] = [];
 
 		if (top["comment"] === null) {
 			message["comment"] = "";
@@ -220,13 +220,11 @@ export class HackerNews {
 	parse_comment(message: {
 		bvid: string;
 		list: string[];
-	}): 
-		{
-			name: string;
-			intro: string;
-			link: string;
-		}[]
-	 {
+	}): {
+		name: string;
+		intro: string;
+		link: string;
+	}[] {
 		let message_data = message["list"].filter((value) =>
 			/^[0-9hw].*/.test(value),
 		);
@@ -248,41 +246,37 @@ export class HackerNews {
 					link: "",
 				},
 			],
-			name: [''],
-			link: [''],
-			content: [''],
+			name: [""],
+			link: [""],
+			content: [""],
 		};
 
-		intro['name'] = [];
-		intro['link'] = [];
-		intro['content'] = [];
+		intro["name"] = [];
+		intro["link"] = [];
+		intro["content"] = [];
 
 		message_data.forEach((value, index) => {
 			let name = "";
 			let content = "";
-			let info: string[] = [];
 
 			if (/^https?:\/\/\S+/.test(value)) {
 				intro["link"].push(value);
 			} else {
-				if (/[\|｜，,]/.test(value)) {
-					const regexp =
-						/\d{2}:\d{2}(?:\s+)?([^｜|，,]+)?(?:[｜\|，,])([^｜|,，].*$)/g;
-					info = [...value.matchAll(regexp)][0];
-					if (info) {
-						name = info[1] === undefined ? "" : info[1];
-						content = info[2];
+				const regexp =
+					/\d{2}:\d{2}(?:\s+)?([^｜|，,]+)?([｜\|，,])?(.+$)/g;
+				let captures = [...value.matchAll(regexp)][0];
+				if (captures) {
+					if (captures[2]) {
+						name = captures[1] || "";
+						content = captures[3];
 					} else {
-						console.log(`Error: escaple capture is ${value}`);
+						name = "";
+						content = captures[1] + captures[3];
 					}
 				} else {
-					const regexp = /\d{2}:\d{2}(?:\s+)?(.*$)/g;
-					info = [...value.matchAll(regexp)][0];
-					if (info) {
-						content = info[1];
-					} else {
-						console.log(`Error: escaple capture is ${value}`);
-					}
+					console.warn(
+						`warning: escaple capture is ${value} in ${message["bvid"]}`,
+					);
 				}
 				intro["name"].push(name);
 				intro["content"].push(content);
@@ -301,8 +295,7 @@ export class HackerNews {
 		return intro["data"];
 	}
 
-	generate_tables() {
-		this.init();
+	generate_tables(): Tables {
 		let data_keys = Object.keys(this.json_data!);
 		let tables: Tables = {
 			content: [],
@@ -313,7 +306,7 @@ export class HackerNews {
 				pubdate: [],
 			},
 		};
-		
+
 		data_keys.forEach((value, index) => {
 			let data = this.json_data?.[value]!;
 			let title_item = data["title"];
@@ -371,7 +364,7 @@ export class HackerNews {
 		let content = tables["content"];
 		let pubdates = tables["title"]["pubdate"];
 
-		let docs: { [pubdate: string]: string[] } = {};
+		let docs: { [pub_date: string]: string[] } = {};
 		let pub_list: string[] = [];
 
 		let state = "1";
@@ -398,8 +391,8 @@ export class HackerNews {
 	}
 
 	generate_md(md_path: string): {
-		keys: string[];
-		path: string[];
+		pub_dates: string[];
+		paths: string[];
 	} {
 		let docs = this.generate_docs();
 		let file = {
@@ -423,20 +416,21 @@ export class HackerNews {
 		});
 
 		return {
-			keys: docs_keys,
-			path: paths,
+			pub_dates: docs_keys,
+			paths: paths,
 		};
 	}
 
 	update_readme(readme_path: string, md_path: string) {
+		this.init();
 		let docs = this.generate_md(md_path);
 		let title =
 			"# Koala Hacker News\n b 站 up 主 [Koala 聊开源](https://space.bilibili.com/489667127) 的《Hacker News 周报》[合集](https://space.bilibili.com/489667127/channel/collectiondetail?sid=249279) 的内容总结\n";
 
 		let contents = "\n## 目录\n\n";
 		let chapters = "";
-		docs.keys.forEach((value, index) => {
-			let doc_path = docs["path"][index];
+		docs.pub_dates.forEach((value, index) => {
+			let doc_path = docs["paths"][index];
 			let re_path = path.relative(path.dirname(readme_path), doc_path);
 			let new_path = re_path.replaceAll("\\", "/");
 			chapters += `- [${value}: [Hacker News 周报]](${new_path})\n`;
