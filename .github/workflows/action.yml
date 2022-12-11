@@ -1,8 +1,7 @@
 name: auto update Koala-Hacker-News
 
 on:
-  push:
-  schedule:
+  push:  schedule:
     - cron: '0 4 * * MON'
 
 
@@ -29,9 +28,4 @@ jobs:
     - run: pnpm install
     - run: pnpm build
 
-    - run: git config --global user.email "tower_town@outlook.com"
-    - run: git config --global user.name "github-actions"
-    - run: git add .
-    - run: git commit -m "update Koala Hacker News"
-    - run: git push
     

@@ -1,4 +1,42 @@
 {
+    "BV1Gv4y197md": {
+        "title": "[Hacker News 周报] 浏览器中运行桌面环境；轻量级网站监控方案；可视化 React 组件 IDE",
+        "aid": 563747625,
+        "bvid": "BV1Gv4y197md",
+        "pubdate": 1670745669,
+        "data": [
+            {
+                "name": "Pynecone",
+                "intro": "Python 全栈 Web 开发方案",
+                "link": "https://github.com/pynecone-io/pynecone"
+            },
+            {
+                "name": "daedalOS",
+                "intro": "浏览器中运行桌面环境",
+                "link": "https://github.com/DustinBrett/daedalOS"
+            },
+            {
+                "name": "Uptime Kuma",
+                "intro": "轻量级网站监控方案",
+                "link": "https://www.codux.com/"
+            },
+            {
+                "name": "Codux",
+                "intro": "可视化 React 组件 IDE",
+                "link": "https://vitejs.dev/blog/announcing-vite4.html"
+            },
+            {
+                "name": "",
+                "intro": "Vite 发布 4.0 大版本",
+                "link": "https://github.com/JannisX11/blockbench"
+            },
+            {
+                "name": "Blockbench",
+                "intro": "创建 low-poly 视觉风格的3D 模型编辑器",
+                "link": ""
+            }
+        ]
+    },
     "BV1tP4y1Q7Vt": {
         "title": "[Hacker News 周报] OpenAI 开放 ChatGPT 模型；NLP 在线课程；k8s 流量监测工具",
         "aid": 903386514,
