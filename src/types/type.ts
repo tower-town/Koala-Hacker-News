@@ -5,6 +5,7 @@ export interface JsonData {
 		aid: number;
 		bvid: string;
 		pubdate: number;
+		source?: string[];
 		data?: IntroData[];
 	};
 }

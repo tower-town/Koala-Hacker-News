@@ -1,16 +1,11 @@
 import * as path from "path";
 import * as async from "async";
-import { Utils } from "./utils";
+import { Utils, fetchjson } from "./utils";
 import { JsonData } from "../types/type";
 import { Comment } from "./comment";
 import { Markdown } from "./markdown";
-
-interface Api {
-	[type: string]: {
-		url: URL;
-		params: { [param: string]: string | number };
-	};
-}
+import { Api, ApiData } from "./api";
+import { Source } from "./source";
 
 interface Response {
 	code: number;
@@ -20,16 +15,13 @@ interface Response {
 	data: { [key: string]: any };
 }
 
-
 export class HackerNews {
-	url?: URL;
 	params: { [key: string]: string | number };
 	utils: Utils = new Utils();
 	data_path?: string;
 	json_data?: JsonData;
 	bvids?: string[];
-	api_path?: string;
-	api_data?: Api;
+	api_data?: ApiData;
 	comment: Comment = new Comment();
 
 	constructor() {
@@ -45,31 +37,23 @@ export class HackerNews {
 		this.json_data = JSON.parse(this.utils.read_file(this.data_path));
 		this.bvids = Object.keys(this.json_data!);
 
-		this.api_path = path.join(__dirname, "../data/bilibili-api.json");
-		this.api_data = JSON.parse(this.utils.read_file(this.api_path));
+		let api = new Api();
+		this.api_data = api.data;
 	}
 
 	get_aids(): void {
 		let api_data = this.api_data?.["get_aids"]!;
-		this.url = api_data["url"]!;
+		let url = api_data["url"]!;
 		this.params = api_data["params"];
 		let that = this;
 
 		let urls: URL[] = [];
-		urls.push(this.utils.parse_url(this.url!, this.params));
+		urls.push(this.utils.parse_url(url!, this.params));
 
-		async.mapLimit(
-			urls,
-			5,
-			async function (url: URL) {
-				const response = await fetch(url);
-				return response.json();
-			},
-			(err, results) => {
-				if (err) {
-					throw new Error(`${err}`);
-				}
-
+		async.mapLimit(urls, 5, fetchjson, (err, results) => {
+			if (err) {
+				throw new Error(`${err}`);
+			} else {
 				let video_info = this.json_data!;
 				results?.forEach((data: Response, index) => {
 					let ids_data = data["data"];
@@ -89,10 +73,18 @@ export class HackerNews {
 					let sort_data = this.utils.sort_json(video_info, "pubdate");
 					that.utils.write_file(this.data_path!, sort_data);
 				});
-			},
-		);
+			}
+		});
 	}
-
+	
+	update_source(): void {
+		let souce = new Source();
+		this.init();
+		souce.json_data = this.json_data!;
+		souce.json_path = this.data_path!;
+		let bvids = this.bvids!;
+		souce.get_sources(bvids);
+	}
 
 	get_comment(): void {
 		let comment_data = this.api_data?.["get_comment"]!;
@@ -118,17 +110,10 @@ export class HackerNews {
 			urls.push(url);
 		});
 
-		async.mapLimit(
-			urls,
-			5,
-			async function (url: URL) {
-				const response = await fetch(url);
-				return response.json();
-			},
-			(err, results) => {
-				if (err) {
-					throw err;
-				}
+		async.mapLimit(urls, 5, fetchjson, (err, results) => {
+			if (err) {
+				throw err;
+			} else {
 				// results is now an array of the response bodies
 				let video_info = that.json_data!;
 				results?.forEach((value: Response, index) => {
@@ -142,11 +127,11 @@ export class HackerNews {
 					let sort_data = this.utils.sort_json(video_info, "pubdate");
 					that.utils.write_file(this.data_path!, sort_data);
 				});
-			},
-		);
+			}
+		});
 	}
 
-	update_readme(readme_path: string, md_path: string) {
+	update_readme(readme_path: string, md_path: string): void {
 		this.init();
 		let markdown = new Markdown(this.json_data!);
 		let docs = markdown.generate_md(md_path);
