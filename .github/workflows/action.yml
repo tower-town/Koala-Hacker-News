@@ -29,7 +29,6 @@ jobs:
     - run: pnpm install
     - run: pnpm build
 
-    - name: git
     - run: git config --global user.email "tower_town@outlook.com"
     - run: git config --global user.name "github-actions"
     - run: git add .
