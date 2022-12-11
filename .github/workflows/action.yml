@@ -18,6 +18,8 @@ jobs:
     steps:
     
     - uses: actions/checkout@v3
+      with:
+        token: ${{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}}
 
     - uses: pnpm/action-setup@646cdf48217256a3d0b80361c5a50727664284f2
       with:
@@ -32,6 +34,3 @@ jobs:
     - uses: stefanzweifel/git-auto-commit-action@v4
       with:
         commit_message: update README by github-action.
-        branch: main
-        file_pattern: ./HackerNews/*.md ./README.md ./src/data/data/json
-        create_branch: false
