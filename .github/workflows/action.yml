@@ -1,6 +1,7 @@
 name: auto update Koala-Hacker-News
 
 on:
+  push:
   schedule:
     - cron: '0 4 * * MON'
 
