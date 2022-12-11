@@ -4,40 +4,6 @@
                 <th>简介</th>
                 <th>链接</th>
             </theader>            <tbody>                <tr>
-                    <td>Script Kit</td>
-                    <td>面向开发者的自动化工具，</td>
-                    <td>https://www.scriptkit.com/</td>
-                </tr>                <tr>
-                    <td>D2</td>
-                    <td>开源声明式绘图语言</td>
-                    <td>https://d2lang.com/</td>
-                </tr>                <tr>
-                    <td>Superset</td>
-                    <td>开源数据可视化平台</td>
-                    <td>https://superset.apache.org/</td>
-                </tr>                <tr>
-                    <td></td>
-                    <td>Stable Diffusion 发布2.0版本</td>
-                    <td>https://stability.ai/blog/stable-diffusion-v2-release</td>
-                </tr>                <tr>
-                    <td></td>
-                    <td>蚂蚁 UI 组件库 Ant Design 发布 V5 版本</td>
-                    <td>https://github.com/ant-design/ant-design/issues/38671</td>
-                </tr>                <tr>
-                    <td></td>
-                    <td>《命令行的艺术》项目</td>
-                    <td>https://github.com/jlevy/the-art-of-command-line</td>
-                </tr>                <tr>
-                    <td>Diátaxis</td>
-                    <td>帮助创作技术文档的写作框架</td>
-                    <td>https://diataxis.fr/</td>
-                </tr>            </tbody>            </table>
-[[Hacker News 周报] Mathematica 开源替代品；数据库领域多个新项目；Meta 大规模代码管理方案](https://www.bilibili.com/video/BV1oP4y197dF)
-            <table>            <theader>
-                <th>名称</th>
-                <th>简介</th>
-                <th>链接</th>
-            </theader>            <tbody>                <tr>
                     <td>Redpanda</td>
                     <td>与 Kafka PAI 兼容的流式数据平台</td>
                     <td>https://redpanda.com/</td>
@@ -62,7 +28,7 @@
                     <td>Mathematica 开源替代品</td>
                     <td>https://mathics.org/</td>
                 </tr>            </tbody>            </table>
-[[Hacker News 周报] GitHub 下一代功能；Docker 支持 Webassembly；新式代码教学工具](https://www.bilibili.com/video/BV1oY411Z7mU)
+[[Hacker News 周报] Mathematica 开源替代品；数据库领域多个新项目；Meta 大规模代码管理方案](https://www.bilibili.com/video/BV1oP4y197dF)
             <table>            <theader>
                 <th>名称</th>
                 <th>简介</th>
@@ -96,7 +62,7 @@
                     <td>.Net 发布了新版本 .Net7</td>
                     <td>https://devblogs.microsoft.com/dotnet/announcing-dotnet-7/</td>
                 </tr>            </tbody>            </table>
-[[Hacker News 周报] Grafana Labs 新产品；Vite 与 Turbopack 性能对比；Heroku 替代方案](https://www.bilibili.com/video/BV1u14y157NA)
+[[Hacker News 周报] GitHub 下一代功能；Docker 支持 Webassembly；新式代码教学工具](https://www.bilibili.com/video/BV1oY411Z7mU)
             <table>            <theader>
                 <th>名称</th>
                 <th>简介</th>
@@ -129,4 +95,38 @@
                     <td></td>
                     <td>Heroku 免费替代品</td>
                     <td>https://github.com/Engagespot/heroku-free-alternatives</td>
+                </tr>            </tbody>            </table>
+[[Hacker News 周报] Grafana Labs 新产品；Vite 与 Turbopack 性能对比；Heroku 替代方案](https://www.bilibili.com/video/BV1u14y157NA)
+            <table>            <theader>
+                <th>名称</th>
+                <th>简介</th>
+                <th>链接</th>
+            </theader>            <tbody>                <tr>
+                    <td></td>
+                    <td>Vercel 推出 webpack 替代品</td>
+                    <td>https://vercel.com/blog/turbopack</td>
+                </tr>                <tr>
+                    <td></td>
+                    <td>Python 发布新版本</td>
+                    <td>https://discuss.python.org/t/python-3-11-0-final-is-now-available/20291</td>
+                </tr>                <tr>
+                    <td></td>
+                    <td>轻量级搜索引擎 Sonic</td>
+                    <td>https://github.com/valeriansaliou/sonic</td>
+                </tr>                <tr>
+                    <td>Answer</td>
+                    <td>SegmentFault 开源的知识类库</td>
+                    <td>https://answer.dev/</td>
+                </tr>                <tr>
+                    <td>openvim</td>
+                    <td>交互式的 Vim 教程</td>
+                    <td>https://www.openvim.com/</td>
+                </tr>                <tr>
+                    <td>Bolt.css</td>
+                    <td>HTML 的样式表</td>
+                    <td>https://boltcss.com/</td>
+                </tr>                <tr>
+                    <td>Starter Tab</td>
+                    <td>自定义主页工具</td>
+                    <td>https://startertab.com/</td>
                 </tr>            </tbody>            </table>
