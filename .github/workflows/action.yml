@@ -29,6 +29,12 @@ jobs:
     - run: pnpm build
     
     - uses: stefanzweifel/git-auto-commit-action@v4
+
+    - run: git pull
+
       with:
         commit_message: update README by github-action.
-    - run: git pull
+        branch: main
+        file_pattern: ./HackerNews/*.md ./README.md ./src/data/data/json
+        push_options: ''
+        create_branch: false
