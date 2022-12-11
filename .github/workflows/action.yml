@@ -18,8 +18,6 @@ jobs:
     steps:
     
     - uses: actions/checkout@v3
-      with:
-        token: ${{ secrets.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 }}
 
     - uses: pnpm/action-setup@646cdf48217256a3d0b80361c5a50727664284f2
       with:
@@ -30,7 +28,12 @@ jobs:
         cache: 'pnpm'
     - run: pnpm install
     - run: pnpm build
+
+    - name: git
+    - run: |
+        git config --global user.email "tower_town@outlook.com"
+        git config --global user.name "github-actions"
+        git add .
+        git commit -m "update Koala Hacker News"
+        git push
     
-    - uses: stefanzweifel/git-auto-commit-action@v4
-      with:
-        commit_message: update README by github-action.
