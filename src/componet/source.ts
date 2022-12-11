@@ -59,10 +59,6 @@ export class Source {
 
 	write_source(source_data: JsonData, json_path: string): void {
 		let utils = new Utils();
-		for (let key in source_data){
-			console.log(source_data[key]['source']);
-		}
-		console.log(json_path);
 		
 		utils.write_file(json_path, source_data);
 	}

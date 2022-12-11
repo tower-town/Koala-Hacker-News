@@ -1,6 +1,7 @@
 name: auto update Koala-Hacker-News
 
 on:
+  push:
   schedule:
     - cron: '0 4 * * MON'
 
@@ -27,14 +28,10 @@ jobs:
         cache: 'pnpm'
     - run: pnpm install
     - run: pnpm build
+
+    - run: git config --global user.email "tower_town@outlook.com"
+    - run: git config --global user.name "github-actions"
+    - run: git add .
+    - run: git commit -m "update Koala Hacker News"
+    - run: git push
     
-    - uses: stefanzweifel/git-auto-commit-action@v4
-
-    - run: git pull
-
-      with:
-        commit_message: update README by github-action.
-        branch: main
-        file_pattern: ./HackerNews/*.md ./README.md ./src/data/data/json
-        push_options: ''
-        create_branch: false
