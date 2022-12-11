@@ -34,11 +34,7 @@ jobs:
 
       with:
         commit_message: update README by github-action.
-<<<<<<< HEAD
         branch: main
         file_pattern: ./HackerNews/*.md ./README.md ./src/data/data/json
         push_options: ''
         create_branch: false
-=======
-    - run: git pull
->>>>>>> 7d931be29ea23544b3f451a654c67f30dd655418
