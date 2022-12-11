@@ -15,6 +15,7 @@
   "dependencies": {
     "@types/async": "^3.2.16",
     "async": "^3.2.4",
+    "cheerio": "1.0.0-rc.12",
     "fs": "0.0.1-security",
     "path": "^0.12.7",
     "ts-node": "^10.9.1",

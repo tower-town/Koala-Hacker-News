@@ -1,6 +1,6 @@
-import { HackerNews } from "../src/componet/HackerNews";
+import { Comment } from "../src/componet/comment";
 
-const HN = new HackerNews();
+const comment = new Comment();
 
 test("test message", () => {
 
@@ -56,7 +56,7 @@ test("test message", () => {
             "intro": "six ? 6",
         }
     ]
-    let result = HN.parse_comment(message);
+    let result = comment.parse_comment(message);
     expect(result).toEqual(expect_message);
 })
 
@@ -108,6 +108,6 @@ test ("test note", () => {
         ];
 
 
-    let result = HN.parse_comment(message);
+    let result = comment.parse_comment(message);
     expect(result).toEqual(expect_reslut);
 })

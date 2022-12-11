@@ -1,6 +1,9 @@
 import * as path from "path";
 import * as async from "async";
 import { Utils } from "./utils";
+import { JsonData } from "../types/type";
+import { Comment } from "./comment";
+import { Markdown } from "./markdown";
 
 interface Api {
 	[type: string]: {
@@ -17,37 +20,6 @@ interface Response {
 	data: { [key: string]: any };
 }
 
-export interface JsonData {
-	[bvid: string]: {
-		title: string;
-		aid: number;
-		bvid: string;
-		pubdate: number;
-		data?: IntroData[];
-	};
-}
-
-interface IntroData {
-	name: string;
-	intro: string;
-	link: string;
-}
-
-interface NoteData {
-	[bvid: string]: {
-		data: IntroData[];
-	};
-}
-
-interface Tables {
-	content: string[];
-	tr: string[];
-	title: {
-		content: string[];
-		link: string[];
-		pubdate: string[];
-	};
-}
 
 export class HackerNews {
 	url?: URL;
@@ -58,10 +30,12 @@ export class HackerNews {
 	bvids?: string[];
 	api_path?: string;
 	api_data?: Api;
+	comment: Comment = new Comment();
 
 	constructor() {
 		this.params = {};
 		this.utils = new Utils();
+		this.comment = new Comment();
 		this.init();
 	}
 
@@ -119,6 +93,7 @@ export class HackerNews {
 		);
 	}
 
+
 	get_comment(): void {
 		let comment_data = this.api_data?.["get_comment"]!;
 		let comment_params = comment_data["params"];
@@ -160,8 +135,8 @@ export class HackerNews {
 					let aid_key = aids_key[index];
 					let bvid = aids[aid_key];
 					let data = value["data"];
-					let message = that.get_top_commment(data, bvid);
-					let intro_data = that.parse_comment(message);
+					let message = that.comment.get_top_commment(data, bvid);
+					let intro_data = that.comment.parse_comment(message);
 					video_info[bvid]["data"] = intro_data;
 
 					let sort_data = this.utils.sort_json(video_info, "pubdate");
@@ -171,259 +146,10 @@ export class HackerNews {
 		);
 	}
 
-	get_top_commment(
-		// rome-ignore lint/suspicious/noExplicitAny: <explanation>
-		comment: { [key: string]: any },
-		bvid: string,
-	): {
-		bvid: string;
-		list: string[];
-	} {
-		let top = {
-			comment: comment["top"]["upper"],
-			reply: comment["replies"][0],
-		};
-
-		let message = {
-			content: "",
-			comment: "",
-			reply: "",
-			dict: {
-				bvid: bvid,
-				list: [""],
-			},
-		};
-
-		message["dict"]["list"] = [];
-
-		if (top["comment"] === null) {
-			message["comment"] = "";
-			if (top["reply"]["member"]["mid"] === "489667127") {
-				message["reply"] = top["reply"]["content"]["message"];
-			}
-		} else {
-			message["comment"] = top["comment"]["content"]["message"];
-			if (top["comment"]["replies"] !== null) {
-				message["reply"] = top["comment"]["replies"][0]["content"]["message"];
-			}
-		}
-
-		message["content"] = `${message["comment"]}\n${message["reply"]}`;
-
-		message["content"].split("\n").forEach((value, _) => {
-			message["dict"]["list"].push(value.trim());
-		});
-
-		return message["dict"];
-	}
-
-	parse_comment(message: {
-		bvid: string;
-		list: string[];
-	}): {
-		name: string;
-		intro: string;
-		link: string;
-	}[] {
-		let message_data = message["list"].filter((value) =>
-			/^[0-9hw].*/.test(value),
-		);
-
-		let note_path = path.join(__dirname, "../data/note.json");
-		let note_data: NoteData = JSON.parse(this.utils.read_file(note_path));
-
-		for (let key in note_data) {
-			if (message["bvid"] === key) {
-				return note_data[key]["data"];
-			}
-		}
-
-		let intro = {
-			data: [
-				{
-					name: "",
-					intro: "",
-					link: "",
-				},
-			],
-			name: [""],
-			link: [""],
-			content: [""],
-		};
-
-		intro["name"] = [];
-		intro["link"] = [];
-		intro["content"] = [];
-
-		message_data.forEach((value, index) => {
-			let name = "";
-			let content = "";
-
-			if (/^https?:\/\/\S+/.test(value)) {
-				intro["link"].push(value);
-			} else {
-				const regexp =
-					/\d{2}:\d{2}(?:\s+)?([^｜|，,]+)?([｜\|，,])?(.+$)/g;
-				let captures = [...value.matchAll(regexp)][0];
-				if (captures) {
-					if (captures[2]) {
-						name = captures[1] || "";
-						content = captures[3];
-					} else {
-						name = "";
-						content = captures[1] + captures[3];
-					}
-				} else {
-					console.warn(
-						`warning: escaple capture is ${value} in ${message["bvid"]}`,
-					);
-				}
-				intro["name"].push(name);
-				intro["content"].push(content);
-			}
-		});
-		intro["name"].forEach((value, index) => {
-			if (!intro["link"][index]) {
-				intro["link"][index] = "";
-			}
-			intro["data"][index] = {
-				name: value.trim(),
-				intro: intro["content"][index].trim(),
-				link: intro["link"][index].trim(),
-			};
-		});
-		return intro["data"];
-	}
-
-	generate_tables(): Tables {
-		let data_keys = Object.keys(this.json_data!);
-		let tables: Tables = {
-			content: [],
-			tr: [],
-			title: {
-				content: [],
-				link: [],
-				pubdate: [],
-			},
-		};
-
-		data_keys.forEach((value, index) => {
-			let data = this.json_data?.[value]!;
-			let title_item = data["title"];
-			let title_link = `https://www.bilibili.com/video/${value}`;
-			let title_pubdate = data["pubdate"].toString();
-			tables["title"]["content"].push(title_item);
-			tables["title"]["link"].push(title_link);
-			tables["title"]["pubdate"].push(title_pubdate);
-
-			if (data["data"]!) {
-				let tr_item = "";
-				data["data"].forEach((item, _) => {
-					tr_item += `
-                <tr>
-                    <td>${item["name"]}</td>
-                    <td>${item["intro"]}</td>
-                    <td>${item["link"]}</td>
-                </tr>
-            `;
-				});
-				tables["tr"].push(tr_item);
-			}
-		});
-
-		let table_hander = `
-            <theader>
-                <th>名称</th>
-                <th>简介</th>
-                <th>链接</th>
-            </theader>
-        `;
-
-		tables["title"]["content"].forEach((item, index) => {
-			let table_body = `
-            <tbody>
-                ${tables["tr"][index]}
-            </tbody>
-        `;
-			let table = `
-            [${item}](${tables["title"]["link"][index]})
-            <table>
-                ${table_hander}
-                ${table_body}
-            </table>
-        `;
-			const regexp = /\s+(\t+)?\r?\n/g;
-			tables["content"].push(table.trim().replace(regexp, ""));
-		});
-
-		return tables;
-	}
-
-	generate_docs() {
-		let tables = this.generate_tables();
-		let content = tables["content"];
-		let pubdates = tables["title"]["pubdate"];
-
-		let docs: { [pub_date: string]: string[] } = {};
-		let pub_list: string[] = [];
-
-		let state = "1";
-		pubdates.sort((a, b) => {
-			return Number(b) - Number(a);
-		});
-		pubdates.forEach((value, index) => {
-			let date = new Date(Number(value) * 1000);
-			let pub_date = `${date.getFullYear()}-${date.getMonth() + 1}`;
-			if (state !== pub_date) {
-				if (pub_list.length !== 0) {
-					docs[state] = pub_list;
-					pub_list = [];
-				}
-				state = pub_date;
-			}
-			if (value === pubdates[pubdates.length - 1]) {
-				docs[pub_date] = pub_list;
-			}
-			pub_list.push(content[index]);
-		});
-
-		return docs;
-	}
-
-	generate_md(md_path: string): {
-		pub_dates: string[];
-		paths: string[];
-	} {
-		let docs = this.generate_docs();
-		let file = {
-			name: "",
-			content: "",
-			path: "",
-		};
-
-		let docs_keys = Object.keys(docs);
-		let paths: string[] = [];
-		docs_keys.forEach((key, _) => {
-			file["name"] = `${key}-Hacker-News.md`;
-			file["content"] = docs[key].join("\n");
-			file["path"] = path.join(md_path, file["name"]);
-
-			if (docs[key].length === 0) {
-				console.log(docs[key]);
-			}
-			paths.push(file["path"]);
-			this.utils.write_file(file["path"], file["content"]);
-		});
-
-		return {
-			pub_dates: docs_keys,
-			paths: paths,
-		};
-	}
-
 	update_readme(readme_path: string, md_path: string) {
 		this.init();
-		let docs = this.generate_md(md_path);
+		let markdown = new Markdown(this.json_data!);
+		let docs = markdown.generate_md(md_path);
 		let title =
 			"# Koala Hacker News\n b 站 up 主 [Koala 聊开源](https://space.bilibili.com/489667127) 的《Hacker News 周报》[合集](https://space.bilibili.com/489667127/channel/collectiondetail?sid=249279) 的内容总结\n";
 

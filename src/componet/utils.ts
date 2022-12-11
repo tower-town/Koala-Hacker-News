@@ -1,6 +1,6 @@
 import * as fs from "fs";
 import { Sort } from "./sort";
-import { JsonData } from "../componet/HackerNews";
+import { JsonData } from "../types/type";
 
 export class Utils {
 	constructor() {}
