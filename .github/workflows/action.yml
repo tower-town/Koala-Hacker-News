@@ -17,8 +17,6 @@ jobs:
     steps:
     
     - uses: actions/checkout@v3
-      with:
-        ref: ${{ github.head_ref }}
 
     - uses: pnpm/action-setup@646cdf48217256a3d0b80361c5a50727664284f2
       with:
