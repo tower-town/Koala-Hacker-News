@@ -2,7 +2,7 @@ name: auto update Koala-Hacker-News
 
 on:
   schedule:
-    - cron: '0 15 * * MON'
+    - cron: '10 15 * * MON'
 
 jobs:
   build:
@@ -31,5 +31,5 @@ jobs:
 
     - uses: stefanzweifel/git-auto-commit-action@v4
       with:
-        file_pattern: ./README.md ./Hacker-News/*.md ./src/data/data.json
+        file_pattern: './README.md ./Hacker-News/*.md ./src/data/data.json'
         commit_message: update Koala Hacker News by github-action-bot.
