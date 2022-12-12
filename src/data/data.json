@@ -1397,37 +1397,37 @@
             {
                 "name": "",
                 "intro": "一个有用网站的合集",
-                "link": ""
+                "link": "https://www.insanelyusefulwebsites.com/"
             },
             {
                 "name": "",
                 "intro": "一个开源的 web 文本编辑器",
-                "link": ""
+                "link": "https://lexical.dev/"
             },
             {
                 "name": "",
                 "intro": "一个开源的分布式数据库",
-                "link": ""
+                "link": "https://ydb.tech/"
             },
             {
                 "name": "OpenRefine",
                 "intro": "开源数据清洗工具",
-                "link": ""
+                "link": "https://openrefine.org/"
             },
             {
                 "name": "",
                 "intro": "Node.js 发布18版本",
-                "link": ""
+                "link": "https://nodejs.org/en/"
             },
             {
                 "name": "",
                 "intro": "GO 发表介绍泛型的文章",
-                "link": ""
+                "link": "https://go.dev/blog/when-generics"
             },
             {
                 "name": "",
                 "intro": "一个单手键盘",
-                "link": ""
+                "link": "https://tipykeyboard.com/en/home/"
             }
         ]
     },
@@ -1440,37 +1440,37 @@
             {
                 "name": "",
                 "intro": "现代 CLI 大全",
-                "link": ""
+                "link": "https://jvns.ca/blog/2022/04/12/a-list-of-new-ish--command-line-tools/"
             },
             {
                 "name": "bore",
                 "intro": "基于 Rust 的隧道工具",
-                "link": ""
+                "link": "https://github.com/ekzhang/bore"
             },
             {
                 "name": "WeekToDo",
                 "intro": "本地计划管理工具",
-                "link": ""
+                "link": "https://weektodo.me/"
             },
             {
                 "name": "Zas",
                 "intro": "专注于 GO 和 Rust 的编辑器",
-                "link": ""
+                "link": "https://www.zeditor.app/"
             },
             {
                 "name": "Pinry",
                 "intro": "Pinterest 的开源替代品",
-                "link": ""
+                "link": "https://docs.getpinry.com/"
             },
             {
                 "name": "",
                 "intro": "Deno 推出 FaaS 服务",
-                "link": ""
+                "link": "https://deno.com/blog/a-whole-website-in-a-single-js-file"
             },
             {
                 "name": "EIGHT COLORS",
                 "intro": "一个小游戏",
-                "link": ""
+                "link": "https://eightcolors.net/"
             }
         ]
     },
@@ -1483,42 +1483,42 @@
             {
                 "name": "Coolify",
                 "intro": "自部署 PaaS",
-                "link": ""
+                "link": "https://coolify.io/"
             },
             {
                 "name": "warp",
                 "intro": "现代化终端",
-                "link": ""
+                "link": "https://www.warp.dev/"
             },
             {
                 "name": "redo",
                 "intro": "开源命令行工具",
-                "link": ""
+                "link": "https://github.com/barthr/redo"
             },
             {
                 "name": "MetricFlow",
                 "intro": "数据仓库管理工具",
-                "link": ""
+                "link": "https://transform.co/metricflow/"
             },
             {
                 "name": "",
                 "intro": "Ruby 增加 WASM 支持",
-                "link": ""
+                "link": "https://www.ruby-lang.org/en/news/2022/04/03/ruby-3-2-0-preview1-released"
             },
             {
                 "name": "Rome 发布 Rome Formatter",
                 "intro": "对标 Prettier",
-                "link": ""
+                "link": "https://rome.tools/blog/2022/04/05/rome-formatter-release"
             },
             {
                 "name": "一篇博客",
                 "intro": "TypeScript 编译器工作原理",
-                "link": ""
+                "link": "https://www.huy.rocks/everyday/04-01-2022-typescript-how-the-compiler-compiles"
             },
             {
                 "name": "一篇博客",
                 "intro": "一些易被忽略的 HTML 属性",
-                "link": ""
+                "link": "https://www.smashingmagazine.com/2022/03/html-attributes-you-never-use"
             }
         ]
     },
@@ -1531,47 +1531,47 @@
             {
                 "name": "",
                 "intro": "GitHub issues 打印机",
-                "link": ""
+                "link": "https://aschmelyun.com/blog/i-built-a-receipt-printer-for-github-issues"
             },
             {
                 "name": "Oh heck",
                 "intro": "一个智能终端指令输入工具",
-                "link": ""
+                "link": "https://oh-heck.dev/"
             },
             {
                 "name": "dagger",
                 "intro": "一个现代化的 CI/CD 工具包",
-                "link": ""
+                "link": "https://dagger.io/"
             },
             {
                 "name": "",
                 "intro": "React 发布18.0版本",
-                "link": ""
+                "link": "https://reactjs.org/blog/2022/03/29/react-v18.html"
             },
             {
                 "name": "",
                 "intro": "Chrome Experiments 的银河系实验",
-                "link": ""
+                "link": "https://stars.chromeexperiments.com/"
             },
             {
                 "name": "arpchat",
                 "intro": "用 ARP 协议实现的在线聊天工具",
-                "link": ""
+                "link": "https://github.com/kognise/arpchat"
             },
             {
                 "name": "Calenday",
                 "intro": "一个多人共享日历",
-                "link": ""
+                "link": "https://calenday.co/"
             },
             {
                 "name": "",
                 "intro": "WebAssembly 运行 Python",
-                "link": ""
+                "link": "https://2022.pycon.de/program/SBCNDY"
             },
             {
                 "name": "Blog Search",
                 "intro": "技术类搜索引擎",
-                "link": ""
+                "link": "https://blogsurf.io/"
             }
         ]
     },
@@ -1584,42 +1584,42 @@
             {
                 "name": "appwrite",
                 "intro": "为 web、mobile 和 flutter 开发者提供的开源后端服务",
-                "link": ""
+                "link": "https://github.com/appwrite/appwrite"
             },
             {
                 "name": "Bionic Reading",
                 "intro": "一个用高亮标注的阅读工具",
-                "link": ""
+                "link": "https://bionic-reading.com/"
             },
             {
                 "name": "diagrams.net",
                 "intro": "老牌绘图工具更新功能",
-                "link": ""
+                "link": "https://www.diagrams.net/"
             },
             {
                 "name": "Smort",
                 "intro": "一个可编辑其它网站文章的工具",
-                "link": ""
+                "link": "https://www.smort.io/"
             },
             {
                 "name": "fzf",
                 "intro": "命令行中通用的模糊查询工具",
-                "link": ""
+                "link": "https://github.com/junegunn/fzf"
             },
             {
                 "name": "",
                 "intro": "一个 node.js 的 Postgres 数据库客户端",
-                "link": ""
+                "link": "https://www.tangramvision.com/blog/hands-on-with-postgresql-authorization-part-2-row-level-security"
             },
             {
                 "name": "mdn 推出 plus 订阅计划",
                 "intro": "Mozilla 商业化新尝试",
-                "link": ""
+                "link": "https://hacks.mozilla.org/2022/03/introducing-mdn-plus-make-mdn-your-own/"
             },
             {
                 "name": "",
                 "intro": "一篇题为 《Data Mesh 架构》的文章",
-                "link": ""
+                "link": "https://www.datamesh-architecture.com/"
             }
         ]
     },
@@ -1632,47 +1632,47 @@
             {
                 "name": "",
                 "intro": "文献管理工具 Zotero 发布 6.0 版本",
-                "link": ""
+                "link": "https://www.zotero.org/blog/zotero-6/"
             },
             {
                 "name": "Plasticity",
                 "intro": "用 web 开发的3D 艺术建模开源软件",
-                "link": ""
+                "link": "https://github.com/nkallen/plasticity"
             },
             {
                 "name": "Lapce",
                 "intro": "基于原生 GUI 和 Rust 编写的开源代码编辑器",
-                "link": ""
+                "link": "https://lapce.dev/"
             },
             {
                 "name": "Awesome TUIs",
                 "intro": "收集提供终端用户界面项目清单",
-                "link": ""
+                "link": "https://github.com/rothgar/awesome-tuis"
             },
             {
                 "name": "K9s",
                 "intro": "一个终端中 UI 强大的 K8s 客户端",
-                "link": ""
+                "link": "https://github.com/derailed/k9s"
             },
             {
                 "name": "Tiny renderer",
                 "intro": "500 行代码学习 openGL｜附演示教程",
-                "link": ""
+                "link": "https://jvns.ca/blog/2022/03/13/celebrate-tiny-learning-milestones/"
             },
             {
                 "name": "",
                 "intro": "GO 发布1.18版本支持泛型",
-                "link": ""
+                "link": "https://golang.google.cn/"
             },
             {
-                "name": "",
-                "intro": "CSS-Tricks 网站被 DigitalOcean 收购",
-                "link": ""
+                "name": "CSS",
+                "intro": "Tricks 网站被 DigitalOcean 收购",
+                "link": "https://css-tricks.com/css-tricks-is-joining-digitalocean/"
             },
             {
                 "name": "Veloren",
                 "intro": "一个基于 Rust 开发的开源多人 RPG 游戏",
-                "link": ""
+                "link": "https://www.youtube.com/watch?v=hCC1C5KIeUA"
             }
         ]
     },
@@ -1700,27 +1700,27 @@
             {
                 "name": "Godot",
                 "intro": "一个开源游戏引擎",
-                "link": ""
+                "link": "https://godotengine.org/"
             },
             {
                 "name": "苹果将发售 Mac Studio",
                 "intro": "M1 芯片成为新杀手锏",
-                "link": ""
+                "link": "https://www.apple.com/mac-studio/"
             },
             {
                 "name": "",
                 "intro": "关于数据库索引工作原理的解答",
-                "link": ""
+                "link": "https://stackoverflow.com/questions/1108/how-does-database-indexing-work"
             },
             {
                 "name": "dasel",
                 "intro": "单一工具完成 JSON、TOML 等文件的读取和修改",
-                "link": ""
+                "link": "https://github.com/TomWright/dasel"
             },
             {
                 "name": "“请停止使用 :latest 标签”",
                 "intro": "一篇关于版本安全的文章",
-                "link": ""
+                "link": "https://platformers.dev/log/2022/latest-literally-kills-puppies/"
             }
         ]
     },
@@ -1733,42 +1733,42 @@
             {
                 "name": "",
                 "intro": "Mozilla 的 MDN 文档全新上线",
-                "link": ""
+                "link": "https://developer.mozilla.org/zh-CN/"
             },
             {
                 "name": "",
                 "intro": "Mozilla 的3D虚拟空间产品",
-                "link": ""
+                "link": "https://hubs.mozilla.com/"
             },
             {
                 "name": "HOPPSCOTCH",
                 "intro": "一个开源网络请求发送工具",
-                "link": ""
+                "link": "https://hoppscotch.io/"
             },
             {
                 "name": "Streamlit",
                 "intro": "一个使用 Python 直接开发 web UI 的工具",
-                "link": ""
+                "link": "https://streamlit.io/"
             },
             {
                 "name": "Textframe",
                 "intro": "一个动画产品教程创建工具",
-                "link": ""
+                "link": "https://textframe.app/"
             },
             {
                 "name": "",
                 "intro": "SaaS 产品开源替代品大全",
-                "link": ""
+                "link": "https://github.com/RunaCapital/awesome-oss-alternatives"
             },
             {
                 "name": "",
                 "intro": "迷你掌上游戏机 playdate 开源了 SDK",
-                "link": ""
+                "link": "https://play.date/dev/"
             },
             {
                 "name": "轻松一刻时间",
                 "intro": "小游戏",
-                "link": ""
+                "link": "https://www.lessmilk.com/almost-pong/"
             }
         ]
     },
@@ -1786,37 +1786,37 @@
             {
                 "name": "Django",
                 "intro": "CRUD 最佳工具/答案1",
-                "link": ""
+                "link": "https://www.djangoproject.com/"
             },
             {
                 "name": "PostgREST",
                 "intro": "CRUD 最佳工具/答案2",
-                "link": ""
+                "link": "https://postgrest.org/en/stable/"
             },
             {
                 "name": "nHOST",
                 "intro": "CRUD 最佳工具/答案3",
-                "link": ""
+                "link": "https://nhost.io/"
             },
             {
                 "name": "Grist",
                 "intro": "Airtable 的开源替代",
-                "link": ""
+                "link": "https://www.airtable.com/"
             },
             {
                 "name": "Automerge",
                 "intro": "JS 协同算法库",
-                "link": ""
+                "link": "https://github.com/automerge/automerge"
             },
             {
                 "name": "Supernotes",
                 "intro": "笔记软件",
-                "link": ""
+                "link": "https://supernotes.app/"
             },
             {
                 "name": "Sioyek",
                 "intro": "论文专用 PDF 阅读器",
-                "link": ""
+                "link": "https://github.com/ahrm/sioyek"
             }
         ]
     },
@@ -1827,9 +1827,39 @@
         "pubdate": 1645315081,
         "data": [
             {
+                "name": "Mermaid",
+                "intro": "GitHub 的 Markdown 新功能",
+                "link": "https://github.blog/2022-02-14-include-diagrams-markdown-files-mermaid/"
+            },
+            {
+                "name": "Arduboy",
+                "intro": "8位迷你游戏机",
+                "link": "https://www.arduboy.com/"
+            },
+            {
+                "name": "Glitch",
+                "intro": "一个 PaaS 平台",
+                "link": "https://glitch.com/"
+            },
+            {
+                "name": "allotropia",
+                "intro": "基于 WASM 在浏览器中运行 LibreOffice",
+                "link": "https://www.allotropia.de/"
+            },
+            {
                 "name": "",
-                "intro": "",
-                "link": ""
+                "intro": "Honeypot 制作的 K8s 纪录片",
+                "link": "https://www.youtube.com/watch?v=BE77h7dmoQU"
+            },
+            {
+                "name": "Hue.tools",
+                "intro": "颜色处理工具",
+                "link": "https://hue.tools/"
+            },
+            {
+                "name": "shortwave",
+                "intro": "邮件工具",
+                "link": "https://www.shortwave.com/blog/introducing-shortwave/"
             }
         ]
     },
@@ -1842,42 +1872,42 @@
             {
                 "name": "Files Gallery",
                 "intro": "应用",
-                "link": ""
+                "link": "https://www.files.gallery/"
             },
             {
                 "name": "Tally",
                 "intro": "工具",
-                "link": ""
+                "link": "https://tally.so/"
             },
             {
                 "name": "Datawrapper",
                 "intro": "工具",
-                "link": ""
+                "link": "https://www.datawrapper.de/"
             },
             {
                 "name": "onemodel",
                 "intro": "工具",
-                "link": ""
+                "link": "https://www.onemodel.app/"
             },
             {
                 "name": "Postman",
                 "intro": "工具",
-                "link": ""
+                "link": "https://blog.postman.com/postman-now-supports-grpc/"
             },
             {
                 "name": "",
                 "intro": "Laravel 9.0 发布",
-                "link": ""
+                "link": "https://laravel-news.com/laravel-9-released"
             },
             {
                 "name": "Mailwind",
                 "intro": "邮件模版",
-                "link": ""
+                "link": "https://github.com/soheilpro/mailwind"
             },
             {
                 "name": "《 backend.sql + frontend.js = love》",
                 "intro": "文章",
-                "link": ""
+                "link": "https://blog.polyglot.network/backend.sql-+-frontend.js-love"
             },
             {
                 "name": "《Top web hacking techniques of 2021》",
@@ -1887,7 +1917,7 @@
             {
                 "name": "",
                 "intro": "SHA256 算法可视化演示",
-                "link": ""
+                "link": "https://sha256algorithm.com/"
             }
         ]
     },
@@ -1898,9 +1928,29 @@
         "pubdate": 1644106890,
         "data": [
             {
+                "name": "Hibiki HTML",
+                "intro": "新的前端框架-没有脚手架，没有Webpack",
+                "link": "https://playground.hibikihtml.com/tutorial/"
+            },
+            {
                 "name": "",
-                "intro": "",
-                "link": ""
+                "intro": "Systemd by Example",
+                "link": "https://systemd-by-example.com/"
+            },
+            {
+                "name": "Malloy – A Better SQL",
+                "intro": "from Looker",
+                "link": "https://github.com/looker-open-source/malloy"
+            },
+            {
+                "name": "Rich Cli 由Python编写",
+                "intro": "可打印各种格式丰富的内容",
+                "link": "https://github.com/Textualize/rich-cli"
+            },
+            {
+                "name": "",
+                "intro": "《我是如何在AWS上发现数千个开放数据库的》",
+                "link": "https://infosecwriteups.com/how-i-discovered-thousands-of-open-databases-on-aws-764729aa7f32"
             }
         ]
     },
@@ -1912,8 +1962,53 @@
         "data": [
             {
                 "name": "",
-                "intro": "",
-                "link": ""
+                "intro": "Charm 用来开发命令行工具的框架",
+                "link": "https://charm.sh/"
+            },
+            {
+                "name": "",
+                "intro": "Nova 一个专门给Mac设计的代码编辑器",
+                "link": "https://nova.app/"
+            },
+            {
+                "name": "",
+                "intro": "rnote 创建手绘风格的笔记软件",
+                "link": "https://github.com/flxzt/rnote"
+            },
+            {
+                "name": "",
+                "intro": "github action 使用示例",
+                "link": "https://www.actionsbyexample.com/"
+            },
+            {
+                "name": "",
+                "intro": "playwright web自动化框架",
+                "link": "https://github.com/microsoft/playwright"
+            },
+            {
+                "name": "",
+                "intro": "prql rust编写的现代化查询语言",
+                "link": "https://github.com/prql/prql"
+            },
+            {
+                "name": "",
+                "intro": "Deskreen 屏幕共享工具",
+                "link": "https://deskreen.com/lang-zh_CN"
+            },
+            {
+                "name": "",
+                "intro": "《为什么我们团队取消了微服务的计划》",
+                "link": "https://steven-lemon182.medium.com/why-our-team-cancelled-our-move-to-microservices-8fd87898d952"
+            },
+            {
+                "name": "",
+                "intro": "《将SQLite存储在Cloudflare耐用对象中》",
+                "link": "https://ma.rkusa.st/store-sqlite-in-cloudflare-durable-objects"
+            },
+            {
+                "name": "",
+                "intro": "《Kubernetes如此复杂有两个原因》",
+                "link": "https://buttondown.email/nelhage/archive/two-reasons-kubernetes-is-so-complex/"
             }
         ]
     },
@@ -1926,57 +2021,57 @@
             {
                 "name": "",
                 "intro": "faker.js 删库事件新进展",
-                "link": ""
+                "link": "https://github.com/faker-js/faker"
             },
             {
                 "name": "",
                 "intro": "暴雪被收购",
-                "link": ""
+                "link": "https://news.microsoft.com/2022/01/18/microsoft-to-acquire-activision-blizzard-to-bring-the-joy-and-community-of-gaming-to-everyone-across-every-device/"
             },
             {
                 "name": "PyFlow",
                 "intro": "一个可视化编程环境",
-                "link": ""
+                "link": "https://github.com/wonderworks-software/PyFlow"
             },
             {
                 "name": "",
                 "intro": "CSS 选择器练习题网站",
-                "link": ""
+                "link": "https://css-speedrun.netlify.app/"
             },
             {
                 "name": "",
                 "intro": "GPS 工作原理详解",
-                "link": ""
+                "link": "https://ciechanow.ski/gps/"
             },
             {
                 "name": "Lichess",
                 "intro": "一个国际象棋服务器的支出分析",
-                "link": ""
+                "link": "https://lichess.org/"
             },
             {
                 "name": "",
                 "intro": "谷歌分析在欧盟合法性及其替代品",
-                "link": ""
+                "link": "https://isgoogleanalyticsillegal.com/"
             },
             {
                 "name": "",
                 "intro": "AWS DynamoDB 十年回顾",
-                "link": ""
+                "link": "https://www.amazon.science/latest-news/amazons-dynamodb-10-years-later"
             },
             {
                 "name": "CyberChef",
                 "intro": "一个数据格式转换工具",
-                "link": ""
+                "link": "https://gchq.github.io/CyberChef/"
             },
             {
                 "name": "curl",
                 "intro": "最近支持了 JSON",
-                "link": ""
+                "link": "https://curl.se/"
             },
             {
                 "name": "轻松一刻",
                 "intro": "弹珠撞击木块游戏",
-                "link": ""
+                "link": "https://wallsmash.com/"
             }
         ]
     },
@@ -1989,47 +2084,47 @@
             {
                 "name": "",
                 "intro": "开源软件被植入恶意代码",
-                "link": ""
+                "link": "https://www.bleepingcomputer.com/news/security/dev-corrupts-npm-libs-colors-and-faker-breaking-thousands-of-apps/"
             },
             {
                 "name": "",
                 "intro": "Browsix 浏览器中实现 POSIX",
-                "link": ""
+                "link": "https://browsix.org/"
             },
             {
                 "name": "",
                 "intro": "GitHub Copilot",
-                "link": ""
+                "link": "https://dagshub.com/blog/github-copilot-not-code/"
             },
             {
                 "name": "",
                 "intro": "Learn and Test DMARC 一个可视化工具",
-                "link": ""
+                "link": "https://www.learndmarc.com/"
             },
             {
                 "name": "",
                 "intro": "BookStack 一个开源 wiki 工具",
-                "link": ""
+                "link": "https://www.bookstackapp.com/"
             },
             {
                 "name": "",
                 "intro": "Poly Haven 如何花不到400美金处理80TB数据和500万次页面访问的",
-                "link": ""
+                "link": "https://blog.polyhaven.com/how-we-handle-80tb-and-5m-page-views-a-month-for-under-400/"
             },
             {
                 "name": "",
-                "intro": "Kogi 一个新型高级付费搜索引擎",
-                "link": ""
+                "intro": "Kagi 一个新型高级付费搜索引擎",
+                "link": "https://kagi.com/"
             },
             {
                 "name": "",
                 "intro": "介绍两个 Cli 工具: dsq 和 fx",
-                "link": ""
+                "link": "https://datastation.multiprocess.io/blog/2022-01-11-dsq.html"
             },
             {
                 "name": "轻松一刻时间",
                 "intro": "介绍一个打发时间的小游戏",
-                "link": ""
+                "link": "https://looptap.vasanthv.com/"
             }
         ]
     },
@@ -2042,52 +2137,52 @@
             {
                 "name": "",
                 "intro": "任天堂掌上游戏机发展史回顾",
-                "link": ""
+                "link": "https://www.scanofthemonth.com/scans/game-boy-compendium"
             },
             {
                 "name": "",
                 "intro": "《为什么要运行自己的 DNS 服务器？》",
-                "link": ""
+                "link": "https://www.howtogeek.com/devops/how-to-run-your-own-dns-server-on-your-local-network/"
             },
             {
                 "name": "Zotero",
                 "intro": "一个开源的经典文献管理工具",
-                "link": ""
+                "link": "https://www.zotero.org/"
             },
             {
                 "name": "Darling",
                 "intro": "一个帮助你在 Linux 上运行 Mac 应用程序的工具",
-                "link": ""
+                "link": "https://www.darlinghq.org/"
             },
             {
                 "name": "coqui",
                 "intro": "克隆你的声音说外语",
-                "link": ""
+                "link": "https://coqui.ai/"
             },
             {
                 "name": "OpenDrop",
                 "intro": "一个开源版的 AirDrop",
-                "link": ""
+                "link": "https://github.com/seemoo-lab/opendrop"
             },
             {
                 "name": "Portmaster",
                 "intro": "一个帮助你管理电脑网络的开源软件",
-                "link": ""
+                "link": "https://safing.io/"
             },
             {
                 "name": "Papers We Love",
                 "intro": "一个专门研读学术类计算机科学论文的开源社区",
-                "link": ""
+                "link": "https://paperswelove.org/"
             },
             {
                 "name": "",
                 "intro": "关于 Zig 这个新兴编程语言的分析",
-                "link": ""
+                "link": "https://www.duskborn.com/posts/2021-aoc-zig/"
             },
             {
                 "name": "",
                 "intro": "Raycast 团队信奉无需 code review 的理念",
-                "link": ""
+                "link": "https://www.raycast.com/blog/no-code-reviews-by-default"
             },
             {
                 "name": "",
@@ -2097,7 +2192,7 @@
             {
                 "name": "",
                 "intro": "SpaceX Dragon 2 与国际空间站对接的模拟机",
-                "link": ""
+                "link": "https://iss-sim.spacex.com/"
             }
         ]
     },
@@ -2109,8 +2204,63 @@
         "data": [
             {
                 "name": "",
-                "intro": "",
+                "intro": "波斯王子 一款为Mac开发的游戏",
                 "link": ""
+            },
+            {
+                "name": "",
+                "intro": "《一个HTML文件中的整个网站》",
+                "link": "https://css-tricks.com/a-whole-website-in-a-single-html-file/"
+            },
+            {
+                "name": "",
+                "intro": "街头霸王2",
+                "link": ""
+            },
+            {
+                "name": "",
+                "intro": "emfy Emacs编辑器的配置项目",
+                "link": "https://github.com/susam/emfy"
+            },
+            {
+                "name": "",
+                "intro": "HTTP Toolkit",
+                "link": "https://httptoolkit.tech/"
+            },
+            {
+                "name": "Exa",
+                "intro": "ls的现代替代品",
+                "link": "https://the.exa.website/"
+            },
+            {
+                "name": "Marktext",
+                "intro": "优雅的Markdown编辑器，适用于Linux, macOS, Windows",
+                "link": "https://github.com/marktext/marktext"
+            },
+            {
+                "name": "",
+                "intro": "Tokio rust编写的开源异步库",
+                "link": "https://tokio.rs/blog/2021-12-announcing-tokio-console"
+            },
+            {
+                "name": "",
+                "intro": "Ruby 3.1",
+                "link": "https://www.ruby-lang.org/en/news/2021/12/25/ruby-3-1-0-released/"
+            },
+            {
+                "name": "",
+                "intro": "Python CheatSheet python 问题查询手册",
+                "link": "https://gto76.github.io/python-cheatsheet/"
+            },
+            {
+                "name": "",
+                "intro": "《2021年的数据库:回顾的一年》",
+                "link": "https://ottertune.com/blog/2021-databases-retrospective/"
+            },
+            {
+                "name": "Miller",
+                "intro": "用于查询、塑造、重新格式化CSV、TSV和JSON中的数据的工具",
+                "link": "https://miller.readthedocs.io/en/latest/"
             }
         ]
     },
@@ -2122,8 +2272,68 @@
         "data": [
             {
                 "name": "",
-                "intro": "",
-                "link": ""
+                "intro": "blender3.0 图形渲染工具",
+                "link": "https://www.blender.org/download/releases/3-0/"
+            },
+            {
+                "name": "uBlacklist",
+                "intro": "阻止特定的站点出现在谷歌的搜索结果中",
+                "link": "https://github.com/iorate/uBlacklist"
+            },
+            {
+                "name": "",
+                "intro": "Apache Guacamole 无客户端的远程桌面网端",
+                "link": "https://guacamole.apache.org/"
+            },
+            {
+                "name": "",
+                "intro": "Learn X in Y minutes",
+                "link": "https://learnxinyminutes.com/"
+            },
+            {
+                "name": "",
+                "intro": "《语义搜索的自然语言处理》",
+                "link": "https://www.pinecone.io/learn/nlp/"
+            },
+            {
+                "name": "",
+                "intro": "Jam 自部署工具",
+                "link": "https://github.com/jam-systems/jam"
+            },
+            {
+                "name": "",
+                "intro": "Milk Video 通过上传的视频和音频生成声波图的工具",
+                "link": "https://app.milkvideo.com/"
+            },
+            {
+                "name": "AlterClass",
+                "intro": "一个制作和销售编程课程的平台",
+                "link": "https://alterclass.io/"
+            },
+            {
+                "name": "",
+                "intro": "Code Search 搜索代码工具",
+                "link": "https://github.blog/2021-12-08-improving-github-code-search/"
+            },
+            {
+                "name": "Lapce",
+                "intro": "基于原生 GUI 和 Rust 编写的开源代码编辑器",
+                "link": "https://github.com/lapce/lapce"
+            },
+            {
+                "name": "Rough.js",
+                "intro": "创建一个手绘的，粗略的图形外观的工具",
+                "link": "https://roughjs.com/"
+            },
+            {
+                "name": "",
+                "intro": "Doodle CSS 手绘风格的主题css",
+                "link": "https://chr15m.github.io/DoodleCSS/"
+            },
+            {
+                "name": "",
+                "intro": "Paper Website 从纸上建立一个网站界面",
+                "link": "https://daily.tinyprojects.dev/paper_website"
             }
         ]
     }

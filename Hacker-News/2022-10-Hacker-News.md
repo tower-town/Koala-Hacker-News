@@ -4,6 +4,40 @@
                 <th>简介</th>
                 <th>链接</th>
             </theader>            <tbody>                <tr>
+                    <td></td>
+                    <td>Vercel 推出 webpack 替代品</td>
+                    <td>https://vercel.com/blog/turbopack</td>
+                </tr>                <tr>
+                    <td></td>
+                    <td>Python 发布新版本</td>
+                    <td>https://discuss.python.org/t/python-3-11-0-final-is-now-available/20291</td>
+                </tr>                <tr>
+                    <td></td>
+                    <td>轻量级搜索引擎 Sonic</td>
+                    <td>https://github.com/valeriansaliou/sonic</td>
+                </tr>                <tr>
+                    <td>Answer</td>
+                    <td>SegmentFault 开源的知识类库</td>
+                    <td>https://answer.dev/</td>
+                </tr>                <tr>
+                    <td>openvim</td>
+                    <td>交互式的 Vim 教程</td>
+                    <td>https://www.openvim.com/</td>
+                </tr>                <tr>
+                    <td>Bolt.css</td>
+                    <td>HTML 的样式表</td>
+                    <td>https://boltcss.com/</td>
+                </tr>                <tr>
+                    <td>Starter Tab</td>
+                    <td>自定义主页工具</td>
+                    <td>https://startertab.com/</td>
+                </tr>            </tbody>            </table>
+[[Hacker News 周报] 手机编程 App；WebAssembly 应用；高性能 TypeScript 编译器](https://www.bilibili.com/video/BV14G4y1H7VM)
+            <table>            <theader>
+                <th>名称</th>
+                <th>简介</th>
+                <th>链接</th>
+            </theader>            <tbody>                <tr>
                     <td>Tabby</td>
                     <td>用 web 开发的现代化终端</td>
                     <td>https://github.com/Eugeny/tabby</td>
@@ -32,7 +66,7 @@
                     <td>Koala 频道观众贡献的2个 Hacker News 周报检索项目</td>
                     <td>https://github.com/ZutJoe/Koala_hacker_news</td>
                 </tr>            </tbody>            </table>
-[[Hacker News 周报] 手机编程 App；WebAssembly 应用；高性能 TypeScript 编译器](https://www.bilibili.com/video/BV14G4y1H7VM)
+[[Hacker News 周报] Obsidian 发布 1.0；命令行中编辑视频与收发邮件；Jet Brains 新一代 IDE 公测](https://www.bilibili.com/video/BV1Ae411V7UR)
             <table>            <theader>
                 <th>名称</th>
                 <th>简介</th>
@@ -66,7 +100,7 @@
                     <td>Go 语言设计讨论</td>
                     <td>https://github.com/golang/go/discussions/56010</td>
                 </tr>            </tbody>            </table>
-[[Hacker News 周报] Obsidian 发布 1.0；命令行中编辑视频与收发邮件；Jet Brains 新一代 IDE 公测](https://www.bilibili.com/video/BV1Ae411V7UR)
+[[Hacker News 周报] 通过二维码分享电脑中任意文件；开源 WASM 运行 PostgresSQL 方案；社区尝试维护 SQLite 下游版本](https://www.bilibili.com/video/BV1GR4y1R7Yw)
             <table>            <theader>
                 <th>名称</th>
                 <th>简介</th>
@@ -100,7 +134,7 @@
                     <td>TypeScript  10 years anniversary</td>
                     <td>https://devblogs.microsoft.com/typescript/ten-years-of-typescript/</td>
                 </tr>            </tbody>            </table>
-[[Hacker News 周报] 通过二维码分享电脑中任意文件；开源 WASM 运行 PostgresSQL 方案；社区尝试维护 SQLite 下游版本](https://www.bilibili.com/video/BV1GR4y1R7Yw)
+[[Hacker News 周报] CloudFlare 开源 serverless 运行时 workerd；开源 APM 系统；使用 Go 和 Web 技术开发](https://www.bilibili.com/video/BV1td4y1B7Y1)
             <table>            <theader>
                 <th>名称</th>
                 <th>简介</th>
@@ -133,42 +167,4 @@
                     <td></td>
                     <td>Google 计划关停云游戏服务 Stadia</td>
                     <td>https://www.theverge.com/2022/9/29/23378713/google-stadia-shutting-down-game-streaming-january-2023</td>
-                </tr>            </tbody>            </table>
-[[Hacker News 周报] CloudFlare 开源 serverless 运行时 workerd；开源 APM 系统；使用 Go 和 Web 技术开发](https://www.bilibili.com/video/BV1td4y1B7Y1)
-            <table>            <theader>
-                <th>名称</th>
-                <th>简介</th>
-                <th>链接</th>
-            </theader>            <tbody>                <tr>
-                    <td>GitUI</td>
-                    <td>Git 终端 UI</td>
-                    <td>https://github.com/extrawurst/gitui</td>
-                </tr>                <tr>
-                    <td>Dub</td>
-                    <td>开源短链接服务</td>
-                    <td>https://dub.sh/</td>
-                </tr>                <tr>
-                    <td>WunderBase</td>
-                    <td>serverless GraphQL 数据库</td>
-                    <td>https://github.com/wundergraph/wunderbase</td>
-                </tr>                <tr>
-                    <td>Rocketry</td>
-                    <td>现代化的 Python 调度框架</td>
-                    <td>https://github.com/Miksus/rocketry</td>
-                </tr>                <tr>
-                    <td>KREA</td>
-                    <td>AI 作画图库</td>
-                    <td>https://www.krea.ai/</td>
-                </tr>                <tr>
-                    <td>Whisper</td>
-                    <td>OpenAI 开源的语音识别系统</td>
-                    <td>https://openai.com/blog/whisper</td>
-                </tr>                <tr>
-                    <td></td>
-                    <td>fly.io 开源新项目 LiteFS</td>
-                    <td>https://fly.io/blog/introducing-litefs</td>
-                </tr>                <tr>
-                    <td></td>
-                    <td>Azure CTO Mark Russinovich 发推引发热议</td>
-                    <td>https://twitter.com/markrussinovich/status/1571995117233504257</td>
                 </tr>            </tbody>            </table>
