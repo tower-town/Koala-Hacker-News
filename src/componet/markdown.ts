@@ -1,6 +1,6 @@
 import { JsonData } from "../types/type";
 import { Utils } from "./utils";
-import * as path from "path";
+import path from "path";
 
 interface Tables {
 	content: string[];

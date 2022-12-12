@@ -1,4 +1,4 @@
-import * as fs from "fs";
+import fs from "fs";
 import { Sort } from "./sort";
 import { JsonData } from "../types/type";
 

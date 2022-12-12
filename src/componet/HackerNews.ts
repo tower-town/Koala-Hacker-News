@@ -1,5 +1,5 @@
-import * as path from "path";
-import * as async from "async";
+import path from "path";
+import async from "async";
 import { Utils, fetchjson } from "./utils";
 import { JsonData } from "../types/type";
 import { Comment } from "./comment";
@@ -87,6 +87,7 @@ export class HackerNews {
 	}
 
 	get_comment(): void {
+		this.init();
 		let comment_data = this.api_data?.["get_comment"]!;
 		let comment_params = comment_data["params"];
 		let that = this;

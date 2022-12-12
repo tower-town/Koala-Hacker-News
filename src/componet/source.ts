@@ -1,6 +1,6 @@
 import { Api, ApiData } from "./api";
 import { Utils, fetchjson } from "./utils";
-import * as async from "async";
+import async from "async";
 import { JsonData } from "../types/type";
 
 export class Source {
@@ -59,7 +59,6 @@ export class Source {
 
 	write_source(source_data: JsonData, json_path: string): void {
 		let utils = new Utils();
-		
 		utils.write_file(json_path, source_data);
 	}
 
