@@ -50,7 +50,7 @@ export class Source {
 					}
 				});
 
-				if (this.json_data) {
+				if (that.json_data) {
 					that.write_source(source_data, json_path);
 				}
 			}

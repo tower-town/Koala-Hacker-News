@@ -122,6 +122,13 @@ export class HackerNews {
 					let data = value["data"];
 					let message = that.comment.get_top_commment(data, bvid);
 					let intro_data = that.comment.parse_comment(message);
+					
+					if (video_info[bvid]['data']){
+						video_info[bvid]['data']?.forEach((items, index) => {
+							intro_data[index] = items;
+						})
+							
+					}
 					video_info[bvid]["data"] = intro_data;
 
 					let sort_data = this.utils.sort_json(video_info, "pubdate");
