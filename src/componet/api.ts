@@ -3,8 +3,8 @@ import JSON5 from "json5";
 import { Utils } from "./utils";
 
 export interface ApiData {
-	get_aids: ApiParams;
-	get_comment: ApiParams;
+	collect: ApiParams;
+	comment: ApiParams;
 	video_info: ApiParams;
 }
 

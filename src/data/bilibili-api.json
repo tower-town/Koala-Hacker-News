@@ -1,6 +1,6 @@
 {
     // https://github.com/SocialSisterYi/bilibili-API-collect/pull/437/files
-    "get_aids": {
+    "collect": {
         "url": "http://api.bilibili.com/x/polymer/space/seasons_archives_list",
         "params": {
             "mid": "489667127",
@@ -11,7 +11,7 @@
         }
     },
     // https://github.com/SocialSisterYi/bilibili-API-collect/blob/master/comment/list.md
-    "get_comment": {
+    "comment": {
         "url": "http://api.bilibili.com/x/v2/reply/main",
         "params": {
             "type": 1,

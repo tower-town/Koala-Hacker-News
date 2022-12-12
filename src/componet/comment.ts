@@ -1,6 +1,7 @@
 import { Utils } from "./utils";
 import { IntroData } from "../types/type";
-import * as path from "path";
+import { Api,ApiData } from "./api";
+import path from "path";
 
 interface NoteData {
 	[bvid: string]: {
@@ -8,11 +9,31 @@ interface NoteData {
 	};
 }
 
-export class Comment{
-	utils: Utils = new Utils();
-    constructor(){
+export class Comment {
+	utils: Utils;
+	api_data: ApiData;
+	mid: string;
+	constructor(api_data: ApiData) {
 		this.utils = new Utils();
-    }
+		this.mid = "489667127";
+		this.api_data = api_data
+	}
+
+	init_url(aids: string[]): URL[] {
+
+			let api_data = this.api_data["comment"];
+			let api_params = api_data["params"];
+			
+			let urls: URL[] = [];
+
+			aids.forEach(aid => {
+				api_params["oid"] = aid;
+				let url = this.utils.parse_url(api_data["url"], api_params);
+				urls.push(url);
+			});
+			
+			return urls;
+	}
 
 	get_top_commment(
 		// rome-ignore lint/suspicious/noExplicitAny: <explanation>
@@ -22,6 +43,8 @@ export class Comment{
 		bvid: string;
 		list: string[];
 	} {
+
+		let mid = this.mid;
 		let top = {
 			comment: comment["top"]["upper"],
 			reply: comment["replies"][0],
@@ -41,7 +64,7 @@ export class Comment{
 
 		if (top["comment"] === null) {
 			message["comment"] = "";
-			if (top["reply"]["member"]["mid"] === "489667127") {
+			if (top["reply"]["member"]["mid"] === mid) {
 				message["reply"] = top["reply"]["content"]["message"];
 			}
 		} else {
@@ -72,6 +95,7 @@ export class Comment{
 			/^[0-9hw].*/.test(value),
 		);
 
+		let bvid = message["bvid"];
 		let note_path = path.join(__dirname, "../data/note.json");
 		let note_data: NoteData = JSON.parse(this.utils.read_file(note_path));
 
@@ -98,31 +122,13 @@ export class Comment{
 		intro["link"] = [];
 		intro["content"] = [];
 
-		message_data.forEach((value, index) => {
-			let name = "";
-			let content = "";
-
-			if (/^https?:\/\/\S+/.test(value)) {
-				intro["link"].push(value);
+		message_data.forEach((intro_str, index) => {
+			if (/^https?:\/\/\S+/.test(intro_str)) {
+				intro["link"].push(intro_str);
 			} else {
-				const regexp =
-					/\d{2}:\d{2}(?:\s+)?([^｜|，,]+)?([｜\|，,])?(.+$)/g;
-				let captures = [...value.matchAll(regexp)][0];
-				if (captures) {
-					if (captures[2]) {
-						name = captures[1] || "";
-						content = captures[3];
-					} else {
-						name = "";
-						content = captures[1] + captures[3];
-					}
-				} else {
-					console.warn(
-						`warning: escaple capture is ${value} in ${message["bvid"]}`,
-					);
-				}
-				intro["name"].push(name);
-				intro["content"].push(content);
+				let capture = this.capture_name_intro(intro_str, bvid);
+				intro["name"].push(capture["name"]);
+				intro["content"].push(capture["intro"]);
 			}
 		});
 		intro["name"].forEach((value, index) => {
@@ -136,5 +142,31 @@ export class Comment{
 			};
 		});
 		return intro["data"];
+	}
+
+	capture_name_intro(
+		intro_str: string,
+		bvid: string,
+	): { name: string; intro: string } {
+		const regexp = /\d{2}:\d{2}(?:\s+)?([^｜|，,]+)?([｜\|，,])?(.+$)/g;
+		let value = intro_str;
+		let capture = {
+			name: "",
+			intro: "",
+		};
+
+		let captures = [...value.matchAll(regexp)][0];
+		if (captures) {
+			if (captures[2]) {
+				capture["name"] = captures[1] || "";
+				capture["intro"] = captures[3];
+			} else {
+				capture["name"] = "";
+				capture["intro"] = captures[1] + captures[3];
+			}
+		} else {
+			console.warn(`warning: escaple capture is ${value} in ${bvid}`);
+		}
+		return capture;
 	}
 }
