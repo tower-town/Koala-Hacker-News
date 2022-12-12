@@ -1,4 +1,5 @@
-import * as path from "path";
+import path from "path";
+import JSON5 from "json5";
 import { Utils } from "./utils";
 
 export interface ApiData {
@@ -23,7 +24,7 @@ export class Api {
 	init(): ApiData {
 		let utils = new Utils();
 		let api_path = path.join(__dirname, "../data/bilibili-api.json");
-		let api_data = JSON.parse(utils.read_file(api_path));
+		let api_data = JSON5.parse(utils.read_file(api_path));
 		return api_data;
 	}
 }
