@@ -2,7 +2,7 @@ name: auto update Koala-Hacker-News
 
 on:
   schedule:
-    - cron: '20,25 15 * * MON'
+    - cron: '30,32 15 * * MON'
 
 jobs:
   build:
