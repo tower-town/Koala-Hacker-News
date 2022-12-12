@@ -4,6 +4,40 @@
                 <th>简介</th>
                 <th>链接</th>
             </theader>            <tbody>                <tr>
+                    <td>PikaScript</td>
+                    <td>超轻量级 Python 引擎</td>
+                    <td>https://github.com/pikasTech/pikascript</td>
+                </tr>                <tr>
+                    <td></td>
+                    <td>bionic-reading 的快速阅读英文插件</td>
+                    <td>https://github.com/ansh/bionic-reading</td>
+                </tr>                <tr>
+                    <td>IndigoStack</td>
+                    <td>MacOS 平台上的本地开发环境</td>
+                    <td>https://indigostack.app/</td>
+                </tr>                <tr>
+                    <td></td>
+                    <td>TypeScript 发布4.7版本</td>
+                    <td>https://devblogs.microsoft.com/typescript/announcing-typescript-4-7/</td>
+                </tr>                <tr>
+                    <td>AnimatiSS</td>
+                    <td>一组 CSS 动画合集</td>
+                    <td>https://xsgames.co/animatiss</td>
+                </tr>                <tr>
+                    <td>Arctype</td>
+                    <td>SQL 数据库客户端</td>
+                    <td>https://arctype.com/</td>
+                </tr>                <tr>
+                    <td></td>
+                    <td>一个有趣的3D 植物生成工具</td>
+                    <td>https://plant.jim-fx.com/</td>
+                </tr>            </tbody>            </table>
+[[Hacker News 周报] GO 全栈开发框架；开发终端风格网站；大厂技术架构赏析](https://www.bilibili.com/video/BV13a411E7AQ)
+            <table>            <theader>
+                <th>名称</th>
+                <th>简介</th>
+                <th>链接</th>
+            </theader>            <tbody>                <tr>
                     <td>Bud</td>
                     <td>GO 的全栈 web 框架</td>
                     <td>https://github.com/livebud/bud</td>
@@ -32,7 +66,7 @@
                     <td>一个汇集大厂架构分析的专栏频道</td>
                     <td>https://quastor.substack.com/</td>
                 </tr>            </tbody>            </table>
-[[Hacker News 周报] GO 全栈开发框架；开发终端风格网站；大厂技术架构赏析](https://www.bilibili.com/video/BV13a411E7AQ)
+[[Hacker News 周报] SQLite 再次流行；JS 性能分析指南；魔方竞速工具 CubeDesk](https://www.bilibili.com/video/BV1kT4y1B7Nh)
             <table>            <theader>
                 <th>名称</th>
                 <th>简介</th>
@@ -70,7 +104,7 @@
                     <td>一篇 JS 性能分析指南的文章</td>
                     <td>https://blog.atomrc.dev/p/js-performance-profiling/</td>
                 </tr>            </tbody>            </table>
-[[Hacker News 周报] SQLite 再次流行；JS 性能分析指南；魔方竞速工具 CubeDesk](https://www.bilibili.com/video/BV1kT4y1B7Nh)
+[[Hacker News 周报] 浏览器中运行 Python；JSON 可视化神器；避免电脑休眠的网页](https://www.bilibili.com/video/BV1PB4y1278B)
             <table>            <theader>
                 <th>名称</th>
                 <th>简介</th>
@@ -108,7 +142,7 @@
                     <td>移植到 web 上的《塞尔达传说》</td>
                     <td>https://hoten.cc/blog/porting-zelda-classic-to-the-web</td>
                 </tr>            </tbody>            </table>
-[[Hacker News 周报] 浏览器中运行 Python；JSON 可视化神器；避免电脑休眠的网页](https://www.bilibili.com/video/BV1PB4y1278B)
+[[Hacker News周报] 性能分析工具合集；通过 TDD 学习 GO 语言；基于 Deno 的 serverless 平台](https://www.bilibili.com/video/BV1fu41167ME)
             <table>            <theader>
                 <th>名称</th>
                 <th>简介</th>
@@ -141,38 +175,4 @@
                     <td>pixy</td>
                     <td>飞行相机</td>
                     <td>https://pixy.com/</td>
-                </tr>            </tbody>            </table>
-[[Hacker News周报] 性能分析工具合集；通过 TDD 学习 GO 语言；基于 Deno 的 serverless 平台](https://www.bilibili.com/video/BV1fu41167ME)
-            <table>            <theader>
-                <th>名称</th>
-                <th>简介</th>
-                <th>链接</th>
-            </theader>            <tbody>                <tr>
-                    <td></td>
-                    <td>一个有用网站的合集</td>
-                    <td></td>
-                </tr>                <tr>
-                    <td></td>
-                    <td>一个开源的 web 文本编辑器</td>
-                    <td></td>
-                </tr>                <tr>
-                    <td></td>
-                    <td>一个开源的分布式数据库</td>
-                    <td></td>
-                </tr>                <tr>
-                    <td>OpenRefine</td>
-                    <td>开源数据清洗工具</td>
-                    <td></td>
-                </tr>                <tr>
-                    <td></td>
-                    <td>Node.js 发布18版本</td>
-                    <td></td>
-                </tr>                <tr>
-                    <td></td>
-                    <td>GO 发表介绍泛型的文章</td>
-                    <td></td>
-                </tr>                <tr>
-                    <td></td>
-                    <td>一个单手键盘</td>
-                    <td></td>
                 </tr>            </tbody>            </table>
