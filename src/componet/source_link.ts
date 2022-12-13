@@ -21,7 +21,6 @@ export class SourceLink {
 		return urls;
 	}
 
-
 	capture_link(content: string): string[] {
 		let links: string[] = [];
 		const regexp = /(?:.*)(https:\/\/\S+)(?:\s+)?/g;

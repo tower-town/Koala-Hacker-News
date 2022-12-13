@@ -1,8 +1,8 @@
 import * as path from "path";
 import { HackerNews } from "./componet/HackerNews";
 
-let md_path = path.join(__dirname, '../Hacker-News/');
-let readme_path = path.join(__dirname, '../README.md');
+let md_path = path.join(__dirname, "../Hacker-News/");
+let readme_path = path.join(__dirname, "../README.md");
 
 let HN = new HackerNews();
 HN.get_collect_info();

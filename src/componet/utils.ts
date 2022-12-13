@@ -26,7 +26,7 @@ export class Utils {
 		return sort_data;
 	}
 
-	parse_url(url: URL, params: {[param:string]: string | number}): URL {
+	parse_url(url: URL, params: { [param: string]: string | number }): URL {
 		let params_keys = Object.keys(params);
 
 		params_keys.forEach((value, index) => {
