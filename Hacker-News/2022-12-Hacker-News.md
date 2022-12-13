@@ -18,15 +18,15 @@
                 </tr>                <tr>
                     <td>Codux</td>
                     <td>可视化 React 组件 IDE</td>
-                    <td>https://vitejs.dev/blog/announcing-vite4.html</td>
+                    <td>https://www.codux.com/</td>
                 </tr>                <tr>
                     <td></td>
                     <td>Vite 发布 4.0 大版本</td>
-                    <td>https://github.com/JannisX11/blockbench</td>
+                    <td>https://vitejs.dev/blog/announcing-vite4.html</td>
                 </tr>                <tr>
                     <td>Blockbench</td>
-                    <td>创建 low-poly 视觉风格的3D 模型编辑器</td>
-                    <td></td>
+                    <td>创建 low-poly 视觉风格的 3D 模型编辑器</td>
+                    <td>https://github.com/JannisX11/blockbench</td>
                 </tr>            </tbody>            </table>
 [[Hacker News 周报] OpenAI 开放 ChatGPT 模型；NLP 在线课程；k8s 流量监测工具](https://www.bilibili.com/video/BV1tP4y1Q7Vt)
             <table>            <theader>
@@ -58,7 +58,7 @@
                     <td>NLP 在线课程</td>
                     <td>https://www.nlpdemystified.org/</td>
                 </tr>                <tr>
-                    <td>《Sql for Devs》</td>
+                    <td>"Sql for Devs"</td>
                     <td>数据库详解电子书</td>
                     <td>https://sqlfordevs.com/ebook</td>
                 </tr>            </tbody>            </table>

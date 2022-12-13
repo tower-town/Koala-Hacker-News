@@ -33,7 +33,7 @@
                     <td>https://hacks.mozilla.org/2022/03/introducing-mdn-plus-make-mdn-your-own/</td>
                 </tr>                <tr>
                     <td></td>
-                    <td>一篇题为 《Data Mesh 架构》的文章</td>
+                    <td>一篇题为《Data Mesh 架构》的文章</td>
                     <td>https://www.datamesh-architecture.com/</td>
                 </tr>            </tbody>            </table>
 [[Hacker News 周报] Zotero 发布 6.0 版本；500 行代码学习 OpenGL；GO 支持泛型](https://www.bilibili.com/video/BV1HU4y1d7da)
@@ -47,7 +47,7 @@
                     <td>https://www.zotero.org/blog/zotero-6/</td>
                 </tr>                <tr>
                     <td>Plasticity</td>
-                    <td>用 web 开发的3D 艺术建模开源软件</td>
+                    <td>用 web 开发的 3D 艺术建模开源软件</td>
                     <td>https://github.com/nkallen/plasticity</td>
                 </tr>                <tr>
                     <td>Lapce</td>
@@ -67,7 +67,7 @@
                     <td>https://jvns.ca/blog/2022/03/13/celebrate-tiny-learning-milestones/</td>
                 </tr>                <tr>
                     <td></td>
-                    <td>GO 发布1.18版本支持泛型</td>
+                    <td>GO 发布 1.18 版本支持泛型</td>
                     <td>https://golang.google.cn/</td>
                 </tr>                <tr>
                     <td>CSS</td>
@@ -127,7 +127,7 @@
                     <td>https://developer.mozilla.org/zh-CN/</td>
                 </tr>                <tr>
                     <td></td>
-                    <td>Mozilla 的3D虚拟空间产品</td>
+                    <td>Mozilla 的 3D 虚拟空间产品</td>
                     <td>https://hubs.mozilla.com/</td>
                 </tr>                <tr>
                     <td>HOPPSCOTCH</td>

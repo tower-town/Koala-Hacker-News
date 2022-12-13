@@ -42,7 +42,7 @@
                 <th>简介</th>
                 <th>链接</th>
             </theader>            <tbody>                <tr>
-                    <td>Figma 被收购引发在线设计工具新动向00:31 penpot</td>
+                    <td>Figma 被收购引发在线设计工具新动向 00:31 penpot</td>
                     <td>开源设计工具因 Figma 变热</td>
                     <td>https://www.bloomberg.com/news/articles/2022-09-15/adobe-is-said-to-near-deal-to-buy-online-design-startup-figma</td>
                 </tr>                <tr>

@@ -63,7 +63,7 @@
                     <td>https://blog.replit.com/mobile-app</td>
                 </tr>                <tr>
                     <td></td>
-                    <td>Koala 频道观众贡献的2个 Hacker News 周报检索项目</td>
+                    <td>Koala 频道观众贡献的 2 个 Hacker News 周报检索项目</td>
                     <td>https://github.com/ZutJoe/Koala_hacker_news</td>
                 </tr>            </tbody>            </table>
 [[Hacker News 周报] Obsidian 发布 1.0；命令行中编辑视频与收发邮件；Jet Brains 新一代 IDE 公测](https://www.bilibili.com/video/BV1Ae411V7UR)

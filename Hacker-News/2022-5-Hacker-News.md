@@ -17,7 +17,7 @@
                     <td>https://indigostack.app/</td>
                 </tr>                <tr>
                     <td></td>
-                    <td>TypeScript 发布4.7版本</td>
+                    <td>TypeScript 发布 4.7 版本</td>
                     <td>https://devblogs.microsoft.com/typescript/announcing-typescript-4-7/</td>
                 </tr>                <tr>
                     <td>AnimatiSS</td>
@@ -29,7 +29,7 @@
                     <td>https://arctype.com/</td>
                 </tr>                <tr>
                     <td></td>
-                    <td>一个有趣的3D 植物生成工具</td>
+                    <td>一个有趣的 3D 植物生成工具</td>
                     <td>https://plant.jim-fx.com/</td>
                 </tr>            </tbody>            </table>
 [[Hacker News 周报] GO 全栈开发框架；开发终端风格网站；大厂技术架构赏析](https://www.bilibili.com/video/BV13a411E7AQ)
@@ -142,7 +142,7 @@
                     <td>移植到 web 上的《塞尔达传说》</td>
                     <td>https://hoten.cc/blog/porting-zelda-classic-to-the-web</td>
                 </tr>            </tbody>            </table>
-[[Hacker News周报] 性能分析工具合集；通过 TDD 学习 GO 语言；基于 Deno 的 serverless 平台](https://www.bilibili.com/video/BV1fu41167ME)
+[[Hacker News 周报] 性能分析工具合集；通过 TDD 学习 GO 语言；基于 Deno 的 serverless 平台](https://www.bilibili.com/video/BV1fu41167ME)
             <table>            <theader>
                 <th>名称</th>
                 <th>简介</th>
@@ -160,7 +160,7 @@
                     <td>Bloomberg 开源的 Python 性能分析工具</td>
                     <td>https://github.com/bloomberg/memray</td>
                 </tr>                <tr>
-                    <td>《learn GO with Tests》</td>
+                    <td>"learn GO with Tests"</td>
                     <td>练习 GO 的工具书</td>
                     <td>https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/hello-world</td>
                 </tr>                <tr>

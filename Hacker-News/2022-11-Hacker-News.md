@@ -17,7 +17,7 @@
                     <td>https://superset.apache.org/</td>
                 </tr>                <tr>
                     <td></td>
-                    <td>Stable Diffusion 发布2.0版本</td>
+                    <td>Stable Diffusion 发布 2.0 版本</td>
                     <td>https://stability.ai/blog/stable-diffusion-v2-release</td>
                 </tr>                <tr>
                     <td></td>

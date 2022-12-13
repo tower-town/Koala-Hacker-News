@@ -26,17 +26,17 @@
             {
                 "name": "Codux",
                 "intro": "可视化 React 组件 IDE",
-                "link": "https://vitejs.dev/blog/announcing-vite4.html"
+                "link": "https://www.codux.com/"
             },
             {
                 "name": "",
                 "intro": "Vite 发布 4.0 大版本",
-                "link": "https://github.com/JannisX11/blockbench"
+                "link": "https://vitejs.dev/blog/announcing-vite4.html"
             },
             {
                 "name": "Blockbench",
-                "intro": "创建 low-poly 视觉风格的3D 模型编辑器",
-                "link": ""
+                "intro": "创建 low-poly 视觉风格的 3D 模型编辑器",
+                "link": "https://github.com/JannisX11/blockbench"
             }
         ]
     },
@@ -80,7 +80,7 @@
                 "link": "https://www.nlpdemystified.org/"
             },
             {
-                "name": "《Sql for Devs》",
+                "name": "\"Sql for Devs\"",
                 "intro": "数据库详解电子书",
                 "link": "https://sqlfordevs.com/ebook"
             }
@@ -112,7 +112,7 @@
             },
             {
                 "name": "",
-                "intro": "Stable Diffusion 发布2.0版本",
+                "intro": "Stable Diffusion 发布 2.0 版本",
                 "link": "https://stability.ai/blog/stable-diffusion-v2-release"
             },
             {
@@ -352,7 +352,7 @@
             },
             {
                 "name": "",
-                "intro": "Koala 频道观众贡献的2个 Hacker News 周报检索项目",
+                "intro": "Koala 频道观众贡献的 2 个 Hacker News 周报检索项目",
                 "link": "https://github.com/ZutJoe/Koala_hacker_news"
             }
         ]
@@ -556,7 +556,7 @@
         ],
         "data": [
             {
-                "name": "Figma 被收购引发在线设计工具新动向00:31 penpot",
+                "name": "Figma 被收购引发在线设计工具新动向 00:31 penpot",
                 "intro": "开源设计工具因 Figma 变热",
                 "link": "https://www.bloomberg.com/news/articles/2022-09-15/adobe-is-said-to-near-deal-to-buy-online-design-startup-figma"
             },
@@ -946,7 +946,7 @@
         "data": [
             {
                 "name": "",
-                "intro": "Vite 发布3.0版本",
+                "intro": "Vite 发布 3.0 版本",
                 "link": "https://vitejs.dev/blog/announcing-vite3.html"
             },
             {
@@ -1207,7 +1207,7 @@
         "data": [
             {
                 "name": "Dragonfly",
-                "intro": "一个25倍快的 Redis 竞品",
+                "intro": "一个 25 倍快的 Redis 竞品",
                 "link": "https://github.com/dragonflydb/dragonfly"
             },
             {
@@ -1273,7 +1273,7 @@
             },
             {
                 "name": "",
-                "intro": "TypeScript 发布4.7版本",
+                "intro": "TypeScript 发布 4.7 版本",
                 "link": "https://devblogs.microsoft.com/typescript/announcing-typescript-4-7/"
             },
             {
@@ -1288,7 +1288,7 @@
             },
             {
                 "name": "",
-                "intro": "一个有趣的3D 植物生成工具",
+                "intro": "一个有趣的 3D 植物生成工具",
                 "link": "https://plant.jim-fx.com/"
             }
         ]
@@ -1442,7 +1442,7 @@
         ]
     },
     "BV1fu41167ME": {
-        "title": "[Hacker News周报] 性能分析工具合集；通过 TDD 学习 GO 语言；基于 Deno 的 serverless 平台",
+        "title": "[Hacker News 周报] 性能分析工具合集；通过 TDD 学习 GO 语言；基于 Deno 的 serverless 平台",
         "aid": 511210837,
         "bvid": "BV1fu41167ME",
         "pubdate": 1651365169,
@@ -1463,7 +1463,7 @@
                 "link": "https://github.com/bloomberg/memray"
             },
             {
-                "name": "《learn GO with Tests》",
+                "name": "\"learn GO with Tests\"",
                 "intro": "练习 GO 的工具书",
                 "link": "https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/hello-world"
             },
@@ -1515,7 +1515,7 @@
             },
             {
                 "name": "",
-                "intro": "Node.js 发布18版本",
+                "intro": "Node.js 发布 18 版本",
                 "link": "https://nodejs.org/en/"
             },
             {
@@ -1653,7 +1653,7 @@
             },
             {
                 "name": "",
-                "intro": "React 发布18.0版本",
+                "intro": "React 发布 18.0 版本",
                 "link": "https://reactjs.org/blog/2022/03/29/react-v18.html"
             },
             {
@@ -1729,7 +1729,7 @@
             },
             {
                 "name": "",
-                "intro": "一篇题为 《Data Mesh 架构》的文章",
+                "intro": "一篇题为《Data Mesh 架构》的文章",
                 "link": "https://www.datamesh-architecture.com/"
             }
         ],
@@ -1750,7 +1750,7 @@
             },
             {
                 "name": "Plasticity",
-                "intro": "用 web 开发的3D 艺术建模开源软件",
+                "intro": "用 web 开发的 3D 艺术建模开源软件",
                 "link": "https://github.com/nkallen/plasticity"
             },
             {
@@ -1775,7 +1775,7 @@
             },
             {
                 "name": "",
-                "intro": "GO 发布1.18版本支持泛型",
+                "intro": "GO 发布 1.18 版本支持泛型",
                 "link": "https://golang.google.cn/"
             },
             {
@@ -1857,7 +1857,7 @@
             },
             {
                 "name": "",
-                "intro": "Mozilla 的3D虚拟空间产品",
+                "intro": "Mozilla 的 3D 虚拟空间产品",
                 "link": "https://hubs.mozilla.com/"
             },
             {
@@ -1959,7 +1959,7 @@
             },
             {
                 "name": "Arduboy",
-                "intro": "8位迷你游戏机",
+                "intro": "8 位迷你游戏机",
                 "link": "https://www.arduboy.com/"
             },
             {
@@ -1993,7 +1993,7 @@
         ]
     },
     "BV16a411y7fw": {
-        "title": "[Hacker News 周报] 数据可视化神器；10大 web 黑客技术；Postman 支持 gRPC",
+        "title": "[Hacker News 周报] 数据可视化神器；10 大 web 黑客技术；Postman 支持 gRPC",
         "aid": 211446987,
         "bvid": "BV16a411y7fw",
         "pubdate": 1644712211,
@@ -2034,12 +2034,12 @@
                 "link": "https://github.com/soheilpro/mailwind"
             },
             {
-                "name": "《 backend.sql + frontend.js = love》",
+                "name": "\" backend.sql + frontend.js = love\"",
                 "intro": "文章",
                 "link": "https://blog.polyglot.network/backend.sql-+-frontend.js-love"
             },
             {
-                "name": "《Top web hacking techniques of 2021》",
+                "name": "\"Top web hacking techniques of 2021\"",
                 "intro": "文章",
                 "link": ""
             },
@@ -2061,7 +2061,7 @@
         "data": [
             {
                 "name": "Hibiki HTML",
-                "intro": "新的前端框架-没有脚手架，没有Webpack",
+                "intro": "新的前端框架 - 没有脚手架，没有 Webpack",
                 "link": "https://playground.hibikihtml.com/tutorial/"
             },
             {
@@ -2075,13 +2075,13 @@
                 "link": "https://github.com/looker-open-source/malloy"
             },
             {
-                "name": "Rich Cli 由Python编写",
+                "name": "Rich Cli 由 Python 编写",
                 "intro": "可打印各种格式丰富的内容",
                 "link": "https://github.com/Textualize/rich-cli"
             },
             {
                 "name": "",
-                "intro": "《我是如何在AWS上发现数千个开放数据库的》",
+                "intro": "《我是如何在 AWS 上发现数千个开放数据库的》",
                 "link": "https://infosecwriteups.com/how-i-discovered-thousands-of-open-databases-on-aws-764729aa7f32"
             }
         ],
@@ -2102,7 +2102,7 @@
             },
             {
                 "name": "",
-                "intro": "Nova 一个专门给Mac设计的代码编辑器",
+                "intro": "Nova 一个专门给 Mac 设计的代码编辑器",
                 "link": "https://nova.app/"
             },
             {
@@ -2117,12 +2117,12 @@
             },
             {
                 "name": "",
-                "intro": "playwright web自动化框架",
+                "intro": "playwright web 自动化框架",
                 "link": "https://github.com/microsoft/playwright"
             },
             {
                 "name": "",
-                "intro": "prql rust编写的现代化查询语言",
+                "intro": "prql rust 编写的现代化查询语言",
                 "link": "https://github.com/prql/prql"
             },
             {
@@ -2137,12 +2137,12 @@
             },
             {
                 "name": "",
-                "intro": "《将SQLite存储在Cloudflare耐用对象中》",
+                "intro": "《将 SQLite 存储在 Cloudflare 耐用对象中》",
                 "link": "https://ma.rkusa.st/store-sqlite-in-cloudflare-durable-objects"
             },
             {
                 "name": "",
-                "intro": "《Kubernetes如此复杂有两个原因》",
+                "intro": "《Kubernetes 如此复杂有两个原因》",
                 "link": "https://buttondown.email/nelhage/archive/two-reasons-kubernetes-is-so-complex/"
             }
         ],
@@ -2151,7 +2151,7 @@
         ]
     },
     "BV1AT4y127tr": {
-        "title": "[Hacker News周报] faker.js 删库事件新进展；暴雪被收购；GPS 工作原理详解",
+        "title": "[Hacker News 周报] faker.js 删库事件新进展；暴雪被收购；GPS 工作原理详解",
         "aid": 935758161,
         "bvid": "BV1AT4y127tr",
         "pubdate": 1642897812,
@@ -2217,7 +2217,7 @@
         ]
     },
     "BV1eT4y117Xh": {
-        "title": "[Hacker News周报] 开源软件被植入恶意代码；浏览器中实现 POSIX；开源 wiki 工具推荐",
+        "title": "[Hacker News 周报] 开源软件被植入恶意代码；浏览器中实现 POSIX；开源 wiki 工具推荐",
         "aid": 935663579,
         "bvid": "BV1eT4y117Xh",
         "pubdate": 1642312579,
@@ -2249,7 +2249,7 @@
             },
             {
                 "name": "",
-                "intro": "Poly Haven 如何花不到400美金处理80TB数据和500万次页面访问的",
+                "intro": "Poly Haven 如何花不到 400 美金处理 80TB 数据和 500 万次页面访问的",
                 "link": "https://blog.polyhaven.com/how-we-handle-80tb-and-5m-page-views-a-month-for-under-400/"
             },
             {
@@ -2259,7 +2259,7 @@
             },
             {
                 "name": "",
-                "intro": "介绍两个 Cli 工具: dsq 和 fx",
+                "intro": "介绍两个 Cli 工具：dsq 和 fx",
                 "link": "https://datastation.multiprocess.io/blog/2022-01-11-dsq.html"
             },
             {
@@ -2351,22 +2351,22 @@
         "data": [
             {
                 "name": "",
-                "intro": "波斯王子 一款为Mac开发的游戏",
+                "intro": "波斯王子 一款为 Mac 开发的游戏",
                 "link": ""
             },
             {
                 "name": "",
-                "intro": "《一个HTML文件中的整个网站》",
+                "intro": "《一个 HTML 文件中的整个网站》",
                 "link": "https://css-tricks.com/a-whole-website-in-a-single-html-file/"
             },
             {
                 "name": "",
-                "intro": "街头霸王2",
+                "intro": "街头霸王 2",
                 "link": ""
             },
             {
                 "name": "",
-                "intro": "emfy Emacs编辑器的配置项目",
+                "intro": "emfy Emacs 编辑器的配置项目",
                 "link": "https://github.com/susam/emfy"
             },
             {
@@ -2376,17 +2376,17 @@
             },
             {
                 "name": "Exa",
-                "intro": "ls的现代替代品",
+                "intro": "ls 的现代替代品",
                 "link": "https://the.exa.website/"
             },
             {
                 "name": "Marktext",
-                "intro": "优雅的Markdown编辑器，适用于Linux, macOS, Windows",
+                "intro": "优雅的 Markdown 编辑器，适用于 Linux, macOS, Windows",
                 "link": "https://github.com/marktext/marktext"
             },
             {
                 "name": "",
-                "intro": "Tokio rust编写的开源异步库",
+                "intro": "Tokio rust 编写的开源异步库",
                 "link": "https://tokio.rs/blog/2021-12-announcing-tokio-console"
             },
             {
@@ -2401,12 +2401,12 @@
             },
             {
                 "name": "",
-                "intro": "《2021年的数据库:回顾的一年》",
+                "intro": "《2021 年的数据库：回顾的一年》",
                 "link": "https://ottertune.com/blog/2021-databases-retrospective/"
             },
             {
                 "name": "Miller",
-                "intro": "用于查询、塑造、重新格式化CSV、TSV和JSON中的数据的工具",
+                "intro": "用于查询、塑造、重新格式化 CSV、TSV 和 JSON 中的数据的工具",
                 "link": "https://miller.readthedocs.io/en/latest/"
             }
         ],
@@ -2477,7 +2477,7 @@
             },
             {
                 "name": "",
-                "intro": "Doodle CSS 手绘风格的主题css",
+                "intro": "Doodle CSS 手绘风格的主题 css",
                 "link": "https://chr15m.github.io/DoodleCSS/"
             },
             {

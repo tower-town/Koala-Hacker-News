@@ -21,7 +21,7 @@
                     <td>https://openrefine.org/</td>
                 </tr>                <tr>
                     <td></td>
-                    <td>Node.js 发布18版本</td>
+                    <td>Node.js 发布 18 版本</td>
                     <td>https://nodejs.org/en/</td>
                 </tr>                <tr>
                     <td></td>
@@ -123,7 +123,7 @@
                     <td>https://dagger.io/</td>
                 </tr>                <tr>
                     <td></td>
-                    <td>React 发布18.0版本</td>
+                    <td>React 发布 18.0 版本</td>
                     <td>https://reactjs.org/blog/2022/03/29/react-v18.html</td>
                 </tr>                <tr>
                     <td></td>

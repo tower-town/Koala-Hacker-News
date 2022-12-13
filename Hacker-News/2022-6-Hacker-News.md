@@ -107,7 +107,7 @@
                 <th>链接</th>
             </theader>            <tbody>                <tr>
                     <td>Dragonfly</td>
-                    <td>一个25倍快的 Redis 竞品</td>
+                    <td>一个 25 倍快的 Redis 竞品</td>
                     <td>https://github.com/dragonflydb/dragonfly</td>
                 </tr>                <tr>
                     <td>PlantUML</td>

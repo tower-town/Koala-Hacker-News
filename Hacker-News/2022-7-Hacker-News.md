@@ -65,7 +65,7 @@
                 <th>链接</th>
             </theader>            <tbody>                <tr>
                     <td></td>
-                    <td>Vite 发布3.0版本</td>
+                    <td>Vite 发布 3.0 版本</td>
                     <td>https://vitejs.dev/blog/announcing-vite3.html</td>
                 </tr>                <tr>
                     <td>VictoriaMetrics</td>

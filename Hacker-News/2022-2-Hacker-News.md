@@ -47,7 +47,7 @@
                     <td>https://github.blog/2022-02-14-include-diagrams-markdown-files-mermaid/</td>
                 </tr>                <tr>
                     <td>Arduboy</td>
-                    <td>8位迷你游戏机</td>
+                    <td>8 位迷你游戏机</td>
                     <td>https://www.arduboy.com/</td>
                 </tr>                <tr>
                     <td>Glitch</td>
@@ -70,7 +70,7 @@
                     <td>邮件工具</td>
                     <td>https://www.shortwave.com/blog/introducing-shortwave/</td>
                 </tr>            </tbody>            </table>
-[[Hacker News 周报] 数据可视化神器；10大 web 黑客技术；Postman 支持 gRPC](https://www.bilibili.com/video/BV16a411y7fw)
+[[Hacker News 周报] 数据可视化神器；10 大 web 黑客技术；Postman 支持 gRPC](https://www.bilibili.com/video/BV16a411y7fw)
             <table>            <theader>
                 <th>名称</th>
                 <th>简介</th>
@@ -104,11 +104,11 @@
                     <td>邮件模版</td>
                     <td>https://github.com/soheilpro/mailwind</td>
                 </tr>                <tr>
-                    <td>《 backend.sql + frontend.js = love》</td>
+                    <td>" backend.sql + frontend.js = love"</td>
                     <td>文章</td>
                     <td>https://blog.polyglot.network/backend.sql-+-frontend.js-love</td>
                 </tr>                <tr>
-                    <td>《Top web hacking techniques of 2021》</td>
+                    <td>"Top web hacking techniques of 2021"</td>
                     <td>文章</td>
                     <td></td>
                 </tr>                <tr>
@@ -123,7 +123,7 @@
                 <th>链接</th>
             </theader>            <tbody>                <tr>
                     <td>Hibiki HTML</td>
-                    <td>新的前端框架-没有脚手架，没有Webpack</td>
+                    <td>新的前端框架 - 没有脚手架，没有 Webpack</td>
                     <td>https://playground.hibikihtml.com/tutorial/</td>
                 </tr>                <tr>
                     <td></td>
@@ -134,11 +134,11 @@
                     <td>from Looker</td>
                     <td>https://github.com/looker-open-source/malloy</td>
                 </tr>                <tr>
-                    <td>Rich Cli 由Python编写</td>
+                    <td>Rich Cli 由 Python 编写</td>
                     <td>可打印各种格式丰富的内容</td>
                     <td>https://github.com/Textualize/rich-cli</td>
                 </tr>                <tr>
                     <td></td>
-                    <td>《我是如何在AWS上发现数千个开放数据库的》</td>
+                    <td>《我是如何在 AWS 上发现数千个开放数据库的》</td>
                     <td>https://infosecwriteups.com/how-i-discovered-thousands-of-open-databases-on-aws-764729aa7f32</td>
                 </tr>            </tbody>            </table>
