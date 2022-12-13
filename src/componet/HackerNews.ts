@@ -1,6 +1,6 @@
 import path from "path";
 import async from "async";
-import { Utils, fetchJson as fetchJson } from "./utils";
+import { Utils, fetchJson } from "./utils";
 import { JsonData } from "../types/type";
 import { Comment } from "./comment";
 import { Markdown } from "./markdown";
@@ -190,7 +190,7 @@ export class HackerNews {
 		docs.pub_dates.forEach((value, index) => {
 			let doc_path = docs["paths"][index];
 			let re_path = path.relative(path.dirname(readme_path), doc_path);
-			let new_path = re_path.replaceAll("\\", "/");
+			let new_path = re_path.replace(/\\/g, "/");
 			chapters += `- [${value}: [Hacker News 周报]](${new_path})\n`;
 		});
 

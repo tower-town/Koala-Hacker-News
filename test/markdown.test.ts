@@ -48,10 +48,14 @@ let MD = new Markdown(new_json_data);
 test("test generate_tables", () => {
 	let tables_data = MD.generateTables();
 
+	let {
+		title: { content, link, pubdate },
+	} = tables_data;
+
 	let tables_titles = {
-		names: tables_data["title"]["content"],
-		link: tables_data["title"]["link"],
-		pubdate: tables_data["title"]["pubdate"],
+		names: content,
+		link: link,
+		pubdate: pubdate,
 	};
 
 	let expect_titles = {

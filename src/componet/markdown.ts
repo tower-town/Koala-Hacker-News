@@ -1,6 +1,7 @@
 import { JsonData } from "../types/type";
 import { Utils } from "./utils";
 import path from "path";
+import format from "html-format";
 
 interface Tables {
 	content: string[];
@@ -50,7 +51,7 @@ export class Markdown {
                     <td>${item["intro"]}</td>
                     <td>${item["link"]}</td>
                 </tr>
-            `;
+            `.trim();
 				});
 				tables["tr"].push(tr_item);
 			}
@@ -62,23 +63,22 @@ export class Markdown {
                 <th>简介</th>
                 <th>链接</th>
             </theader>
-        `;
+        `.trim();
 
 		tables["title"]["content"].forEach((item, index) => {
 			let table_body = `
             <tbody>
                 ${tables["tr"][index]}
             </tbody>
-        `;
+        `.trim();
 			let table = `
             [${item}](${tables["title"]["link"][index]})
             <table>
                 ${table_hander}
                 ${table_body}
             </table>
-        `;
-			const regexp = /\s+(\t+)?\r?\n/g;
-			tables["content"].push(table.trim().replace(regexp, ""));
+        `.trim();
+			tables["content"].push(format(table.trim()));
 		});
 
 		return tables;

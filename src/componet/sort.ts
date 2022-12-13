@@ -1,7 +1,7 @@
 export class Sort {
 	flag: boolean;
 
-	constructor(flag: boolean) {
+	constructor({ flag = true } = {}) {
 		this.flag = flag;
 	}
 

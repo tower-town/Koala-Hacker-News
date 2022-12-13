@@ -16,6 +16,7 @@
     "async": "^3.2.4",
     "cheerio": "1.0.0-rc.12",
     "fs": "0.0.1-security",
+    "html-format": "^1.0.2",
     "json5": "^2.2.1",
     "path": "^0.12.7",
     "ts-node": "^10.9.1",

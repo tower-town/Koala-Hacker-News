@@ -15,7 +15,7 @@ export class Utils {
 
 		let pubdates = Object.keys(pubdates_dict);
 		let right_index = pubdates.length - 1;
-		let sort = new Sort(false);
+		let sort = new Sort({ flag: false });
 		sort.quicksort(pubdates, 0, right_index);
 
 		pubdates.forEach((pubdate, _) => {

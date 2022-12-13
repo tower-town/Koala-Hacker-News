@@ -5,7 +5,7 @@ import { JsonData } from "../src/types/type";
 test("test quicksort", () => {
 	let rand_list = [1, 6, 3, 9, 8, 67, 25, 4, 10, 7, 45, 89];
 
-	const sort = new Sort(true);
+	const sort = new Sort();
 	sort.quicksort(rand_list, 0, rand_list.length - 1);
 
 	let expect_list = [1, 3, 4, 6, 7, 8, 9, 10, 25, 45, 67, 89];
