@@ -7,13 +7,13 @@ export class Sort {
 
 	quicksort(arr: number[] | string[], p: number, r: number) {
 		if (p < r) {
-			let q = this.rand_divide(arr, p, r);
+			let q = this.randDivide(arr, p, r);
 			this.quicksort(arr, p, q - 1);
 			this.quicksort(arr, q + 1, r);
 		}
 	}
 
-	rand_divide(arr: number[] | string[], p: number, r: number): number {
+	randDivide(arr: number[] | string[], p: number, r: number): number {
 		let i = Math.round(Math.random() * (r - p) + p);
 		this.swap(arr, r, i);
 

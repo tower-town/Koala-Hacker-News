@@ -7,7 +7,7 @@ export class SourceLink {
 		this.api_data = api_data;
 	}
 
-	init_urls(bvids: string[]): URL[] {
+	initUrls(bvids: string[]): URL[] {
 		let utils = new Utils();
 		let info_api = this.api_data["video_info"];
 		let url = info_api["url"];
@@ -15,13 +15,13 @@ export class SourceLink {
 		let urls: URL[] = [];
 		bvids.forEach((bvid, index) => {
 			params["bvid"] = bvid;
-			urls.push(utils.parse_url(url, params));
+			urls.push(utils.parseUrl(url, params));
 		});
 
 		return urls;
 	}
 
-	capture_link(content: string): string[] {
+	captureLink(content: string): string[] {
 		let links: string[] = [];
 		const regexp = /(?:.*)(https:\/\/\S+)(?:\s+)?/g;
 		let captures = [...content.matchAll(regexp)][0];

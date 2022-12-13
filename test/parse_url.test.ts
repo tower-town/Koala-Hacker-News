@@ -6,7 +6,7 @@ let params = {
 	user: "root",
 	email: "example@hostname.com",
 };
-let link = utils.parse_url(url, params);
+let link = utils.parseUrl(url, params);
 
 let expect_link: URL =
 	"http://example.com?user=root&email=example@hostname.com" as unknown as URL;

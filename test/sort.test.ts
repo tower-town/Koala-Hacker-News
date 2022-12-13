@@ -1,6 +1,6 @@
 import { Sort } from "../src/componet/sort";
 import { Utils } from "../src/componet/utils";
-import { JsonData } from "../src/componet/HackerNews";
+import { JsonData } from "../src/types/type";
 
 test("test quicksort", () => {
 	let rand_list = [1, 6, 3, 9, 8, 67, 25, 4, 10, 7, 45, 89];
@@ -57,7 +57,7 @@ test("test sort json data", () => {
 
 	const utils = new Utils();
 
-	let recieve_json = utils.sort_json(json_data, "pubdate");
+	let recieve_json = utils.sortJson(json_data, "pubdate");
 
 	expect(recieve_json).toStrictEqual(expect_json);
 

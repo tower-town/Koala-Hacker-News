@@ -1,6 +1,9 @@
+import { Api } from "../src/componet/api";
 import { Comment } from "../src/componet/comment";
 
-const comment = new Comment();
+let api = new Api();
+let apiData = api.data;
+const comment = new Comment(apiData);
 
 test("test message", () => {
 	let message = {
@@ -54,7 +57,7 @@ test("test message", () => {
 			intro: "six ? 6",
 		},
 	];
-	let result = comment.parse_comment(message);
+	let result = comment.parseComment(message);
 	expect(result).toEqual(expect_message);
 });
 
@@ -102,6 +105,6 @@ test("test note", () => {
 		},
 	];
 
-	let result = comment.parse_comment(message);
+	let result = comment.parseComment(message);
 	expect(result).toEqual(expect_reslut);
 });

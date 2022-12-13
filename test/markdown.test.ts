@@ -1,6 +1,8 @@
 import { JsonData } from "../src/types/type";
 import { Markdown } from "../src/componet/markdown";
 import * as path from "path";
+import { HackerNews } from "../src/componet/HackerNews";
+import fs from "fs";
 
 let new_json_data: JsonData = {
 	"1": {
@@ -44,7 +46,7 @@ let new_json_data: JsonData = {
 let MD = new Markdown(new_json_data);
 
 test("test generate_tables", () => {
-	let tables_data = MD.generate_tables();
+	let tables_data = MD.generateTables();
 
 	let tables_titles = {
 		names: tables_data["title"]["content"],
@@ -65,7 +67,7 @@ test("test generate_tables", () => {
 });
 
 test("test generate_docs", () => {
-	let docs = MD.generate_docs();
+	let docs = MD.generateDocs();
 
 	// ignore content indocs in expect_docs
 	let expect_docs: { [pub_data: string]: string } = {};
@@ -74,7 +76,6 @@ test("test generate_docs", () => {
 		let pub_date = `${date.getFullYear()}-${date.getMonth() + 1}`;
 		expect_docs[pub_date] = "...";
 	}
-
 	let docs_keys = Object.keys(docs);
 	let expect_docs_keys = Object.keys(expect_docs);
 
@@ -85,11 +86,34 @@ test("test generate_docs", () => {
 
 test("test generate_md", () => {
 	let md_path = path.join(__dirname, "./HackerNews/");
-	let md_data = MD.generate_md(md_path);
+	let md_data = MD.generateMd(md_path);
 
 	let expect_md_data = {
 		pub_dates: ["1970-1"],
 	};
 
+	let recievePathsStat = md_data["paths"].map((mdPath) =>
+		fs.existsSync(mdPath),
+	);
+	let expectPathsStat = [true];
+
+	expect(recievePathsStat).toStrictEqual(expectPathsStat);
 	expect(md_data["pub_dates"]).toStrictEqual(expect_md_data["pub_dates"]);
+});
+
+test("update readme.md", () => {
+	let md_path = path.join(__dirname, "./HackerNews/");
+	let readme_path = path.join(__dirname, "./README.md");
+
+	let HN = new HackerNews();
+	HN.markdown = MD;
+	HN.updateReadme(readme_path, md_path);
+
+	let mdDirList = fs.readdirSync(md_path, "utf-8");
+	let expectDirList = ["1970-1-Hacker-News.md"];
+
+	expect(mdDirList).toEqual(expectDirList);
+
+	let pathsStat = fs.existsSync(readme_path);
+	expect(pathsStat).toStrictEqual(true);
 });

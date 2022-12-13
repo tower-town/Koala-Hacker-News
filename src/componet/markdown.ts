@@ -20,7 +20,7 @@ export class Markdown {
 		this.json_data = data;
 		this.utils = new Utils();
 	}
-	generate_tables(): Tables {
+	generateTables(): Tables {
 		let data_keys = Object.keys(this.json_data!);
 		let tables: Tables = {
 			content: [],
@@ -84,8 +84,8 @@ export class Markdown {
 		return tables;
 	}
 
-	generate_docs() {
-		let tables = this.generate_tables();
+	generateDocs() {
+		let tables = this.generateTables();
 		let content = tables["content"];
 		let pubdates = tables["title"]["pubdate"];
 
@@ -115,11 +115,11 @@ export class Markdown {
 		return docs;
 	}
 
-	generate_md(md_path: string): {
+	generateMd(md_path: string): {
 		pub_dates: string[];
 		paths: string[];
 	} {
-		let docs = this.generate_docs();
+		let docs = this.generateDocs();
 		let file = {
 			name: "",
 			content: "",
@@ -137,7 +137,7 @@ export class Markdown {
 				console.log(docs[key]);
 			}
 			paths.push(file["path"]);
-			this.utils.write_file(file["path"], file["content"]);
+			this.utils.writeFile(file["path"], file["content"]);
 		});
 
 		return {

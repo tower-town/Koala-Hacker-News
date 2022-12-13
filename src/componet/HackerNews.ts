@@ -1,6 +1,6 @@
 import path from "path";
 import async from "async";
-import { Utils, fetchjson } from "./utils";
+import { Utils, fetchJson as fetchJson } from "./utils";
 import { JsonData } from "../types/type";
 import { Comment } from "./comment";
 import { Markdown } from "./markdown";
@@ -43,7 +43,7 @@ export class HackerNews {
 	init(): void {
 		this.data_path = path.join(__dirname, "../data/data.json");
 
-		let data_str = this.utils.read_file(this.data_path);
+		let data_str = this.utils.readFile(this.data_path);
 
 		this.json_data = JSON.parse(data_str);
 		this.bvids = Object.keys(this.json_data!);
@@ -52,7 +52,7 @@ export class HackerNews {
 		this.api_data = api.data;
 	}
 
-	get_aids(): string[] {
+	getAids(): string[] {
 		let aids: string[] = [];
 		this.bvids?.forEach((value, _) => {
 			let aid = this.json_data?.[value]?.["aid"]!;
@@ -62,21 +62,21 @@ export class HackerNews {
 		return aids;
 	}
 
-	write_json(data: JsonData): void {
-		let sort_data = this.utils.sort_json(data, "pubdate");
-		this.utils.write_file(this.data_path!, sort_data);
+	writeJson(data: JsonData): void {
+		let sort_data = this.utils.sortJson(data, "pubdate");
+		this.utils.writeFile(this.data_path!, sort_data);
 	}
 
-	get_collect_info(): void {
+	getCollectInfo(): void {
 		let api_data = this.api_data?.["collect"]!;
 		let url = api_data["url"]!;
 		this.params = api_data["params"];
 		let that = this;
 
 		let urls: URL[] = [];
-		urls.push(this.utils.parse_url(url!, this.params));
+		urls.push(this.utils.parseUrl(url!, this.params));
 
-		async.mapLimit(urls, 5, fetchjson, (err, results) => {
+		async.mapLimit(urls, 5, fetchJson, (err, results) => {
 			if (err) {
 				throw new Error(`${err}`);
 			} else {
@@ -100,12 +100,12 @@ export class HackerNews {
 		});
 	}
 
-	get_source_links() {
+	getSourceLinks() {
 		let bvids = this.bvids!;
-		let urls = this.source_link.init_urls(bvids);
+		let urls = this.source_link.initUrls(bvids);
 		let that = this;
 		let json_data = this.json_data!;
-		async.mapLimit(urls, 5, fetchjson, (err, results) => {
+		async.mapLimit(urls, 5, fetchJson, (err, results) => {
 			if (err) {
 				throw new Error(`${err}`);
 			} else {
@@ -113,29 +113,29 @@ export class HackerNews {
 					let data = value["data"];
 					let desc: string = data["desc"];
 
-					let links = that.source_link.capture_link(desc);
+					let links = that.source_link.captureLink(desc);
 					let bvid = bvids[index];
 					json_data[bvid]["source"] = links;
 
-					that.write_json(json_data);
+					that.writeJson(json_data);
 				});
 			}
 		});
 	}
 
-	get_comment(): void {
+	getComment(): void {
 		if (!this.bvids) {
-			this.get_collect_info();
+			this.getCollectInfo();
 			this.init();
 		}
 
-		let aids = this.get_aids();
+		let aids = this.getAids();
 		let bvids = Object.keys(this.json_data!);
 		let that = this;
 
-		let urls = this.comment.init_url(aids);
+		let urls = this.comment.initUrl(aids);
 
-		async.mapLimit(urls, 5, fetchjson, (err, results) => {
+		async.mapLimit(urls, 5, fetchJson, (err, results) => {
 			if (err) {
 				throw err;
 			} else {
@@ -145,8 +145,8 @@ export class HackerNews {
 					let bvid = bvids[index];
 					let data = result["data"];
 
-					let message = that.comment.get_top_commment(data, bvid);
-					let intro_data = that.comment.parse_comment(message);
+					let message = that.comment.getTopCommit(data, bvid);
+					let intro_data = that.comment.parseComment(message);
 
 					if (json_data[bvid]["data"]) {
 						json_data[bvid]["data"]?.forEach((items, index) => {
@@ -155,16 +155,16 @@ export class HackerNews {
 					}
 					json_data[bvid]["data"] = intro_data;
 
-					that.write_json(json_data);
+					that.writeJson(json_data);
 				});
 			}
 		});
 	}
 
-	update_readme(readme_path: string, md_path: string): void {
+	updateReadme(readme_path: string, md_path: string): void {
 		this.init();
 		let markdown = this.markdown;
-		let docs = markdown.generate_md(md_path);
+		let docs = markdown.generateMd(md_path);
 		let title =
 			"# Koala Hacker News\n b 站 up 主 [Koala 聊开源](https://space.bilibili.com/489667127) 的《Hacker News 周报》[合集](https://space.bilibili.com/489667127/channel/collectiondetail?sid=249279) 的内容总结\n";
 
@@ -181,6 +181,6 @@ export class HackerNews {
 			"\n## 参考\n\n - [bilibili-api-collect](https://github.com/SocialSisterYi/bilibili-API-collect)";
 
 		let readme = `${title}${contents}${chapters}${file_end}`;
-		this.utils.write_file(readme_path, readme);
+		this.utils.writeFile(readme_path, readme);
 	}
 }

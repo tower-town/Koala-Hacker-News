@@ -19,7 +19,7 @@ export class Comment {
 		this.api_data = api_data;
 	}
 
-	init_url(aids: string[]): URL[] {
+	initUrl(aids: string[]): URL[] {
 		let api_data = this.api_data["comment"];
 		let api_params = api_data["params"];
 
@@ -27,14 +27,14 @@ export class Comment {
 
 		aids.forEach((aid) => {
 			api_params["oid"] = aid;
-			let url = this.utils.parse_url(api_data["url"], api_params);
+			let url = this.utils.parseUrl(api_data["url"], api_params);
 			urls.push(url);
 		});
 
 		return urls;
 	}
 
-	get_top_commment(
+	getTopCommit(
 		// rome-ignore lint/suspicious/noExplicitAny: <explanation>
 		comment: { [key: string]: any },
 		bvid: string,
@@ -81,7 +81,7 @@ export class Comment {
 		return message["dict"];
 	}
 
-	parse_comment(message: {
+	parseComment(message: {
 		bvid: string;
 		list: string[];
 	}): {
@@ -95,7 +95,7 @@ export class Comment {
 
 		let bvid = message["bvid"];
 		let note_path = path.join(__dirname, "../data/note.json");
-		let note_data: NoteData = JSON.parse(this.utils.read_file(note_path));
+		let note_data: NoteData = JSON.parse(this.utils.readFile(note_path));
 
 		for (let key in note_data) {
 			if (message["bvid"] === key) {
@@ -124,7 +124,7 @@ export class Comment {
 			if (/^https?:\/\/\S+/.test(intro_str)) {
 				intro["link"].push(intro_str);
 			} else {
-				let capture = this.capture_name_intro(intro_str, bvid);
+				let capture = this.captureNameIntro(intro_str, bvid);
 				intro["name"].push(capture["name"]);
 				intro["content"].push(capture["intro"]);
 			}
@@ -142,7 +142,7 @@ export class Comment {
 		return intro["data"];
 	}
 
-	capture_name_intro(
+	captureNameIntro(
 		intro_str: string,
 		bvid: string,
 	): { name: string; intro: string } {
