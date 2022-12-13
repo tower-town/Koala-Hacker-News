@@ -2,7 +2,6 @@ import { JsonData } from "../src/types/type";
 import { Markdown } from "../src/componet/markdown";
 import * as path from "path";
 
-
 let new_json_data: JsonData = {
 	"1": {
 		aid: 1,
@@ -44,7 +43,6 @@ let new_json_data: JsonData = {
 
 let MD = new Markdown(new_json_data);
 
-
 test("test generate_tables", () => {
 	let tables_data = MD.generate_tables();
 
@@ -63,7 +61,6 @@ test("test generate_tables", () => {
 		pubdate: ["1", "2"],
 	};
 
-	
 	expect(tables_titles).toStrictEqual(expect_titles);
 });
 
@@ -71,11 +68,11 @@ test("test generate_docs", () => {
 	let docs = MD.generate_docs();
 
 	// ignore content indocs in expect_docs
-	let expect_docs: {[pub_data:string]: string} = {};
-	for (let key in new_json_data){
-			let date = new Date(Number(key) * 1000);
-			let pub_date = `${date.getFullYear()}-${date.getMonth() + 1}`;
-			expect_docs[pub_date] = '...';
+	let expect_docs: { [pub_data: string]: string } = {};
+	for (let key in new_json_data) {
+		let date = new Date(Number(key) * 1000);
+		let pub_date = `${date.getFullYear()}-${date.getMonth() + 1}`;
+		expect_docs[pub_date] = "...";
 	}
 
 	let docs_keys = Object.keys(docs);
@@ -86,13 +83,13 @@ test("test generate_docs", () => {
 
 // notes: generate_md will write into files
 
-test('test generate_md', () => {
-	let md_path = path.join(__dirname, './HackerNews/');
+test("test generate_md", () => {
+	let md_path = path.join(__dirname, "./HackerNews/");
 	let md_data = MD.generate_md(md_path);
 
 	let expect_md_data = {
-		"pub_dates": ["1970-1"]
-	}
+		pub_dates: ["1970-1"],
+	};
 
-	expect(md_data['pub_dates']).toStrictEqual(expect_md_data['pub_dates']);
-})
+	expect(md_data["pub_dates"]).toStrictEqual(expect_md_data["pub_dates"]);
+});

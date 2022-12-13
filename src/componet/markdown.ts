@@ -12,14 +12,14 @@ interface Tables {
 	};
 }
 
-export class Markdown{
-    json_data: JsonData;
+export class Markdown {
+	json_data: JsonData;
 	utils: Utils = new Utils();
 
-    constructor(data: JsonData){
-        this.json_data = data;
+	constructor(data: JsonData) {
+		this.json_data = data;
 		this.utils = new Utils();
-    }
+	}
 	generate_tables(): Tables {
 		let data_keys = Object.keys(this.json_data!);
 		let tables: Tables = {
@@ -145,5 +145,4 @@ export class Markdown{
 			paths: paths,
 		};
 	}
-
 }

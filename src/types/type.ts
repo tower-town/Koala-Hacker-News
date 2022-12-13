@@ -1,4 +1,3 @@
-
 export interface JsonData {
 	[bvid: string]: {
 		title: string;
@@ -15,4 +14,3 @@ export interface IntroData {
 	intro: string;
 	link: string;
 }
-

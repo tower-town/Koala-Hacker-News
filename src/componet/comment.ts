@@ -1,6 +1,6 @@
 import { Utils } from "./utils";
 import { IntroData } from "../types/type";
-import { Api,ApiData } from "./api";
+import { Api, ApiData } from "./api";
 import path from "path";
 
 interface NoteData {
@@ -16,23 +16,22 @@ export class Comment {
 	constructor(api_data: ApiData) {
 		this.utils = new Utils();
 		this.mid = "489667127";
-		this.api_data = api_data
+		this.api_data = api_data;
 	}
 
 	init_url(aids: string[]): URL[] {
+		let api_data = this.api_data["comment"];
+		let api_params = api_data["params"];
 
-			let api_data = this.api_data["comment"];
-			let api_params = api_data["params"];
-			
-			let urls: URL[] = [];
+		let urls: URL[] = [];
 
-			aids.forEach(aid => {
-				api_params["oid"] = aid;
-				let url = this.utils.parse_url(api_data["url"], api_params);
-				urls.push(url);
-			});
-			
-			return urls;
+		aids.forEach((aid) => {
+			api_params["oid"] = aid;
+			let url = this.utils.parse_url(api_data["url"], api_params);
+			urls.push(url);
+		});
+
+		return urls;
 	}
 
 	get_top_commment(
@@ -43,7 +42,6 @@ export class Comment {
 		bvid: string;
 		list: string[];
 	} {
-
 		let mid = this.mid;
 		let top = {
 			comment: comment["top"]["upper"],

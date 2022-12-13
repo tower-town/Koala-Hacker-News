@@ -6,8 +6,7 @@
   "scripts": {
     "test": "jest",
     "build": "ts-node ./src/main",
-    "dev": "tsc",
-    "clean": "rm -rf ./build"
+    "lint": "pnpm rome ci ./"
   },
   "keywords": [],
   "author": "",
@@ -30,6 +29,7 @@
     "@types/mocha": "^10.0.1",
     "@types/node": "^18.11.12",
     "babel-jest": "^29.3.1",
-    "jest": "^29.3.1"
+    "jest": "^29.3.1",
+    "rome": "^11.0.0"
   }
 }
