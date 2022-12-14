@@ -4,24 +4,24 @@ import async from "async";
 
 const HN = new HackerNews();
 
-function renewInit() {
-	async function asyncReadFile() {
+async function asyncInit() {
+	try {
 		HN.data_path = path.join(__dirname, "./data/data.json");
 		let data_str = await HN.utils.readFile(HN.data_path);
 		HN.json_data = await JSON.parse(data_str);
-		HN.bvids = await Object.keys(HN.json_data!);
+		HN.bvids = Object.keys(HN.json_data!);
+	} catch {
+		console.trace("Error");
 	}
-
-	asyncReadFile();
 }
 
 test("test HackerNews", () => {
-	renewInit();
+	asyncInit();
 	HN.getCollectInfo();
-	renewInit();
+	asyncInit();
 
 	HN.getComment();
-	renewInit();
+	asyncInit();
 
 	let json_data = HN.json_data;
 
