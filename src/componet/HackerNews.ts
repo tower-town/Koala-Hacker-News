@@ -71,7 +71,7 @@ export class HackerNews {
 				await that.utils.writeFile(that.data_path!, sort_data);
 				that.init();
 			} catch (err) {
-				console.trace(`error: ${err}`);
+				console.log(`error: ${err}`);
 			}
 		}
 		asyncWriteFile();
