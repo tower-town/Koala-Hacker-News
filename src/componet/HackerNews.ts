@@ -64,9 +64,13 @@ export class HackerNews {
 	}
 
 	writeJson(data: JsonData): void {
-		let sort_data = this.utils.sortJson(data, "pubdate");
-		this.utils.writeFile(this.data_path!, sort_data);
-		this.init();
+		let that = this;
+		async function asyncWriteFile() {
+			let sort_data = await that.utils.sortJson(data, "pubdate");
+			await that.utils.writeFile(that.data_path!, sort_data);
+			await that.init();
+		}
+		asyncWriteFile();
 	}
 
 	getCollectInfo(): void {
@@ -146,13 +150,13 @@ export class HackerNews {
 				let json_data = that.json_data!;
 				results?.forEach((result: Response, index) => {
 					let bvid = newBvids[index];
+
 					let data = result["data"];
 					let message = that.comment.getTopCommit(data, bvid);
 					let intro_data = that.comment.parseComment(message);
 					json_data[bvid]["data"] = intro_data;
-
-					that.writeJson(json_data);
 				});
+				that.writeJson(json_data);
 			}
 		});
 	}

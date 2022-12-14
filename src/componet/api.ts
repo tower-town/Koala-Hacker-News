@@ -23,7 +23,7 @@ export class Api {
 
 	init(): ApiData {
 		let utils = new Utils();
-		let api_path = path.join(__dirname, "../data/bilibili-api.json");
+		let api_path = path.join(__dirname, "../data/bilibili-api.jsonc");
 		let api_data = JSON5.parse(utils.readFile(api_path));
 		return api_data;
 	}
