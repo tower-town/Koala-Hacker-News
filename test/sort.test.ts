@@ -16,41 +16,41 @@ test("test sort json data", () => {
 	let json_data: JsonData = {
 		two: {
 			aid: 2,
-			bvid: "2",
-			title: "two",
+			bvid: "two",
+			title: "this is two",
 			pubdate: 2,
 		},
 		one: {
 			aid: 1,
-			bvid: "1",
-			title: "one",
+			bvid: "one",
+			title: "this is one",
 			pubdate: 1,
 		},
 		three: {
-			aid: 1,
-			bvid: "1",
-			title: "three",
+			aid: 3,
+			bvid: "three",
+			title: "this is three",
 			pubdate: 3,
 		},
 	};
 
 	let expect_json: JsonData = {
 		three: {
-			aid: 1,
-			bvid: "1",
-			title: "three",
+			aid: 3,
+			bvid: "three",
+			title: "this is three",
 			pubdate: 3,
 		},
 		two: {
 			aid: 2,
-			bvid: "2",
-			title: "two",
+			bvid: "two",
+			title: "this is two",
 			pubdate: 2,
 		},
 		one: {
 			aid: 1,
-			bvid: "1",
-			title: "one",
+			bvid: "one",
+			title: "this is one",
 			pubdate: 1,
 		},
 	};

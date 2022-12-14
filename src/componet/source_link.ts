@@ -1,5 +1,6 @@
 import { ApiData } from "./api";
 import { Utils } from "./utils";
+import { JsonData } from "../types/type";
 
 export class SourceLink {
 	api_data: ApiData;
@@ -21,9 +22,19 @@ export class SourceLink {
 		return urls;
 	}
 
+	checkSourceLink(json_data: JsonData): string[] {
+		let bvids: string[] = [];
+		for (let bvid in json_data) {
+			if (!json_data[bvid]["source"]) {
+				bvids.push(bvid);
+			}
+		}
+		return bvids;
+	}
+
 	captureLink(content: string): string[] {
 		let links: string[] = [];
-		const regexp = /(?:.*)(https:\/\/\S+)(?:\s+)?/g;
+		const regexp = /(?:.*)(https?:\/\/\S+)(?:\s+)?/g;
 		let captures = [...content.matchAll(regexp)][0];
 		links = [...captures.slice(1)];
 		return links;

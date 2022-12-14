@@ -1,9 +1,38 @@
 import { Api } from "../src/componet/api";
 import { Comment } from "../src/componet/comment";
+import { JsonData } from "../src/types/type";
 
-let api = new Api();
-let apiData = api.data;
+const api = new Api();
+const apiData = api.data;
 const comment = new Comment(apiData);
+
+test("test checkCommitData", () => {
+	let json_data: JsonData = {
+		three: {
+			aid: 3,
+			bvid: "three",
+			title: "this is three",
+			pubdate: 3,
+		},
+		two: {
+			aid: 2,
+			bvid: "two",
+			title: "this is two",
+			pubdate: 2,
+		},
+		one: {
+			aid: 1,
+			bvid: "one",
+			title: "this is one",
+			pubdate: 1,
+		},
+	};
+
+	let { newAids, newBvids } = comment.checkCommitData(json_data);
+	let aids = ["3", "2", "1"];
+	let bvids = ["three", "two", "one"];
+	expect([newAids, newBvids]).toStrictEqual([aids, bvids]);
+});
 
 test("test message", () => {
 	let message = {

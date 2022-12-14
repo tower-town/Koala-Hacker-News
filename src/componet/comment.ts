@@ -1,6 +1,6 @@
 import { Utils } from "./utils";
-import { IntroData } from "../types/type";
-import { Api, ApiData } from "./api";
+import { IntroData, JsonData } from "../types/type";
+import { ApiData } from "./api";
 import path from "path";
 
 interface NoteData {
@@ -34,6 +34,21 @@ export class Comment {
 		return urls;
 	}
 
+	checkCommitData(jsonData: JsonData) {
+		let newAids: string[] = [];
+		let newBvids: string[] = [];
+
+		for (let bvid in jsonData) {
+			if (!jsonData[bvid]["data"]) {
+				newAids.push(jsonData[bvid]["aid"].toString());
+				newBvids.push(bvid);
+			}
+		}
+		return {
+			newAids: newAids,
+			newBvids: newBvids,
+		};
+	}
 	getTopCommit(
 		// rome-ignore lint/suspicious/noExplicitAny: <explanation>
 		comment: { [key: string]: any },

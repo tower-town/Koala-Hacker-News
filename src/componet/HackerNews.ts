@@ -6,6 +6,7 @@ import { Comment } from "./comment";
 import { Markdown } from "./markdown";
 import { Api, ApiData } from "./api";
 import { SourceLink } from "./source_link";
+import { Collect } from "./collect";
 
 interface Response {
 	code: number;
@@ -20,36 +21,36 @@ export class HackerNews {
 	data_path?: string;
 	json_data?: JsonData;
 	bvids?: string[];
-	api_data?: ApiData;
+	api_data: ApiData;
 
 	comment: Comment;
 	utils: Utils = new Utils();
 	source_link: SourceLink;
 	markdown: Markdown;
+	collect: Collect;
 
 	constructor() {
 		this.params = {};
 		this.init();
 
-		let api_data = this.api_data!;
+		const api = new Api();
+		this.api_data = api.data;
+
+		let api_data = this.api_data;
 		let json_data = this.json_data!;
 
 		this.utils = new Utils();
 		this.comment = new Comment(api_data);
 		this.source_link = new SourceLink(api_data);
 		this.markdown = new Markdown(json_data!);
+		this.collect = new Collect(api_data);
 	}
 
 	init(): void {
 		this.data_path = path.join(__dirname, "../data/data.json");
-
 		let data_str = this.utils.readFile(this.data_path);
-
 		this.json_data = JSON.parse(data_str);
 		this.bvids = Object.keys(this.json_data!);
-
-		let api = new Api();
-		this.api_data = api.data;
 	}
 
 	getAids(): string[] {
@@ -65,36 +66,31 @@ export class HackerNews {
 	writeJson(data: JsonData): void {
 		let sort_data = this.utils.sortJson(data, "pubdate");
 		this.utils.writeFile(this.data_path!, sort_data);
+		this.init();
 	}
 
 	getCollectInfo(): void {
-		let api_data = this.api_data?.["collect"]!;
-		let url = api_data["url"]!;
-		this.params = api_data["params"];
-		let that = this;
+		let json_data = this.json_data!;
+		const collect = this.collect;
 
-		let urls: URL[] = [];
-		urls.push(this.utils.parseUrl(url!, this.params));
+		let urls = collect.initUrl();
 
 		async.mapLimit(urls, 5, fetchJson, (err, results) => {
 			if (err) {
 				throw new Error(`${err}`);
 			} else {
-				let json_data = this.json_data!;
 				results?.forEach((data: Response, index) => {
 					let ids_data = data["data"];
 					ids_data?.["archives"].forEach(
 						// rome-ignore lint/suspicious/noExplicitAny: <explanation>
 						(value: { [key: string]: any }, _: number) => {
-							let bvid = value["bvid"];
-							if (!json_data[bvid]) {
-								json_data[bvid] = {
-									title: value["title"],
-									aid: value["aid"],
-									bvid: value["bvid"],
-									pubdate: value["pubdate"],
-								};
-							}
+							let data = {
+								title: value["title"],
+								aid: value["aid"],
+								bvid: value["bvid"],
+								pubdate: value["pubdate"],
+							};
+							collect.checkCollect(json_data, data);
 						},
 					);
 					this.writeJson(json_data);
@@ -104,17 +100,11 @@ export class HackerNews {
 	}
 
 	getSourceLinks() {
-		this.init();
-		let initBvids = this.bvids!;
 		let json_data = this.json_data!;
-		let bvids: string[] = [];
-		for (let bvid in json_data) {
-			if (!json_data[bvid]["source"]) {
-				bvids.push(bvid);
-			}
-		}
+		const source_link = this.source_link;
+		let newBvids = source_link.checkSourceLink(json_data);
 
-		let urls = this.source_link.initUrls(bvids);
+		let urls = source_link.initUrls(newBvids);
 		let that = this;
 		async.mapLimit(urls, 5, fetchJson, (err, results) => {
 			if (err) {
@@ -125,7 +115,7 @@ export class HackerNews {
 					let desc: string = data["desc"];
 
 					let links = that.source_link.captureLink(desc);
-					let bvid = bvids[index];
+					let bvid = newBvids[index];
 					json_data[bvid]["source"] = links;
 
 					that.writeJson(json_data);
@@ -135,29 +125,18 @@ export class HackerNews {
 	}
 
 	getComment(): void {
-		this.init();
 		if (!this.bvids) {
 			this.getCollectInfo();
 			this.init();
 		}
 
-		let initAids = this.getAids();
+		const comment = this.comment;
 		let jsonData = this.json_data!;
-		let aids: string[] = [];
-		let bvids: string[] = [];
-		let initBvids = this.bvids!;
-
-		initBvids.forEach((bvid, index) => {
-			if (!jsonData[bvid]["data"]) {
-				console.log(`bvid${bvid}`);
-				aids.push(initAids[index]);
-				bvids.push(bvid);
-			}
-		});
+		let { newAids, newBvids } = comment.checkCommitData(jsonData);
 
 		let that = this;
 
-		let urls = this.comment.initUrl(aids);
+		let urls = comment.initUrl(newAids);
 
 		async.mapLimit(urls, 5, fetchJson, (err, results) => {
 			if (err) {
@@ -166,7 +145,7 @@ export class HackerNews {
 				// results is now an array of the response bodies
 				let json_data = that.json_data!;
 				results?.forEach((result: Response, index) => {
-					let bvid = bvids[index];
+					let bvid = newBvids[index];
 					let data = result["data"];
 					let message = that.comment.getTopCommit(data, bvid);
 					let intro_data = that.comment.parseComment(message);
