@@ -14,9 +14,8 @@ export class Collect {
 		let params = api_data["params"];
 
 		let urls: URL[] = [];
-		const utils = new Utils();
 
-		urls.push(utils.parseUrl(url, params));
+		urls.push(Utils.parseUrl(url, params));
 
 		return urls;
 	}

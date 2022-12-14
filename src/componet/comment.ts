@@ -10,11 +10,9 @@ interface NoteData {
 }
 
 export class Comment {
-	utils: Utils;
 	api_data: ApiData;
 	mid: string;
 	constructor(api_data: ApiData) {
-		this.utils = new Utils();
 		this.mid = "489667127";
 		this.api_data = api_data;
 	}
@@ -27,7 +25,7 @@ export class Comment {
 
 		aids.forEach((aid) => {
 			api_params["oid"] = aid;
-			let url = this.utils.parseUrl(api_data["url"], api_params);
+			let url = Utils.parseUrl(api_data["url"], api_params);
 			urls.push(url);
 		});
 
@@ -110,7 +108,7 @@ export class Comment {
 
 		let bvid = message["bvid"];
 		let note_path = path.join(__dirname, "../data/note.json");
-		let note_data: NoteData = JSON.parse(this.utils.readFile(note_path));
+		let note_data: NoteData = JSON.parse(Utils.readFile(note_path));
 
 		for (let key in note_data) {
 			if (message["bvid"] === key) {

@@ -55,9 +55,7 @@ test("test sort json data", () => {
 		},
 	};
 
-	const utils = new Utils();
-
-	let recieve_json = utils.sortJson(json_data, "pubdate");
+	let recieve_json = Utils.sortJson(json_data, "pubdate");
 
 	expect(recieve_json).toStrictEqual(expect_json);
 

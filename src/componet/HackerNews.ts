@@ -24,7 +24,6 @@ export class HackerNews {
 	api_data: ApiData;
 
 	comment: Comment;
-	utils: Utils = new Utils();
 	source_link: SourceLink;
 	markdown: Markdown;
 	collect: Collect;
@@ -39,7 +38,6 @@ export class HackerNews {
 		let api_data = this.api_data;
 		let json_data = this.json_data!;
 
-		this.utils = new Utils();
 		this.comment = new Comment(api_data);
 		this.source_link = new SourceLink(api_data);
 		this.markdown = new Markdown(json_data!);
@@ -48,7 +46,7 @@ export class HackerNews {
 
 	init(): void {
 		this.data_path = path.join(__dirname, "../data/data.json");
-		let data_str = this.utils.readFile(this.data_path);
+		let data_str = Utils.readFile(this.data_path);
 		this.json_data = JSON.parse(data_str);
 		this.bvids = Object.keys(this.json_data!);
 	}
@@ -67,8 +65,8 @@ export class HackerNews {
 		let that = this;
 		async function asyncWriteFile() {
 			try {
-				let sort_data = await that.utils.sortJson(data, "pubdate");
-				await that.utils.writeFile(that.data_path!, sort_data);
+				let sort_data = await Utils.sortJson(data, "pubdate");
+				await Utils.writeFile(that.data_path!, sort_data);
 				that.init();
 			} catch (err) {
 				console.log(`error: ${err}`);
@@ -185,6 +183,6 @@ export class HackerNews {
 			"\n## 参考\n\n - [bilibili-api-collect](https://github.com/SocialSisterYi/bilibili-API-collect)";
 
 		let readme = `${title}${contents}${chapters}${file_end}`;
-		this.utils.writeFile(readme_path, readme);
+		Utils.writeFile(readme_path, readme);
 	}
 }

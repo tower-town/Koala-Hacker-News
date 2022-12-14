@@ -1,6 +1,5 @@
 import { SourceLink } from "../src/componet/source_link";
 import { Api } from "../src/componet/api";
-import path from "path";
 import { JsonData } from "../src/types/type";
 
 let new_json_data: JsonData = {

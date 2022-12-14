@@ -1,11 +1,10 @@
 import fs from "fs";
 import { Sort } from "./sort";
 import { JsonData } from "../types/type";
-import async from "async";
 
 export class Utils {
 	constructor() {}
-	sortJson(json_data: JsonData, keyword: keyof JsonData[string]) {
+	static sortJson(json_data: JsonData, keyword: keyof JsonData[string]) {
 		let pubdates_dict: { [data: string]: string } = {};
 		let sort_data: JsonData = {};
 
@@ -27,7 +26,7 @@ export class Utils {
 		return sort_data;
 	}
 
-	parseUrl(url: URL, params: { [param: string]: string | number }): URL {
+	static parseUrl(url: URL, params: { [param: string]: string | number }): URL {
 		let params_keys = Object.keys(params);
 
 		params_keys.forEach((value, index) => {
@@ -37,7 +36,7 @@ export class Utils {
 		return url_params;
 	}
 
-	readFile(path: fs.PathLike): string {
+	static readFile(path: fs.PathLike): string {
 		let data = "{}";
 		try {
 			data = fs.readFileSync(path, "utf-8");
@@ -47,8 +46,11 @@ export class Utils {
 		return data;
 	}
 
-	// rome-ignore lint/suspicious/noExplicitAny: <explanation>
-	writeFile(path: fs.PathLike, data: { [key: string]: any } | string): void {
+	static writeFile(
+		path: fs.PathLike,
+		// rome-ignore lint/suspicious/noExplicitAny: <explanation>
+		data: { [key: string]: any } | string,
+	): void {
 		let file_data = "";
 
 		if (typeof data === "object") {

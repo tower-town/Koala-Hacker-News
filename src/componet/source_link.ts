@@ -9,14 +9,13 @@ export class SourceLink {
 	}
 
 	initUrls(bvids: string[]): URL[] {
-		let utils = new Utils();
 		let info_api = this.api_data["video_info"];
 		let url = info_api["url"];
 		let params = info_api["params"];
 		let urls: URL[] = [];
 		bvids.forEach((bvid, index) => {
 			params["bvid"] = bvid;
-			urls.push(utils.parseUrl(url, params));
+			urls.push(Utils.parseUrl(url, params));
 		});
 
 		return urls;

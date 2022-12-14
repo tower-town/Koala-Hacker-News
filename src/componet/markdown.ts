@@ -15,11 +15,9 @@ interface Tables {
 
 export class Markdown {
 	json_data: JsonData;
-	utils: Utils = new Utils();
 
 	constructor(data: JsonData) {
 		this.json_data = data;
-		this.utils = new Utils();
 	}
 	generateTables(): Tables {
 		let data_keys = Object.keys(this.json_data!);
@@ -137,7 +135,7 @@ export class Markdown {
 				console.log(docs[key]);
 			}
 			paths.push(file["path"]);
-			this.utils.writeFile(file["path"], file["content"]);
+			Utils.writeFile(file["path"], file["content"]);
 		});
 
 		return {
