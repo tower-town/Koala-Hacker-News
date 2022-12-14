@@ -1,6 +1,7 @@
 import fs from "fs";
 import { Sort } from "./sort";
 import { JsonData } from "../types/type";
+import async from "async";
 
 export class Utils {
 	constructor() {}
@@ -56,7 +57,7 @@ export class Utils {
 			file_data = data;
 		}
 
-		if (!file_data) {
+		if (file_data === "") {
 			file_data = "{}";
 		}
 		fs.writeFile(path, (data = file_data), (error) => {

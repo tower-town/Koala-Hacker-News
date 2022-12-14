@@ -66,9 +66,13 @@ export class HackerNews {
 	writeJson(data: JsonData): void {
 		let that = this;
 		async function asyncWriteFile() {
-			let sort_data = await that.utils.sortJson(data, "pubdate");
-			await that.utils.writeFile(that.data_path!, sort_data);
-			await that.init();
+			try {
+				let sort_data = await that.utils.sortJson(data, "pubdate");
+				await that.utils.writeFile(that.data_path!, sort_data);
+				that.init();
+			} catch (err) {
+				console.trace(`error: ${err}`);
+			}
 		}
 		asyncWriteFile();
 	}
