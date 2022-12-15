@@ -18,7 +18,7 @@ IDE](https://www.bilibili.com/video/BV1Gv4y197md)
     </tr><tr>
       <td>Uptime Kuma</td>
       <td>轻量级网站监控方案</td>
-      <td>https://www.codux.com/</td>
+      <td>https://github.com/louislam/uptime-kuma</td>
     </tr><tr>
       <td>Codux</td>
       <td>可视化 React 组件 IDE</td>

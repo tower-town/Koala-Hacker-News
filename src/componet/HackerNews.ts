@@ -13,11 +13,10 @@ interface Response {
 	message: string;
 	ttl: number;
 	// rome-ignore lint/suspicious/noExplicitAny: <explanation>
-	data: { [key: string]: any };
+	data: Record<string, any>;
 }
 
 export class HackerNews {
-	params: { [key: string]: string | number };
 	data_path?: string;
 	json_data?: JsonData;
 	bvids?: string[];
@@ -29,7 +28,6 @@ export class HackerNews {
 	collect: Collect;
 
 	constructor() {
-		this.params = {};
 		this.init();
 
 		const api = new Api();
@@ -64,7 +62,7 @@ export class HackerNews {
 	writeJson(data: JsonData): void {
 		let that = this;
 		let MAX_TIMES = 3;
-		async function asyncWriteFile() {
+		async () => {
 			for (let i = 0; i <= MAX_TIMES; i++) {
 				try {
 					let sort_data = await Utils.sortJson(data, "pubdate");
@@ -75,8 +73,7 @@ export class HackerNews {
 					console.trace(`error: ${err}`);
 				}
 			}
-		}
-		asyncWriteFile();
+		};
 	}
 
 	getCollectInfo(): void {
@@ -93,7 +90,7 @@ export class HackerNews {
 					let ids_data = data["data"];
 					ids_data?.["archives"].forEach(
 						// rome-ignore lint/suspicious/noExplicitAny: <explanation>
-						(value: { [key: string]: any }, _: number) => {
+						(value: Record<string, any>, _: number) => {
 							let data = {
 								title: value["title"],
 								aid: value["aid"],

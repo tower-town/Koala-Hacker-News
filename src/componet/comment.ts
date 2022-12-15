@@ -50,7 +50,7 @@ export class Comment {
 	}
 	getTopCommit(
 		// rome-ignore lint/suspicious/noExplicitAny: <explanation>
-		comment: { [key: string]: any },
+		comment: Record<string, any>,
 		bvid: string,
 	): {
 		bvid: string;
