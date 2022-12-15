@@ -26,13 +26,8 @@ export class Utils {
 		return sort_data;
 	}
 
-	static parseUrl(url: URL, params: { [param: string]: string | number }): URL {
-		let params_keys = Object.keys(params);
-
-		params_keys.forEach((value, index) => {
-			params_keys[index] = `${value}=${params[value]}`;
-		});
-		let url_params = `${url}?${params_keys.join("&")}` as unknown as URL;
+	static parseUrl(url: URL, params: URLSearchParams): URL {
+		let url_params = new URL(`${url.toString()}?${params.toString()}`);
 		return url_params;
 	}
 

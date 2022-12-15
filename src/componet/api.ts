@@ -10,9 +10,7 @@ export interface ApiData {
 
 interface ApiParams {
 	url: URL;
-	params: {
-		[param: string]: string | number;
-	};
+	params: URLSearchParams;
 }
 
 export class Api {

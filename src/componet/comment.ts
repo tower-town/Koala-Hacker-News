@@ -19,14 +19,15 @@ export class Comment {
 
 	initUrl(aids: string[]): URL[] {
 		let api_data = this.api_data["comment"];
-		let api_params = api_data["params"];
+		let url = new URL(api_data["url"]);
+		let api_params = new URLSearchParams(api_data["params"]);
 
 		let urls: URL[] = [];
 
 		aids.forEach((aid) => {
-			api_params["oid"] = aid;
-			let url = Utils.parseUrl(api_data["url"], api_params);
-			urls.push(url);
+			api_params.set("oid", aid);
+			let urlIndex = Utils.parseUrl(url, api_params);
+			urls.push(urlIndex);
 		});
 
 		return urls;
