@@ -42,6 +42,7 @@
     </tr>
   </tbody>
 </table>
+
 [[Hacker News 周报] Zotero 发布 6.0 版本；500 行代码学习 OpenGL；GO
 支持泛型](https://www.bilibili.com/video/BV1HU4y1d7da)
 <table>
@@ -90,6 +91,7 @@
     </tr>
   </tbody>
 </table>
+
 [[Hacker News 周报] JS 类型系统提案；开源游戏引擎
 Godot；数据库索引工作原理](https://www.bilibili.com/video/BV1VS4y1D768)
 <table>
@@ -134,6 +136,7 @@ Godot；数据库索引工作原理](https://www.bilibili.com/video/BV1VS4y1D768
     </tr>
   </tbody>
 </table>
+
 [[Hacker News 周报] MDN 文档全新上线；SaaS 产品开源替代品大全；使用 Python 直接开发 Web
 UI](https://www.bilibili.com/video/BV1Y34y1b7cJ)
 <table>

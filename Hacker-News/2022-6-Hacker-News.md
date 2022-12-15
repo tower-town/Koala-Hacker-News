@@ -42,6 +42,7 @@
     </tr>
   </tbody>
 </table>
+
 [[Hacker News 周报] Deno 原生 SSR web 框架；基于 Vite
 的单元测试框架；程序员社交新尝试](https://www.bilibili.com/video/BV1sY411T7QL)
 <table>
@@ -82,6 +83,7 @@
     </tr>
   </tbody>
 </table>
+
 [[Hacker News 周报] TypeScript
 高性能框架；浏览器插件开发平台；用代码更好地讲故事](https://www.bilibili.com/video/BV1rS4y1i72U)
 <table>
@@ -118,6 +120,7 @@
     </tr>
   </tbody>
 </table>
+
 [[Hacker News 周报] 25 倍快的 Redis 竞品；开源 serverless Postgres 方案；快速编写 UML
 图](https://www.bilibili.com/video/BV1L34y1L7zK)
 <table>

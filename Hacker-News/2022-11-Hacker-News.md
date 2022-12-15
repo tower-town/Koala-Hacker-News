@@ -38,6 +38,7 @@ V2；开源数据可视化平台；命令行的艺术](https://www.bilibili.com/
     </tr>
   </tbody>
 </table>
+
 [[Hacker News 周报] Mathematica 开源替代品；数据库领域多个新项目；Meta
 大规模代码管理方案](https://www.bilibili.com/video/BV1oP4y197dF)
 <table>
@@ -74,6 +75,7 @@ V2；开源数据可视化平台；命令行的艺术](https://www.bilibili.com/
     </tr>
   </tbody>
 </table>
+
 [[Hacker News 周报] GitHub 下一代功能；Docker 支持
 Webassembly；新式代码教学工具](https://www.bilibili.com/video/BV1oY411Z7mU)
 <table>
@@ -114,6 +116,7 @@ Webassembly；新式代码教学工具](https://www.bilibili.com/video/BV1oY411Z
     </tr>
   </tbody>
 </table>
+
 [[Hacker News 周报] Grafana Labs 新产品；Vite 与 Turbopack 性能对比；Heroku
 替代方案](https://www.bilibili.com/video/BV1u14y157NA)
 <table>

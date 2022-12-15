@@ -50,6 +50,7 @@ SQLite](https://www.bilibili.com/video/BV1r34y127VU)
     </tr>
   </tbody>
 </table>
+
 [[Hacker News 周报] faker.js 删库事件新进展；暴雪被收购；GPS
 工作原理详解](https://www.bilibili.com/video/BV1AT4y127tr)
 <table>
@@ -106,6 +107,7 @@ SQLite](https://www.bilibili.com/video/BV1r34y127VU)
     </tr>
   </tbody>
 </table>
+
 [[Hacker News 周报] 开源软件被植入恶意代码；浏览器中实现 POSIX；开源 wiki
 工具推荐](https://www.bilibili.com/video/BV1eT4y117Xh)
 <table>
@@ -154,6 +156,7 @@ SQLite](https://www.bilibili.com/video/BV1r34y127VU)
     </tr>
   </tbody>
 </table>
+
 [[Hacker News 周报] 任天堂掌机发展史；开源学术工具 Zotero；SpaceX
 空间站对接模拟器](https://www.bilibili.com/video/BV1vL4y1b78S)
 <table>
@@ -214,6 +217,7 @@ SQLite](https://www.bilibili.com/video/BV1r34y127VU)
     </tr>
   </tbody>
 </table>
+
 [[Hacker News 周报]
 波斯王子在浏览器中运行；开发者工具大集合；数据库年度报告](https://www.bilibili.com/video/BV1GD4y1F7Ri)
 <table>

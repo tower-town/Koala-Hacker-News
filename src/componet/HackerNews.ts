@@ -72,7 +72,7 @@ export class HackerNews {
 					that.init();
 					break;
 				} catch (err) {
-					console.warn(`error: ${err}`);
+					console.trace(`error: ${err}`);
 				}
 			}
 		}

@@ -38,6 +38,7 @@ Sonic](https://www.bilibili.com/video/BV1DD4y1b76j)
     </tr>
   </tbody>
 </table>
+
 [[Hacker News 周报] 手机编程 App；WebAssembly 应用；高性能 TypeScript
 编译器](https://www.bilibili.com/video/BV14G4y1H7VM)
 <table>
@@ -78,6 +79,7 @@ Sonic](https://www.bilibili.com/video/BV1DD4y1b76j)
     </tr>
   </tbody>
 </table>
+
 [[Hacker News 周报] Obsidian 发布 1.0；命令行中编辑视频与收发邮件；Jet Brains 新一代 IDE
 公测](https://www.bilibili.com/video/BV1Ae411V7UR)
 <table>
@@ -118,6 +120,7 @@ Sonic](https://www.bilibili.com/video/BV1DD4y1b76j)
     </tr>
   </tbody>
 </table>
+
 [[Hacker News 周报] 通过二维码分享电脑中任意文件；开源 WASM 运行 PostgresSQL 方案；社区尝试维护 SQLite
 下游版本](https://www.bilibili.com/video/BV1GR4y1R7Yw)
 <table>
@@ -159,6 +162,7 @@ Sonic](https://www.bilibili.com/video/BV1DD4y1b76j)
     </tr>
   </tbody>
 </table>
+
 [[Hacker News 周报] CloudFlare 开源 serverless 运行时 workerd；开源 APM 系统；使用 Go 和 Web
 技术开发](https://www.bilibili.com/video/BV1td4y1B7Y1)
 <table>

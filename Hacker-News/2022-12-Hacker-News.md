@@ -34,6 +34,7 @@ IDE](https://www.bilibili.com/video/BV1Gv4y197md)
     </tr>
   </tbody>
 </table>
+
 [[Hacker News 周报] OpenAI 开放 ChatGPT 模型；NLP 在线课程；k8s
 流量监测工具](https://www.bilibili.com/video/BV1tP4y1Q7Vt)
 <table>

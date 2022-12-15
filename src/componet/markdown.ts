@@ -76,7 +76,7 @@ export class Markdown {
                 ${table_body}
             </table>
         `.trim();
-			tables["content"].push(format(table.trim()));
+			tables["content"].push(format(table));
 		});
 
 		return tables;
@@ -90,7 +90,7 @@ export class Markdown {
 		let docs: { [pub_date: string]: string[] } = {};
 		let pub_list: string[] = [];
 
-		let state = "1";
+		let state: string = "";
 		pubdates.sort((a, b) => {
 			return Number(b) - Number(a);
 		});
@@ -128,7 +128,7 @@ export class Markdown {
 		let paths: string[] = [];
 		docs_keys.forEach((key, _) => {
 			file["name"] = `${key}-Hacker-News.md`;
-			file["content"] = docs[key].join("\n");
+			file["content"] = docs[key].join("\n\n");
 			file["path"] = path.join(md_path, file["name"]);
 
 			if (docs[key].length === 0) {

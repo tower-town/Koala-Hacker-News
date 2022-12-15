@@ -38,6 +38,7 @@
     </tr>
   </tbody>
 </table>
+
 [[Hacker News 周报] GO
 全栈开发框架；开发终端风格网站；大厂技术架构赏析](https://www.bilibili.com/video/BV13a411E7AQ)
 <table>
@@ -78,6 +79,7 @@
     </tr>
   </tbody>
 </table>
+
 [[Hacker News 周报] SQLite 再次流行；JS 性能分析指南；魔方竞速工具
 CubeDesk](https://www.bilibili.com/video/BV1kT4y1B7Nh)
 <table>
@@ -122,6 +124,7 @@ CubeDesk](https://www.bilibili.com/video/BV1kT4y1B7Nh)
     </tr>
   </tbody>
 </table>
+
 [[Hacker News 周报] 浏览器中运行 Python；JSON
 可视化神器；避免电脑休眠的网页](https://www.bilibili.com/video/BV1PB4y1278B)
 <table>
@@ -166,6 +169,7 @@ CubeDesk](https://www.bilibili.com/video/BV1kT4y1B7Nh)
     </tr>
   </tbody>
 </table>
+
 [[Hacker News 周报] 性能分析工具合集；通过 TDD 学习 GO 语言；基于 Deno 的 serverless
 平台](https://www.bilibili.com/video/BV1fu41167ME)
 <table>

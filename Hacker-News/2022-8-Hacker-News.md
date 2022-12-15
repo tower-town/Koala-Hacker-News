@@ -34,6 +34,7 @@
     </tr>
   </tbody>
 </table>
+
 [[Hacker News 周报] 浏览器中运行 Postgres；与 Python 兼容的静态类型语言；分布式文件系统
 JuiceFS](https://www.bilibili.com/video/BV1bg411r7Fg)
 <table>
@@ -70,6 +71,7 @@ JuiceFS](https://www.bilibili.com/video/BV1bg411r7Fg)
     </tr>
   </tbody>
 </table>
+
 [[Hacker News 周报] 远程开发方案 Coder；高性能 virtual DOM；深入 Redis
 技术细节](https://www.bilibili.com/video/BV1UB4y1t7cW)
 <table>
@@ -106,6 +108,7 @@ JuiceFS](https://www.bilibili.com/video/BV1bg411r7Fg)
     </tr>
   </tbody>
 </table>
+
 [[Hacker News 周报] 开源知识库软件能否替代 Notion；Copilot
 开源替代品；逆向工程工具箱。](https://www.bilibili.com/video/BV1VN4y1j7Pd)
 <table>

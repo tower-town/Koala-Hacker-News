@@ -42,6 +42,7 @@
     </tr>
   </tbody>
 </table>
+
 [[Hacker News 周报] 在线设计工具新动向；交互式 Markdown；Mac 中体验 AI
 作画](https://www.bilibili.com/video/BV1QP411H7rM)
 <table>
@@ -82,6 +83,7 @@
     </tr>
   </tbody>
 </table>
+
 [[Hacker News 周报] 结构化 diff 工具；百倍快的 Python linter；PREACT 状态管理新方案
 signals](https://www.bilibili.com/video/BV1Pe4y187LV)
 <table>
@@ -122,6 +124,7 @@ signals](https://www.bilibili.com/video/BV1Pe4y187LV)
     </tr>
   </tbody>
 </table>
+
 [[Hacker News 周报] 快速启动隔离开发环境；JSON 可视化工具；Heroku
 即将停止免费额度](https://www.bilibili.com/video/BV19e411g7qe)
 <table>

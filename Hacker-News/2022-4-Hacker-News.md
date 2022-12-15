@@ -38,6 +38,7 @@
     </tr>
   </tbody>
 </table>
+
 [[Hacker News 周报] 现代 CLI 大全；Deno 推出 FaaS 服务；基于 Rust
 的隧道工具](https://www.bilibili.com/video/BV1yi4y1U7Ms)
 <table>
@@ -78,6 +79,7 @@
     </tr>
   </tbody>
 </table>
+
 [[Hacker News 周报] 自部署 PaaS coolify；现代化终端 Warp；Ruby 增加 WASM
 支持](https://www.bilibili.com/video/BV12i4y1D78x)
 <table>
@@ -122,6 +124,7 @@
     </tr>
   </tbody>
 </table>
+
 [[Hacker News 周报] WebAssembly 运行 Python；云原生 CI/CD 开发包；React 18
 发布](https://www.bilibili.com/video/BV1aF41137oA)
 <table>

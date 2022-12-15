@@ -34,6 +34,7 @@
     </tr>
   </tbody>
 </table>
+
 [[Hacker News 周报] Google 发布新编程语言 Carbon；低代码工具开发框架榫卯；AI 系统 DALL·E 开放 Beta
 测试](https://www.bilibili.com/video/BV1hV4y177P9)
 <table>
@@ -70,6 +71,7 @@
     </tr>
   </tbody>
 </table>
+
 [[Hacker News 周报] Vite 3.0 发布；Bun 性能实测；性能更强的 Prometheus
 替代方案](https://www.bilibili.com/video/BV16N4y1T7Hu)
 <table>
@@ -106,6 +108,7 @@
     </tr>
   </tbody>
 </table>
+
 [[Hacker News 周报] 高性能 JS 运行时 Bun；Electron 轻量级替代品；自动探测 Web
 应用内存泄漏](https://www.bilibili.com/video/BV1Wg411f7VV)
 <table>
@@ -142,6 +145,7 @@
     </tr>
   </tbody>
 </table>
+
 [[Hacker News 周报] 性能持续分析工具；数据库必须知道的那些事；Spark 与 K8s
 集成新动向](https://www.bilibili.com/video/BV1Xr4y1M7T7)
 <table>
