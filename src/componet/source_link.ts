@@ -1,15 +1,14 @@
-import { ApiData } from "./api";
+import { Api, ApiData } from "./api";
 import { Utils } from "./utils";
 import { JsonData } from "../types/type";
 
-export class SourceLink {
-	api_data: ApiData;
-	constructor(api_data: ApiData) {
-		this.api_data = api_data;
+export class SourceLink extends Api {
+	constructor() {
+		super();
 	}
 
 	initUrls(bvids: string[]): URL[] {
-		let info_api = this.api_data["video_info"];
+		let info_api = this.data["video_info"];
 		let url = new URL(info_api["url"]);
 		let params = new URLSearchParams(info_api["params"]);
 		let urls: URL[] = [];

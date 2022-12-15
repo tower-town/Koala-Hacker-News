@@ -2,9 +2,7 @@ import { Api } from "../src/componet/api";
 import { Comment } from "../src/componet/comment";
 import { JsonData } from "../src/types/type";
 
-const api = new Api();
-const apiData = api.data;
-const comment = new Comment(apiData);
+const comment = new Comment();
 
 test("test checkCommitData", () => {
 	let json_data: JsonData = {

@@ -18,9 +18,7 @@ let new_json_data: JsonData = {
 	},
 };
 
-const api = new Api();
-const apiData = api.data;
-const source_link = new SourceLink(apiData);
+const source_link = new SourceLink();
 
 test("test check_source_link", () => {
 	let check = source_link.checkSourceLink(new_json_data);

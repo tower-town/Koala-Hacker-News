@@ -2,9 +2,7 @@ import { Collect } from "../src/componet/collect";
 import { Api } from "../src/componet/api";
 import { JsonData, BvidData } from "../src/types/type";
 
-const api = new Api();
-const apiData = api.data;
-const collect = new Collect(apiData);
+const collect = new Collect();
 
 let data: BvidData = {
 	title: "this is one",

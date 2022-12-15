@@ -4,7 +4,6 @@ import { Utils, fetchJson } from "./utils";
 import { JsonData } from "../types/type";
 import { Comment } from "./comment";
 import { Markdown } from "./markdown";
-import { Api, ApiData } from "./api";
 import { SourceLink } from "./source_link";
 import { Collect } from "./collect";
 
@@ -20,7 +19,6 @@ export class HackerNews {
 	data_path?: string;
 	json_data?: JsonData;
 	bvids?: string[];
-	api_data: ApiData;
 
 	comment: Comment;
 	source_link: SourceLink;
@@ -30,16 +28,12 @@ export class HackerNews {
 	constructor() {
 		this.init();
 
-		const api = new Api();
-		this.api_data = api.data;
-
-		let api_data = this.api_data;
 		let json_data = this.json_data!;
 
-		this.comment = new Comment(api_data);
-		this.source_link = new SourceLink(api_data);
+		this.comment = new Comment();
+		this.source_link = new SourceLink();
 		this.markdown = new Markdown(json_data!);
-		this.collect = new Collect(api_data);
+		this.collect = new Collect();
 	}
 
 	init(): void {

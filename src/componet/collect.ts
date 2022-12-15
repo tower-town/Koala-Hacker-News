@@ -1,15 +1,14 @@
 import { JsonData, BvidData } from "../types/type";
-import { ApiData } from "./api";
+import { Api, ApiData } from "./api";
 import { Utils } from "./utils";
 
-export class Collect {
-	apiData: ApiData;
-	constructor(api_data: ApiData) {
-		this.apiData = api_data;
+export class Collect extends Api {
+	constructor() {
+		super();
 	}
 
 	initUrl() {
-		let api_data = this.apiData["collect"]!;
+		let api_data = this.data["collect"]!;
 		let url = api_data["url"];
 		let params = api_data["params"];
 

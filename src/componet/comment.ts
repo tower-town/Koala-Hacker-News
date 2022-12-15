@@ -1,6 +1,6 @@
 import { Utils } from "./utils";
 import { IntroData, JsonData } from "../types/type";
-import { ApiData } from "./api";
+import { Api, ApiData } from "./api";
 import path from "path";
 
 interface NoteData {
@@ -9,16 +9,15 @@ interface NoteData {
 	};
 }
 
-export class Comment {
-	api_data: ApiData;
+export class Comment extends Api {
 	mid: string;
-	constructor(api_data: ApiData) {
+	constructor() {
+		super();
 		this.mid = "489667127";
-		this.api_data = api_data;
 	}
 
 	initUrl(aids: string[]): URL[] {
-		let api_data = this.api_data["comment"];
+		let api_data = this.data["comment"];
 		let url = new URL(api_data["url"]);
 		let api_params = new URLSearchParams(api_data["params"]);
 
