@@ -9,11 +9,10 @@ export class Collect extends Api {
 
 	initUrl() {
 		let api_data = this.data["collect"]!;
-		let url = api_data["url"];
-		let params = api_data["params"];
+		let url = new URL(api_data["url"]);
+		let params = new URLSearchParams(api_data["params"]);
 
 		let urls: URL[] = [];
-
 		urls.push(Utils.parseUrl(url, params));
 
 		return urls;
