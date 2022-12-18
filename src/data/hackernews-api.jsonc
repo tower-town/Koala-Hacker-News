@@ -1,0 +1,16 @@
+{
+    // https://github.com/HackerNews/API
+    "news": {
+        "url": "https://hacker-news.firebaseio.com/v0/askstories.json?print=pretty",
+        "params": {}
+    },
+    // https://hn.algolia.com/api
+    "search": {
+        "url": "http://hn.algolia.com/api/v1/search_by_date",
+        "params": {
+            "query": "text",
+            "tags": "story | comment | poll | pollopt | show_hn | ask_hn | front_page | author_:USERNAME | story_:ID",
+            "page": 0
+        }
+    }
+}
