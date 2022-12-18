@@ -1,5 +1,5 @@
 import { JsonData, BvidData } from "../types/type";
-import { Api, ApiData } from "./api";
+import { Api } from "./api";
 import { Utils } from "./utils";
 
 export class Collect extends Api {
@@ -20,6 +20,7 @@ export class Collect extends Api {
 
 	checkCollect(json_data: JsonData, data: BvidData) {
 		let { bvid } = data;
+
 		if (!json_data[bvid]) {
 			json_data[bvid] = data;
 		}

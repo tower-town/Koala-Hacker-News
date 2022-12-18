@@ -2,6 +2,7 @@ import { JsonData } from "../types/type";
 import { Utils } from "./utils";
 import path from "path";
 import format from "html-format";
+import util from "util";
 
 interface Tables {
 	content: string[];
@@ -19,43 +20,44 @@ export class Markdown {
 	constructor(data: JsonData) {
 		this.json_data = data;
 	}
-	generateTables(): Tables {
-		let data_keys = Object.keys(this.json_data!);
-		let tables: Tables = {
-			content: [],
-			tr: [],
-			title: {
+	generateTables(): Promise<Tables> {
+		return new Promise((resolve, reject) => {
+			let data_keys = Object.keys(this.json_data!);
+			let tables: Tables = {
 				content: [],
-				link: [],
-				pubdate: [],
-			},
-		};
+				tr: [],
+				title: {
+					content: [],
+					link: [],
+					pubdate: [],
+				},
+			};
 
-		data_keys.forEach((value, index) => {
-			let data = this.json_data?.[value]!;
-			let title_item = data["title"];
-			let title_link = `https://www.bilibili.com/video/${value}`;
-			let title_pubdate = data["pubdate"].toString();
-			tables["title"]["content"].push(title_item);
-			tables["title"]["link"].push(title_link);
-			tables["title"]["pubdate"].push(title_pubdate);
+			data_keys.forEach((value, index) => {
+				let data = this.json_data?.[value]!;
+				let title_item = data["title"];
+				let title_link = `https://www.bilibili.com/video/${value}`;
+				let title_pubdate = data["pubdate"].toString();
+				tables["title"]["content"].push(title_item);
+				tables["title"]["link"].push(title_link);
+				tables["title"]["pubdate"].push(title_pubdate);
 
-			if (data["data"]!) {
-				let tr_item = "";
-				data["data"].forEach((item, _) => {
-					tr_item += `
+				if (data["data"]!) {
+					let tr_item = "";
+					data["data"].forEach((item, _) => {
+						tr_item += `
                 <tr>
                     <td>${item["name"]}</td>
                     <td>${item["intro"]}</td>
                     <td>${item["link"]}</td>
                 </tr>
             `.trim();
-				});
-				tables["tr"].push(tr_item);
-			}
-		});
+					});
+					tables["tr"].push(tr_item);
+				}
+			});
 
-		let table_hander = `
+			let table_hander = `
             <theader>
                 <th>名称</th>
                 <th>简介</th>
@@ -63,84 +65,91 @@ export class Markdown {
             </theader>
         `.trim();
 
-		tables["title"]["content"].forEach((item, index) => {
-			let table_body = `
+			tables["title"]["content"].forEach((item, index) => {
+				let table_body = `
             <tbody>
                 ${tables["tr"][index]}
             </tbody>
         `.trim();
-			let table = `
+				let table = `
             [${item}](${tables["title"]["link"][index]})
             <table>
                 ${table_hander}
                 ${table_body}
             </table>
         `.trim();
-			tables["content"].push(format(table));
-		});
+				tables["content"].push(format(table));
+			});
 
-		return tables;
+			resolve(tables);
+		});
 	}
 
-	generateDocs() {
-		let tables = this.generateTables();
-		let content = tables["content"];
-		let pubdates = tables["title"]["pubdate"];
+	generateDocs(tables: Tables): Promise<Record<string, string[]>> {
+		return new Promise((resolve, reject) => {
+			let content = tables["content"];
+			let pubdates = tables["title"]["pubdate"];
 
-		let docs: { [pub_date: string]: string[] } = {};
-		let pub_list: string[] = [];
+			let docs: { [pub_date: string]: string[] } = {};
+			let pub_list: string[] = [];
 
-		let state: string = "";
-		pubdates.sort((a, b) => {
-			return Number(b) - Number(a);
-		});
-		pubdates.forEach((value, index) => {
-			let date = new Date(Number(value) * 1000);
-			let pub_date = `${date.getFullYear()}-${date.getMonth() + 1}`;
-			if (state !== pub_date) {
-				if (pub_list.length !== 0) {
-					docs[state] = pub_list;
-					pub_list = [];
+			let state: string = "";
+			pubdates.sort((a, b) => {
+				return Number(b) - Number(a);
+			});
+			pubdates.forEach((value, index) => {
+				let date = new Date(Number(value) * 1000);
+				let pub_date = `${date.getFullYear()}-${date.getMonth() + 1}`;
+				if (state !== pub_date) {
+					if (pub_list.length !== 0) {
+						docs[state] = pub_list;
+						pub_list = [];
+					}
+					state = pub_date;
 				}
-				state = pub_date;
-			}
-			if (value === pubdates[pubdates.length - 1]) {
-				docs[pub_date] = pub_list;
-			}
-			pub_list.push(content[index]);
-		});
+				if (value === pubdates[pubdates.length - 1]) {
+					docs[pub_date] = pub_list;
+				}
+				pub_list.push(content[index]);
+			});
 
-		return docs;
+			resolve(docs);
+		});
 	}
 
-	generateMd(md_path: string): {
+	generateMd(
+		md_path: string,
+		docs: Record<string, string[]>,
+	): Promise<{
 		pub_dates: string[];
 		paths: string[];
-	} {
-		let docs = this.generateDocs();
-		let file = {
-			name: "",
-			content: "",
-			path: "",
-		};
+	}> {
+		return new Promise((resolve, reject) => {
+			let file = {
+				name: "",
+				content: "",
+				path: "",
+			};
 
-		let docs_keys = Object.keys(docs);
-		let paths: string[] = [];
-		docs_keys.forEach((key, _) => {
-			file["name"] = `${key}-Hacker-News.md`;
-			file["content"] = docs[key].join("\n\n");
-			file["path"] = path.join(md_path, file["name"]);
+			let docs_keys = Object.keys(docs);
+			let paths: string[] = [];
+			docs_keys.forEach((key, _) => {
+				file["name"] = `${key}-Hacker-News.md`;
+				file["content"] = docs[key].join("\n\n");
+				file["path"] = path.join(md_path, file["name"]);
 
-			if (docs[key].length === 0) {
-				console.log(docs[key]);
-			}
-			paths.push(file["path"]);
-			Utils.writeFile(file["path"], file["content"]);
+				if (docs[key].length === 0) {
+					console.log(docs[key]);
+				}
+				paths.push(file["path"]);
+				Utils.writeFile(file["path"], file["content"]);
+			});
+
+			let result = {
+				pub_dates: docs_keys,
+				paths: paths,
+			};
+			resolve(result);
 		});
-
-		return {
-			pub_dates: docs_keys,
-			paths: paths,
-		};
 	}
 }

@@ -1,6 +1,6 @@
 import { JsonData } from "../src/types/type";
 import { Markdown } from "../src/componet/markdown";
-import * as path from "path";
+import path from "path";
 import { HackerNews } from "../src/componet/HackerNews";
 import fs from "fs";
 
@@ -45,8 +45,8 @@ let new_json_data: JsonData = {
 
 let MD = new Markdown(new_json_data);
 
-test("test generate_tables", () => {
-	let tables_data = MD.generateTables();
+test("test generate_tables", async () => {
+	let tables_data = await MD.generateTables();
 
 	let {
 		title: { content, link, pubdate },
@@ -70,8 +70,9 @@ test("test generate_tables", () => {
 	expect(tables_titles).toStrictEqual(expect_titles);
 });
 
-test("test generate_docs", () => {
-	let docs = MD.generateDocs();
+test("test generate_docs", async () => {
+	let tables = await MD.generateTables();
+	let docs = await MD.generateDocs(tables);
 
 	// ignore content indocs in expect_docs
 	let expect_docs: { [pub_data: string]: string } = {};
@@ -88,9 +89,11 @@ test("test generate_docs", () => {
 
 // notes: generate_md will write into files
 
-test("test generate_md", () => {
+test("test generate_md", async () => {
 	let md_path = path.join(__dirname, "./HackerNews/");
-	let md_data = MD.generateMd(md_path);
+	let tables = await MD.generateTables();
+	let docs = await MD.generateDocs(tables);
+	let md_data = await MD.generateMd(md_path, docs);
 
 	let expect_md_data = {
 		pub_dates: ["1970-1"],
@@ -105,13 +108,13 @@ test("test generate_md", () => {
 	expect(md_data["pub_dates"]).toStrictEqual(expect_md_data["pub_dates"]);
 });
 
-test("update readme.md", () => {
+test("update readme.md", async () => {
 	let md_path = path.join(__dirname, "./HackerNews/");
 	let readme_path = path.join(__dirname, "./README.md");
 
 	let HN = new HackerNews();
 	HN.markdown = MD;
-	HN.updateReadme(readme_path, md_path);
+	await HN.updateReadme(readme_path, md_path);
 
 	let mdDirList = fs.readdirSync(md_path, "utf-8");
 	let expectDirList = ["1970-1-Hacker-News.md"];

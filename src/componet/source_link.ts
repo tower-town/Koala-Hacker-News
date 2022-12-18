@@ -13,7 +13,7 @@ export class SourceLink extends Api {
 		let params = new URLSearchParams(info_api["params"]);
 		let urls: URL[] = [];
 		bvids.forEach((bvid, index) => {
-			params.set(bvid, bvid);
+			params.set("bvid", bvid);
 			urls.push(Utils.parseUrl(url, params));
 		});
 

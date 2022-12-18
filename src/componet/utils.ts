@@ -1,6 +1,6 @@
 import fs from "fs";
 import { Sort } from "./sort";
-import { JsonData } from "../types/type";
+import { JsonData, Response } from "../types/type";
 
 export class Utils {
 	constructor() {}
@@ -65,7 +65,15 @@ export class Utils {
 	}
 }
 
-export async function fetchJson(url: URL) {
-	const response = await fetch(url);
-	return response.json();
+export async function fetchJson(urls: URL[]): Promise<Promise<Response>[]> {
+	const jsonPromises: Promise<Response>[] = urls.map(async (url) => {
+		try {
+			const response = await fetch(url);
+			return response.json();
+		} catch (err) {
+			throw err;
+		}
+	});
+
+	return jsonPromises;
 }

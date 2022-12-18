@@ -16,3 +16,11 @@ export interface IntroData {
 	intro: string;
 	link: string;
 }
+
+export interface Response {
+	code: number;
+	message: string;
+	ttl: number;
+	// rome-ignore lint/suspicious/noExplicitAny: <explanation>
+	data: Record<string, any>;
+}

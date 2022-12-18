@@ -1,32 +1,39 @@
 import { HackerNews } from "../src/componet/HackerNews";
 import path from "path";
-import { Utils } from "../src/componet/utils";
 
-const HN = new HackerNews();
+const jsonpath = path.join(__dirname, "./data/data.json");
+const HN = new HackerNews({ jsonPath: jsonpath });
 
-async function asyncInit() {
+test("test async initCollect", async () => {
 	try {
-		HN.data_path = path.join(__dirname, "./data/data.json");
-		let data_str = await Utils.readFile(HN.data_path);
-		HN.json_data = await JSON.parse(data_str);
-		HN.bvids = Object.keys(HN.json_data!);
-	} catch {
-		console.trace("Error");
+		let newJsonData = await HN.initCollect();
+		await HN.writeJson(newJsonData, jsonpath);
+	} catch (err) {
+		throw err;
 	}
-}
+});
 
-test("test HackerNews", () => {
-	asyncInit();
-	HN.getCollectInfo();
-	asyncInit();
+test("test async getSourceLink", async () => {
+	try {
+		let jsonData = await HN.getSourceLinks();
+		await HN.writeJson(jsonData, jsonpath);
+	} catch (err) {
+		throw err;
+	}
+});
 
-	HN.getComment();
-	asyncInit();
+test("test async getComment", async () => {
+	try {
+		let jsonData = await HN.getComment();
+		await HN.writeJson(jsonData, jsonpath);
+	} catch (err) {
+		throw err;
+	}
+});
 
-	let json_data = HN.json_data;
-
-	let expectJsonPath = path.join(__dirname, "../src/data/data.json");
-	let expectJsonData = JSON.parse(Utils.readFile(expectJsonPath));
-
-	expect(json_data).toStrictEqual(expectJsonData);
+test("test HackerNews", async () => {
+	HN.json_data = await HN.initCollect();
+	await HN.getComment();
+	let jsonData = await HN.getSourceLinks();
+	await HN.writeJson(jsonData, jsonpath);
 });
