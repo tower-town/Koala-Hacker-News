@@ -1,48 +1,3 @@
-[[Hacker News 周报] GitHub AI 代码助手 Copilot 正式发布；增强版 watch 命令；Deno 完成 A
-轮融资](https://www.bilibili.com/video/BV1B3411u7ZG)
-<table>
-  <theader>
-    <th>名称</th>
-    <th>简介</th>
-    <th>链接</th>
-  </theader>
-  <tbody>
-    <tr>
-      <td></td>
-      <td>Github AI 代码助手 Copilot 正式发布</td>
-      <td>https://github.blog/2022-06-21-github-copilot-is-generally-available-to-all-developers/</td>
-    </tr><tr>
-      <td>Markone</td>
-      <td>绘制时间轴的工具</td>
-      <td>https://markwhen.com/</td>
-    </tr><tr>
-      <td>Viddy</td>
-      <td>现代的 watch 替代品</td>
-      <td>https://github.com/sachaos/viddy</td>
-    </tr><tr>
-      <td>Elastic UI</td>
-      <td>Elastic 开源的前端 UI 组件库</td>
-      <td>https://elastic.github.io/eui/#/</td>
-    </tr><tr>
-      <td>Avo</td>
-      <td>构建在 Ruby on Rails 方案之上的应用开发框架</td>
-      <td>https://avohq.io/</td>
-    </tr><tr>
-      <td>Unclutter</td>
-      <td>整理网页的浏览器插件</td>
-      <td>https://unclutter.lindylearn.io/</td>
-    </tr><tr>
-      <td></td>
-      <td>SQLite 发布 SQLite4 设计</td>
-      <td>https://sqlite.org/src4/doc/trunk/www/design.wiki</td>
-    </tr><tr>
-      <td></td>
-      <td>Deno 完成 A 轮融资</td>
-      <td>https://deno.com/blog/series-a</td>
-    </tr>
-  </tbody>
-</table>
-
 [[Hacker News 周报] Deno 原生 SSR web 框架；基于 Vite
 的单元测试框架；程序员社交新尝试](https://www.bilibili.com/video/BV1sY411T7QL)
 <table>
@@ -162,6 +117,47 @@
       <td>ffmpeg buddy</td>
       <td>FFmpeg 命令生成工具</td>
       <td>https://evanhahn.github.io/ffmpeg-buddy/</td>
+    </tr>
+  </tbody>
+</table>
+
+[[Hacker News 周报] 超轻量级 Python 引擎；快速阅读英文插件；TypeScript
+发布新版本](https://www.bilibili.com/video/BV1pY4y1z7Vx)
+<table>
+  <theader>
+    <th>名称</th>
+    <th>简介</th>
+    <th>链接</th>
+  </theader>
+  <tbody>
+    <tr>
+      <td>PikaScript</td>
+      <td>超轻量级 Python 引擎</td>
+      <td>https://github.com/pikasTech/pikascript</td>
+    </tr><tr>
+      <td></td>
+      <td>bionic-reading 的快速阅读英文插件</td>
+      <td>https://github.com/ansh/bionic-reading</td>
+    </tr><tr>
+      <td>IndigoStack</td>
+      <td>MacOS 平台上的本地开发环境</td>
+      <td>https://indigostack.app/</td>
+    </tr><tr>
+      <td></td>
+      <td>TypeScript 发布 4.7 版本</td>
+      <td>https://devblogs.microsoft.com/typescript/announcing-typescript-4-7/</td>
+    </tr><tr>
+      <td>AnimatiSS</td>
+      <td>一组 CSS 动画合集</td>
+      <td>https://xsgames.co/animatiss</td>
+    </tr><tr>
+      <td>Arctype</td>
+      <td>SQL 数据库客户端</td>
+      <td>https://arctype.com/</td>
+    </tr><tr>
+      <td></td>
+      <td>一个有趣的 3D 植物生成工具</td>
+      <td>https://plant.jim-fx.com/</td>
     </tr>
   </tbody>
 </table>
