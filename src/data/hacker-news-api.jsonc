@@ -6,7 +6,7 @@
     },
     // https://hn.algolia.com/api
     "search": {
-        "url": "http://hn.algolia.com/api/v1/search_by_date",
+        "url": "http://hn.algolia.com/api/v1/search",
         "params": {
             "query": "text",
             "tags": "story | comment | poll | pollopt | show_hn | ask_hn | front_page | author_:USERNAME | story_:ID",
