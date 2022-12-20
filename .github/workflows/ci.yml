@@ -19,20 +19,20 @@ jobs:
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
-    - name: checkout-ation
-    - uses: actions/checkout@v3
+      - name: checkout-ation
+      - uses: actions/checkout@v3
     
-    - name: setup-pnpm
-    - uses: pnpm/action-setup@646cdf48217256a3d0b80361c5a50727664284f2
-      with:
-        version: 7.17.0
+      - name: setup-pnpm
+      - uses: pnpm/action-setup@646cdf48217256a3d0b80361c5a50727664284f2
+        with:
+          version: 7.17.0
         
-    - name: setup-node
-    - uses: actions/setup-node@v3
-      with:
-        node-version: '18'
-        cache: 'pnpm'
-    - run: |
-        pnpm install
-        pnpm test
-        pnpm build
+      - name: setup-node
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+          cache: 'pnpm'
+      - run: |
+          pnpm install
+          pnpm test
+          pnpm build
