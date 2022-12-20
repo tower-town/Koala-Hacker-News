@@ -19,6 +19,7 @@ jobs:
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
+      - name: checkout
       - uses: actions/checkout@v3
     
       - name: setup-pnpm
@@ -31,6 +32,8 @@ jobs:
         with:
           node-version: '18'
           cache: 'pnpm'
+      
+      - name: pnpm test and build
       - run: |
           pnpm install
           pnpm test
