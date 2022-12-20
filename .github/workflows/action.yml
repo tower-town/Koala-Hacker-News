@@ -29,6 +29,8 @@ jobs:
       with:
         node-version: '18'
         cache: 'pnpm'
+    
+    - name: node test and build
     - run: |
         pnpm install
         pnpm test
