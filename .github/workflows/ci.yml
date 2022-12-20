@@ -24,12 +24,12 @@ jobs:
     
       - name: setup-pnpm
         uses: pnpm/action-setup@646cdf48217256a3d0b80361c5a50727664284f2
-          with:
+        with:
             version: 7.17.0
         
       - name: setup-node
         uses: actions/setup-node@v3
-          with:
+        with:
             node-version: '18'
             cache: 'pnpm'
       
