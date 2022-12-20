@@ -9,7 +9,7 @@ let HN = new HackerNews();
 (async () => {
 	try {
 		HN.json_data = await HN.initCollect();
-		await HN.getComment();
+		HN.json_data = await HN.getComment();
 		let jsonData = await HN.getSourceLinks();
 		await HN.writeJson(jsonData);
 		await HN.updateReadme(readme_path, md_path);
