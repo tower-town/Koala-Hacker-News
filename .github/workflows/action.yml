@@ -15,29 +15,29 @@ jobs:
 
     steps:
     - name: chekout-actions
-    - uses: actions/checkout@v3
+      uses: actions/checkout@v3
       with:
         token: ${{ secrets.AUTO_COMMIT }}
     
     - name: setup-pnpm  
-    - uses: pnpm/action-setup@646cdf48217256a3d0b80361c5a50727664284f2
+      uses: pnpm/action-setup@646cdf48217256a3d0b80361c5a50727664284f2
       with:
         version: 7.17.0
     
     - name: setup-node
-    - uses: actions/setup-node@v3
+      uses: actions/setup-node@v3
       with:
         node-version: '18'
         cache: 'pnpm'
     
     - name: node test and build
-    - run: |
+      run: |
         pnpm install
         pnpm test
         pnpm build
 
     - name: auto-commit
-    - uses: stefanzweifel/git-auto-commit-action@v4
+      uses: stefanzweifel/git-auto-commit-action@v4
       with:
         file_pattern: './README.md ./Hacker-News/*.md ./src/data/data.json'
         commit_message: update Koala Hacker News by github-action-bot.
