@@ -1,44 +1,3 @@
-[[Hacker News 周报] Meta 开源富文本编辑器 lexical；Yandex 开源分布式数据库 YDB；Node.js 18
-发布](https://www.bilibili.com/video/BV16B4y127vi)
-<table>
-  <theader>
-    <th>名称</th>
-    <th>简介</th>
-    <th>链接</th>
-  </theader>
-  <tbody>
-    <tr>
-      <td></td>
-      <td>一个有用网站的合集</td>
-      <td>https://www.insanelyusefulwebsites.com/</td>
-    </tr><tr>
-      <td></td>
-      <td>一个开源的 web 文本编辑器</td>
-      <td>https://lexical.dev/</td>
-    </tr><tr>
-      <td></td>
-      <td>一个开源的分布式数据库</td>
-      <td>https://ydb.tech/</td>
-    </tr><tr>
-      <td>OpenRefine</td>
-      <td>开源数据清洗工具</td>
-      <td>https://openrefine.org/</td>
-    </tr><tr>
-      <td></td>
-      <td>Node.js 发布 18 版本</td>
-      <td>https://nodejs.org/en/</td>
-    </tr><tr>
-      <td></td>
-      <td>GO 发表介绍泛型的文章</td>
-      <td>https://go.dev/blog/when-generics</td>
-    </tr><tr>
-      <td></td>
-      <td>一个单手键盘</td>
-      <td>https://tipykeyboard.com/en/home/</td>
-    </tr>
-  </tbody>
-</table>
-
 [[Hacker News 周报] 现代 CLI 大全；Deno 推出 FaaS 服务；基于 Rust
 的隧道工具](https://www.bilibili.com/video/BV1yi4y1U7Ms)
 <table>
@@ -170,6 +129,51 @@
       <td>Blog Search</td>
       <td>技术类搜索引擎</td>
       <td>https://blogsurf.io/</td>
+    </tr>
+  </tbody>
+</table>
+
+[[Hacker News 周报] Firebase 开源替代方案；高效阅读工具；MDN 推出 plus
+订阅计划](https://www.bilibili.com/video/BV19S4y127wz)
+<table>
+  <theader>
+    <th>名称</th>
+    <th>简介</th>
+    <th>链接</th>
+  </theader>
+  <tbody>
+    <tr>
+      <td>appwrite</td>
+      <td>为 web、mobile 和 flutter 开发者提供的开源后端服务</td>
+      <td>https://github.com/appwrite/appwrite</td>
+    </tr><tr>
+      <td>Bionic Reading</td>
+      <td>一个用高亮标注的阅读工具</td>
+      <td>https://bionic-reading.com/</td>
+    </tr><tr>
+      <td>diagrams.net</td>
+      <td>老牌绘图工具更新功能</td>
+      <td>https://www.diagrams.net/</td>
+    </tr><tr>
+      <td>Smort</td>
+      <td>一个可编辑其它网站文章的工具</td>
+      <td>https://www.smort.io/</td>
+    </tr><tr>
+      <td>fzf</td>
+      <td>命令行中通用的模糊查询工具</td>
+      <td>https://github.com/junegunn/fzf</td>
+    </tr><tr>
+      <td></td>
+      <td>一个 node.js 的 Postgres 数据库客户端</td>
+      <td>https://www.tangramvision.com/blog/hands-on-with-postgresql-authorization-part-2-row-level-security</td>
+    </tr><tr>
+      <td>mdn 推出 plus 订阅计划</td>
+      <td>Mozilla 商业化新尝试</td>
+      <td>https://hacks.mozilla.org/2022/03/introducing-mdn-plus-make-mdn-your-own/</td>
+    </tr><tr>
+      <td></td>
+      <td>一篇题为《Data Mesh 架构》的文章</td>
+      <td>https://www.datamesh-architecture.com/</td>
     </tr>
   </tbody>
 </table>

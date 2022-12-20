@@ -1,44 +1,3 @@
-[[Hacker News 周报] 超轻量级 Python 引擎；快速阅读英文插件；TypeScript
-发布新版本](https://www.bilibili.com/video/BV1pY4y1z7Vx)
-<table>
-  <theader>
-    <th>名称</th>
-    <th>简介</th>
-    <th>链接</th>
-  </theader>
-  <tbody>
-    <tr>
-      <td>PikaScript</td>
-      <td>超轻量级 Python 引擎</td>
-      <td>https://github.com/pikasTech/pikascript</td>
-    </tr><tr>
-      <td></td>
-      <td>bionic-reading 的快速阅读英文插件</td>
-      <td>https://github.com/ansh/bionic-reading</td>
-    </tr><tr>
-      <td>IndigoStack</td>
-      <td>MacOS 平台上的本地开发环境</td>
-      <td>https://indigostack.app/</td>
-    </tr><tr>
-      <td></td>
-      <td>TypeScript 发布 4.7 版本</td>
-      <td>https://devblogs.microsoft.com/typescript/announcing-typescript-4-7/</td>
-    </tr><tr>
-      <td>AnimatiSS</td>
-      <td>一组 CSS 动画合集</td>
-      <td>https://xsgames.co/animatiss</td>
-    </tr><tr>
-      <td>Arctype</td>
-      <td>SQL 数据库客户端</td>
-      <td>https://arctype.com/</td>
-    </tr><tr>
-      <td></td>
-      <td>一个有趣的 3D 植物生成工具</td>
-      <td>https://plant.jim-fx.com/</td>
-    </tr>
-  </tbody>
-</table>
-
 [[Hacker News 周报] GO
 全栈开发框架；开发终端风格网站；大厂技术架构赏析](https://www.bilibili.com/video/BV13a411E7AQ)
 <table>
@@ -207,6 +166,47 @@ CubeDesk](https://www.bilibili.com/video/BV1kT4y1B7Nh)
       <td>pixy</td>
       <td>飞行相机</td>
       <td>https://pixy.com/</td>
+    </tr>
+  </tbody>
+</table>
+
+[[Hacker News 周报] Meta 开源富文本编辑器 lexical；Yandex 开源分布式数据库 YDB；Node.js 18
+发布](https://www.bilibili.com/video/BV16B4y127vi)
+<table>
+  <theader>
+    <th>名称</th>
+    <th>简介</th>
+    <th>链接</th>
+  </theader>
+  <tbody>
+    <tr>
+      <td></td>
+      <td>一个有用网站的合集</td>
+      <td>https://www.insanelyusefulwebsites.com/</td>
+    </tr><tr>
+      <td></td>
+      <td>一个开源的 web 文本编辑器</td>
+      <td>https://lexical.dev/</td>
+    </tr><tr>
+      <td></td>
+      <td>一个开源的分布式数据库</td>
+      <td>https://ydb.tech/</td>
+    </tr><tr>
+      <td>OpenRefine</td>
+      <td>开源数据清洗工具</td>
+      <td>https://openrefine.org/</td>
+    </tr><tr>
+      <td></td>
+      <td>Node.js 发布 18 版本</td>
+      <td>https://nodejs.org/en/</td>
+    </tr><tr>
+      <td></td>
+      <td>GO 发表介绍泛型的文章</td>
+      <td>https://go.dev/blog/when-generics</td>
+    </tr><tr>
+      <td></td>
+      <td>一个单手键盘</td>
+      <td>https://tipykeyboard.com/en/home/</td>
     </tr>
   </tbody>
 </table>

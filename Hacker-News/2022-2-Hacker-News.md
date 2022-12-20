@@ -1,48 +1,3 @@
-[[Hacker News 周报] CRUD 最佳工具；论文专用 PDF 阅读器；JS
-协同算法库](https://www.bilibili.com/video/BV1m34y1r7EY)
-<table>
-  <theader>
-    <th>名称</th>
-    <th>简介</th>
-    <th>链接</th>
-  </theader>
-  <tbody>
-    <tr>
-      <td>怎样实现一个最简单的 CRUD 应用？</td>
-      <td>本期专题问答</td>
-      <td></td>
-    </tr><tr>
-      <td>Django</td>
-      <td>CRUD 最佳工具/答案1</td>
-      <td>https://www.djangoproject.com/</td>
-    </tr><tr>
-      <td>PostgREST</td>
-      <td>CRUD 最佳工具/答案2</td>
-      <td>https://postgrest.org/en/stable/</td>
-    </tr><tr>
-      <td>nHOST</td>
-      <td>CRUD 最佳工具/答案3</td>
-      <td>https://nhost.io/</td>
-    </tr><tr>
-      <td>Grist</td>
-      <td>Airtable 的开源替代</td>
-      <td>https://www.airtable.com/</td>
-    </tr><tr>
-      <td>Automerge</td>
-      <td>JS 协同算法库</td>
-      <td>https://github.com/automerge/automerge</td>
-    </tr><tr>
-      <td>Supernotes</td>
-      <td>笔记软件</td>
-      <td>https://supernotes.app/</td>
-    </tr><tr>
-      <td>Sioyek</td>
-      <td>论文专用 PDF 阅读器</td>
-      <td>https://github.com/ahrm/sioyek</td>
-    </tr>
-  </tbody>
-</table>
-
 [[Hacker News 周报] 基于 WASM 在浏览器中运行 Office；K8s 纪录片；GitHub markdown
 功能增强](https://www.bilibili.com/video/BV19P4y1F7s7)
 <table>
@@ -166,6 +121,59 @@ gRPC](https://www.bilibili.com/video/BV16a411y7fw)
       <td></td>
       <td>《我是如何在 AWS 上发现数千个开放数据库的》</td>
       <td>https://infosecwriteups.com/how-i-discovered-thousands-of-open-databases-on-aws-764729aa7f32</td>
+    </tr>
+  </tbody>
+</table>
+
+[[Hacker News 周报] GitHub Action 教程；基于 web 的远程桌面工具；在 serverless 中使用
+SQLite](https://www.bilibili.com/video/BV1r34y127VU)
+<table>
+  <theader>
+    <th>名称</th>
+    <th>简介</th>
+    <th>链接</th>
+  </theader>
+  <tbody>
+    <tr>
+      <td></td>
+      <td>Charm 用来开发命令行工具的框架</td>
+      <td>https://charm.sh/</td>
+    </tr><tr>
+      <td></td>
+      <td>Nova 一个专门给 Mac 设计的代码编辑器</td>
+      <td>https://nova.app/</td>
+    </tr><tr>
+      <td></td>
+      <td>rnote 创建手绘风格的笔记软件</td>
+      <td>https://github.com/flxzt/rnote</td>
+    </tr><tr>
+      <td></td>
+      <td>github action 使用示例</td>
+      <td>https://www.actionsbyexample.com/</td>
+    </tr><tr>
+      <td></td>
+      <td>playwright web 自动化框架</td>
+      <td>https://github.com/microsoft/playwright</td>
+    </tr><tr>
+      <td></td>
+      <td>prql rust 编写的现代化查询语言</td>
+      <td>https://github.com/prql/prql</td>
+    </tr><tr>
+      <td></td>
+      <td>Deskreen 屏幕共享工具</td>
+      <td>https://deskreen.com/lang-zh_CN</td>
+    </tr><tr>
+      <td></td>
+      <td>《为什么我们团队取消了微服务的计划》</td>
+      <td>https://steven-lemon182.medium.com/why-our-team-cancelled-our-move-to-microservices-8fd87898d952</td>
+    </tr><tr>
+      <td></td>
+      <td>《将 SQLite 存储在 Cloudflare 耐用对象中》</td>
+      <td>https://ma.rkusa.st/store-sqlite-in-cloudflare-durable-objects</td>
+    </tr><tr>
+      <td></td>
+      <td>《Kubernetes 如此复杂有两个原因》</td>
+      <td>https://buttondown.email/nelhage/archive/two-reasons-kubernetes-is-so-complex/</td>
     </tr>
   </tbody>
 </table>
