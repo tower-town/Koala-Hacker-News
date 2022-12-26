@@ -1,5 +1,5 @@
-[[Hacker News 周报] 高性能 Python 编译器；Linux 文本处理技巧；在命令行中渲染
-Markdown；](https://www.bilibili.com/video/BV1wA411R72Y)
+[[Hacker News 周报] Obsidian Canvas
+发布；开源免费视频会议服务；一周末复刻赛伯朋克中的语音识别](https://www.bilibili.com/video/BV1z14y1P7uC)
 <table>
   <theader>
     <th>名称</th>
@@ -8,34 +8,29 @@ Markdown；](https://www.bilibili.com/video/BV1wA411R72Y)
   </theader>
   <tbody>
     <tr>
-      <td>Codon</td>
-      <td>高性能 Python 编译器</td>
-      <td>https://github.com/exaloop/codon</td>
+      <td></td>
+      <td>Obsidian Canvas 发布</td>
+      <td>https://obsidian.md/canvas</td>
     </tr><tr>
-      <td>CLI Exercises</td>
-      <td>Linux 文本处理技巧</td>
-      <td>https://github.com/learnbyexample/TUI-apps/tree/main/CLI-Exercises</td>
+      <td>Jitsi</td>
+      <td>开源免费的视频会议服务</td>
+      <td>https://jitsi.org/</td>
+    </tr><tr>
+      <td>Infisical</td>
+      <td>安全地传递密钥等隐私数据的工具</td>
+      <td>https://github.com/Infisical/infisical</td>
     </tr><tr>
       <td></td>
-      <td>关于 ChatGPT 是如何工作的讨论和解读</td>
-      <td>https://news.ycombinator.com/item?id=33939805 &
-        https://openai.com/blog/chatgpt/</td>
+      <td>一周末复刻赛伯朋克中的语音识别</td>
+      <td>https://github.com/elanmart/cbp-translate</td>
     </tr><tr>
-      <td>Reader</td>
-      <td>集多种信息源于一体的阅读工具</td>
-      <td>https://readwise.io/read</td>
-    </tr><tr>
-      <td></td>
-      <td>在命令行中渲染 Markdown</td>
-      <td>https://github.com/charmbracelet/glow</td>
+      <td>Winglang</td>
+      <td>面向云计算的开发语言</td>
+      <td>https://www.winglang.io/</td>
     </tr><tr>
       <td></td>
-      <td>一篇关于Query Planner 工作方式的博客</td>
-      <td>https://planetscale.com/blog/what-is-a-query-planner</td>
-    </tr><tr>
-      <td></td>
-      <td>类似 Wordle 的中文字谜小游戏</td>
-      <td>https://hanzi.gg/</td>
+      <td>一篇文章介绍如何在 1 毫秒内搜索37 GB 文本的文章</td>
+      <td>https://death.andgravity.com/pwned</td>
     </tr>
   </tbody>
 </table>
