@@ -113,6 +113,7 @@ test("update readme.md", async () => {
 	let readme_path = path.join(__dirname, "./README.md");
 
 	let HN = new HackerNews();
+	HN.json_data = new_json_data;
 	HN.markdown = MD;
 	await HN.updateReadme(readme_path, md_path);
 
