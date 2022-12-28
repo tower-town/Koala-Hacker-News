@@ -133,6 +133,8 @@ export class HackerNews {
 
 	async updateReadme(readme_path: string, md_path: string): Promise<void> {
 		let markdown = this.markdown;
+		markdown.json_data = this.json_data!;
+
 		let tables = await markdown.generateTables();
 		let doc = await markdown.generateDocs(tables);
 		let docs = await markdown.generateMd(md_path, doc);

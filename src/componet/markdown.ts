@@ -2,7 +2,6 @@ import { JsonData } from "../types/type";
 import { Utils } from "./utils";
 import path from "path";
 import format from "html-format";
-import util from "util";
 
 interface Tables {
 	content: string[];
@@ -18,6 +17,7 @@ export class Markdown {
 	json_data: JsonData;
 
 	constructor(data: JsonData) {
+		data = Utils.sortJson(data, "pubdate");
 		this.json_data = data;
 	}
 	generateTables(): Promise<Tables> {
@@ -94,9 +94,7 @@ export class Markdown {
 			let pub_list: string[] = [];
 
 			let state: string = "";
-			pubdates.sort((a, b) => {
-				return Number(b) - Number(a);
-			});
+
 			pubdates.forEach((value, index) => {
 				let date = new Date(Number(value) * 1000);
 				let pub_date = `${date.getFullYear()}-${date.getMonth() + 1}`;

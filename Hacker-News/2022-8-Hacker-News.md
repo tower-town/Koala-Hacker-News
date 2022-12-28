@@ -1,3 +1,40 @@
+[[Hacker News 周报] 野心勃勃的数据库 SurrealDB；80
+岁计算机科学家仍在优化开源代码；将触屏设备变为触摸板](https://www.bilibili.com/video/BV1qa411G7kd)
+<table>
+  <theader>
+    <th>名称</th>
+    <th>简介</th>
+    <th>链接</th>
+  </theader>
+  <tbody>
+    <tr>
+      <td>Stable Diffusion</td>
+      <td>开源的 AI 图片生成模型</td>
+      <td>https://surrealdb.com/</td>
+    </tr><tr>
+      <td>react-design-editor</td>
+      <td>Canva 的开源替代品</td>
+      <td>https://github.com/CompVis/stable-diffusion</td>
+    </tr><tr>
+      <td>Weylus</td>
+      <td>将触屏设备变为触摸板</td>
+      <td>https://github.com/layerhub-io/react-design-editor</td>
+    </tr><tr>
+      <td>eInk-VNC</td>
+      <td>将 VMC 输出到墨水屏</td>
+      <td>https://github.com/H-M-H/Weylus</td>
+    </tr><tr>
+      <td></td>
+      <td>SQLite 并发读取性能详解</td>
+      <td>https://zmarshall.nl/static/eink-vnc.html</td>
+    </tr><tr>
+      <td></td>
+      <td>80 岁计算机科学家仍在优化开源代码</td>
+      <td>https://fly.io/blog/sqlite-internals-wal</td>
+    </tr>
+  </tbody>
+</table>
+
 [[Hacker News 周报] 浏览器中运行 Postgres；与 Python 兼容的静态类型语言；分布式文件系统
 JuiceFS](https://www.bilibili.com/video/BV1bg411r7Fg)
 <table>
@@ -105,43 +142,6 @@ JuiceFS](https://www.bilibili.com/video/BV1bg411r7Fg)
       <td></td>
       <td>用 DALL·E 2 生成 logo 图片的分享文章</td>
       <td>https://jacobmartins.com/posts/how-i-used-dalle2-to-generate-the-logo-for-octosql/</td>
-    </tr>
-  </tbody>
-</table>
-
-[[Hacker News 周报] 多功能 serverless JS 运行时；Grammarly 开源替代品；K8s
-轻量级虚拟化插件](https://www.bilibili.com/video/BV1mT411j7LR)
-<table>
-  <theader>
-    <th>名称</th>
-    <th>简介</th>
-    <th>链接</th>
-  </theader>
-  <tbody>
-    <tr>
-      <td>Blueboat</td>
-      <td>多功能 serverless JS 运行时</td>
-      <td>https://blueboat.io/</td>
-    </tr><tr>
-      <td>languageTool</td>
-      <td>Grammarly 开源替代品</td>
-      <td>https://languagetool.org/dev</td>
-    </tr><tr>
-      <td>Publii</td>
-      <td>桌面端的 CMS 工具</td>
-      <td>https://github.com/GetPublii/Publii</td>
-    </tr><tr>
-      <td>Virtink</td>
-      <td>K8s 轻量级虚拟化插件</td>
-      <td>https://github.com/smartxworks/virtink</td>
-    </tr><tr>
-      <td>Skeleton</td>
-      <td>全功能 Svelte UI 组件库</td>
-      <td>https://skeleton.brainandbonesllc.com/</td>
-    </tr><tr>
-      <td></td>
-      <td>K8s 提出了 Gateway 网关 API</td>
-      <td>https://www.armosec.io/blog/kubernetes-gateway-api</td>
     </tr>
   </tbody>
 </table>
