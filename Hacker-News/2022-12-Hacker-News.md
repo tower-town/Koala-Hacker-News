@@ -1,3 +1,40 @@
+[[Hacker News 周报] Obsidian Canvas
+发布；开源免费视频会议服务；一周末复刻赛伯朋克中的语音识别](https://www.bilibili.com/video/BV1z14y1P7uC)
+<table>
+  <theader>
+    <th>名称</th>
+    <th>简介</th>
+    <th>链接</th>
+  </theader>
+  <tbody>
+    <tr>
+      <td></td>
+      <td>Obsidian Canvas 发布</td>
+      <td>https://obsidian.md/canvas</td>
+    </tr><tr>
+      <td>Jitsi</td>
+      <td>开源免费的视频会议服务</td>
+      <td>https://jitsi.org/</td>
+    </tr><tr>
+      <td>Infisical</td>
+      <td>安全地传递密钥等隐私数据的工具</td>
+      <td>https://github.com/Infisical/infisical</td>
+    </tr><tr>
+      <td></td>
+      <td>一周末复刻赛伯朋克中的语音识别</td>
+      <td>https://github.com/elanmart/cbp-translate</td>
+    </tr><tr>
+      <td>Winglang</td>
+      <td>面向云计算的开发语言</td>
+      <td>https://www.winglang.io/</td>
+    </tr><tr>
+      <td></td>
+      <td>一篇文章介绍如何在 1 毫秒内搜索37 GB 文本的文章</td>
+      <td>https://death.andgravity.com/pwned</td>
+    </tr>
+  </tbody>
+</table>
+
 [[Hacker News 周报] 高性能 Python 编译器；Linux 文本处理技巧；在命令行中渲染
 Markdown；](https://www.bilibili.com/video/BV1wA411R72Y)
 <table>
@@ -114,47 +151,6 @@ IDE](https://www.bilibili.com/video/BV1Gv4y197md)
       <td>"Sql for Devs"</td>
       <td>数据库详解电子书</td>
       <td>https://sqlfordevs.com/ebook</td>
-    </tr>
-  </tbody>
-</table>
-
-[[Hacker News 周报] Stable Diffusion AI 作画
-V2；开源数据可视化平台；命令行的艺术](https://www.bilibili.com/video/BV1Z24y1C793)
-<table>
-  <theader>
-    <th>名称</th>
-    <th>简介</th>
-    <th>链接</th>
-  </theader>
-  <tbody>
-    <tr>
-      <td>Script Kit</td>
-      <td>面向开发者的自动化工具，</td>
-      <td>https://www.scriptkit.com/</td>
-    </tr><tr>
-      <td>D2</td>
-      <td>开源声明式绘图语言</td>
-      <td>https://d2lang.com/</td>
-    </tr><tr>
-      <td>Superset</td>
-      <td>开源数据可视化平台</td>
-      <td>https://superset.apache.org/</td>
-    </tr><tr>
-      <td></td>
-      <td>Stable Diffusion 发布 2.0 版本</td>
-      <td>https://stability.ai/blog/stable-diffusion-v2-release</td>
-    </tr><tr>
-      <td></td>
-      <td>蚂蚁 UI 组件库 Ant Design 发布 V5 版本</td>
-      <td>https://github.com/ant-design/ant-design/issues/38671</td>
-    </tr><tr>
-      <td></td>
-      <td>《命令行的艺术》项目</td>
-      <td>https://github.com/jlevy/the-art-of-command-line</td>
-    </tr><tr>
-      <td>Diátaxis</td>
-      <td>帮助创作技术文档的写作框架</td>
-      <td>https://diataxis.fr/</td>
     </tr>
   </tbody>
 </table>
