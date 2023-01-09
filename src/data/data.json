@@ -1,4 +1,86 @@
 {
+    "BV1ad4y1E7SC": {
+        "title": "[Hacker News 周报] 发布 clickhouse-local；使用 HTTP/3 连接 MySQL；使用 WebAssembly 运行 Vim",
+        "aid": 392417581,
+        "bvid": "BV1ad4y1E7SC",
+        "pubdate": 1673151922,
+        "data": [
+            {
+                "name": "",
+                "intro": "clickhouse 发布数据分析工具 clickhouse-local",
+                "link": "https://clickhouse.com/blog/extracting-converting-querying-local-files-with-sql-clickhouse-local"
+            },
+            {
+                "name": "ov",
+                "intro": "一个通用终端分页器",
+                "link": "https://github.com/noborus/ov"
+            },
+            {
+                "name": "Vim online editor",
+                "intro": "使用 WebAssembly 运行 Vim",
+                "link": "https://www.vimonlineeditor.com/"
+            },
+            {
+                "name": "",
+                "intro": "使用 HTTP/3 连接 MySQL",
+                "link": "https://planetscale.com/blog/faster-mysql-with-http3"
+            },
+            {
+                "name": "polars",
+                "intro": "高性能 Rust DataFrame 库",
+                "link": "https://github.com/pola-rs/polars"
+            },
+            {
+                "name": "",
+                "intro": "",
+                "link": "https://uiverse.io/"
+            }
+        ],
+        "source": [
+            "https://mailchi.mp/hackernewsletter/633"
+        ]
+    },
+    "BV1pM411y72o": {
+        "title": "[Hacker News 周报] Google 内部 Rust 教程；从零学习开发 CDN；serverless 数据库对比",
+        "aid": 522059106,
+        "bvid": "BV1pM411y72o",
+        "pubdate": 1672546628,
+        "data": [
+            {
+                "name": "APITable",
+                "intro": "新开源的 Airtable 替代品",
+                "link": "https://github.com/apitable/apitable"
+            },
+            {
+                "name": "CDN Up and Running",
+                "intro": "从零学习开发 CDN",
+                "link": "https://github.com/leandromoreira/cdn-up-and-running"
+            },
+            {
+                "name": "Comprehensive Rust",
+                "intro": "Google 内部 Rust 教程",
+                "link": "https://github.com/google/comprehensive-rust"
+            },
+            {
+                "name": "OSV-Scanner",
+                "intro": "查找代码依赖中的安全漏洞",
+                "link": "https://github.com/google/osv-scanner"
+            },
+            {
+                "name": "Hubble",
+                "intro": "Github star 管理工具",
+                "link": "https://hubble.monsterx.xyz/"
+            },
+            {
+                "name": "",
+                "intro": "",
+                "link": "https://fauna.com/blog/comparison-of-serverless-databases"
+            }
+        ],
+        "source": [
+            "https://mailchi.mp/hackernewsletter/632"
+        ]
+    },
     "BV1z14y1P7uC": {
         "title": "[Hacker News 周报] Obsidian Canvas 发布；开源免费视频会议服务；一周末复刻赛伯朋克中的语音识别",
         "aid": 776719511,
