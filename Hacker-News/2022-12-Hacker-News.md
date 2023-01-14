@@ -29,7 +29,7 @@
       <td>https://www.winglang.io/</td>
     </tr><tr>
       <td></td>
-      <td>一篇文章介绍如何在 1 毫秒内搜索37 GB 文本的文章</td>
+      <td>一篇文章介绍如何在 1 毫秒内搜索 37 GB 文本的文章</td>
       <td>https://death.andgravity.com/pwned</td>
     </tr>
   </tbody>
@@ -67,7 +67,7 @@ Markdown；](https://www.bilibili.com/video/BV1wA411R72Y)
       <td>https://github.com/charmbracelet/glow</td>
     </tr><tr>
       <td></td>
-      <td>一篇关于Query Planner 工作方式的博客</td>
+      <td>一篇关于 Query Planner 工作方式的博客</td>
       <td>https://planetscale.com/blog/what-is-a-query-planner</td>
     </tr><tr>
       <td></td>

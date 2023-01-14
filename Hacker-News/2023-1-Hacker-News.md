@@ -28,8 +28,8 @@ Vim](https://www.bilibili.com/video/BV1ad4y1E7SC)
       <td>高性能 Rust DataFrame 库</td>
       <td>https://github.com/pola-rs/polars</td>
     </tr><tr>
-      <td></td>
-      <td></td>
+      <td>uiverse</td>
+      <td>UI 组件库</td>
       <td>https://uiverse.io/</td>
     </tr>
   </tbody>
@@ -66,7 +66,7 @@ Vim](https://www.bilibili.com/video/BV1ad4y1E7SC)
       <td>https://hubble.monsterx.xyz/</td>
     </tr><tr>
       <td></td>
-      <td></td>
+      <td>一篇 serverless 数据库对比的博客</td>
       <td>https://fauna.com/blog/comparison-of-serverless-databases</td>
     </tr>
   </tbody>

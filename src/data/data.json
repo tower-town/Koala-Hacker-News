@@ -31,8 +31,8 @@
                 "link": "https://github.com/pola-rs/polars"
             },
             {
-                "name": "",
-                "intro": "",
+                "name": "uiverse",
+                "intro": "UI 组件库",
                 "link": "https://uiverse.io/"
             }
         ],
@@ -73,7 +73,7 @@
             },
             {
                 "name": "",
-                "intro": "",
+                "intro": "一篇 serverless 数据库对比的博客",
                 "link": "https://fauna.com/blog/comparison-of-serverless-databases"
             }
         ],
@@ -114,7 +114,7 @@
             },
             {
                 "name": "",
-                "intro": "一篇文章介绍如何在 1 毫秒内搜索37 GB 文本的文章",
+                "intro": "一篇文章介绍如何在 1 毫秒内搜索 37 GB 文本的文章",
                 "link": "https://death.andgravity.com/pwned"
             }
         ],
@@ -155,7 +155,7 @@
             },
             {
                 "name": "",
-                "intro": "一篇关于Query Planner 工作方式的博客",
+                "intro": "一篇关于 Query Planner 工作方式的博客",
                 "link": "https://planetscale.com/blog/what-is-a-query-planner"
             },
             {
