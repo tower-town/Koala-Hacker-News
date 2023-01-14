@@ -39,4 +39,4 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           file_pattern: "./README.md ./Hacker-News/*.md ./src/data/data.json"
-          commit_message: "$(date '+%x') update Koala Hacker News by github-action-bot."
+          commit_message: "update Koala Hacker News by github-action-bot."
