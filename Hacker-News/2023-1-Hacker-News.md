@@ -1,3 +1,41 @@
+[[Hacker News 周报] 简单有趣的 serverless 平台；自动化数据探索工具；Google
+开源文件同步工具](https://www.bilibili.com/video/BV1784y1h7eq)
+<table>
+  <theader>
+    <th>名称</th>
+    <th>简介</th>
+    <th>链接</th>
+  </theader>
+  <tbody>
+    <tr>
+      <td>val.town</td>
+      <td>简单有趣的 serverless 平台</td>
+      <td>https://www.val.town/</td>
+    </tr><tr>
+      <td>CDC File Transfer</td>
+      <td>Google 开源文件同步工具</td>
+      <td>https://github.com/google/cdc-file-transfer</td>
+    </tr><tr>
+      <td>just</td>
+      <td>使用 Rust 开发的命令行工具</td>
+      <td>https://github.com/casey/just</td>
+    </tr><tr>
+      <td>Rath</td>
+      <td>自动化数据探索工具</td>
+      <td>https://github.com/Kanaries/rath &
+        https://github.com/Kanaries/graphic-walker https://pinggy.io/</td>
+    </tr><tr>
+      <td>pinggy</td>
+      <td>将本地的服务对公网提供访问工具</td>
+      <td>https://2022.stateofjs.com/</td>
+    </tr><tr>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
 [[Hacker News 周报] 发布 clickhouse-local；使用 HTTP/3 连接 MySQL；使用 WebAssembly 运行
 Vim](https://www.bilibili.com/video/BV1ad4y1E7SC)
 <table>

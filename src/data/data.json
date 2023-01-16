@@ -1,4 +1,45 @@
 {
+    "BV1784y1h7eq": {
+        "title": "[Hacker News 周报] 简单有趣的 serverless 平台；自动化数据探索工具；Google 开源文件同步工具",
+        "aid": 607779129,
+        "bvid": "BV1784y1h7eq",
+        "pubdate": 1673756808,
+        "data": [
+            {
+                "name": "val.town",
+                "intro": "简单有趣的 serverless 平台",
+                "link": "https://www.val.town/"
+            },
+            {
+                "name": "CDC File Transfer",
+                "intro": "Google 开源文件同步工具",
+                "link": "https://github.com/google/cdc-file-transfer"
+            },
+            {
+                "name": "just",
+                "intro": "使用 Rust 开发的命令行工具",
+                "link": "https://github.com/casey/just"
+            },
+            {
+                "name": "Rath",
+                "intro": "自动化数据探索工具",
+                "link": "https://github.com/Kanaries/rath & https://github.com/Kanaries/graphic-walker https://pinggy.io/"
+            },
+            {
+                "name": "pinggy",
+                "intro": "将本地的服务对公网提供访问工具",
+                "link": "https://2022.stateofjs.com/"
+            },
+            {
+                "name": "",
+                "intro": "",
+                "link": ""
+            }
+        ],
+        "source": [
+            "https://mailchi.mp/hackernewsletter/634"
+        ]
+    },
     "BV1ad4y1E7SC": {
         "title": "[Hacker News 周报] 发布 clickhouse-local；使用 HTTP/3 连接 MySQL；使用 WebAssembly 运行 Vim",
         "aid": 392417581,
