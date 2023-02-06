@@ -1,4 +1,45 @@
 {
+    "BV1ed4y1n7cF": {
+        "title": "[Hacker News 周报] 开源 CRDT 2.0；终端中运行浏览器；Netlify 收购 Gatsby",
+        "aid": 393866597,
+        "bvid": "BV1ed4y1n7cF",
+        "pubdate": 1675557000,
+        "data": [
+            {
+                "name": "",
+                "intro": "CRDT 协同算法库 Automerge 发布 2.0 版本",
+                "link": ""
+            },
+            {
+                "name": "Carbonyl",
+                "intro": "终端中运行浏览器",
+                "link": ""
+            },
+            {
+                "name": "",
+                "intro": "Netlify 收购 Gatsby",
+                "link": ""
+            },
+            {
+                "name": "Same Energy",
+                "intro": "视觉搜索引擎",
+                "link": ""
+            },
+            {
+                "name": "",
+                "intro": "DIY 空气质量检测仪",
+                "link": ""
+            },
+            {
+                "name": "",
+                "intro": "Hashicorp 开源文档管理系统 Hermes",
+                "link": ""
+            }
+        ],
+        "source": [
+            "https://mailchi.mp/hackernewsletter/637"
+        ]
+    },
     "BV1Y8411371f": {
         "title": "[Hacker News 周报] 基于 WebRTC 分享终端会话；自动化工作流工具；通过网络访问 SQLite",
         "aid": 223440610,
