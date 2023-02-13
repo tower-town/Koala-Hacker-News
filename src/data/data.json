@@ -1,4 +1,55 @@
 {
+    "BV1Ge4y1w7EA": {
+        "title": "[Hacker News 周报] 开箱即用 OAuth 解决方案；React.JS 纪录片；Notion 风格的富文本编辑器",
+        "aid": 651723868,
+        "bvid": "BV1Ge4y1w7EA",
+        "pubdate": 1676176352,
+        "data": [
+            {
+                "name": "",
+                "intro": "",
+                "link": "https://www.nango.dev/"
+            },
+            {
+                "name": "",
+                "intro": "",
+                "link": "https://github.com/mikefarah/yq"
+            },
+            {
+                "name": "",
+                "intro": "",
+                "link": "https://www.photoprism.app/"
+            },
+            {
+                "name": "",
+                "intro": "",
+                "link": "https://grep.app/"
+            },
+            {
+                "name": "",
+                "intro": "",
+                "link": "https://www.enrolla.io/"
+            },
+            {
+                "name": "",
+                "intro": "",
+                "link": "https://github.com/YousefED/BlockNote"
+            },
+            {
+                "name": "",
+                "intro": "",
+                "link": "https://labs.kagi.com/ai/sum"
+            },
+            {
+                "name": "",
+                "intro": "",
+                "link": "https://www.youtube.com/watch?v=8pDqJVdNa44"
+            }
+        ],
+        "source": [
+            "https://mailchi.mp/hackernewsletter/638"
+        ]
+    },
     "BV1ed4y1n7cF": {
         "title": "[Hacker News 周报] 开源 CRDT 2.0；终端中运行浏览器；Netlify 收购 Gatsby",
         "aid": 393866597,
