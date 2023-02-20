@@ -1,3 +1,40 @@
+[[Hacker News 周报] 开源多云网盘；Helm Web UI；ChatGPT
+讲解文章](https://www.bilibili.com/video/BV1y84y1n7gH)
+<table>
+  <theader>
+    <th>名称</th>
+    <th>简介</th>
+    <th>链接</th>
+  </theader>
+  <tbody>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>https://alist.nn.ci/</td>
+    </tr><tr>
+      <td></td>
+      <td></td>
+      <td>https://github.com/komodorio/helm-dashboard</td>
+    </tr><tr>
+      <td></td>
+      <td></td>
+      <td>https://www.rerun.io/</td>
+    </tr><tr>
+      <td></td>
+      <td></td>
+      <td>https://github.com/sveinbjornt/Sloth</td>
+    </tr><tr>
+      <td></td>
+      <td></td>
+      <td>https://bright.codehike.org/</td>
+    </tr><tr>
+      <td></td>
+      <td></td>
+      <td>https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/</td>
+    </tr>
+  </tbody>
+</table>
+
 [[Hacker News 周报] 开箱即用 OAuth 解决方案；React.JS 纪录片；Notion
 风格的富文本编辑器](https://www.bilibili.com/video/BV1Ge4y1w7EA)
 <table>

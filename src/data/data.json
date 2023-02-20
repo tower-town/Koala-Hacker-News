@@ -1,4 +1,45 @@
 {
+    "BV1y84y1n7gH": {
+        "title": "[Hacker News 周报] 开源多云网盘；Helm Web UI；ChatGPT 讲解文章",
+        "aid": 609553518,
+        "bvid": "BV1y84y1n7gH",
+        "pubdate": 1676766600,
+        "data": [
+            {
+                "name": "",
+                "intro": "",
+                "link": "https://alist.nn.ci/"
+            },
+            {
+                "name": "",
+                "intro": "",
+                "link": "https://github.com/komodorio/helm-dashboard"
+            },
+            {
+                "name": "",
+                "intro": "",
+                "link": "https://www.rerun.io/"
+            },
+            {
+                "name": "",
+                "intro": "",
+                "link": "https://github.com/sveinbjornt/Sloth"
+            },
+            {
+                "name": "",
+                "intro": "",
+                "link": "https://bright.codehike.org/"
+            },
+            {
+                "name": "",
+                "intro": "",
+                "link": "https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/"
+            }
+        ],
+        "source": [
+            "https://mailchi.mp/hackernewsletter/639"
+        ]
+    },
     "BV1Ge4y1w7EA": {
         "title": "[Hacker News 周报] 开箱即用 OAuth 解决方案；React.JS 纪录片；Notion 风格的富文本编辑器",
         "aid": 651723868,
