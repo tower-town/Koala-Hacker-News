@@ -1,3 +1,40 @@
+[[Hacker News 周报] 新一代设计工具；开源 Web 应用监控方案；自动生成 commit message
+工具；](https://www.bilibili.com/video/BV1pY4y127Bx)
+<table>
+  <theader>
+    <th>名称</th>
+    <th>简介</th>
+    <th>链接</th>
+  </theader>
+  <tbody>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>https://www.noya.io/</td>
+    </tr><tr>
+      <td></td>
+      <td></td>
+      <td>https://www.highlight.io/</td>
+    </tr><tr>
+      <td></td>
+      <td></td>
+      <td>https://grafana.com/oss/faro/</td>
+    </tr><tr>
+      <td></td>
+      <td></td>
+      <td>https://laudspeaker.com/</td>
+    </tr><tr>
+      <td></td>
+      <td></td>
+      <td>https://github.com/DvorakDwarf/Infinite-Storage-Glitch</td>
+    </tr><tr>
+      <td></td>
+      <td></td>
+      <td>https://github.com/Nutlope/aicommits</td>
+    </tr>
+  </tbody>
+</table>
+
 [[Hacker News 周报] 开源多云网盘；Helm Web UI；ChatGPT
 讲解文章](https://www.bilibili.com/video/BV1y84y1n7gH)
 <table>

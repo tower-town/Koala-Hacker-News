@@ -1,4 +1,45 @@
 {
+    "BV1pY4y127Bx": {
+        "title": "[Hacker News 周报] 新一代设计工具；开源 Web 应用监控方案；自动生成 commit message 工具；",
+        "aid": 652536608,
+        "bvid": "BV1pY4y127Bx",
+        "pubdate": 1677376783,
+        "data": [
+            {
+                "name": "",
+                "intro": "",
+                "link": "https://www.noya.io/"
+            },
+            {
+                "name": "",
+                "intro": "",
+                "link": "https://www.highlight.io/"
+            },
+            {
+                "name": "",
+                "intro": "",
+                "link": "https://grafana.com/oss/faro/"
+            },
+            {
+                "name": "",
+                "intro": "",
+                "link": "https://laudspeaker.com/"
+            },
+            {
+                "name": "",
+                "intro": "",
+                "link": "https://github.com/DvorakDwarf/Infinite-Storage-Glitch"
+            },
+            {
+                "name": "",
+                "intro": "",
+                "link": "https://github.com/Nutlope/aicommits"
+            }
+        ],
+        "source": [
+            "https://mailchi.mp/hackernewsletter/640"
+        ]
+    },
     "BV1y84y1n7gH": {
         "title": "[Hacker News 周报] 开源多云网盘；Helm Web UI；ChatGPT 讲解文章",
         "aid": 609553518,
