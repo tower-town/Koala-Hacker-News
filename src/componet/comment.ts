@@ -159,7 +159,7 @@ export class Comment extends Api {
 		intro_str: string,
 		bvid: string,
 	): { name: string; intro: string } {
-		const regexp = /\d{2}(:|：)\d{2}(?:\s+)?([^｜|，,]+)?([｜\|，,])?(.+$)/g;
+		const regexp = /\d{2}(?::|：)\d{2}(?:\s+)?([^｜|，,]+)?([｜\|，,])?(.+$)/g;
 		let value = intro_str;
 		let capture = {
 			name: "",
@@ -169,11 +169,11 @@ export class Comment extends Api {
 		let captures = [...value.matchAll(regexp)][0];
 		if (captures) {
 			if (captures[2]) {
-				capture["name"] = captures[2] || "";
-				capture["intro"] = captures[4];
+				capture["name"] = captures[1] || "";
+				capture["intro"] = captures[3];
 			} else {
 				capture["name"] = "";
-				capture["intro"] = captures[2] + captures[4];
+				capture["intro"] = captures[1] + captures[3];
 			}
 		} else {
 			console.warn(`warning: escaple capture is ${value} in ${bvid}`);
