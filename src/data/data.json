@@ -1,4 +1,45 @@
 {
+    "BV1xM41147Te": {
+        "title": "[Hacker News 周报] Google 新编程框架；ChatGPT 官方 API；Typescript 5.0；",
+        "aid": 525565712,
+        "bvid": "BV1xM41147Te",
+        "pubdate": 1677976433,
+        "data": [
+            {
+                "name": "",
+                "intro": "",
+                "link": "https://opensource.googleblog.com/2023/03/introducing-service-weaver-framework-for-writing-distributed-applications.html"
+            },
+            {
+                "name": "",
+                "intro": "",
+                "link": "https://github.com/remult/remult"
+            },
+            {
+                "name": "",
+                "intro": "",
+                "link": "https://devblogs.microsoft.com/typescript/announcing-typescript-5-0-rc/"
+            },
+            {
+                "name": "",
+                "intro": "",
+                "link": "https://openai.com/blog/introducing-chatgpt-and-whisper-apis"
+            },
+            {
+                "name": "",
+                "intro": "",
+                "link": "https://github.com/centerofci/mathesar"
+            },
+            {
+                "name": "",
+                "intro": "",
+                "link": "https://www.unfolder.app/"
+            }
+        ],
+        "source": [
+            "https://mailchi.mp/hackernewsletter/641"
+        ]
+    },
     "BV1pY4y127Bx": {
         "title": "[Hacker News 周报] 新一代设计工具；开源 Web 应用监控方案；自动生成 commit message 工具；",
         "aid": 652536608,

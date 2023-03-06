@@ -1,0 +1,36 @@
+[[Hacker News 周报] Google 新编程框架；ChatGPT 官方 API；Typescript
+5.0；](https://www.bilibili.com/video/BV1xM41147Te)
+<table>
+  <theader>
+    <th>名称</th>
+    <th>简介</th>
+    <th>链接</th>
+  </theader>
+  <tbody>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>https://opensource.googleblog.com/2023/03/introducing-service-weaver-framework-for-writing-distributed-applications.html</td>
+    </tr><tr>
+      <td></td>
+      <td></td>
+      <td>https://github.com/remult/remult</td>
+    </tr><tr>
+      <td></td>
+      <td></td>
+      <td>https://devblogs.microsoft.com/typescript/announcing-typescript-5-0-rc/</td>
+    </tr><tr>
+      <td></td>
+      <td></td>
+      <td>https://openai.com/blog/introducing-chatgpt-and-whisper-apis</td>
+    </tr><tr>
+      <td></td>
+      <td></td>
+      <td>https://github.com/centerofci/mathesar</td>
+    </tr><tr>
+      <td></td>
+      <td></td>
+      <td>https://www.unfolder.app/</td>
+    </tr>
+  </tbody>
+</table>
