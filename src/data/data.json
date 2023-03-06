@@ -7,32 +7,32 @@
         "data": [
             {
                 "name": "",
-                "intro": "",
+                "intro": "Google 发布新编程框架 Service Weaver",
                 "link": "https://opensource.googleblog.com/2023/03/introducing-service-weaver-framework-for-writing-distributed-applications.html"
             },
             {
-                "name": "",
-                "intro": "",
+                "name": "Remult",
+                "intro": "快速 CRUD 框架",
                 "link": "https://github.com/remult/remult"
             },
             {
                 "name": "",
-                "intro": "",
+                "intro": "Typescript 发布 5.0 候选版本",
                 "link": "https://devblogs.microsoft.com/typescript/announcing-typescript-5-0-rc/"
             },
             {
                 "name": "",
-                "intro": "",
+                "intro": "ChatGPT 官方 API 出炉",
                 "link": "https://openai.com/blog/introducing-chatgpt-and-whisper-apis"
             },
             {
-                "name": "",
-                "intro": "",
+                "name": "Mathesar",
+                "intro": "开源 Postgres 数据库 GUI 管理工具",
                 "link": "https://github.com/centerofci/mathesar"
             },
             {
-                "name": "",
-                "intro": "",
+                "name": "Unfolder",
+                "intro": "将3D 模型生成折纸零件图纸的工具",
                 "link": "https://www.unfolder.app/"
             }
         ],
@@ -47,33 +47,33 @@
         "pubdate": 1677376783,
         "data": [
             {
-                "name": "",
-                "intro": "",
+                "name": "Noya",
+                "intro": "新一代设计工具",
                 "link": "https://www.noya.io/"
             },
             {
-                "name": "",
-                "intro": "",
+                "name": "Highlight",
+                "intro": "开源 Web 应用监控方案",
                 "link": "https://www.highlight.io/"
             },
             {
-                "name": "",
-                "intro": "",
+                "name": "faro",
+                "intro": "Grafana 开源的 Web 前端可观测性工具",
                 "link": "https://grafana.com/oss/faro/"
             },
             {
-                "name": "",
-                "intro": "",
+                "name": "Laudspeaker",
+                "intro": "开源的客户旅程自动化平台",
                 "link": "https://laudspeaker.com/"
             },
             {
-                "name": "",
-                "intro": "",
+                "name": "Infinite Storage Glitch",
+                "intro": "将视频网站变为免费网盘",
                 "link": "https://github.com/DvorakDwarf/Infinite-Storage-Glitch"
             },
             {
-                "name": "",
-                "intro": "",
+                "name": "AI Commits",
+                "intro": "自动生成 commit message 工具",
                 "link": "https://github.com/Nutlope/aicommits"
             }
         ],
@@ -88,33 +88,33 @@
         "pubdate": 1676766600,
         "data": [
             {
-                "name": "",
-                "intro": "",
+                "name": "Alist",
+                "intro": "一个开源的文件管理程序",
                 "link": "https://alist.nn.ci/"
             },
             {
-                "name": "",
-                "intro": "",
+                "name": "Helm Dashboard",
+                "intro": "可视化应用管理工具",
                 "link": "https://github.com/komodorio/helm-dashboard"
             },
             {
-                "name": "",
-                "intro": "",
+                "name": "Rerun",
+                "intro": "记录计算机视觉执行过程的 SDK",
                 "link": "https://www.rerun.io/"
             },
             {
-                "name": "",
-                "intro": "",
+                "name": "Sloth",
+                "intro": "Mac GUI 应用",
                 "link": "https://github.com/sveinbjornt/Sloth"
             },
             {
-                "name": "",
-                "intro": "",
+                "name": "bright",
+                "intro": "代码片段展示工具",
                 "link": "https://bright.codehike.org/"
             },
             {
                 "name": "",
-                "intro": "",
+                "intro": "著名作者讲解 xxxx",
                 "link": "https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/"
             }
         ],
@@ -129,43 +129,43 @@
         "pubdate": 1676176352,
         "data": [
             {
-                "name": "",
-                "intro": "",
+                "name": "Nango",
+                "intro": "开箱即用 OAuth 解决方案",
                 "link": "https://www.nango.dev/"
             },
             {
-                "name": "",
-                "intro": "",
+                "name": "yq",
+                "intro": "多种文件格式解析器",
                 "link": "https://github.com/mikefarah/yq"
             },
             {
-                "name": "",
-                "intro": "",
+                "name": "PhotoPrism",
+                "intro": "一款照片管理程序",
                 "link": "https://www.photoprism.app/"
             },
             {
-                "name": "",
-                "intro": "",
+                "name": "grep app",
+                "intro": "一个代码搜索平台",
                 "link": "https://grep.app/"
             },
             {
-                "name": "",
-                "intro": "",
+                "name": "enrolla",
+                "intro": "开源 feature flag 管理平台",
                 "link": "https://www.enrolla.io/"
             },
             {
                 "name": "",
-                "intro": "",
+                "intro": "Notion 风格的富文本编辑器",
                 "link": "https://github.com/YousefED/BlockNote"
             },
             {
-                "name": "",
-                "intro": "",
+                "name": "Universal Summarizer",
+                "intro": "搜索引擎 Kagi 推出新技术",
                 "link": "https://labs.kagi.com/ai/sum"
             },
             {
                 "name": "",
-                "intro": "",
+                "intro": "React.JS 纪录片",
                 "link": "https://www.youtube.com/watch?v=8pDqJVdNa44"
             }
         ],
@@ -182,32 +182,32 @@
             {
                 "name": "",
                 "intro": "CRDT 协同算法库 Automerge 发布 2.0 版本",
-                "link": ""
+                "link": "https://automerge.org/blog/automerge-2"
             },
             {
                 "name": "Carbonyl",
                 "intro": "终端中运行浏览器",
-                "link": ""
+                "link": "https://fathy.fr/carbonyl"
             },
             {
                 "name": "",
                 "intro": "Netlify 收购 Gatsby",
-                "link": ""
+                "link": "https://www.netlify/Gatsby"
             },
             {
                 "name": "Same Energy",
                 "intro": "视觉搜索引擎",
-                "link": ""
+                "link": "https://same.energy/search?i=xmCt"
             },
             {
                 "name": "",
                 "intro": "DIY 空气质量检测仪",
-                "link": ""
+                "link": "https://www.airgradient.com/open-airgradient/instructions/diy-pro-v37/"
             },
             {
-                "name": "",
+                "name": "Hashicorp",
                 "intro": "Hashicorp 开源文档管理系统 Hermes",
-                "link": ""
+                "link": "https://www.hashicorp.com/blog/introducing-hermes-an-open-source-document-management-system"
             }
         ],
         "source": [
@@ -287,8 +287,8 @@
                 "link": "https://vento.so/"
             },
             {
-                "name": "",
-                "intro": "",
+                "name": "Cal.com",
+                "intro": "日程管理工具",
                 "link": "https://cal.com/"
             },
             {
