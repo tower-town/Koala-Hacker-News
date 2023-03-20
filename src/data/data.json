@@ -18,32 +18,32 @@
             {
                 "name": "FlameScope",
                 "intro": "Netflix 开源的性能可视化分析工具",
-                "link": "https://github.com/Netflix/flamescope https://blog.felixge.de/flamescope-for-go/ https://github.com/johnkerl/miller"
+                "link": "https://github.com/Netflix/flamescope https://blog.felixge.de/flamescope-for-go/"
             },
             {
                 "name": "Miller",
                 "intro": "命令行重度使用者的瑞士军刀",
-                "link": "https://scale.sh/"
+                "link": "https://github.com/johnkerl/miller"
             },
             {
                 "name": "Scale",
                 "intro": "Wasm 跨语言运行时",
-                "link": "https://zed.dev/"
+                "link": "https://scale.sh/"
             },
             {
                 "name": "",
                 "intro": "代码编辑器 Zed 进入 Beta 阶段",
-                "link": "https://www.tremor.so/"
+                "link": "https://zed.dev/"
             },
             {
                 "name": "tremor",
                 "intro": "开发概览类视图的 React UI 库",
-                "link": "https://react.dev/"
+                "link": "https://www.tremor.so/"
             },
             {
                 "name": "",
                 "intro": "React 新官网上线",
-                "link": ""
+                "link": "https://react.dev/"
             }
         ],
         "source": [
@@ -62,28 +62,28 @@
                 "link": "https://formkit.com/"
             },
             {
-                "name": "",
-                "intro": "",
+                "name": "PgTyped",
+                "intro": "从 SQL 语句中推断 Typescript 类型",
                 "link": "https://github.com/adelsz/pgtyped"
             },
             {
-                "name": "",
-                "intro": "",
+                "name": "Flux",
+                "intro": "软件定义键盘",
                 "link": "https://fluxkeyboard.com/"
             },
             {
-                "name": "",
-                "intro": "",
+                "name": "lightdash",
+                "intro": "轻量级的 BI 工具",
                 "link": "https://github.com/lightdash/lightdash"
             },
             {
-                "name": "",
-                "intro": "",
+                "name": "OpenDAL",
+                "intro": "开源通用数据接入层",
                 "link": "https://github.com/datafuselabs/opendal"
             },
             {
-                "name": "",
-                "intro": "",
+                "name": "ZincSearch",
+                "intro": "ElasticSearch 的轻量级替代品",
                 "link": "https://github.com/zinclabs/zincsearch"
             }
         ],
