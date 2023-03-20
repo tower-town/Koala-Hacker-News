@@ -1,4 +1,96 @@
 {
+    "BV1p84y1w7n6": {
+        "title": "[Hacker News 周报]  GPT-4 发布；Wasm 跨语言运行时；React 新官网上线",
+        "aid": 611243164,
+        "bvid": "BV1p84y1w7n6",
+        "pubdate": 1679185800,
+        "data": [
+            {
+                "name": "",
+                "intro": "GPT-4 发布",
+                "link": "https://openai.com/research/gpt-4"
+            },
+            {
+                "name": "Transformer.js",
+                "intro": "在浏览器中运行 Transformer 模型",
+                "link": "https://xenova.github.io/transformers.js/"
+            },
+            {
+                "name": "FlameScope",
+                "intro": "Netflix 开源的性能可视化分析工具",
+                "link": "https://github.com/Netflix/flamescope https://blog.felixge.de/flamescope-for-go/ https://github.com/johnkerl/miller"
+            },
+            {
+                "name": "Miller",
+                "intro": "命令行重度使用者的瑞士军刀",
+                "link": "https://scale.sh/"
+            },
+            {
+                "name": "Scale",
+                "intro": "Wasm 跨语言运行时",
+                "link": "https://zed.dev/"
+            },
+            {
+                "name": "",
+                "intro": "代码编辑器 Zed 进入 Beta 阶段",
+                "link": "https://www.tremor.so/"
+            },
+            {
+                "name": "tremor",
+                "intro": "开发概览类视图的 React UI 库",
+                "link": "https://react.dev/"
+            },
+            {
+                "name": "",
+                "intro": "React 新官网上线",
+                "link": ""
+            }
+        ],
+        "source": [
+            "https://mailchi.mp/hackernewsletter/643"
+        ]
+    },
+    "BV1mv4y1j7WB": {
+        "title": "[Hacker News 周报] Vue 全功能表单框架；软件定义键盘；从 SQL 语句中推断 Typescript 类型",
+        "aid": 568373000,
+        "bvid": "BV1mv4y1j7WB",
+        "pubdate": 1678585098,
+        "data": [
+            {
+                "name": "FormKit",
+                "intro": "Vue 全功能表单框架",
+                "link": "https://formkit.com/"
+            },
+            {
+                "name": "",
+                "intro": "",
+                "link": "https://github.com/adelsz/pgtyped"
+            },
+            {
+                "name": "",
+                "intro": "",
+                "link": "https://fluxkeyboard.com/"
+            },
+            {
+                "name": "",
+                "intro": "",
+                "link": "https://github.com/lightdash/lightdash"
+            },
+            {
+                "name": "",
+                "intro": "",
+                "link": "https://github.com/datafuselabs/opendal"
+            },
+            {
+                "name": "",
+                "intro": "",
+                "link": "https://github.com/zinclabs/zincsearch"
+            }
+        ],
+        "source": [
+            "https://mailchi.mp/hackernewsletter/642"
+        ]
+    },
     "BV1xM41147Te": {
         "title": "[Hacker News 周报] Google 新编程框架；ChatGPT 官方 API；Typescript 5.0；",
         "aid": 525565712,

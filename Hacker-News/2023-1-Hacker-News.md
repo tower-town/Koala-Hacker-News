@@ -65,8 +65,8 @@ AirByte](https://www.bilibili.com/video/BV1C24y1r7yJ)
       <td>可纠错的录屏工具</td>
       <td>https://vento.so/</td>
     </tr><tr>
-      <td></td>
-      <td></td>
+      <td>Cal.com</td>
+      <td>日程管理工具</td>
       <td>https://cal.com/</td>
     </tr><tr>
       <td></td>
