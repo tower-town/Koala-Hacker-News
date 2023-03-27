@@ -1,4 +1,45 @@
 {
+    "BV1fV4y1X7x5": {
+        "title": "[Hacker News 周报] ChatGPT 发布插件能力；功能强大使用便捷的排版系统；Adobe 推出 AI 创意工具",
+        "aid": 866597183,
+        "bvid": "BV1fV4y1X7x5",
+        "pubdate": 1679790600,
+        "data": [
+            {
+                "name": "",
+                "intro": "ChatGPT 发布插件能力",
+                "link": "https://openai.com/blog/chatgpt-plugins"
+            },
+            {
+                "name": "",
+                "intro": "Adobe 推出 AI 创意工具",
+                "link": "https://www.adobe.com/sensei/generative-ai/firefly.html"
+            },
+            {
+                "name": "DataPane",
+                "intro": "数据科学家和分析师的平台",
+                "link": "https://datapane.com/"
+            },
+            {
+                "name": "pg_activity",
+                "intro": "交互式命令行工具",
+                "link": "https://github.com/dalibo/pg_activity"
+            },
+            {
+                "name": "",
+                "intro": "PlayWright 推出新的 UI 模式",
+                "link": "https://github.com/microsoft/playwright/releases/tag/v1.32.0"
+            },
+            {
+                "name": "Typst",
+                "intro": "功能强大使用便捷的排版系统",
+                "link": "https://github.com/typst/typst"
+            }
+        ],
+        "source": [
+            "https://mailchi.mp/hackernewsletter/644"
+        ]
+    },
     "BV1p84y1w7n6": {
         "title": "[Hacker News 周报]  GPT-4 发布；Wasm 跨语言运行时；React 新官网上线",
         "aid": 611243164,
