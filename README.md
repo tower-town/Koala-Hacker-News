@@ -3,6 +3,7 @@
 
 ## 目录
 
+- [2023-4: [Hacker News 周报]](Hacker-News/2023-4-Hacker-News.md)
 - [2023-3: [Hacker News 周报]](Hacker-News/2023-3-Hacker-News.md)
 - [2023-2: [Hacker News 周报]](Hacker-News/2023-2-Hacker-News.md)
 - [2023-1: [Hacker News 周报]](Hacker-News/2023-1-Hacker-News.md)

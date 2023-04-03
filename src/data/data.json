@@ -1,4 +1,45 @@
 {
+    "BV1fX4y1r7CW": {
+        "title": "[Hacker News 周报] 在编辑器中和 AI 结对编程；高性能 Go 哈希表；训练自己的 AI 模型",
+        "aid": 354428596,
+        "bvid": "BV1fX4y1r7CW",
+        "pubdate": 1680405633,
+        "data": [
+            {
+                "name": "Cursor",
+                "intro": "在编辑器中和 AI 结对编程",
+                "link": "https://github.com/getcursor/cursor"
+            },
+            {
+                "name": "SwissTable",
+                "intro": "高性能 Go 哈希表",
+                "link": "https://www.dolthub.com/blog/2023-03-28-swiss-map/"
+            },
+            {
+                "name": "Sidekick",
+                "intro": "训练自己的数据 AI 模型",
+                "link": "https://www.getsidekick.ai/"
+            },
+            {
+                "name": "Convoy",
+                "intro": "聚焦 Webhook Gateway 的服务端中间件",
+                "link": "https://getconvoy.io/"
+            },
+            {
+                "name": "Notesnook",
+                "intro": "专注于隐私和易用性的笔记软件",
+                "link": "https://github.com/streetwriters/notesnook"
+            },
+            {
+                "name": "",
+                "intro": "React 团队介绍 React Lab 研究进展",
+                "link": "https://react.dev/blog/2023/03/22/react-labs-what-we-have-been-working-on-march-2023"
+            }
+        ],
+        "source": [
+            "https://mailchi.mp/hackernewsletter/645"
+        ]
+    },
     "BV1fV4y1X7x5": {
         "title": "[Hacker News 周报] ChatGPT 发布插件能力；功能强大使用便捷的排版系统；Adobe 推出 AI 创意工具",
         "aid": 866597183,
