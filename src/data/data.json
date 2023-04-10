@@ -1,4 +1,45 @@
 {
+    "BV1hT411x7Mi": {
+        "title": "[Hacker News 周报] Facebook 发布图像识别新模型；Twitter 开源推荐算法；Rust 编写流式计算引擎",
+        "aid": 484672088,
+        "bvid": "BV1hT411x7Mi",
+        "pubdate": 1681011989,
+        "data": [
+            {
+                "name": "",
+                "intro": "Meta 发布图像识别新模型",
+                "link": "https://github.com/facebookresearch/segment-anything"
+            },
+            {
+                "name": "",
+                "intro": "Twitter 开源推荐算法",
+                "link": "https://blog.twitter.com/engineering/en_us/topics/open-source/2023/twitter-recommendation-algorithm"
+            },
+            {
+                "name": "Arroyo",
+                "intro": "Rust 编写流式计算引擎",
+                "link": "https://github.com/ArroyoSystems/arroyo"
+            },
+            {
+                "name": "openplayground",
+                "intro": "Github CEO 发起的 AI playground 项目",
+                "link": "https://github.com/nat/openplayground"
+            },
+            {
+                "name": "Quadratic",
+                "intro": "一个有创意的数据工具",
+                "link": "https://www.quadratichq.com/"
+            },
+            {
+                "name": "",
+                "intro": "Midjourney 与 Adobe Firefly 对比引发对版权关注",
+                "link": "https://twitter.com/DrJimFan/status/1642921475849203712"
+            }
+        ],
+        "source": [
+            "https://mailchi.mp/hackernewsletter/645-2562316?e=afe3b8e060"
+        ]
+    },
     "BV1fX4y1r7CW": {
         "title": "[Hacker News 周报] 在编辑器中和 AI 结对编程；高性能 Go 哈希表；训练自己的 AI 模型",
         "aid": 354428596,

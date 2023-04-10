@@ -1,3 +1,40 @@
+[[Hacker News 周报] Facebook 发布图像识别新模型；Twitter 开源推荐算法；Rust
+编写流式计算引擎](https://www.bilibili.com/video/BV1hT411x7Mi)
+<table>
+  <theader>
+    <th>名称</th>
+    <th>简介</th>
+    <th>链接</th>
+  </theader>
+  <tbody>
+    <tr>
+      <td></td>
+      <td>Meta 发布图像识别新模型</td>
+      <td>https://github.com/facebookresearch/segment-anything</td>
+    </tr><tr>
+      <td></td>
+      <td>Twitter 开源推荐算法</td>
+      <td>https://blog.twitter.com/engineering/en_us/topics/open-source/2023/twitter-recommendation-algorithm</td>
+    </tr><tr>
+      <td>Arroyo</td>
+      <td>Rust 编写流式计算引擎</td>
+      <td>https://github.com/ArroyoSystems/arroyo</td>
+    </tr><tr>
+      <td>openplayground</td>
+      <td>Github CEO 发起的 AI playground 项目</td>
+      <td>https://github.com/nat/openplayground</td>
+    </tr><tr>
+      <td>Quadratic</td>
+      <td>一个有创意的数据工具</td>
+      <td>https://www.quadratichq.com/</td>
+    </tr><tr>
+      <td></td>
+      <td>Midjourney 与 Adobe Firefly 对比引发对版权关注</td>
+      <td>https://twitter.com/DrJimFan/status/1642921475849203712</td>
+    </tr>
+  </tbody>
+</table>
+
 [[Hacker News 周报] 在编辑器中和 AI 结对编程；高性能 Go 哈希表；训练自己的 AI
 模型](https://www.bilibili.com/video/BV1fX4y1r7CW)
 <table>
