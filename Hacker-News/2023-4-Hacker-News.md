@@ -1,3 +1,40 @@
+[[Hacker News 周报] 面向开发者的 AI
+搜索引擎；交互式代码文档；有趣的人体键盘](https://www.bilibili.com/video/BV1vh411u78w)
+<table>
+  <theader>
+    <th>名称</th>
+    <th>简介</th>
+    <th>链接</th>
+  </theader>
+  <tbody>
+    <tr>
+      <td>Phind</td>
+      <td>面向开发者的 AI 搜索引擎</td>
+      <td>https://www.phind.com/</td>
+    </tr><tr>
+      <td>Sniffnet</td>
+      <td>跨平台网络监测工具</td>
+      <td>https://github.com/GyulyVGC/sniffnet</td>
+    </tr><tr>
+      <td>Code Hike</td>
+      <td>交互式代码文档</td>
+      <td>https://github.com/code-hike/codehike</td>
+    </tr><tr>
+      <td>Auto-GPT</td>
+      <td>让 AI 产出提示语</td>
+      <td>https://github.com/Significant-Gravitas/Auto-GPT</td>
+    </tr><tr>
+      <td>FUTUREPEDIA</td>
+      <td>AI 工具目录</td>
+      <td>https://www.futurepedia.io/</td>
+    </tr><tr>
+      <td></td>
+      <td>有趣的人体键盘</td>
+      <td>https://github.com/everythingishacked/Semaphore</td>
+    </tr>
+  </tbody>
+</table>
+
 [[Hacker News 周报] Facebook 发布图像识别新模型；Twitter 开源推荐算法；Rust
 编写流式计算引擎](https://www.bilibili.com/video/BV1hT411x7Mi)
 <table>

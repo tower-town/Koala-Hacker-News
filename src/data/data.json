@@ -1,4 +1,45 @@
 {
+    "BV1vh411u78w": {
+        "title": "[Hacker News 周报] 面向开发者的 AI 搜索引擎；交互式代码文档；有趣的人体键盘",
+        "aid": 227523967,
+        "bvid": "BV1vh411u78w",
+        "pubdate": 1681605000,
+        "data": [
+            {
+                "name": "Phind",
+                "intro": "面向开发者的 AI 搜索引擎",
+                "link": "https://www.phind.com/"
+            },
+            {
+                "name": "Sniffnet",
+                "intro": "跨平台网络监测工具",
+                "link": "https://github.com/GyulyVGC/sniffnet"
+            },
+            {
+                "name": "Code Hike",
+                "intro": "交互式代码文档",
+                "link": "https://github.com/code-hike/codehike"
+            },
+            {
+                "name": "Auto-GPT",
+                "intro": "让 AI 产出提示语",
+                "link": "https://github.com/Significant-Gravitas/Auto-GPT"
+            },
+            {
+                "name": "FUTUREPEDIA",
+                "intro": "AI 工具目录",
+                "link": "https://www.futurepedia.io/"
+            },
+            {
+                "name": "",
+                "intro": "有趣的人体键盘",
+                "link": "https://github.com/everythingishacked/Semaphore"
+            }
+        ],
+        "source": [
+            "https://mailchi.mp/hackernewsletter/647"
+        ]
+    },
     "BV1hT411x7Mi": {
         "title": "[Hacker News 周报] Facebook 发布图像识别新模型；Twitter 开源推荐算法；Rust 编写流式计算引擎",
         "aid": 484672088,
