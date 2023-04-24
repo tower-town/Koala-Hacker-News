@@ -1,3 +1,40 @@
+[[Hacker News 周报] 轻量灵活的 BI
+工具；高性能数据库连接池；开源函数服务框架](https://www.bilibili.com/video/BV1Rg4y1j7rZ)
+<table>
+  <theader>
+    <th>名称</th>
+    <th>简介</th>
+    <th>链接</th>
+  </theader>
+  <tbody>
+    <tr>
+      <td>Evidence</td>
+      <td>轻量灵活的 BI 工具</td>
+      <td>https://evidence.dev/</td>
+    </tr><tr>
+      <td>Uptrace</td>
+      <td>一个开源的 APM 服务</td>
+      <td>https://github.com/uptrace/uptrace</td>
+    </tr><tr>
+      <td>Supavisor</td>
+      <td>高性能数据库连接池</td>
+      <td>https://github.com/supabase/supavisor</td>
+    </tr><tr>
+      <td>Edge Runtime</td>
+      <td>开源函数服务框架</td>
+      <td>https://supabase.com/blog/edge-runtime-self-hosted-deno-functions</td>
+    </tr><tr>
+      <td>SQL Chat</td>
+      <td>AI 数据库查询工具</td>
+      <td>https://www.sqlchat.ai/</td>
+    </tr><tr>
+      <td></td>
+      <td>一篇介绍负载均衡基本概念和实现方法的博客</td>
+      <td>https://samwho.dev/load-balancing</td>
+    </tr>
+  </tbody>
+</table>
+
 [[Hacker News 周报] 面向开发者的 AI
 搜索引擎；交互式代码文档；有趣的人体键盘](https://www.bilibili.com/video/BV1vh411u78w)
 <table>

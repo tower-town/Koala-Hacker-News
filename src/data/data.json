@@ -1,4 +1,45 @@
 {
+    "BV1Rg4y1j7rZ": {
+        "title": "[Hacker News 周报] 轻量灵活的 BI 工具；高性能数据库连接池；开源函数服务框架",
+        "aid": 825312999,
+        "bvid": "BV1Rg4y1j7rZ",
+        "pubdate": 1682209800,
+        "data": [
+            {
+                "name": "Evidence",
+                "intro": "轻量灵活的 BI 工具",
+                "link": "https://evidence.dev/"
+            },
+            {
+                "name": "Uptrace",
+                "intro": "一个开源的 APM 服务",
+                "link": "https://github.com/uptrace/uptrace"
+            },
+            {
+                "name": "Supavisor",
+                "intro": "高性能数据库连接池",
+                "link": "https://github.com/supabase/supavisor"
+            },
+            {
+                "name": "Edge Runtime",
+                "intro": "开源函数服务框架",
+                "link": "https://supabase.com/blog/edge-runtime-self-hosted-deno-functions"
+            },
+            {
+                "name": "SQL Chat",
+                "intro": "AI 数据库查询工具",
+                "link": "https://www.sqlchat.ai/"
+            },
+            {
+                "name": "",
+                "intro": "一篇介绍负载均衡基本概念和实现方法的博客",
+                "link": "https://samwho.dev/load-balancing"
+            }
+        ],
+        "source": [
+            "https://mailchi.mp/hackernewsletter/648"
+        ]
+    },
     "BV1vh411u78w": {
         "title": "[Hacker News 周报] 面向开发者的 AI 搜索引擎；交互式代码文档；有趣的人体键盘",
         "aid": 227523967,
