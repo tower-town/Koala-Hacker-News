@@ -1,4 +1,45 @@
 {
+    "BV16P41127ZY": {
+        "title": "[Hacker News 周报] 端到端后端开发平台；Babylon.JS 6.0 发布超强物理引擎；无代码训练自己的 ChatGPT 机器人",
+        "aid": 313106255,
+        "bvid": "BV16P41127ZY",
+        "pubdate": 1682828105,
+        "data": [
+            {
+                "name": "Encore",
+                "intro": "端到端后端开发平台",
+                "link": "https://encore.dev/"
+            },
+            {
+                "name": "Databerry",
+                "intro": "无代码训练自己的 ChatGPT 机器人",
+                "link": "https://www.databerry.ai/"
+            },
+            {
+                "name": "",
+                "intro": "Babylon.JS 6.0 发布超强物理引擎",
+                "link": "https://babylonjs.medium.com/announcing-babylon-js-6-0-dcb5f1662e3a"
+            },
+            {
+                "name": "Linen",
+                "intro": "将 Slack 和 Discord 对话转换为 Web 页",
+                "link": "https://www.linen.dev/"
+            },
+            {
+                "name": "Bullet Train",
+                "intro": "为 SaaS 开发者提供开箱即用开发框架",
+                "link": "https://bullettrain.co/"
+            },
+            {
+                "name": "",
+                "intro": "一篇关于 PostgreSQL 的博客",
+                "link": "https://philbooth.me/blog/nine-ways-to-shoot-yourself-in-the-foot-with-postgresql"
+            }
+        ],
+        "source": [
+            "https://mailchi.mp/hackernewsletter/649"
+        ]
+    },
     "BV1Rg4y1j7rZ": {
         "title": "[Hacker News 周报] 轻量灵活的 BI 工具；高性能数据库连接池；开源函数服务框架",
         "aid": 825312999,

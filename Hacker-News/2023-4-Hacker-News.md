@@ -1,3 +1,40 @@
+[[Hacker News 周报] 端到端后端开发平台；Babylon.JS 6.0 发布超强物理引擎；无代码训练自己的 ChatGPT
+机器人](https://www.bilibili.com/video/BV16P41127ZY)
+<table>
+  <theader>
+    <th>名称</th>
+    <th>简介</th>
+    <th>链接</th>
+  </theader>
+  <tbody>
+    <tr>
+      <td>Encore</td>
+      <td>端到端后端开发平台</td>
+      <td>https://encore.dev/</td>
+    </tr><tr>
+      <td>Databerry</td>
+      <td>无代码训练自己的 ChatGPT 机器人</td>
+      <td>https://www.databerry.ai/</td>
+    </tr><tr>
+      <td></td>
+      <td>Babylon.JS 6.0 发布超强物理引擎</td>
+      <td>https://babylonjs.medium.com/announcing-babylon-js-6-0-dcb5f1662e3a</td>
+    </tr><tr>
+      <td>Linen</td>
+      <td>将 Slack 和 Discord 对话转换为 Web 页</td>
+      <td>https://www.linen.dev/</td>
+    </tr><tr>
+      <td>Bullet Train</td>
+      <td>为 SaaS 开发者提供开箱即用开发框架</td>
+      <td>https://bullettrain.co/</td>
+    </tr><tr>
+      <td></td>
+      <td>一篇关于 PostgreSQL 的博客</td>
+      <td>https://philbooth.me/blog/nine-ways-to-shoot-yourself-in-the-foot-with-postgresql</td>
+    </tr>
+  </tbody>
+</table>
+
 [[Hacker News 周报] 轻量灵活的 BI
 工具；高性能数据库连接池；开源函数服务框架](https://www.bilibili.com/video/BV1Rg4y1j7rZ)
 <table>
