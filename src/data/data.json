@@ -1,4 +1,45 @@
 {
+    "BV1Wg4y1V7GJ": {
+        "title": "[Hacker News 周报] 支持十万 token 的 AI 对话模型；MySQL + Git = Dolt；React Native 优化编译器",
+        "aid": 826197972,
+        "bvid": "BV1Wg4y1V7GJ",
+        "pubdate": 1684037388,
+        "data": [
+            {
+                "name": "Claude",
+                "intro": "支持十万 token 的 AI 对话模型",
+                "link": "https://www.anthropic.com/index/100k-context-windows"
+            },
+            {
+                "name": "Dolt",
+                "intro": "包含版本控制功能的 SQL 数据库",
+                "link": "https://www.dolthub.com/blog/2023-05-05-dolt-1-dot-0/"
+            },
+            {
+                "name": "Qdrant",
+                "intro": "基于 Rust 的向量数据库",
+                "link": "https://github.com/qdrant/qdrant https://www.pinecone.io/learn/vector-database  https://github.com/syncthing/syncthing"
+            },
+            {
+                "name": "Syncthing",
+                "intro": "文件持续同步工具",
+                "link": "https://livefir.fly.dev/"
+            },
+            {
+                "name": "Fir",
+                "intro": "为 Go 开发者设计的 Web UI 开发框架",
+                "link": "https://tamagui.dev/blog/version-one"
+            },
+            {
+                "name": "Tamagui",
+                "intro": "React Native 优化编译器",
+                "link": ""
+            }
+        ],
+        "source": [
+            "https://mailchi.mp/hackernewsletter/651"
+        ]
+    },
     "BV1x24y1T7Tf": {
         "title": "[Hacker News 周报] 面向 AI 的编程语言 Mojo、Mozilla 收购新动向、基于 V8 的开源 serverless 平台",
         "aid": 783301696,
