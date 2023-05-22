@@ -1,3 +1,40 @@
+[[Hacker News 周报] 低代码 + serverless = ?；WebAssembly 性能分析工具；AI
+一周概述](https://www.bilibili.com/video/BV1Js4y1u7J3)
+<table>
+  <theader>
+    <th>名称</th>
+    <th>简介</th>
+    <th>链接</th>
+  </theader>
+  <tbody>
+    <tr>
+      <td>Windmill</td>
+      <td>低代码 + serverless = ?</td>
+      <td>https://github.com/windmill-labs/windmill</td>
+    </tr><tr>
+      <td></td>
+      <td>Supabase 为文档/集成与 ChatGPT 类似的问答搜索体验</td>
+      <td>https://supabase.com/blog/openai-embeddings-postgres-vector</td>
+    </tr><tr>
+      <td></td>
+      <td>Bytebase 发布了 2.0 版本</td>
+      <td>https://www.bytebase.com/blog/bytebase-2-0/</td>
+    </tr><tr>
+      <td></td>
+      <td>Bun /本周发布新版本 v0.6</td>
+      <td>https://bun.sh/blog/bun-bundler</td>
+    </tr><tr>
+      <td>pprof</td>
+      <td>WebAssembly 性能分析工具</td>
+      <td>https://blog.stealthrocket.tech/performance-in-the-spotlight-webassembly-profiling-for-everyone/</td>
+    </tr><tr>
+      <td></td>
+      <td>AI 一周概述</td>
+      <td>https://twitter.com/rowancheung/status/1659650892071616512</td>
+    </tr>
+  </tbody>
+</table>
+
 [[Hacker News 周报] 支持十万 token 的 AI 对话模型；MySQL + Git = Dolt；React Native
 优化编译器](https://www.bilibili.com/video/BV1Wg4y1V7GJ)
 <table>

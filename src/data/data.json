@@ -1,4 +1,45 @@
 {
+    "BV1Js4y1u7J3": {
+        "title": "[Hacker News 周报] 低代码 + serverless = ?；WebAssembly 性能分析工具；AI 一周概述",
+        "aid": 953920150,
+        "bvid": "BV1Js4y1u7J3",
+        "pubdate": 1684644509,
+        "data": [
+            {
+                "name": "Windmill",
+                "intro": "低代码 + serverless = ?",
+                "link": "https://github.com/windmill-labs/windmill"
+            },
+            {
+                "name": "",
+                "intro": "Supabase 为文档/集成与 ChatGPT 类似的问答搜索体验",
+                "link": "https://supabase.com/blog/openai-embeddings-postgres-vector"
+            },
+            {
+                "name": "",
+                "intro": "Bytebase 发布了 2.0 版本",
+                "link": "https://www.bytebase.com/blog/bytebase-2-0/"
+            },
+            {
+                "name": "",
+                "intro": "Bun /本周发布新版本 v0.6",
+                "link": "https://bun.sh/blog/bun-bundler"
+            },
+            {
+                "name": "pprof",
+                "intro": "WebAssembly 性能分析工具",
+                "link": "https://blog.stealthrocket.tech/performance-in-the-spotlight-webassembly-profiling-for-everyone/"
+            },
+            {
+                "name": "",
+                "intro": "AI 一周概述",
+                "link": "https://twitter.com/rowancheung/status/1659650892071616512"
+            }
+        ],
+        "source": [
+            "https://mailchi.mp/hackernewsletter/652"
+        ]
+    },
     "BV1Wg4y1V7GJ": {
         "title": "[Hacker News 周报] 支持十万 token 的 AI 对话模型；MySQL + Git = Dolt；React Native 优化编译器",
         "aid": 826197972,
