@@ -1,4 +1,45 @@
 {
+    "BV1ek4y1W7eg": {
+        "title": "[Hacker News 周报] 微软开源 IoT 设备开发框架；Windows 11 集成 AI Copilot；Paypal 自研 NoSQL 数据库开源；",
+        "aid": 741704043,
+        "bvid": "BV1ek4y1W7eg",
+        "pubdate": 1685247436,
+        "data": [
+            {
+                "name": "DeviceScript",
+                "intro": "微软开源 IoT 设备开发框架",
+                "link": "https://microsoft.github.io/devicescript/"
+            },
+            {
+                "name": "ls-lint",
+                "intro": "基于 Go 的文件目录与文件名 lint 工具",
+                "link": "https://github.com/loeffel-io/ls-lint"
+            },
+            {
+                "name": "DB-GPT",
+                "intro": "SQLChat 的开源替代品",
+                "link": "https://github.com/csunny/DB-GPT"
+            },
+            {
+                "name": "progress",
+                "intro": "查看 Linux 命令执行进度",
+                "link": "https://github.com/Xfennec/progress"
+            },
+            {
+                "name": "",
+                "intro": "Paypal 开源数据库 JunoDB 并发表介绍博客",
+                "link": "https://medium.com/paypal-tech/unlocking-the-power-of-junodb-paypals-key-value-store-goes-open-source-ee85f935bdc1；https://github.com/paypal/junodb https://twitter.com/rowancheung/status/1661356887651020802"
+            },
+            {
+                "name": "",
+                "intro": "本周 AI 小结",
+                "link": ""
+            }
+        ],
+        "source": [
+            "https://mailchi.mp/hackernewsletter/653"
+        ]
+    },
     "BV1Js4y1u7J3": {
         "title": "[Hacker News 周报] 低代码 + serverless = ?；WebAssembly 性能分析工具；AI 一周概述",
         "aid": 953920150,

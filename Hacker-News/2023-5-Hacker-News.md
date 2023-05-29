@@ -1,3 +1,41 @@
+[[Hacker News 周报] 微软开源 IoT 设备开发框架；Windows 11 集成 AI Copilot；Paypal 自研 NoSQL
+数据库开源；](https://www.bilibili.com/video/BV1ek4y1W7eg)
+<table>
+  <theader>
+    <th>名称</th>
+    <th>简介</th>
+    <th>链接</th>
+  </theader>
+  <tbody>
+    <tr>
+      <td>DeviceScript</td>
+      <td>微软开源 IoT 设备开发框架</td>
+      <td>https://microsoft.github.io/devicescript/</td>
+    </tr><tr>
+      <td>ls-lint</td>
+      <td>基于 Go 的文件目录与文件名 lint 工具</td>
+      <td>https://github.com/loeffel-io/ls-lint</td>
+    </tr><tr>
+      <td>DB-GPT</td>
+      <td>SQLChat 的开源替代品</td>
+      <td>https://github.com/csunny/DB-GPT</td>
+    </tr><tr>
+      <td>progress</td>
+      <td>查看 Linux 命令执行进度</td>
+      <td>https://github.com/Xfennec/progress</td>
+    </tr><tr>
+      <td></td>
+      <td>Paypal 开源数据库 JunoDB 并发表介绍博客</td>
+      <td>https://medium.com/paypal-tech/unlocking-the-power-of-junodb-paypals-key-value-store-goes-open-source-ee85f935bdc1；https://github.com/paypal/junodb
+        https://twitter.com/rowancheung/status/1661356887651020802</td>
+    </tr><tr>
+      <td></td>
+      <td>本周 AI 小结</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
 [[Hacker News 周报] 低代码 + serverless = ?；WebAssembly 性能分析工具；AI
 一周概述](https://www.bilibili.com/video/BV1Js4y1u7J3)
 <table>
