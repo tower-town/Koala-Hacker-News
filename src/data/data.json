@@ -1,4 +1,50 @@
 {
+    "BV1Mk4y1p7Jg": {
+        "title": "[Hacker News 周报] 面向机器学习设计的列式数据结构；开源 Jira 替代品；Nvidia 万亿市值",
+        "aid": 741985027,
+        "bvid": "BV1Mk4y1p7Jg",
+        "pubdate": 1685877880,
+        "data": [
+            {
+                "name": "Lance",
+                "intro": "面向机器学习设计的列式数据结构",
+                "link": "https://github.com/lancedb/lance"
+            },
+            {
+                "name": "Trogan",
+                "intro": "Textualize 社区的新项目",
+                "link": "https://github.com/Textualize/trogon"
+            },
+            {
+                "name": "Plane",
+                "intro": "开源 Jira 替代品",
+                "link": "https://github.com/makeplane/plane"
+            },
+            {
+                "name": "CSS Pro",
+                "intro": "CSS 编辑解决方案",
+                "link": "https://csspro.com/"
+            },
+            {
+                "name": "Logicboard",
+                "intro": "一个在线编程工具",
+                "link": "https://logicboard.com/demo 以及 https://logicboard.com/demo/:replay"
+            },
+            {
+                "name": "",
+                "intro": "AI 小结",
+                "link": "https://www.tii.ae/news/uaes-falcon-40b-now-royalty-free"
+            },
+            {
+                "name": "",
+                "intro": "处的字幕trogon打成了trogan",
+                "link": "https://technomancers.ai/japan-goes-all-in-copyright-doesnt-apply-to-ai-training https://www.theverge.com/2023/5/30/23742123/nvidia-stock-ai-gpu-1-trillion-market-cap-price-value"
+            }
+        ],
+        "source": [
+            "https://mailchi.mp/hackernewsletter/654"
+        ]
+    },
     "BV1ek4y1W7eg": {
         "title": "[Hacker News 周报] 微软开源 IoT 设备开发框架；Windows 11 集成 AI Copilot；Paypal 自研 NoSQL 数据库开源；",
         "aid": 741704043,
