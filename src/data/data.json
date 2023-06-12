@@ -1,4 +1,45 @@
 {
+    "BV1Wo4y1N7ZP": {
+        "title": "[Hacker News 周报] Jupyter notebook 快速变为 web app；文字生成 3D 人物；AI 探索更快排序算法",
+        "aid": 402219859,
+        "bvid": "BV1Wo4y1N7ZP",
+        "pubdate": 1686483423,
+        "data": [
+            {
+                "name": "Mercury",
+                "intro": "Jupyter notebook 快速变为 web app",
+                "link": "https://runmercury.com/"
+            },
+            {
+                "name": "Autocomplete",
+                "intro": "Algolia 开源前端 UI 组件",
+                "link": "https://github.com/algolia/autocomplete"
+            },
+            {
+                "name": "polywasm",
+                "intro": "前 Figma CTO、esbuild 发起者开源的新研究项目",
+                "link": "https://github.com/evanw/polywasm"
+            },
+            {
+                "name": "Dufs",
+                "intro": "一个轻量级文件服务器",
+                "link": "https://github.com/sigoden/dufs"
+            },
+            {
+                "name": "",
+                "intro": "Apple 发布头显设备 Apple Vision Pro",
+                "link": "https://www.apple.com/newsroom/2023/06/introducing-apple-vision-pro"
+            },
+            {
+                "name": "",
+                "intro": "一周 AI 小结",
+                "link": "https://platform.openai.com/docs/guides/gpt-best-practices/strategy-provide-reference-text"
+            }
+        ],
+        "source": [
+            "https://mailchi.mp/hackernewsletter/655"
+        ]
+    },
     "BV1Mk4y1p7Jg": {
         "title": "[Hacker News 周报] 面向机器学习设计的列式数据结构；开源 Jira 替代品；Nvidia 万亿市值",
         "aid": 741985027,

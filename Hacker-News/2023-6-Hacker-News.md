@@ -1,3 +1,40 @@
+[[Hacker News 周报] Jupyter notebook 快速变为 web app；文字生成 3D 人物；AI
+探索更快排序算法](https://www.bilibili.com/video/BV1Wo4y1N7ZP)
+<table>
+  <theader>
+    <th>名称</th>
+    <th>简介</th>
+    <th>链接</th>
+  </theader>
+  <tbody>
+    <tr>
+      <td>Mercury</td>
+      <td>Jupyter notebook 快速变为 web app</td>
+      <td>https://runmercury.com/</td>
+    </tr><tr>
+      <td>Autocomplete</td>
+      <td>Algolia 开源前端 UI 组件</td>
+      <td>https://github.com/algolia/autocomplete</td>
+    </tr><tr>
+      <td>polywasm</td>
+      <td>前 Figma CTO、esbuild 发起者开源的新研究项目</td>
+      <td>https://github.com/evanw/polywasm</td>
+    </tr><tr>
+      <td>Dufs</td>
+      <td>一个轻量级文件服务器</td>
+      <td>https://github.com/sigoden/dufs</td>
+    </tr><tr>
+      <td></td>
+      <td>Apple 发布头显设备 Apple Vision Pro</td>
+      <td>https://www.apple.com/newsroom/2023/06/introducing-apple-vision-pro</td>
+    </tr><tr>
+      <td></td>
+      <td>一周 AI 小结</td>
+      <td>https://platform.openai.com/docs/guides/gpt-best-practices/strategy-provide-reference-text</td>
+    </tr>
+  </tbody>
+</table>
+
 [[Hacker News 周报] 面向机器学习设计的列式数据结构；开源 Jira 替代品；Nvidia
 万亿市值](https://www.bilibili.com/video/BV1Mk4y1p7Jg)
 <table>
