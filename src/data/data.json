@@ -1,4 +1,45 @@
 {
+    "BV13N411r7eS": {
+        "title": "[Hacker News 周报] 轻量级可观测性工具；云原生流处理引擎；llama.cpp 优化 GPU 加速",
+        "aid": 487482397,
+        "bvid": "BV13N411r7eS",
+        "pubdate": 1687082119,
+        "data": [
+            {
+                "name": "OpenObserve",
+                "intro": "轻量级可观测性工具",
+                "link": "https://github.com/openobserve/openobserve"
+            },
+            {
+                "name": "Arroyo",
+                "intro": "云原生流处理引擎",
+                "link": "https://www.arroyo.dev/"
+            },
+            {
+                "name": "Kera",
+                "intro": "基于 Web 的桌面端扩展框架",
+                "link": "https://desktop.kerahq.com/"
+            },
+            {
+                "name": "SeaweedFS",
+                "intro": "分布式文件系统",
+                "link": "https://github.com/seaweedfs/seaweedfs"
+            },
+            {
+                "name": "codespelunker",
+                "intro": "命令行代码搜索工具",
+                "link": "https://github.com/boyter/cs"
+            },
+            {
+                "name": "",
+                "intro": "本周 AI 小结",
+                "link": "https://github.com/ggerganov/llama.cpp/pull/1827"
+            }
+        ],
+        "source": [
+            "https://mailchi.mp/hackernewsletter/656"
+        ]
+    },
     "BV1Wo4y1N7ZP": {
         "title": "[Hacker News 周报] Jupyter notebook 快速变为 web app；文字生成 3D 人物；AI 探索更快排序算法",
         "aid": 402219859,

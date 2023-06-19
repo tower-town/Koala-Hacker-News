@@ -1,3 +1,40 @@
+[[Hacker News 周报] 轻量级可观测性工具；云原生流处理引擎；llama.cpp 优化 GPU
+加速](https://www.bilibili.com/video/BV13N411r7eS)
+<table>
+  <theader>
+    <th>名称</th>
+    <th>简介</th>
+    <th>链接</th>
+  </theader>
+  <tbody>
+    <tr>
+      <td>OpenObserve</td>
+      <td>轻量级可观测性工具</td>
+      <td>https://github.com/openobserve/openobserve</td>
+    </tr><tr>
+      <td>Arroyo</td>
+      <td>云原生流处理引擎</td>
+      <td>https://www.arroyo.dev/</td>
+    </tr><tr>
+      <td>Kera</td>
+      <td>基于 Web 的桌面端扩展框架</td>
+      <td>https://desktop.kerahq.com/</td>
+    </tr><tr>
+      <td>SeaweedFS</td>
+      <td>分布式文件系统</td>
+      <td>https://github.com/seaweedfs/seaweedfs</td>
+    </tr><tr>
+      <td>codespelunker</td>
+      <td>命令行代码搜索工具</td>
+      <td>https://github.com/boyter/cs</td>
+    </tr><tr>
+      <td></td>
+      <td>本周 AI 小结</td>
+      <td>https://github.com/ggerganov/llama.cpp/pull/1827</td>
+    </tr>
+  </tbody>
+</table>
+
 [[Hacker News 周报] Jupyter notebook 快速变为 web app；文字生成 3D 人物；AI
 探索更快排序算法](https://www.bilibili.com/video/BV1Wo4y1N7ZP)
 <table>
