@@ -1,3 +1,40 @@
+[[Hacker News 周报] Vercel AI SDK 发布；开源 codespaces 替代品；UI
+原型工具创新](https://www.bilibili.com/video/BV19V411u7dP)
+<table>
+  <theader>
+    <th>名称</th>
+    <th>简介</th>
+    <th>链接</th>
+  </theader>
+  <tbody>
+    <tr>
+      <td>DevPod</td>
+      <td>开源 codespaces 替代品</td>
+      <td>https://devpod.sh/</td>
+    </tr><tr>
+      <td>Sketch Systems</td>
+      <td>UI 原型工具创新</td>
+      <td>https://sketch.systems/</td>
+    </tr><tr>
+      <td>GoAWK</td>
+      <td>Go 的 AWK 语言解释器</td>
+      <td>https://benhoyt.com/writings/goawk/</td>
+    </tr><tr>
+      <td>Selecto.js</td>
+      <td>一个区域选择的 UI 组件</td>
+      <td>https://daybrush.com/selecto/ 和 https://github.com/daybrush</td>
+    </tr><tr>
+      <td></td>
+      <td>Svelte 发布了 v4 版本</td>
+      <td>https://svelte.dev/blog/svelte-4</td>
+    </tr><tr>
+      <td></td>
+      <td>本周 AI 小结</td>
+      <td>https://vercel.com/blog/introducing-the-vercel-ai-sdk</td>
+    </tr>
+  </tbody>
+</table>
+
 [[Hacker News 周报] 轻量级可观测性工具；云原生流处理引擎；llama.cpp 优化 GPU
 加速](https://www.bilibili.com/video/BV13N411r7eS)
 <table>

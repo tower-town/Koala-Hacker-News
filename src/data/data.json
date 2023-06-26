@@ -1,4 +1,45 @@
 {
+    "BV19V411u7dP": {
+        "title": "[Hacker News 周报]  Vercel AI SDK 发布；开源 codespaces 替代品；UI 原型工具创新",
+        "aid": 402729235,
+        "bvid": "BV19V411u7dP",
+        "pubdate": 1687688222,
+        "data": [
+            {
+                "name": "DevPod",
+                "intro": "开源 codespaces 替代品",
+                "link": "https://devpod.sh/"
+            },
+            {
+                "name": "Sketch Systems",
+                "intro": "UI 原型工具创新",
+                "link": "https://sketch.systems/"
+            },
+            {
+                "name": "GoAWK",
+                "intro": "Go 的 AWK 语言解释器",
+                "link": "https://benhoyt.com/writings/goawk/"
+            },
+            {
+                "name": "Selecto.js",
+                "intro": "一个区域选择的 UI 组件",
+                "link": "https://daybrush.com/selecto/  和  https://github.com/daybrush"
+            },
+            {
+                "name": "",
+                "intro": "Svelte 发布了 v4 版本",
+                "link": "https://svelte.dev/blog/svelte-4"
+            },
+            {
+                "name": "",
+                "intro": "本周 AI 小结",
+                "link": "https://vercel.com/blog/introducing-the-vercel-ai-sdk"
+            }
+        ],
+        "source": [
+            "https://mailchi.mp/hackernewsletter/657"
+        ]
+    },
     "BV13N411r7eS": {
         "title": "[Hacker News 周报] 轻量级可观测性工具；云原生流处理引擎；llama.cpp 优化 GPU 加速",
         "aid": 487482397,
