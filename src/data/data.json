@@ -1,4 +1,45 @@
 {
+    "BV1eM4y1772Y": {
+        "title": "[Hacker News 周报] 更快的 Segment Anything；轻量级数据库缓存；更好的 React 开发框架",
+        "aid": 912910501,
+        "bvid": "BV1eM4y1772Y",
+        "pubdate": 1688289784,
+        "data": [
+            {
+                "name": "Tabserve",
+                "intro": "一个反向代理工具",
+                "link": "https://tabserve.dev/"
+            },
+            {
+                "name": "ReadySet",
+                "intro": "轻量级数据库缓存",
+                "link": "https://github.com/readysettech/readyset"
+            },
+            {
+                "name": "Refine",
+                "intro": "更好的 React 开发框架",
+                "link": "https://github.com/refinedev/refine"
+            },
+            {
+                "name": "1-Panel",
+                "intro": "开源 Linux 服务器运维管理面板",
+                "link": "https://github.com/1Panel-dev/1Panel"
+            },
+            {
+                "name": "",
+                "intro": "在 Go 程序中实现插件系统",
+                "link": "https://www.youtube.com/watch?v=pRT36VqpljA"
+            },
+            {
+                "name": "",
+                "intro": "本周 AI 小结",
+                "link": "https://about.sourcegraph.com/cody"
+            }
+        ],
+        "source": [
+            "https://mailchi.mp/hackernewsletter/658"
+        ]
+    },
     "BV19V411u7dP": {
         "title": "[Hacker News 周报]  Vercel AI SDK 发布；开源 codespaces 替代品；UI 原型工具创新",
         "aid": 402729235,
