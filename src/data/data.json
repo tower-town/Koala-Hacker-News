@@ -1,4 +1,45 @@
 {
+    "BV13z4y1J73N": {
+        "title": "[Hacker News 周报] 22000 张 GPU 组成超级电脑；通用协同编辑器；高性能列式存储引擎",
+        "aid": 573242140,
+        "bvid": "BV13z4y1J73N",
+        "pubdate": 1688876204,
+        "data": [
+            {
+                "name": "Watermill",
+                "intro": "Go 的事件驱动开发框架",
+                "link": "https://github.com/ThreeDotsLabs/watermill"
+            },
+            {
+                "name": "BlockSuite",
+                "intro": "通用协同编辑器",
+                "link": "https://blocksuite.affine.pro/"
+            },
+            {
+                "name": "Columnar",
+                "intro": "高性能列式存储引擎",
+                "link": "https://github.com/kelindar/column"
+            },
+            {
+                "name": "Kine",
+                "intro": "使用 SQL 数据库运行 k8s",
+                "link": "https://github.com/k3s-io/kine"
+            },
+            {
+                "name": "",
+                "intro": "基于 Three.js 的 3D 解密小游戏",
+                "link": "https://www.thomasfriday.com/cuboid/"
+            },
+            {
+                "name": "",
+                "intro": "一周 AI 小结",
+                "link": "https://twitter.com/OpenAI/status/1677029947544838144 和  https://twitter.com/OpenAI/status/1676072388436594688 和 https://twitter.com/openai/status/1677015057316872192"
+            }
+        ],
+        "source": [
+            "https://mailchi.mp/hackernewsletter/659"
+        ]
+    },
     "BV1eM4y1772Y": {
         "title": "[Hacker News 周报] 更快的 Segment Anything；轻量级数据库缓存；更好的 React 开发框架",
         "aid": 912910501,
