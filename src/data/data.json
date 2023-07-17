@@ -1,4 +1,45 @@
 {
+    "BV1bM4y1x78f": {
+        "title": "[Hacker News 周报] ChatGPT 最强竞争对手；K8s 成本测量工具；开源健身小程序",
+        "aid": 913407064,
+        "bvid": "BV1bM4y1x78f",
+        "pubdate": 1689495408,
+        "data": [
+            {
+                "name": "Vizzu",
+                "intro": "开源的数据可视化动画库",
+                "link": "https://lib.vizzuhq.com/  和 https://lib.vizzuhq.com/latest/showcases/"
+            },
+            {
+                "name": "Workout",
+                "intro": "开源健身小程序",
+                "link": "https://workout.lol/"
+            },
+            {
+                "name": "Immich",
+                "intro": "基于 Flutter 的在线相册应用",
+                "link": "https://github.com/immich-app/immich"
+            },
+            {
+                "name": "OpenCost",
+                "intro": "K8s 成本测量工具",
+                "link": "https://www.opencost.io/"
+            },
+            {
+                "name": "Digger",
+                "intro": "Terraform Cloud 的开源替代品",
+                "link": "https://digger.dev/"
+            },
+            {
+                "name": "",
+                "intro": "一周 AI 小结",
+                "link": "https://www.anthropic.com/index/claude-2"
+            }
+        ],
+        "source": [
+            "https://mailchi.mp/hackernewsletter/660"
+        ]
+    },
     "BV13z4y1J73N": {
         "title": "[Hacker News 周报] 22000 张 GPU 组成超级电脑；通用协同编辑器；高性能列式存储引擎",
         "aid": 573242140,

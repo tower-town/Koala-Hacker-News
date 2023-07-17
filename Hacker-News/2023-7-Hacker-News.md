@@ -1,3 +1,40 @@
+[[Hacker News 周报] ChatGPT 最强竞争对手；K8s
+成本测量工具；开源健身小程序](https://www.bilibili.com/video/BV1bM4y1x78f)
+<table>
+  <theader>
+    <th>名称</th>
+    <th>简介</th>
+    <th>链接</th>
+  </theader>
+  <tbody>
+    <tr>
+      <td>Vizzu</td>
+      <td>开源的数据可视化动画库</td>
+      <td>https://lib.vizzuhq.com/ 和 https://lib.vizzuhq.com/latest/showcases/</td>
+    </tr><tr>
+      <td>Workout</td>
+      <td>开源健身小程序</td>
+      <td>https://workout.lol/</td>
+    </tr><tr>
+      <td>Immich</td>
+      <td>基于 Flutter 的在线相册应用</td>
+      <td>https://github.com/immich-app/immich</td>
+    </tr><tr>
+      <td>OpenCost</td>
+      <td>K8s 成本测量工具</td>
+      <td>https://www.opencost.io/</td>
+    </tr><tr>
+      <td>Digger</td>
+      <td>Terraform Cloud 的开源替代品</td>
+      <td>https://digger.dev/</td>
+    </tr><tr>
+      <td></td>
+      <td>一周 AI 小结</td>
+      <td>https://www.anthropic.com/index/claude-2</td>
+    </tr>
+  </tbody>
+</table>
+
 [[Hacker News 周报] 22000 张 GPU
 组成超级电脑；通用协同编辑器；高性能列式存储引擎](https://www.bilibili.com/video/BV13z4y1J73N)
 <table>
