@@ -1,4 +1,45 @@
 {
+    "BV1Rp4y1V7UT": {
+        "title": "[Hacker News 周报] 浏览器中运行 WordPress；Postgres 数据引擎优化；Meta 发布 Llama2",
+        "aid": 956331314,
+        "bvid": "BV1Rp4y1V7UT",
+        "pubdate": 1690083625,
+        "data": [
+            {
+                "name": "TUI Grid",
+                "intro": "一个功能强大的数据表格库",
+                "link": "https://ui.toast.com/tui-grid"
+            },
+            {
+                "name": "Eruda",
+                "intro": "浏览器调试工具模拟器",
+                "link": "https://github.com/liriliri/eruda"
+            },
+            {
+                "name": "Docuseal",
+                "intro": "电子签名 DocuSign 的开源替代品",
+                "link": "https://github.com/docusealco/docuseal"
+            },
+            {
+                "name": "",
+                "intro": "Wordpress 发布 Wordpress Playground",
+                "link": "https://wordpress.github.io/wordpress-playground/"
+            },
+            {
+                "name": "OrioleDB",
+                "intro": "新的 PostgreSQL 存储引擎",
+                "link": "https://www.orioledata.com/blog/no-more-vacuum-in-postgresql/"
+            },
+            {
+                "name": "",
+                "intro": "一周 AI 小结",
+                "link": "https://ai.meta.com/llama/"
+            }
+        ],
+        "source": [
+            "https://mailchi.mp/hackernewsletter/661"
+        ]
+    },
     "BV1bM4y1x78f": {
         "title": "[Hacker News 周报] ChatGPT 最强竞争对手；K8s 成本测量工具；开源健身小程序",
         "aid": 913407064,

@@ -1,3 +1,40 @@
+[[Hacker News 周报] 浏览器中运行 WordPress；Postgres 数据引擎优化；Meta 发布
+Llama2](https://www.bilibili.com/video/BV1Rp4y1V7UT)
+<table>
+  <theader>
+    <th>名称</th>
+    <th>简介</th>
+    <th>链接</th>
+  </theader>
+  <tbody>
+    <tr>
+      <td>TUI Grid</td>
+      <td>一个功能强大的数据表格库</td>
+      <td>https://ui.toast.com/tui-grid</td>
+    </tr><tr>
+      <td>Eruda</td>
+      <td>浏览器调试工具模拟器</td>
+      <td>https://github.com/liriliri/eruda</td>
+    </tr><tr>
+      <td>Docuseal</td>
+      <td>电子签名 DocuSign 的开源替代品</td>
+      <td>https://github.com/docusealco/docuseal</td>
+    </tr><tr>
+      <td></td>
+      <td>Wordpress 发布 Wordpress Playground</td>
+      <td>https://wordpress.github.io/wordpress-playground/</td>
+    </tr><tr>
+      <td>OrioleDB</td>
+      <td>新的 PostgreSQL 存储引擎</td>
+      <td>https://www.orioledata.com/blog/no-more-vacuum-in-postgresql/</td>
+    </tr><tr>
+      <td></td>
+      <td>一周 AI 小结</td>
+      <td>https://ai.meta.com/llama/</td>
+    </tr>
+  </tbody>
+</table>
+
 [[Hacker News 周报] ChatGPT 最强竞争对手；K8s
 成本测量工具；开源健身小程序](https://www.bilibili.com/video/BV1bM4y1x78f)
 <table>
