@@ -1,3 +1,41 @@
+[[Hacker News 周报] 面向边缘场景设计的 Web 框架；功能更强的 PostgresSQL 池化工具；GitHub Copilot
+开源竞品](https://www.bilibili.com/video/BV1bj41197vF)
+<table>
+  <theader>
+    <th>名称</th>
+    <th>简介</th>
+    <th>链接</th>
+  </theader>
+  <tbody>
+    <tr>
+      <td>Vegeta</td>
+      <td>HTTP API 性能测试工具</td>
+      <td>https://github.com/tsenart/vegeta</td>
+    </tr><tr>
+      <td>PgCat</td>
+      <td>PostgreSQL 连接池管理器</td>
+      <td>https://github.com/postgresml/pgcat</td>
+    </tr><tr>
+      <td>Hono</td>
+      <td>面向边缘场景设计的 Web 框架</td>
+      <td>https://hono.dev/</td>
+    </tr><tr>
+      <td>Risor</td>
+      <td>用于 Go 项目的的嵌入式脚本语言</td>
+      <td>https://risor.io/</td>
+    </tr><tr>
+      <td>Croner</td>
+      <td>基于 JavaScript 编写的定时编排工具</td>
+      <td>https://github.com/Hexagon/croner</td>
+    </tr><tr>
+      <td></td>
+      <td>一周 AI 小结</td>
+      <td>https://stability.ai/blog/stable-diffusion-sdxl-1-announcement 及
+        https://stability.ai/blog/stable-beluga-large-instruction-fine-tuned-models</td>
+    </tr>
+  </tbody>
+</table>
+
 [[Hacker News 周报] 浏览器中运行 WordPress；Postgres 数据引擎优化；Meta 发布
 Llama2](https://www.bilibili.com/video/BV1Rp4y1V7UT)
 <table>
