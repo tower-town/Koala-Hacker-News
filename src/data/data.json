@@ -1,4 +1,45 @@
 {
+    "BV1m44y1w7DU": {
+        "title": "[Hacker News 周报] Bloomberg 开源高性能消息队列；Go 语言新工具；Meta 开源 AI 音乐生成模型",
+        "aid": 999399370,
+        "bvid": "BV1m44y1w7DU",
+        "pubdate": 1691377156,
+        "data": [
+            {
+                "name": "",
+                "intro": "Bloomberg 开源高性能消息队列 BlazingMQ",
+                "link": "https://bloomberg.github.io/blazingmq/"
+            },
+            {
+                "name": "",
+                "intro": "开源列式数据库 Hydra 发布 1.0 版本",
+                "link": "https://www.hydra.so/"
+            },
+            {
+                "name": "PythonMonkey",
+                "intro": "实现 Python 与 JavaScript 的互操作性",
+                "link": "https://medium.com/@willkantorpringle/pythonmonkey-javascript-wasm-interop-in-python-using-spidermonkey-bindings-4a8efce2e598"
+            },
+            {
+                "name": "gonew",
+                "intro": "Go 语言新工具",
+                "link": "https://go.dev/blog/gonew"
+            },
+            {
+                "name": "",
+                "intro": "一篇介绍内存泄漏的文章？",
+                "link": "https://v8.dev/blog/speeding-up-v8-heap-snapshots"
+            },
+            {
+                "name": "",
+                "intro": "一周 AI 小结",
+                "link": "https://about.fb.com/news/2023/08/audiocraft-generative-ai-for-music-and-audio https://blog.google/technology/ai/google-deepmind-rt2-robotics-vla-model/  https://www.prettypolly.app/"
+            }
+        ],
+        "source": [
+            "https://mailchi.mp/hackernewsletter/662663"
+        ]
+    },
     "BV1bj41197vF": {
         "title": "[Hacker News 周报] 面向边缘场景设计的 Web 框架；功能更强的 PostgresSQL 池化工具；GitHub Copilot 开源竞品",
         "aid": 446594335,
