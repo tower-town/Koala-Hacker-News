@@ -1,4 +1,50 @@
 {
+    "BV1hp4y1g7mh": {
+        "title": "[Hacker News 周报] 开源 RDS 替代方案；Mac 应用管理工具；Deno 中调用 Python 模块",
+        "aid": 957239753,
+        "bvid": "BV1hp4y1g7mh",
+        "pubdate": 1691913090,
+        "data": [
+            {
+                "name": "deno_python",
+                "intro": "Deno 中调用 Python 模块",
+                "link": "https://github.com/denosaurs/deno_python"
+            },
+            {
+                "name": "Postgres Language Server",
+                "intro": "为 Postgres 数据库提供语言服务协议支持",
+                "link": "https://github.com/supabase/postgres_lsp"
+            },
+            {
+                "name": "Pigsty",
+                "intro": "开源 RDS 替代方案",
+                "link": "https://github.com/Vonng/pigsty"
+            },
+            {
+                "name": "Applite",
+                "intro": "Mac 应用管理工具",
+                "link": "https://github.com/milanvarady/applite"
+            },
+            {
+                "name": "Dioxus",
+                "intro": "Rust 编写的跨平台 GUI 框架",
+                "link": "https://github.com/DioxusLabs/dioxus"
+            },
+            {
+                "name": "katana",
+                "intro": "Go 编写的内容抓取框架",
+                "link": "https://github.com/projectdiscovery/katana"
+            },
+            {
+                "name": "",
+                "intro": "缅怀 Vim 之父",
+                "link": ""
+            }
+        ],
+        "source": [
+            "https://mailchi.mp/hackernewsletter/664"
+        ]
+    },
     "BV1m44y1w7DU": {
         "title": "[Hacker News 周报] Bloomberg 开源高性能消息队列；Go 语言新工具；Meta 开源 AI 音乐生成模型",
         "aid": 999399370,
