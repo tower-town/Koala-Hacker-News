@@ -8,18 +8,18 @@ export class Collect extends Api {
 	}
 
 	initUrl() {
-		let api_data = this.data["collect"]!;
-		let url = new URL(api_data["url"]);
-		let params = new URLSearchParams(api_data["params"]);
+		const api_data = this.data["collect"]!;
+		const url = new URL(api_data["url"]);
+		const params = new URLSearchParams(api_data["params"]);
 
-		let urls: URL[] = [];
+		const urls: URL[] = [];
 		urls.push(Utils.parseUrl(url, params));
 
 		return urls;
 	}
 
 	checkCollect(json_data: JsonData, data: BvidData) {
-		let { bvid } = data;
+		const { bvid } = data;
 
 		if (!json_data[bvid]) {
 			json_data[bvid] = data;
