@@ -1,3 +1,40 @@
+[[Hacker News 周报] 协同 Lottie 动画创作工具；轻量级 systemd 服务管理工具；使用 PS 一样使用 Diffusion
+AI](https://www.bilibili.com/video/BV1Tz4y1u7VR)
+<table>
+  <theader>
+    <th>名称</th>
+    <th>简介</th>
+    <th>链接</th>
+  </theader>
+  <tbody>
+    <tr>
+      <td>LottieLab</td>
+      <td>协同 Lottie 动画创作工具</td>
+      <td>https://www.lottielab.com/</td>
+    </tr><tr>
+      <td>servicer</td>
+      <td>轻量级 systemd 服务管理工具</td>
+      <td>https://servicer.dev/</td>
+    </tr><tr>
+      <td>gRPCurl</td>
+      <td>和 gRPC 服务器进行交互的 CLI 工具</td>
+      <td>https://github.com/fullstorydev/grpcurl</td>
+    </tr><tr>
+      <td>Opendream</td>
+      <td>像使用 Photoshop 一样使用 Diffusion AI</td>
+      <td>https://github.com/varunshenoy/opendream</td>
+    </tr><tr>
+      <td>Retake</td>
+      <td>PostgreSQL 向量数据库解决方案</td>
+      <td>https://www.getretake.com/</td>
+    </tr><tr>
+      <td>Logto</td>
+      <td>Auth0 的开源替代品</td>
+      <td>https://github.com/logto-io/logto</td>
+    </tr>
+  </tbody>
+</table>
+
 [[Hacker News 周报] 开源 RDS 替代方案；Mac 应用管理工具；Deno 中调用 Python
 模块](https://www.bilibili.com/video/BV1hp4y1g7mh)
 <table>

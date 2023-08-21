@@ -1,4 +1,45 @@
 {
+    "BV1Tz4y1u7VR": {
+        "title": "[Hacker News 周报] 协同 Lottie 动画创作工具；轻量级 systemd 服务管理工具；使用 PS 一样使用 Diffusion AI",
+        "aid": 574943888,
+        "bvid": "BV1Tz4y1u7VR",
+        "pubdate": 1692521079,
+        "data": [
+            {
+                "name": "LottieLab",
+                "intro": "协同 Lottie 动画创作工具",
+                "link": "https://www.lottielab.com/"
+            },
+            {
+                "name": "servicer",
+                "intro": "轻量级 systemd 服务管理工具",
+                "link": "https://servicer.dev/"
+            },
+            {
+                "name": "gRPCurl",
+                "intro": "和 gRPC 服务器进行交互的 CLI 工具",
+                "link": "https://github.com/fullstorydev/grpcurl"
+            },
+            {
+                "name": "Opendream",
+                "intro": "像使用 Photoshop 一样使用 Diffusion AI",
+                "link": "https://github.com/varunshenoy/opendream"
+            },
+            {
+                "name": "Retake",
+                "intro": "PostgreSQL 向量数据库解决方案",
+                "link": "https://www.getretake.com/"
+            },
+            {
+                "name": "Logto",
+                "intro": "Auth0 的开源替代品",
+                "link": "https://github.com/logto-io/logto"
+            }
+        ],
+        "source": [
+            "https://mailchi.mp/hackernewsletter/665"
+        ]
+    },
     "BV1hp4y1g7mh": {
         "title": "[Hacker News 周报] 开源 RDS 替代方案；Mac 应用管理工具；Deno 中调用 Python 模块",
         "aid": 957239753,
