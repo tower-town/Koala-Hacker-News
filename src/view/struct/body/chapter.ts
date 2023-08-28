@@ -33,7 +33,7 @@ export class ChapterBody {
                 const cpath = path.join(this.#chapterPath, k);
                 const data = _.chain(v)
                     .reduce((memo, v) => {
-                        return memo + "\n" + this.#markdown.getTab(v);
+                        return memo + this.#markdown.getTab(v);
                     }, "")
                     .value();
                 // console.warn(cpath, data);

@@ -79,6 +79,12 @@
         ],
         "source": [
             "https://www.daemonology.net/hn-daily/"
+        ],
+        "ai": [
+            "https://stability.ai/blog/stable-diffusion-sdxl-1-announcement",
+            "https://stability.ai/blog/stable-beluga-large-instruction-fine-tuned-models",
+            "https://github.com/continuedev/continue。",
+            "https://the-decoder.com/ai-researcher-geoffrey-hinton-thinks-ai-has-or-will-have-emotions"
         ]
     },
     "BV1Rp4y1V7UT": {
@@ -243,6 +249,11 @@
         ],
         "source": [
             "https://mailchi.mp/hackernewsletter/658"
+        ],
+        "ai": [
+            "https://about.sourcegraph.com/cody",
+            "https://github.com/ChaoningZhang/MobileSAM",
+            "https://github.com/imgly/background-removal-js"
         ]
     },
     "BV19V411u7dP": {
@@ -325,6 +336,12 @@
         ],
         "source": [
             "https://mailchi.mp/hackernewsletter/656"
+        ],
+        "ai": [
+            "https://github.com/ggerganov/llama.cpp/pull/1827",
+            "https://techcrunch.com/2023/06/12/meta-open-sources-an-ai-powered-music-generator",
+            "https://github.com/baichuan-inc/baichuan-7B",
+            "https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/the-economic-potential-of-generative-ai-the-next-productivity-frontier"
         ]
     },
     "BV1Wo4y1N7ZP": {
@@ -494,7 +511,8 @@
         ],
         "source": [
             "https://mailchi.mp/hackernewsletter/652"
-        ]
+        ],
+        "ai": []
     },
     "BV1Wg4y1V7GJ": {
         "title": "[Hacker News 周报] 支持十万 token 的 AI 对话模型；MySQL + Git = Dolt；React Native 优化编译器",
@@ -535,7 +553,8 @@
         ],
         "source": [
             "https://mailchi.mp/hackernewsletter/651"
-        ]
+        ],
+        "ai": []
     },
     "BV1x24y1T7Tf": {
         "title": "[Hacker News 周报] 面向 AI 的编程语言 Mojo、Mozilla 收购新动向、基于 V8 的开源 serverless 平台",
@@ -617,7 +636,8 @@
         ],
         "source": [
             "https://mailchi.mp/hackernewsletter/649"
-        ]
+        ],
+        "ai": []
     },
     "BV1Rg4y1j7rZ": {
         "title": "[Hacker News 周报] 轻量灵活的 BI 工具；高性能数据库连接池；开源函数服务框架",
@@ -658,7 +678,8 @@
         ],
         "source": [
             "https://mailchi.mp/hackernewsletter/648"
-        ]
+        ],
+        "ai": []
     },
     "BV1vh411u78w": {
         "title": "[Hacker News 周报] 面向开发者的 AI 搜索引擎；交互式代码文档；有趣的人体键盘",
@@ -740,7 +761,8 @@
         ],
         "source": [
             "https://mailchi.mp/hackernewsletter/645-2562316?e=afe3b8e060"
-        ]
+        ],
+        "ai": []
     },
     "BV1fX4y1r7CW": {
         "title": "[Hacker News 周报] 在编辑器中和 AI 结对编程；高性能 Go 哈希表；训练自己的 AI 模型",
@@ -1257,7 +1279,8 @@
         ],
         "source": [
             "https://mailchi.mp/hackernewsletter/634"
-        ]
+        ],
+        "ai": []
     },
     "BV1ad4y1E7SC": {
         "title": "[Hacker News 周报] 发布 clickhouse-local；使用 HTTP/3 连接 MySQL；使用 WebAssembly 运行 Vim",
@@ -1433,9 +1456,6 @@
         "aid": 563747625,
         "bvid": "BV1Gv4y197md",
         "pubdate": 1670745669,
-        "source": [
-            "https://mailchi.mp/hackernewsletter/630"
-        ],
         "data": [
             {
                 "name": "Pynecone",
@@ -1467,6 +1487,9 @@
                 "intro": "创建 low-poly 视觉风格的 3D 模型编辑器",
                 "link": "https://github.com/JannisX11/blockbench"
             }
+        ],
+        "source": [
+            "https://mailchi.mp/hackernewsletter/630"
         ]
     },
     "BV1tP4y1Q7Vt": {
@@ -1474,9 +1497,6 @@
         "aid": 903386514,
         "bvid": "BV1tP4y1Q7Vt",
         "pubdate": 1670214550,
-        "source": [
-            "https://mailchi.mp/hackernewsletter/629"
-        ],
         "data": [
             {
                 "name": "",
@@ -1513,16 +1533,17 @@
                 "intro": "数据库详解电子书",
                 "link": "https://sqlfordevs.com/ebook"
             }
-        ]
+        ],
+        "source": [
+            "https://mailchi.mp/hackernewsletter/629"
+        ],
+        "ai": []
     },
     "BV1Z24y1C793": {
         "title": "[Hacker News 周报] Stable Diffusion AI 作画 V2；开源数据可视化平台；命令行的艺术",
         "aid": 690620840,
         "bvid": "BV1Z24y1C793",
         "pubdate": 1669522184,
-        "source": [
-            "https://www.daemonology.net/hn-daily/"
-        ],
         "data": [
             {
                 "name": "Script Kit",
@@ -1559,6 +1580,9 @@
                 "intro": "帮助创作技术文档的写作框架",
                 "link": "https://diataxis.fr/"
             }
+        ],
+        "source": [
+            "https://www.daemonology.net/hn-daily/"
         ]
     },
     "BV1oP4y197dF": {
@@ -1566,9 +1590,6 @@
         "aid": 902826595,
         "bvid": "BV1oP4y197dF",
         "pubdate": 1668904507,
-        "source": [
-            "https://mailchi.mp/hackernewsletter/628"
-        ],
         "data": [
             {
                 "name": "Redpanda",
@@ -1600,6 +1621,9 @@
                 "intro": "Mathematica 开源替代品",
                 "link": "https://mathics.org/"
             }
+        ],
+        "source": [
+            "https://mailchi.mp/hackernewsletter/628"
         ]
     },
     "BV1oY411Z7mU": {
@@ -1607,9 +1631,6 @@
         "aid": 262544844,
         "bvid": "BV1oY411Z7mU",
         "pubdate": 1668299400,
-        "source": [
-            "https://www.daemonology.net/hn-daily/"
-        ],
         "data": [
             {
                 "name": "Github Next",
@@ -1646,6 +1667,9 @@
                 "intro": ".Net 发布了新版本 .Net7",
                 "link": "https://devblogs.microsoft.com/dotnet/announcing-dotnet-7/"
             }
+        ],
+        "source": [
+            "https://www.daemonology.net/hn-daily/"
         ]
     },
     "BV1u14y157NA": {
@@ -1653,9 +1677,6 @@
         "aid": 774867810,
         "bvid": "BV1u14y157NA",
         "pubdate": 1667708609,
-        "source": [
-            "https://mailchi.mp/hackernewsletter/627"
-        ],
         "data": [
             {
                 "name": "phlare",
@@ -1692,6 +1713,9 @@
                 "intro": "Heroku 免费替代品",
                 "link": "https://github.com/Engagespot/heroku-free-alternatives"
             }
+        ],
+        "source": [
+            "https://mailchi.mp/hackernewsletter/627"
         ]
     },
     "BV1DD4y1b76j": {
@@ -1699,9 +1723,6 @@
         "aid": 732078145,
         "bvid": "BV1DD4y1b76j",
         "pubdate": 1667089800,
-        "source": [
-            "https://mailchi.mp/hackernewsletter/626"
-        ],
         "data": [
             {
                 "name": "",
@@ -1738,6 +1759,9 @@
                 "intro": "自定义主页工具",
                 "link": "https://startertab.com/"
             }
+        ],
+        "source": [
+            "https://mailchi.mp/hackernewsletter/626"
         ]
     },
     "BV14G4y1H7VM": {
@@ -1745,9 +1769,6 @@
         "aid": 816812753,
         "bvid": "BV14G4y1H7VM",
         "pubdate": 1666485000,
-        "source": [
-            "https://mailchi.mp/hackernewsletter/625"
-        ],
         "data": [
             {
                 "name": "Tabby",
@@ -1784,6 +1805,9 @@
                 "intro": "Koala 频道观众贡献的 2 个 Hacker News 周报检索项目",
                 "link": "https://github.com/ZutJoe/Koala_hacker_news"
             }
+        ],
+        "source": [
+            "https://mailchi.mp/hackernewsletter/625"
         ]
     },
     "BV1Ae411V7UR": {
@@ -1791,9 +1815,6 @@
         "aid": 261620356,
         "bvid": "BV1Ae411V7UR",
         "pubdate": 1665892131,
-        "source": [
-            "https://mailchi.mp/hackernewsletter/624"
-        ],
         "data": [
             {
                 "name": "",
@@ -1830,6 +1851,9 @@
                 "intro": "Go 语言设计讨论",
                 "link": "https://github.com/golang/go/discussions/56010"
             }
+        ],
+        "source": [
+            "https://mailchi.mp/hackernewsletter/624"
         ]
     },
     "BV1GR4y1R7Yw": {
@@ -1837,9 +1861,6 @@
         "aid": 346450481,
         "bvid": "BV1GR4y1R7Yw",
         "pubdate": 1665272949,
-        "source": [
-            "https://mailchi.mp/hackernewsletter/623"
-        ],
         "data": [
             {
                 "name": "sharing",
@@ -1876,6 +1897,9 @@
                 "intro": "TypeScript  10 years anniversary",
                 "link": "https://devblogs.microsoft.com/typescript/ten-years-of-typescript/"
             }
+        ],
+        "source": [
+            "https://mailchi.mp/hackernewsletter/623"
         ]
     },
     "BV1td4y1B7Y1": {
@@ -1883,9 +1907,6 @@
         "aid": 388741659,
         "bvid": "BV1td4y1B7Y1",
         "pubdate": 1664766366,
-        "source": [
-            "https://mailchi.mp/hackernewsletter/622"
-        ],
         "data": [
             {
                 "name": "SigNoz",
@@ -1922,6 +1943,9 @@
                 "intro": "Google 计划关停云游戏服务 Stadia",
                 "link": "https://www.theverge.com/2022/9/29/23378713/google-stadia-shutting-down-game-streaming-january-2023"
             }
+        ],
+        "source": [
+            "https://mailchi.mp/hackernewsletter/622"
         ]
     },
     "BV1Je4y1r7B4": {
@@ -1929,9 +1953,6 @@
         "aid": 558499331,
         "bvid": "BV1Je4y1r7B4",
         "pubdate": 1664065800,
-        "source": [
-            "https://mailchi.mp/hackernewsletter/621"
-        ],
         "data": [
             {
                 "name": "GitUI",
@@ -1973,6 +1994,9 @@
                 "intro": "Azure CTO Mark Russinovich 发推引发热议",
                 "link": "https://twitter.com/markrussinovich/status/1571995117233504257"
             }
+        ],
+        "source": [
+            "https://mailchi.mp/hackernewsletter/621"
         ]
     },
     "BV1QP411H7rM": {
@@ -1980,9 +2004,6 @@
         "aid": 303210611,
         "bvid": "BV1QP411H7rM",
         "pubdate": 1663461000,
-        "source": [
-            "https://mailchi.mp/hackernewsletter/620"
-        ],
         "data": [
             {
                 "name": "Figma 被收购引发在线设计工具新动向 00:31 penpot",
@@ -2019,6 +2040,9 @@
                 "intro": "在 M1 Mac 上运行 Stable Diffusion 的桌面端应用",
                 "link": "https://safeql.dev/"
             }
+        ],
+        "source": [
+            "https://mailchi.mp/hackernewsletter/620"
         ]
     },
     "BV1Pe4y187LV": {
@@ -2026,9 +2050,6 @@
         "aid": 560499744,
         "bvid": "BV1Pe4y187LV",
         "pubdate": 1662856200,
-        "source": [
-            "https://mailchi.mp/hackernewsletter/619"
-        ],
         "data": [
             {
                 "name": "Difftastic",
@@ -2065,6 +2086,9 @@
                 "intro": "PREACT 状态管理新方案",
                 "link": "https://preactjs.com/blog/introducing-signals/"
             }
+        ],
+        "source": [
+            "https://mailchi.mp/hackernewsletter/619"
         ]
     },
     "BV19e411g7qe": {
@@ -2072,9 +2096,6 @@
         "aid": 260156898,
         "bvid": "BV19e411g7qe",
         "pubdate": 1662251400,
-        "source": [
-            "https://mailchi.mp/hackernewsletter/618"
-        ],
         "data": [
             {
                 "name": "Devbox",
@@ -2116,6 +2137,9 @@
                 "intro": "GitHub 开发者关系副总裁回复移除 Trending",
                 "link": "https://github.com/community/community/discussions/31644"
             }
+        ],
+        "source": [
+            "https://mailchi.mp/hackernewsletter/618"
         ]
     },
     "BV1qa411G7kd": {
@@ -2123,9 +2147,6 @@
         "aid": 217441979,
         "bvid": "BV1qa411G7kd",
         "pubdate": 1661657733,
-        "source": [
-            "https://mailchi.mp/hackernewsletter/617"
-        ],
         "data": [
             {
                 "name": "Stable Diffusion",
@@ -2157,6 +2178,9 @@
                 "intro": "80 岁计算机科学家仍在优化开源代码",
                 "link": "https://fly.io/blog/sqlite-internals-wal"
             }
+        ],
+        "source": [
+            "https://mailchi.mp/hackernewsletter/617"
         ]
     },
     "BV1bg411r7Fg": {
@@ -2164,9 +2188,6 @@
         "aid": 514731265,
         "bvid": "BV1bg411r7Fg",
         "pubdate": 1661041800,
-        "source": [
-            "https://mailchi.mp/hackernewsletter/616"
-        ],
         "data": [
             {
                 "name": "Numpad",
@@ -2198,6 +2219,9 @@
                 "intro": "JSON5 作者的一篇博客",
                 "link": "https://aseemk.substack.com/p/ignore-the-f-ing-haters-json5"
             }
+        ],
+        "source": [
+            "https://mailchi.mp/hackernewsletter/616"
         ]
     },
     "BV1UB4y1t7cW": {
@@ -2205,9 +2229,6 @@
         "aid": 601882126,
         "bvid": "BV1UB4y1t7cW",
         "pubdate": 1660437000,
-        "source": [
-            "https://www.daemonology.net/hn-daily/"
-        ],
         "data": [
             {
                 "name": "",
@@ -2239,6 +2260,9 @@
                 "intro": "一篇介绍 Redis 技术细节的文章",
                 "link": "https://architecturenotes.co/redis/"
             }
+        ],
+        "source": [
+            "https://www.daemonology.net/hn-daily/"
         ]
     },
     "BV1VN4y1j7Pd": {
@@ -2246,9 +2270,6 @@
         "aid": 899145721,
         "bvid": "BV1VN4y1j7Pd",
         "pubdate": 1659832200,
-        "source": [
-            "https://mailchi.mp/hackernewsletter/615"
-        ],
         "data": [
             {
                 "name": "",
@@ -2280,6 +2301,9 @@
                 "intro": "用 DALL·E 2 生成 logo 图片的分享文章",
                 "link": "https://jacobmartins.com/posts/how-i-used-dalle2-to-generate-the-logo-for-octosql/"
             }
+        ],
+        "source": [
+            "https://mailchi.mp/hackernewsletter/615"
         ]
     },
     "BV1mT411j7LR": {
@@ -2287,9 +2311,6 @@
         "aid": 471440344,
         "bvid": "BV1mT411j7LR",
         "pubdate": 1659227400,
-        "source": [
-            "https://mailchi.mp/hackernewsletter/614"
-        ],
         "data": [
             {
                 "name": "Blueboat",
@@ -2321,16 +2342,17 @@
                 "intro": "K8s 提出了 Gateway 网关 API",
                 "link": "https://www.armosec.io/blog/kubernetes-gateway-api"
             }
-        ]
+        ],
+        "source": [
+            "https://mailchi.mp/hackernewsletter/614"
+        ],
+        "ai": []
     },
     "BV1hV4y177P9": {
         "title": "[Hacker News 周报] Google 发布新编程语言 Carbon；低代码工具开发框架榫卯；AI 系统 DALL·E 开放 Beta 测试",
         "aid": 856201719,
         "bvid": "BV1hV4y177P9",
         "pubdate": 1658622600,
-        "source": [
-            "https://mailchi.mp/hackernewsletter/613"
-        ],
         "data": [
             {
                 "name": "",
@@ -2362,6 +2384,9 @@
                 "intro": "一篇关于 Scratch 潜能的文章",
                 "link": "https://www.bryanbraun.com/2022/07/16/scratch-is-a-big-deal"
             }
+        ],
+        "source": [
+            "https://mailchi.mp/hackernewsletter/613"
         ]
     },
     "BV16N4y1T7Hu": {
@@ -2369,9 +2394,6 @@
         "aid": 898526676,
         "bvid": "BV16N4y1T7Hu",
         "pubdate": 1658018208,
-        "source": [
-            "https://mailchi.mp/hackernewsletter/612"
-        ],
         "data": [
             {
                 "name": "",
@@ -2403,6 +2425,9 @@
                 "intro": "推荐《PostgreSQL 14 Internals》一书",
                 "link": "https://postgrespro.com/community/books/internals"
             }
+        ],
+        "source": [
+            "https://mailchi.mp/hackernewsletter/612"
         ]
     },
     "BV1Wg411f7VV": {
@@ -2410,9 +2435,6 @@
         "aid": 513340184,
         "bvid": "BV1Wg411f7VV",
         "pubdate": 1657413000,
-        "source": [
-            "https://mailchi.mp/hackernewsletter/611"
-        ],
         "data": [
             {
                 "name": "Bun",
@@ -2444,6 +2466,9 @@
                 "intro": "一篇关于 rsync 工作原理的文章",
                 "link": "https://michael.stapelberg.ch/posts/2022-07-02-rsync-how-does-it-work"
             }
+        ],
+        "source": [
+            "https://mailchi.mp/hackernewsletter/611"
         ]
     },
     "BV1Xr4y1M7T7": {
@@ -2451,9 +2476,6 @@
         "aid": 770511400,
         "bvid": "BV1Xr4y1M7T7",
         "pubdate": 1656808200,
-        "source": [
-            "https://mailchi.mp/hackernewsletter/610"
-        ],
         "data": [
             {
                 "name": "Pyroscope",
@@ -2485,6 +2507,9 @@
                 "intro": "书签管理小工具",
                 "link": "https://raindrop.io/"
             }
+        ],
+        "source": [
+            "https://mailchi.mp/hackernewsletter/610"
         ]
     },
     "BV1B3411u7ZG": {
@@ -2492,9 +2517,6 @@
         "aid": 427756499,
         "bvid": "BV1B3411u7ZG",
         "pubdate": 1656203400,
-        "source": [
-            "https://mailchi.mp/hackernewsletter/609"
-        ],
         "data": [
             {
                 "name": "",
@@ -2536,6 +2558,9 @@
                 "intro": "Deno 完成 A 轮融资",
                 "link": "https://deno.com/blog/series-a"
             }
+        ],
+        "source": [
+            "https://mailchi.mp/hackernewsletter/609"
         ]
     },
     "BV1sY411T7QL": {
@@ -2543,9 +2568,6 @@
         "aid": 257594368,
         "bvid": "BV1sY411T7QL",
         "pubdate": 1655598599,
-        "source": [
-            "https://mailchi.mp/hackernewsletter/608"
-        ],
         "data": [
             {
                 "name": "FRESH",
@@ -2582,6 +2604,9 @@
                 "intro": "程序员社交新尝试",
                 "link": "https://connectdome.com/"
             }
+        ],
+        "source": [
+            "https://mailchi.mp/hackernewsletter/608"
         ]
     },
     "BV1rS4y1i72U": {
@@ -2589,9 +2614,6 @@
         "aid": 727379202,
         "bvid": "BV1rS4y1i72U",
         "pubdate": 1654993800,
-        "source": [
-            "https://mailchi.mp/hackernewsletter/607"
-        ],
         "data": [
             {
                 "name": "Knight Lab",
@@ -2623,6 +2645,9 @@
                 "intro": "一组帮助思考的工具和方法论",
                 "link": "https://untools.co/"
             }
+        ],
+        "source": [
+            "https://mailchi.mp/hackernewsletter/607"
         ]
     },
     "BV1L34y1L7zK": {
@@ -2630,9 +2655,6 @@
         "aid": 812156413,
         "bvid": "BV1L34y1L7zK",
         "pubdate": 1654389000,
-        "source": [
-            "https://mailchi.mp/hackernewsletter/606"
-        ],
         "data": [
             {
                 "name": "Dragonfly",
@@ -2674,6 +2696,9 @@
                 "intro": "FFmpeg 命令生成工具",
                 "link": "https://evanhahn.github.io/ffmpeg-buddy/"
             }
+        ],
+        "source": [
+            "https://mailchi.mp/hackernewsletter/606"
         ]
     },
     "BV1pY4y1z7Vx": {
@@ -2681,9 +2706,6 @@
         "aid": 639600552,
         "bvid": "BV1pY4y1z7Vx",
         "pubdate": 1653784200,
-        "source": [
-            "https://mailchi.mp/hackernewsletter/605"
-        ],
         "data": [
             {
                 "name": "PikaScript",
@@ -2720,6 +2742,9 @@
                 "intro": "一个有趣的 3D 植物生成工具",
                 "link": "https://plant.jim-fx.com/"
             }
+        ],
+        "source": [
+            "https://mailchi.mp/hackernewsletter/605"
         ]
     },
     "BV13a411E7AQ": {
@@ -2727,9 +2752,6 @@
         "aid": 214334199,
         "bvid": "BV13a411E7AQ",
         "pubdate": 1653179401,
-        "source": [
-            "https://mailchi.mp/hackernewsletter/604"
-        ],
         "data": [
             {
                 "name": "Bud",
@@ -2766,6 +2788,9 @@
                 "intro": "一个汇集大厂架构分析的专栏频道",
                 "link": "https://quastor.substack.com/"
             }
+        ],
+        "source": [
+            "https://mailchi.mp/hackernewsletter/604"
         ]
     },
     "BV1kT4y1B7Nh": {

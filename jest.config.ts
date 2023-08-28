@@ -56,7 +56,7 @@ export default {
 	// },
 
 	// Force coverage collection from ignored files using an array of glob patterns
-	// forceCoverageMatch: [],
+	forceCoverageMatch: ["./test/data/*"],
 
 	// A path to a module which exports an async function that is triggered once before all test suites
 	// globalSetup: undefined,
@@ -188,7 +188,7 @@ export default {
 	// verbose: undefined,
 
 	// An array of regexp patterns that are matched against all source file paths before re-running tests in watch mode
-	watchPathIgnorePatterns: ["./test/data"],
+	watchPathIgnorePatterns: ["./test/data/*"],
 
 	// Whether to use watchman for file crawling
 	// watchman: true,

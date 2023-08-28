@@ -20,7 +20,15 @@ export abstract class BaseDAO {
 	}
 
 	async writeData<T>(filePath: string, data: T): Promise<void> {
-		const dataJson = JSON.stringify(data, null, 4);
-		Utils.writeFile(filePath, dataJson);
+		try {
+			if (data === "") {
+				throw new Error("data is empty");
+			}
+			const dataJson = JSON.stringify(data, null, 4);
+			Utils.writeFile(filePath, dataJson);
+		}
+		catch (err) {
+			throw new Error(`${err}`);
+		}
 	}
 }

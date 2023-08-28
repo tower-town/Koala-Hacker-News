@@ -17,7 +17,7 @@ import { ViewStruct } from "../../../src/view/struct/index";
 const struct = new ViewStruct();
 
 test("test StructBody", async () => {
-    const main = struct.main
+    const main = struct;
     const hnlist = await new HackerNewsList().getList()
-    await main.loadChapterList(hnlist)
+    await main.updateData(hnlist)
 })
