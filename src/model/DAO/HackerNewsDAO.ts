@@ -11,20 +11,11 @@
  * ====================================================
  */
 
-import { HackerNews } from "../beam/HackerNews";
+import { HackerNews } from "../beamer/HackerNews";
 
 export interface HackerNewsDAO {
-	tranformListToMap(hackernewsList: HackerNews[]): Record<string, HackerNews>;
+	getList(): Promise<HackerNews[]>;
+	getMap(): Promise<Map<string, HackerNews>>;
 
-	tranformMapToList(hackernewsMap: Record<string, HackerNews>): HackerNews[];
-
-	get HackerNewsList(): HackerNews[];
-
-	get HackerNewsMap(): Record<string, HackerNews>;
-
-	updateHackerNews(hackernews: HackerNews): boolean;
-
-	saveHackerNews(jsonPath: string, data: HackerNews[]): void;
-
-	get Bvids(): string[] | undefined;
+	updateList(hnlist: HackerNews[], hn: HackerNews): Promise<void>;
 }

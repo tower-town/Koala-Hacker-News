@@ -26,13 +26,8 @@ interface ApiParams {
 	params: URLSearchParams;
 }
 
-export class Api {
-	data: ApiData;
-	constructor() {
-		this.data = this.init();
-	}
-
-	init(): ApiData {
+export class ApiBase {
+	static init(): ApiData {
 		const api_path = path.join(__dirname, "../../data/bilibili-api.jsonc");
 		const api_data = JSON5.parse(Utils.readFile(api_path));
 		return api_data;

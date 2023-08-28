@@ -1,30 +1,7 @@
 import fs from "fs";
-import { Sort } from "./sort";
 import { JsonData, Response } from "../types/type";
 
 export class Utils {
-	constructor() {}
-	static sortJson(json_data: JsonData, keyword: keyof JsonData[string]) {
-		const pubdates_dict: { [data: string]: string } = {};
-		const sort_data: JsonData = {};
-
-		for (const key in json_data) {
-			const index = json_data[key][keyword]!;
-			pubdates_dict[index.toString()] = key;
-		}
-
-		const pubdates = Object.keys(pubdates_dict);
-		const right_index = pubdates.length - 1;
-		const sort = new Sort({ flag: false });
-		sort.quicksort(pubdates, 0, right_index);
-
-		pubdates.forEach((pubdate, _) => {
-			const key = pubdates_dict[pubdate];
-			sort_data[key] = json_data[key];
-		});
-
-		return sort_data;
-	}
 
 	static parseUrl(url: URL, params: URLSearchParams): URL {
 		const url_params = new URL(`${url.toString()}?${params.toString()}`);
@@ -45,39 +22,39 @@ export class Utils {
 	rewreite follow  writeFile function aim to support check string if it's null.
 	*/
 
-	static writeFile(
+	static async writeFile(
 		path: fs.PathLike,
 		// rome-ignore lint/suspicious/noExplicitAny: <explanation>
-		data: { [key: string]: any } | string,
-	): void {
-		let file_data = "";
-
+		data: Record<string, any>[] | string,
+	): Promise<void> {
+		let data_str = "";
+		if (data === "") {
+			throw new Error("data is null");
+		}
 		if (typeof data === "object") {
-			file_data = JSON.stringify(data, null, 4);
+			data_str = JSON.stringify(data, null, 4);
 		} else {
-			file_data = data;
+			data_str = data;
 		}
 
-		if (file_data === "") {
-			file_data = "{}";
-		}
-		fs.writeFile(path, (data = file_data), (error) => {
-			if (error) {
-				throw new Error(`${path}\n${error}`);
-			}
-		});
+		await fs.promises.writeFile(path, data_str);
+	}
+
+	/*
+	capture links from a string. input is string return a list of links.
+	using regexp to capture links. what is link chatpter?
+	*/
+	static captureLink(content: string): string[] {
+		let links: string[] = [];
+		const regexp = /(https?:\/\/[^\s"<>|]+)/g;
+		const captures = [...content.matchAll(regexp)];
+		links = captures.map((capture) => capture[1]);
+		return links;
 	}
 }
 
-export async function fetchJson(urls: URL[]): Promise<Promise<Response>[]> {
-	const jsonPromises: Promise<Response>[] = urls.map(async (url) => {
-		try {
-			const response = await fetch(url);
-			return response.json();
-		} catch (err) {
-			throw err;
-		}
-	});
-
-	return jsonPromises;
+export async function fetchJson(url: URL): Promise<Response> {
+	const response = await fetch(url);
+	const json = await response.json();
+	return json;
 }

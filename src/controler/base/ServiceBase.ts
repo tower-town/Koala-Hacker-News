@@ -11,16 +11,24 @@
  * ====================================================
  */
 
-import { HackerNews } from "../../componet/HackerNews";
-import { Api } from "./ApiBase";
+import { HackerNewsList } from "../../model/HackerNewsList";
+import { HackerNews } from "../../model/beamer/HackerNews";
+import { ApiBase, ApiData } from "./ApiBase";
 
 export abstract class ServiceBaseDAO {
-	abstract InitUrl<T>(Tlist?: T[]): URL[];
+	data: ApiData = ApiBase.init();
 
-	abstract CheckData<T>(Tlist: T[], t: T): boolean;
+	abstract initUrl(params: string | number): URL | Promise<URL>;
 
-	public loadData<T>(t: T): HackerNews[] {
-		const hns = [] as HackerNews[];
-		return hns;
+	abstract init(): Promise<void>;
+
+	abstract updateData<U, V>(u: U, v: V): void;
+
+	abstract checkData(hn: HackerNews): boolean;
+
+	async loadData(): Promise<HackerNews[]> {
+		const hnlist = new HackerNewsList();
+		return await hnlist.getList();
 	}
+
 }

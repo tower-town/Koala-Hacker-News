@@ -13,13 +13,13 @@
 
 import { Utils } from "../../common/utils";
 
-export class BaseDAO {
+export abstract class BaseDAO {
 	readData<T>(filePath: string): T {
 		const jsonStr = Utils.readFile(filePath);
 		return JSON.parse(jsonStr);
 	}
 
-	writeData<T>(filePath: string, data: T): void {
+	async writeData<T>(filePath: string, data: T): Promise<void> {
 		const dataJson = JSON.stringify(data, null, 4);
 		Utils.writeFile(filePath, dataJson);
 	}

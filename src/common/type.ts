@@ -7,11 +7,12 @@ export interface BvidData {
 	aid: number;
 	bvid: string;
 	pubdate: number;
-	source: string[];
-	data: IntroData[];
+	source: string[] | undefined;
+	data: IntroJson[] | undefined;
+	ai: string[] | undefined;
 }
 
-export interface IntroData {
+export interface IntroJson {
 	name: string;
 	intro: string;
 	link: string;

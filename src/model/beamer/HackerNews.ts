@@ -20,6 +20,7 @@ export class HackerNews {
 	#pubdate: number;
 	#source?: string[];
 	#data?: Details[];
+	#ai?: string[];
 
 	constructor(
 		bvid: string,
@@ -28,6 +29,7 @@ export class HackerNews {
 		pubdate: number,
 		source?: string[],
 		data?: Details[],
+		ai?: string[],
 	) {
 		this.#bvid = bvid;
 		this.#aid = aid;
@@ -35,6 +37,7 @@ export class HackerNews {
 		this.#pubdate = pubdate;
 		this.#source = source;
 		this.#data = data;
+		this.#ai = ai;
 	}
 
 	get Bvid(): string {
@@ -48,6 +51,11 @@ export class HackerNews {
 	get Pubdate(): number {
 		return this.#pubdate;
 	}
+
+	get fmtPubdate(): Date {
+		return new Date(this.#pubdate * 1000);
+	}
+
 
 	get Title(): string {
 		return this.#title;
@@ -67,6 +75,14 @@ export class HackerNews {
 
 	set Data(details: Details[]) {
 		this.#data = details;
+	}
+
+	get Ai(): string[] | undefined {
+		return this.#ai;
+	}
+
+	set Ai(ai: string[]) {
+		this.#ai = ai;
 	}
 
 	compareTo(that: HackerNews): number {

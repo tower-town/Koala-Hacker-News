@@ -1,18 +1,18 @@
 <mxfile host="65bd71144e">
     <diagram id="lNcUJjVjbLpIGtMG-gEQ" name="Page-1">
-        <mxGraphModel dx="844" dy="540" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+        <mxGraphModel dx="717" dy="300" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="16" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=classicThin;startFill=1;fillColor=#60a917;strokeColor=#2D7600;" edge="1" parent="1" source="2" target="15">
+                <mxCell id="16" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=classicThin;startFill=1;fillColor=#60a917;strokeColor=#2D7600;" parent="1" source="2" target="15" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="17" value="loadData&lt;br&gt;exportData" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="16">
+                <mxCell id="17" value="loadData&lt;br&gt;exportData" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="16" vertex="1" connectable="0">
                     <mxGeometry x="-0.2233" y="-3" relative="1" as="geometry">
                         <mxPoint x="-20" y="7" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="19" value="update" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=classicThin;startFill=1;fillColor=#60a917;strokeColor=#2D7600;" edge="1" parent="1" source="2" target="22">
+                <mxCell id="19" value="update" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=classicThin;startFill=1;fillColor=#60a917;strokeColor=#2D7600;" parent="1" source="2" target="22" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="380.0000000000002" y="390" as="targetPoint"/>
                     </mxGeometry>
@@ -23,13 +23,13 @@
                 <mxCell id="3" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="4" target="2" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="4" value="HackerNewsDAO" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="4" value="HackerNewsList" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="70" y="90" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="5" value="getList()" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="6" target="4" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="6" value="DetailsDAO" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="6" value="DetailsList" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="280" y="90" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="7" value="writeData&lt;br&gt;readData" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;startArrow=open;startFill=0;fillColor=#60a917;strokeColor=#2D7600;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="8" target="2" edge="1">
@@ -58,15 +58,15 @@
                 <mxCell id="14" value="2023_data.json" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="660" y="350" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="21" value="exportData&lt;br&gt;sendMsg" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=classicThin;startFill=1;fillColor=#60a917;strokeColor=#2D7600;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="15" target="22">
+                <mxCell id="21" value="exportData&lt;br&gt;sendMsg" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=classicThin;startFill=1;fillColor=#60a917;strokeColor=#2D7600;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="15" target="22" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="320" y="420" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="15" value="controler" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="15" value="controler" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="20" y="390" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="22" value="view" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="22" value="view" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="310" y="390" width="120" height="60" as="geometry"/>
                 </mxCell>
             </root>

@@ -11,15 +11,9 @@
  * ====================================================
  */
 
-import { IntroData } from "../../types/type";
-import { Details } from "../beam/Details";
+import { IntroJson } from "../../common/type";
+import { Details } from "../beamer/Details";
 
 export interface DetailsDAO {
-	addDetails(details: Details): void;
-
-	updateDetails(introData: IntroData): void;
-
-	get DetailsList(): Details[];
-
-	getDetailsList(introData: IntroData[]): Details[];
+	getList(intro: IntroJson[]): Details[];
 }
