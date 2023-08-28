@@ -33,7 +33,7 @@ export class BodyStruct {
         const chapterList = _.chain(hnDict).keys()
             .map((key) =>
                 this.#getOutLine(
-                    this.#transformPath(key),
+                    this.#transformPath(`${key}-Hacker-News.md`),
                     key,
                 ))
             .reduce((acc, item) => acc + item, "")
