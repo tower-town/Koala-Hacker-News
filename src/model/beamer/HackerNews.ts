@@ -61,11 +61,11 @@ export class HackerNews {
 		return this.#title;
 	}
 
-	get Source(): String[] | undefined {
+	get Source(): string[] | undefined {
 		return this.#source;
 	}
 
-	set Source(source: string[]) {
+	set Source(source: string[] | undefined) {
 		this.#source = source;
 	}
 
@@ -73,7 +73,7 @@ export class HackerNews {
 		return this.#data;
 	}
 
-	set Data(details: Details[]) {
+	set Data(details: Details[] | undefined) {
 		this.#data = details;
 	}
 
@@ -81,7 +81,7 @@ export class HackerNews {
 		return this.#ai;
 	}
 
-	set Ai(ai: string[]) {
+	set Ai(ai: string[] | undefined) {
 		this.#ai = ai;
 	}
 
