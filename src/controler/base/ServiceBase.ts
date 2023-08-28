@@ -22,13 +22,22 @@ export abstract class ServiceBaseDAO {
 
 	abstract init(): Promise<void>;
 
-	abstract updateData<U, V>(u: U, v: V): void;
+	abstract updateData<U, V>(u: U, v: V): Promise<void>;
 
 	abstract checkData(hn: HackerNews): boolean;
 
 	async loadData(): Promise<HackerNews[]> {
-		const hnlist = new HackerNewsList();
-		return await hnlist.getList();
+		try {
+			const hnlist = new HackerNewsList();
+			const result = await hnlist.getList();
+			if (result.length === 0) {
+				throw new Error("No data");
+			}
+			return result;
+		}
+		catch (error) {
+			throw new Error(`${error}`);
+		}
 	}
 
 }

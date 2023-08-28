@@ -1,12 +1,14 @@
+
+
 [[Hacker News 周报] 新一代设计工具；开源 Web 应用监控方案；自动生成 commit message
 工具；](https://www.bilibili.com/video/BV1pY4y127Bx)
+
 <table>
   <theader>
     <th>名称</th>
     <th>简介</th>
     <th>链接</th>
-  </theader>
-  <tbody>
+  </theader><tbody>
     <tr>
       <td>Noya</td>
       <td>新一代设计工具</td>
@@ -31,19 +33,23 @@
       <td>AI Commits</td>
       <td>自动生成 commit message 工具</td>
       <td>https://github.com/Nutlope/aicommits</td>
+    </tr><tr>
+      <td>一周 AI 小结</td>
+      <td></td>
+      <td></td>
     </tr>
   </tbody>
 </table>
 
 [[Hacker News 周报] 开源多云网盘；Helm Web UI；ChatGPT
 讲解文章](https://www.bilibili.com/video/BV1y84y1n7gH)
+
 <table>
   <theader>
     <th>名称</th>
     <th>简介</th>
     <th>链接</th>
-  </theader>
-  <tbody>
+  </theader><tbody>
     <tr>
       <td>Alist</td>
       <td>一个开源的文件管理程序</td>
@@ -68,19 +74,23 @@
       <td></td>
       <td>著名作者讲解 xxxx</td>
       <td>https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/</td>
+    </tr><tr>
+      <td>一周 AI 小结</td>
+      <td></td>
+      <td></td>
     </tr>
   </tbody>
 </table>
 
 [[Hacker News 周报] 开箱即用 OAuth 解决方案；React.JS 纪录片；Notion
 风格的富文本编辑器](https://www.bilibili.com/video/BV1Ge4y1w7EA)
+
 <table>
   <theader>
     <th>名称</th>
     <th>简介</th>
     <th>链接</th>
-  </theader>
-  <tbody>
+  </theader><tbody>
     <tr>
       <td>Nango</td>
       <td>开箱即用 OAuth 解决方案</td>
@@ -113,19 +123,23 @@
       <td></td>
       <td>React.JS 纪录片</td>
       <td>https://www.youtube.com/watch?v=8pDqJVdNa44</td>
+    </tr><tr>
+      <td>一周 AI 小结</td>
+      <td></td>
+      <td></td>
     </tr>
   </tbody>
 </table>
 
 [[Hacker News 周报] 开源 CRDT 2.0；终端中运行浏览器；Netlify 收购
 Gatsby](https://www.bilibili.com/video/BV1ed4y1n7cF)
+
 <table>
   <theader>
     <th>名称</th>
     <th>简介</th>
     <th>链接</th>
-  </theader>
-  <tbody>
+  </theader><tbody>
     <tr>
       <td></td>
       <td>CRDT 协同算法库 Automerge 发布 2.0 版本</td>
@@ -150,6 +164,10 @@ Gatsby](https://www.bilibili.com/video/BV1ed4y1n7cF)
       <td>Hashicorp</td>
       <td>Hashicorp 开源文档管理系统 Hermes</td>
       <td>https://www.hashicorp.com/blog/introducing-hermes-an-open-source-document-management-system</td>
+    </tr><tr>
+      <td>一周 AI 小结</td>
+      <td></td>
+      <td></td>
     </tr>
   </tbody>
 </table>

@@ -29,7 +29,7 @@ export class ChapterBody {
 
         const hns = await this.splitDict(hnlist);
         _.chain(hns)
-            .map((v, k) => async () => {
+            .map((v, k) => {
                 const cpath = path.join(this.#chapterPath, k);
                 const data = _.chain(v)
                     .reduce((memo, v) => {
@@ -37,7 +37,7 @@ export class ChapterBody {
                     }, "")
                     .value();
                 // console.warn(cpath, data);
-                await Utils.writeFile(cpath, data);
+                Utils.writeFile(cpath, data);
             })
             .value();
     }

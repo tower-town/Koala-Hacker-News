@@ -28,8 +28,8 @@ interface ApiParams {
 
 export class ApiBase {
 	static init(): ApiData {
-		const api_path = path.join(__dirname, "../../data/bilibili-api.jsonc");
-		const api_data = JSON5.parse(Utils.readFile(api_path));
-		return api_data;
+		const apiPath = path.join(__dirname, "../../data/bilibili-api.jsonc");
+		const apiData = JSON5.parse(Utils.readFile(apiPath));
+		return apiData;
 	}
 }

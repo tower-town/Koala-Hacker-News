@@ -1,12 +1,14 @@
+
+
 [[Hacker News 周报] 微软开源 IoT 设备开发框架；Windows 11 集成 AI Copilot；Paypal 自研 NoSQL
 数据库开源；](https://www.bilibili.com/video/BV1ek4y1W7eg)
+
 <table>
   <theader>
     <th>名称</th>
     <th>简介</th>
     <th>链接</th>
-  </theader>
-  <tbody>
+  </theader><tbody>
     <tr>
       <td>DeviceScript</td>
       <td>微软开源 IoT 设备开发框架</td>
@@ -32,19 +34,23 @@
       <td></td>
       <td>本周 AI 小结</td>
       <td></td>
+    </tr><tr>
+      <td>一周 AI 小结</td>
+      <td></td>
+      <td></td>
     </tr>
   </tbody>
 </table>
 
 [[Hacker News 周报] 低代码 + serverless = ?；WebAssembly 性能分析工具；AI
 一周概述](https://www.bilibili.com/video/BV1Js4y1u7J3)
+
 <table>
   <theader>
     <th>名称</th>
     <th>简介</th>
     <th>链接</th>
-  </theader>
-  <tbody>
+  </theader><tbody>
     <tr>
       <td>Windmill</td>
       <td>低代码 + serverless = ?</td>
@@ -69,19 +75,23 @@
       <td></td>
       <td>AI 一周概述</td>
       <td>https://twitter.com/rowancheung/status/1659650892071616512</td>
+    </tr><tr>
+      <td>一周 AI 小结</td>
+      <td></td>
+      <td></td>
     </tr>
   </tbody>
 </table>
 
 [[Hacker News 周报] 支持十万 token 的 AI 对话模型；MySQL + Git = Dolt；React Native
 优化编译器](https://www.bilibili.com/video/BV1Wg4y1V7GJ)
+
 <table>
   <theader>
     <th>名称</th>
     <th>简介</th>
     <th>链接</th>
-  </theader>
-  <tbody>
+  </theader><tbody>
     <tr>
       <td>Claude</td>
       <td>支持十万 token 的 AI 对话模型</td>
@@ -108,19 +118,23 @@
       <td>Tamagui</td>
       <td>React Native 优化编译器</td>
       <td></td>
+    </tr><tr>
+      <td>一周 AI 小结</td>
+      <td></td>
+      <td></td>
     </tr>
   </tbody>
 </table>
 
 [[Hacker News 周报] 面向 AI 的编程语言 Mojo、Mozilla 收购新动向、基于 V8 的开源 serverless
 平台](https://www.bilibili.com/video/BV1x24y1T7Tf)
+
 <table>
   <theader>
     <th>名称</th>
     <th>简介</th>
     <th>链接</th>
-  </theader>
-  <tbody>
+  </theader><tbody>
     <tr>
       <td>Mojo</td>
       <td>面向 AI 的编程语言</td>
@@ -146,6 +160,10 @@
       <td>Frogmouth</td>
       <td>开源命令行 Markdown 浏览器</td>
       <td>https://github.com/Textualize/frogmouth</td>
+    </tr><tr>
+      <td>一周 AI 小结</td>
+      <td></td>
+      <td></td>
     </tr>
   </tbody>
 </table>

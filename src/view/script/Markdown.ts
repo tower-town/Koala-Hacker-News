@@ -80,7 +80,7 @@ class Tables {
     }
 
     #getTitle(title: string, bvid: string): string {
-        return `[${title}](https://www.bilibili.com/video/${bvid})`
+        return `\n\n[${title}](https://www.bilibili.com/video/${bvid})\n\n`
     }
 
 

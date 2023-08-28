@@ -1,12 +1,14 @@
+
+
 [[Hacker News 周报] Meta 开源富文本编辑器 lexical；Yandex 开源分布式数据库 YDB；Node.js 18
 发布](https://www.bilibili.com/video/BV16B4y127vi)
+
 <table>
   <theader>
     <th>名称</th>
     <th>简介</th>
     <th>链接</th>
-  </theader>
-  <tbody>
+  </theader><tbody>
     <tr>
       <td></td>
       <td>一个有用网站的合集</td>
@@ -35,19 +37,23 @@
       <td></td>
       <td>一个单手键盘</td>
       <td>https://tipykeyboard.com/en/home/</td>
+    </tr><tr>
+      <td>一周 AI 小结</td>
+      <td></td>
+      <td></td>
     </tr>
   </tbody>
 </table>
 
 [[Hacker News 周报] 现代 CLI 大全；Deno 推出 FaaS 服务；基于 Rust
 的隧道工具](https://www.bilibili.com/video/BV1yi4y1U7Ms)
+
 <table>
   <theader>
     <th>名称</th>
     <th>简介</th>
     <th>链接</th>
-  </theader>
-  <tbody>
+  </theader><tbody>
     <tr>
       <td></td>
       <td>现代 CLI 大全</td>
@@ -76,19 +82,23 @@
       <td>EIGHT COLORS</td>
       <td>一个小游戏</td>
       <td>https://eightcolors.net/</td>
+    </tr><tr>
+      <td>一周 AI 小结</td>
+      <td></td>
+      <td></td>
     </tr>
   </tbody>
 </table>
 
 [[Hacker News 周报] 自部署 PaaS coolify；现代化终端 Warp；Ruby 增加 WASM
 支持](https://www.bilibili.com/video/BV12i4y1D78x)
+
 <table>
   <theader>
     <th>名称</th>
     <th>简介</th>
     <th>链接</th>
-  </theader>
-  <tbody>
+  </theader><tbody>
     <tr>
       <td>Coolify</td>
       <td>自部署 PaaS</td>
@@ -121,19 +131,23 @@
       <td>一篇博客</td>
       <td>一些易被忽略的 HTML 属性</td>
       <td>https://www.smashingmagazine.com/2022/03/html-attributes-you-never-use</td>
+    </tr><tr>
+      <td>一周 AI 小结</td>
+      <td></td>
+      <td></td>
     </tr>
   </tbody>
 </table>
 
 [[Hacker News 周报] WebAssembly 运行 Python；云原生 CI/CD 开发包；React 18
 发布](https://www.bilibili.com/video/BV1aF41137oA)
+
 <table>
   <theader>
     <th>名称</th>
     <th>简介</th>
     <th>链接</th>
-  </theader>
-  <tbody>
+  </theader><tbody>
     <tr>
       <td></td>
       <td>GitHub issues 打印机</td>
@@ -170,6 +184,10 @@
       <td>Blog Search</td>
       <td>技术类搜索引擎</td>
       <td>https://blogsurf.io/</td>
+    </tr><tr>
+      <td>一周 AI 小结</td>
+      <td></td>
+      <td></td>
     </tr>
   </tbody>
 </table>

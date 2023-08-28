@@ -1,12 +1,14 @@
+
+
 [[Hacker News 周报] Git 终端 UI；开源短链接服务；AI
 作画图库](https://www.bilibili.com/video/BV1Je4y1r7B4)
+
 <table>
   <theader>
     <th>名称</th>
     <th>简介</th>
     <th>链接</th>
-  </theader>
-  <tbody>
+  </theader><tbody>
     <tr>
       <td>GitUI</td>
       <td>Git 终端 UI</td>
@@ -39,19 +41,23 @@
       <td></td>
       <td>Azure CTO Mark Russinovich 发推引发热议</td>
       <td>https://twitter.com/markrussinovich/status/1571995117233504257</td>
+    </tr><tr>
+      <td>一周 AI 小结</td>
+      <td></td>
+      <td></td>
     </tr>
   </tbody>
 </table>
 
 [[Hacker News 周报] 在线设计工具新动向；交互式 Markdown；Mac 中体验 AI
 作画](https://www.bilibili.com/video/BV1QP411H7rM)
+
 <table>
   <theader>
     <th>名称</th>
     <th>简介</th>
     <th>链接</th>
-  </theader>
-  <tbody>
+  </theader><tbody>
     <tr>
       <td>Figma 被收购引发在线设计工具新动向 00:31 penpot</td>
       <td>开源设计工具因 Figma 变热</td>
@@ -80,19 +86,23 @@
       <td>Diffusion Bee</td>
       <td>在 M1 Mac 上运行 Stable Diffusion 的桌面端应用</td>
       <td>https://safeql.dev/</td>
+    </tr><tr>
+      <td>一周 AI 小结</td>
+      <td></td>
+      <td></td>
     </tr>
   </tbody>
 </table>
 
 [[Hacker News 周报] 结构化 diff 工具；百倍快的 Python linter；PREACT 状态管理新方案
 signals](https://www.bilibili.com/video/BV1Pe4y187LV)
+
 <table>
   <theader>
     <th>名称</th>
     <th>简介</th>
     <th>链接</th>
-  </theader>
-  <tbody>
+  </theader><tbody>
     <tr>
       <td>Difftastic</td>
       <td>结构化 diff 工具</td>
@@ -121,19 +131,23 @@ signals](https://www.bilibili.com/video/BV1Pe4y187LV)
       <td>signals</td>
       <td>PREACT 状态管理新方案</td>
       <td>https://preactjs.com/blog/introducing-signals/</td>
+    </tr><tr>
+      <td>一周 AI 小结</td>
+      <td></td>
+      <td></td>
     </tr>
   </tbody>
 </table>
 
 [[Hacker News 周报] 快速启动隔离开发环境；JSON 可视化工具；Heroku
 即将停止免费额度](https://www.bilibili.com/video/BV19e411g7qe)
+
 <table>
   <theader>
     <th>名称</th>
     <th>简介</th>
     <th>链接</th>
-  </theader>
-  <tbody>
+  </theader><tbody>
     <tr>
       <td>Devbox</td>
       <td>快速启动隔离开发环境</td>
@@ -166,6 +180,10 @@ signals](https://www.bilibili.com/video/BV1Pe4y187LV)
       <td></td>
       <td>GitHub 开发者关系副总裁回复移除 Trending</td>
       <td>https://github.com/community/community/discussions/31644</td>
+    </tr><tr>
+      <td>一周 AI 小结</td>
+      <td></td>
+      <td></td>
     </tr>
   </tbody>
 </table>

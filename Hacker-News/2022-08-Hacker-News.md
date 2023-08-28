@@ -1,12 +1,14 @@
+
+
 [[Hacker News 周报] 野心勃勃的数据库 SurrealDB；80
 岁计算机科学家仍在优化开源代码；将触屏设备变为触摸板](https://www.bilibili.com/video/BV1qa411G7kd)
+
 <table>
   <theader>
     <th>名称</th>
     <th>简介</th>
     <th>链接</th>
-  </theader>
-  <tbody>
+  </theader><tbody>
     <tr>
       <td>Stable Diffusion</td>
       <td>开源的 AI 图片生成模型</td>
@@ -31,19 +33,23 @@
       <td></td>
       <td>80 岁计算机科学家仍在优化开源代码</td>
       <td>https://fly.io/blog/sqlite-internals-wal</td>
+    </tr><tr>
+      <td>一周 AI 小结</td>
+      <td></td>
+      <td></td>
     </tr>
   </tbody>
 </table>
 
 [[Hacker News 周报] 浏览器中运行 Postgres；与 Python 兼容的静态类型语言；分布式文件系统
 JuiceFS](https://www.bilibili.com/video/BV1bg411r7Fg)
+
 <table>
   <theader>
     <th>名称</th>
     <th>简介</th>
     <th>链接</th>
-  </theader>
-  <tbody>
+  </theader><tbody>
     <tr>
       <td>Numpad</td>
       <td>一个新式文本编辑器</td>
@@ -68,19 +74,23 @@ JuiceFS](https://www.bilibili.com/video/BV1bg411r7Fg)
       <td></td>
       <td>JSON5 作者的一篇博客</td>
       <td>https://aseemk.substack.com/p/ignore-the-f-ing-haters-json5</td>
+    </tr><tr>
+      <td>一周 AI 小结</td>
+      <td></td>
+      <td></td>
     </tr>
   </tbody>
 </table>
 
 [[Hacker News 周报] 远程开发方案 Coder；高性能 virtual DOM；深入 Redis
 技术细节](https://www.bilibili.com/video/BV1UB4y1t7cW)
+
 <table>
   <theader>
     <th>名称</th>
     <th>简介</th>
     <th>链接</th>
-  </theader>
-  <tbody>
+  </theader><tbody>
     <tr>
       <td></td>
       <td>远程开发方案 Coder</td>
@@ -105,19 +115,23 @@ JuiceFS](https://www.bilibili.com/video/BV1bg411r7Fg)
       <td></td>
       <td>一篇介绍 Redis 技术细节的文章</td>
       <td>https://architecturenotes.co/redis/</td>
+    </tr><tr>
+      <td>一周 AI 小结</td>
+      <td></td>
+      <td></td>
     </tr>
   </tbody>
 </table>
 
 [[Hacker News 周报] 开源知识库软件能否替代 Notion；Copilot
 开源替代品；逆向工程工具箱。](https://www.bilibili.com/video/BV1VN4y1j7Pd)
+
 <table>
   <theader>
     <th>名称</th>
     <th>简介</th>
     <th>链接</th>
-  </theader>
-  <tbody>
+  </theader><tbody>
     <tr>
       <td></td>
       <td>开源知识库软件能否替代 Notion</td>
@@ -142,6 +156,10 @@ JuiceFS](https://www.bilibili.com/video/BV1bg411r7Fg)
       <td></td>
       <td>用 DALL·E 2 生成 logo 图片的分享文章</td>
       <td>https://jacobmartins.com/posts/how-i-used-dalle2-to-generate-the-logo-for-octosql/</td>
+    </tr><tr>
+      <td>一周 AI 小结</td>
+      <td></td>
+      <td></td>
     </tr>
   </tbody>
 </table>

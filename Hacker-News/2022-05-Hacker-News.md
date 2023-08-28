@@ -1,12 +1,14 @@
+
+
 [[Hacker News 周报] 超轻量级 Python 引擎；快速阅读英文插件；TypeScript
 发布新版本](https://www.bilibili.com/video/BV1pY4y1z7Vx)
+
 <table>
   <theader>
     <th>名称</th>
     <th>简介</th>
     <th>链接</th>
-  </theader>
-  <tbody>
+  </theader><tbody>
     <tr>
       <td>PikaScript</td>
       <td>超轻量级 Python 引擎</td>
@@ -35,19 +37,23 @@
       <td></td>
       <td>一个有趣的 3D 植物生成工具</td>
       <td>https://plant.jim-fx.com/</td>
+    </tr><tr>
+      <td>一周 AI 小结</td>
+      <td></td>
+      <td></td>
     </tr>
   </tbody>
 </table>
 
 [[Hacker News 周报] GO
 全栈开发框架；开发终端风格网站；大厂技术架构赏析](https://www.bilibili.com/video/BV13a411E7AQ)
+
 <table>
   <theader>
     <th>名称</th>
     <th>简介</th>
     <th>链接</th>
-  </theader>
-  <tbody>
+  </theader><tbody>
     <tr>
       <td>Bud</td>
       <td>GO 的全栈 web 框架</td>
@@ -76,19 +82,23 @@
       <td>Quastor</td>
       <td>一个汇集大厂架构分析的专栏频道</td>
       <td>https://quastor.substack.com/</td>
+    </tr><tr>
+      <td>一周 AI 小结</td>
+      <td></td>
+      <td></td>
     </tr>
   </tbody>
 </table>
 
 [[Hacker News 周报] SQLite 再次流行；JS 性能分析指南；魔方竞速工具
 CubeDesk](https://www.bilibili.com/video/BV1kT4y1B7Nh)
+
 <table>
   <theader>
     <th>名称</th>
     <th>简介</th>
     <th>链接</th>
-  </theader>
-  <tbody>
+  </theader><tbody>
     <tr>
       <td>BoltDB 作者的博客</td>
       <td>如何在 fly.io 中使用 SQLite</td>
@@ -121,19 +131,23 @@ CubeDesk](https://www.bilibili.com/video/BV1kT4y1B7Nh)
       <td></td>
       <td>一篇 JS 性能分析指南的文章</td>
       <td>https://blog.atomrc.dev/p/js-performance-profiling/</td>
+    </tr><tr>
+      <td>一周 AI 小结</td>
+      <td></td>
+      <td></td>
     </tr>
   </tbody>
 </table>
 
 [[Hacker News 周报] 浏览器中运行 Python；JSON
 可视化神器；避免电脑休眠的网页](https://www.bilibili.com/video/BV1PB4y1278B)
+
 <table>
   <theader>
     <th>名称</th>
     <th>简介</th>
     <th>链接</th>
-  </theader>
-  <tbody>
+  </theader><tbody>
     <tr>
       <td>Anaconda 发布 PyScript</td>
       <td>浏览器中运行 Python</td>
@@ -166,19 +180,23 @@ CubeDesk](https://www.bilibili.com/video/BV1kT4y1B7Nh)
       <td></td>
       <td>移植到 web 上的《塞尔达传说》</td>
       <td>https://hoten.cc/blog/porting-zelda-classic-to-the-web</td>
+    </tr><tr>
+      <td>一周 AI 小结</td>
+      <td></td>
+      <td></td>
     </tr>
   </tbody>
 </table>
 
 [[Hacker News 周报] 性能分析工具合集；通过 TDD 学习 GO 语言；基于 Deno 的 serverless
 平台](https://www.bilibili.com/video/BV1fu41167ME)
+
 <table>
   <theader>
     <th>名称</th>
     <th>简介</th>
     <th>链接</th>
-  </theader>
-  <tbody>
+  </theader><tbody>
     <tr>
       <td>Clinic.js</td>
       <td>Node.js 性能分析工具</td>
@@ -207,6 +225,10 @@ CubeDesk](https://www.bilibili.com/video/BV1kT4y1B7Nh)
       <td>pixy</td>
       <td>飞行相机</td>
       <td>https://pixy.com/</td>
+    </tr><tr>
+      <td>一周 AI 小结</td>
+      <td></td>
+      <td></td>
     </tr>
   </tbody>
 </table>

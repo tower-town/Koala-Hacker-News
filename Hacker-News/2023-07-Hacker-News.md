@@ -1,12 +1,14 @@
+
+
 [[Hacker News 周报] 面向边缘场景设计的 Web 框架；功能更强的 PostgresSQL 池化工具；GitHub Copilot
 开源竞品](https://www.bilibili.com/video/BV1bj41197vF)
+
 <table>
   <theader>
     <th>名称</th>
     <th>简介</th>
     <th>链接</th>
-  </theader>
-  <tbody>
+  </theader><tbody>
     <tr>
       <td>Vegeta</td>
       <td>HTTP API 性能测试工具</td>
@@ -32,19 +34,39 @@
       <td>一周 AI 小结</td>
       <td>https://stability.ai/blog/stable-diffusion-sdxl-1-announcement 及
         https://stability.ai/blog/stable-beluga-large-instruction-fine-tuned-models</td>
+    </tr><tr>
+      <td>一周 AI 小结</td>
+      <td></td>
+      <td></td>
+    </tr><tr>
+      <td></td>
+      <td></td>
+      <td>https://stability.ai/blog/stable-diffusion-sdxl-1-announcement</td>
+    </tr><tr>
+      <td></td>
+      <td></td>
+      <td>https://stability.ai/blog/stable-beluga-large-instruction-fine-tuned-models</td>
+    </tr><tr>
+      <td></td>
+      <td></td>
+      <td>https://github.com/continuedev/continue。</td>
+    </tr><tr>
+      <td></td>
+      <td></td>
+      <td>https://the-decoder.com/ai-researcher-geoffrey-hinton-thinks-ai-has-or-will-have-emotions</td>
     </tr>
   </tbody>
 </table>
 
 [[Hacker News 周报] 浏览器中运行 WordPress；Postgres 数据引擎优化；Meta 发布
 Llama2](https://www.bilibili.com/video/BV1Rp4y1V7UT)
+
 <table>
   <theader>
     <th>名称</th>
     <th>简介</th>
     <th>链接</th>
-  </theader>
-  <tbody>
+  </theader><tbody>
     <tr>
       <td>TUI Grid</td>
       <td>一个功能强大的数据表格库</td>
@@ -69,19 +91,39 @@ Llama2](https://www.bilibili.com/video/BV1Rp4y1V7UT)
       <td></td>
       <td>一周 AI 小结</td>
       <td>https://ai.meta.com/llama/</td>
+    </tr><tr>
+      <td>一周 AI 小结</td>
+      <td></td>
+      <td></td>
+    </tr><tr>
+      <td></td>
+      <td></td>
+      <td>https://ai.meta.com/llama/</td>
+    </tr><tr>
+      <td></td>
+      <td></td>
+      <td>https://openai.com/blog/custom-instructions-for-chatgpt</td>
+    </tr><tr>
+      <td></td>
+      <td></td>
+      <td>https://arxiv.org/pdf/2307.09009.pdf</td>
+    </tr><tr>
+      <td></td>
+      <td></td>
+      <td>https://microsoft.github.io/TypeChat/blog/introducing-typechat/</td>
     </tr>
   </tbody>
 </table>
 
 [[Hacker News 周报] ChatGPT 最强竞争对手；K8s
 成本测量工具；开源健身小程序](https://www.bilibili.com/video/BV1bM4y1x78f)
+
 <table>
   <theader>
     <th>名称</th>
     <th>简介</th>
     <th>链接</th>
-  </theader>
-  <tbody>
+  </theader><tbody>
     <tr>
       <td>Vizzu</td>
       <td>开源的数据可视化动画库</td>
@@ -106,19 +148,43 @@ Llama2](https://www.bilibili.com/video/BV1Rp4y1V7UT)
       <td></td>
       <td>一周 AI 小结</td>
       <td>https://www.anthropic.com/index/claude-2</td>
+    </tr><tr>
+      <td>一周 AI 小结</td>
+      <td></td>
+      <td></td>
+    </tr><tr>
+      <td></td>
+      <td></td>
+      <td>https://www.anthropic.com/index/claude-2</td>
+    </tr><tr>
+      <td></td>
+      <td></td>
+      <td>https://stability.ai/blog/clipdrop-launches-stable-doodle</td>
+    </tr><tr>
+      <td></td>
+      <td></td>
+      <td>https://www.foxbusiness.com/technology/google-ceo-sounds-alarm-ai-deepfake-videos-can-cause-lot-harm</td>
+    </tr><tr>
+      <td></td>
+      <td></td>
+      <td>https://www.wired.co.uk/article/mission-impossible-dead-reckoning-ai-villain</td>
+    </tr><tr>
+      <td></td>
+      <td></td>
+      <td>https://x.ai/</td>
     </tr>
   </tbody>
 </table>
 
 [[Hacker News 周报] 22000 张 GPU
 组成超级电脑；通用协同编辑器；高性能列式存储引擎](https://www.bilibili.com/video/BV13z4y1J73N)
+
 <table>
   <theader>
     <th>名称</th>
     <th>简介</th>
     <th>链接</th>
-  </theader>
-  <tbody>
+  </theader><tbody>
     <tr>
       <td>Watermill</td>
       <td>Go 的事件驱动开发框架</td>
@@ -145,19 +211,43 @@ Llama2](https://www.bilibili.com/video/BV1Rp4y1V7UT)
       <td>https://twitter.com/OpenAI/status/1677029947544838144 和
         https://twitter.com/OpenAI/status/1676072388436594688 和
         https://twitter.com/openai/status/1677015057316872192</td>
+    </tr><tr>
+      <td>一周 AI 小结</td>
+      <td></td>
+      <td></td>
+    </tr><tr>
+      <td></td>
+      <td></td>
+      <td>https://twitter.com/OpenAI/status/1677029947544838144</td>
+    </tr><tr>
+      <td></td>
+      <td></td>
+      <td>https://twitter.com/OpenAI/status/1676072388436594688</td>
+    </tr><tr>
+      <td></td>
+      <td></td>
+      <td>https://twitter.com/openai/status/1677015057316872192</td>
+    </tr><tr>
+      <td></td>
+      <td></td>
+      <td>https://wccftech.com/inflection-ai-develops-supercomputer-equipped-with-22000-nvidia-h100-ai-gpus</td>
+    </tr><tr>
+      <td></td>
+      <td></td>
+      <td>https://github.com/AntonOsika/gpt-engineer</td>
     </tr>
   </tbody>
 </table>
 
 [[Hacker News 周报] 更快的 Segment Anything；轻量级数据库缓存；更好的 React
 开发框架](https://www.bilibili.com/video/BV1eM4y1772Y)
+
 <table>
   <theader>
     <th>名称</th>
     <th>简介</th>
     <th>链接</th>
-  </theader>
-  <tbody>
+  </theader><tbody>
     <tr>
       <td>Tabserve</td>
       <td>一个反向代理工具</td>
@@ -182,6 +272,22 @@ Llama2](https://www.bilibili.com/video/BV1Rp4y1V7UT)
       <td></td>
       <td>本周 AI 小结</td>
       <td>https://about.sourcegraph.com/cody</td>
+    </tr><tr>
+      <td>一周 AI 小结</td>
+      <td></td>
+      <td></td>
+    </tr><tr>
+      <td></td>
+      <td></td>
+      <td>https://about.sourcegraph.com/cody</td>
+    </tr><tr>
+      <td></td>
+      <td></td>
+      <td>https://github.com/ChaoningZhang/MobileSAM</td>
+    </tr><tr>
+      <td></td>
+      <td></td>
+      <td>https://github.com/imgly/background-removal-js</td>
     </tr>
   </tbody>
 </table>

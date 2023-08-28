@@ -1,12 +1,14 @@
+
+
 [[Hacker News 周报] ChatGPT 发布插件能力；功能强大使用便捷的排版系统；Adobe 推出 AI
 创意工具](https://www.bilibili.com/video/BV1fV4y1X7x5)
+
 <table>
   <theader>
     <th>名称</th>
     <th>简介</th>
     <th>链接</th>
-  </theader>
-  <tbody>
+  </theader><tbody>
     <tr>
       <td></td>
       <td>ChatGPT 发布插件能力</td>
@@ -31,19 +33,23 @@
       <td>Typst</td>
       <td>功能强大使用便捷的排版系统</td>
       <td>https://github.com/typst/typst</td>
+    </tr><tr>
+      <td>一周 AI 小结</td>
+      <td></td>
+      <td></td>
     </tr>
   </tbody>
 </table>
 
 [[Hacker News 周报] GPT-4 发布；Wasm 跨语言运行时；React
 新官网上线](https://www.bilibili.com/video/BV1p84y1w7n6)
+
 <table>
   <theader>
     <th>名称</th>
     <th>简介</th>
     <th>链接</th>
-  </theader>
-  <tbody>
+  </theader><tbody>
     <tr>
       <td></td>
       <td>GPT-4 发布</td>
@@ -77,19 +83,23 @@
       <td></td>
       <td>React 新官网上线</td>
       <td>https://react.dev/</td>
+    </tr><tr>
+      <td>一周 AI 小结</td>
+      <td></td>
+      <td></td>
     </tr>
   </tbody>
 </table>
 
 [[Hacker News 周报] Vue 全功能表单框架；软件定义键盘；从 SQL 语句中推断 Typescript
 类型](https://www.bilibili.com/video/BV1mv4y1j7WB)
+
 <table>
   <theader>
     <th>名称</th>
     <th>简介</th>
     <th>链接</th>
-  </theader>
-  <tbody>
+  </theader><tbody>
     <tr>
       <td>FormKit</td>
       <td>Vue 全功能表单框架</td>
@@ -114,19 +124,23 @@
       <td>ZincSearch</td>
       <td>ElasticSearch 的轻量级替代品</td>
       <td>https://github.com/zinclabs/zincsearch</td>
+    </tr><tr>
+      <td>一周 AI 小结</td>
+      <td></td>
+      <td></td>
     </tr>
   </tbody>
 </table>
 
 [[Hacker News 周报] Google 新编程框架；ChatGPT 官方 API；Typescript
 5.0；](https://www.bilibili.com/video/BV1xM41147Te)
+
 <table>
   <theader>
     <th>名称</th>
     <th>简介</th>
     <th>链接</th>
-  </theader>
-  <tbody>
+  </theader><tbody>
     <tr>
       <td></td>
       <td>Google 发布新编程框架 Service Weaver</td>
@@ -151,6 +165,10 @@
       <td>Unfolder</td>
       <td>将3D 模型生成折纸零件图纸的工具</td>
       <td>https://www.unfolder.app/</td>
+    </tr><tr>
+      <td>一周 AI 小结</td>
+      <td></td>
+      <td></td>
     </tr>
   </tbody>
 </table>

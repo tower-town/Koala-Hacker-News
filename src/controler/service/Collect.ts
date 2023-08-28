@@ -16,7 +16,7 @@ import { Utils, fetchJson } from "../../common/utils";
 import { HackerNewsList } from "../../model/HackerNewsList";
 import { HackerNews } from "../../model/beamer/HackerNews";
 import { ServiceBaseDAO } from "../base/ServiceBase";
-import { BvidData } from "../../types/type";
+import { BvidData } from "../../common/type";
 
 export class Collect extends ServiceBaseDAO {
 	initUrl(): URL {
@@ -32,9 +32,14 @@ export class Collect extends ServiceBaseDAO {
 	}
 
 	async updateData<U, V>(u: U, v: V): Promise<void> {
-		const hnlist = await u as HackerNews[];
-		const hn = v as HackerNews;
-		new HackerNewsList().updateList(hnlist, hn);
+		try {
+			const hnlist = await u as HackerNews[];
+			const hn = v as HackerNews;
+			new HackerNewsList().updateList(hnlist, hn);
+		} catch (error) {
+			throw new Error(`${error}`)
+
+		}
 	}
 
 	#getDataSet(data: Record<string, unknown>): BvidData {

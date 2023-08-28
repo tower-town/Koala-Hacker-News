@@ -1,12 +1,14 @@
+
+
 [[Hacker News 周报] Bloomberg 开源高性能消息队列；Go 语言新工具；Meta 开源 AI
 音乐生成模型](https://www.bilibili.com/video/BV1m44y1w7DU)
+
 <table>
   <theader>
     <th>名称</th>
     <th>简介</th>
     <th>链接</th>
-  </theader>
-  <tbody>
+  </theader><tbody>
     <tr>
       <td></td>
       <td>Bloomberg 开源高性能消息队列 BlazingMQ</td>
@@ -33,6 +35,22 @@
       <td>https://about.fb.com/news/2023/08/audiocraft-generative-ai-for-music-and-audio
         https://blog.google/technology/ai/google-deepmind-rt2-robotics-vla-model/
         https://www.prettypolly.app/</td>
+    </tr><tr>
+      <td>一周 AI 小结</td>
+      <td></td>
+      <td></td>
+    </tr><tr>
+      <td></td>
+      <td></td>
+      <td>https://about.fb.com/news/2023/08/audiocraft-generative-ai-for-music-and-audio</td>
+    </tr><tr>
+      <td></td>
+      <td></td>
+      <td>https://blog.google/technology/ai/google-deepmind-rt2-robotics-vla-model/</td>
+    </tr><tr>
+      <td></td>
+      <td></td>
+      <td>https://www.prettypolly.app/</td>
     </tr>
   </tbody>
 </table>

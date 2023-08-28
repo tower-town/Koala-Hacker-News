@@ -22,8 +22,13 @@ export class Startup {
     hnlist = this.#collect.loadData
 
     async init() {
-        await this.#collect.init();
-        await this.#comment.init();
-        await this.#sourcelink.init();
+        try {
+            await this.#collect.init();
+            await this.#comment.init();
+            await this.#sourcelink.init();
+        }
+        catch (err) {
+            throw Error(`${err}`);
+        }
     }
 }

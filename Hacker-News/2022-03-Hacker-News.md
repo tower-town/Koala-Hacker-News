@@ -1,12 +1,14 @@
+
+
 [[Hacker News 周报] Firebase 开源替代方案；高效阅读工具；MDN 推出 plus
 订阅计划](https://www.bilibili.com/video/BV19S4y127wz)
+
 <table>
   <theader>
     <th>名称</th>
     <th>简介</th>
     <th>链接</th>
-  </theader>
-  <tbody>
+  </theader><tbody>
     <tr>
       <td>appwrite</td>
       <td>为 web、mobile 和 flutter 开发者提供的开源后端服务</td>
@@ -39,19 +41,23 @@
       <td></td>
       <td>一篇题为《Data Mesh 架构》的文章</td>
       <td>https://www.datamesh-architecture.com/</td>
+    </tr><tr>
+      <td>一周 AI 小结</td>
+      <td></td>
+      <td></td>
     </tr>
   </tbody>
 </table>
 
 [[Hacker News 周报] Zotero 发布 6.0 版本；500 行代码学习 OpenGL；GO
 支持泛型](https://www.bilibili.com/video/BV1HU4y1d7da)
+
 <table>
   <theader>
     <th>名称</th>
     <th>简介</th>
     <th>链接</th>
-  </theader>
-  <tbody>
+  </theader><tbody>
     <tr>
       <td></td>
       <td>文献管理工具 Zotero 发布 6.0 版本</td>
@@ -88,19 +94,23 @@
       <td>Veloren</td>
       <td>一个基于 Rust 开发的开源多人 RPG 游戏</td>
       <td>https://www.youtube.com/watch?v=hCC1C5KIeUA</td>
+    </tr><tr>
+      <td>一周 AI 小结</td>
+      <td></td>
+      <td></td>
     </tr>
   </tbody>
 </table>
 
 [[Hacker News 周报] JS 类型系统提案；开源游戏引擎
 Godot；数据库索引工作原理](https://www.bilibili.com/video/BV1VS4y1D768)
+
 <table>
   <theader>
     <th>名称</th>
     <th>简介</th>
     <th>链接</th>
-  </theader>
-  <tbody>
+  </theader><tbody>
     <tr>
       <td></td>
       <td>关于 TypeScript 的两条新闻</td>
@@ -133,19 +143,23 @@ Godot；数据库索引工作原理](https://www.bilibili.com/video/BV1VS4y1D768
       <td>“请停止使用 :latest 标签”</td>
       <td>一篇关于版本安全的文章</td>
       <td>https://platformers.dev/log/2022/latest-literally-kills-puppies/</td>
+    </tr><tr>
+      <td>一周 AI 小结</td>
+      <td></td>
+      <td></td>
     </tr>
   </tbody>
 </table>
 
 [[Hacker News 周报] MDN 文档全新上线；SaaS 产品开源替代品大全；使用 Python 直接开发 Web
 UI](https://www.bilibili.com/video/BV1Y34y1b7cJ)
+
 <table>
   <theader>
     <th>名称</th>
     <th>简介</th>
     <th>链接</th>
-  </theader>
-  <tbody>
+  </theader><tbody>
     <tr>
       <td></td>
       <td>Mozilla 的 MDN 文档全新上线</td>
@@ -178,6 +192,10 @@ UI](https://www.bilibili.com/video/BV1Y34y1b7cJ)
       <td>轻松一刻时间</td>
       <td>小游戏</td>
       <td>https://www.lessmilk.com/almost-pong/</td>
+    </tr><tr>
+      <td>一周 AI 小结</td>
+      <td></td>
+      <td></td>
     </tr>
   </tbody>
 </table>

@@ -1,12 +1,14 @@
+
+
 [[Hacker News 周报] Vercel AI SDK 发布；开源 codespaces 替代品；UI
 原型工具创新](https://www.bilibili.com/video/BV19V411u7dP)
+
 <table>
   <theader>
     <th>名称</th>
     <th>简介</th>
     <th>链接</th>
-  </theader>
-  <tbody>
+  </theader><tbody>
     <tr>
       <td>DevPod</td>
       <td>开源 codespaces 替代品</td>
@@ -31,19 +33,35 @@
       <td></td>
       <td>本周 AI 小结</td>
       <td>https://vercel.com/blog/introducing-the-vercel-ai-sdk</td>
+    </tr><tr>
+      <td>一周 AI 小结</td>
+      <td></td>
+      <td></td>
+    </tr><tr>
+      <td></td>
+      <td></td>
+      <td>https://vercel.com/blog/introducing-the-vercel-ai-sdk</td>
+    </tr><tr>
+      <td></td>
+      <td></td>
+      <td>https://github.com/steven-tey/novel</td>
+    </tr><tr>
+      <td></td>
+      <td></td>
+      <td>https://github.com/bentoml/OpenLLM</td>
     </tr>
   </tbody>
 </table>
 
 [[Hacker News 周报] 轻量级可观测性工具；云原生流处理引擎；llama.cpp 优化 GPU
 加速](https://www.bilibili.com/video/BV13N411r7eS)
+
 <table>
   <theader>
     <th>名称</th>
     <th>简介</th>
     <th>链接</th>
-  </theader>
-  <tbody>
+  </theader><tbody>
     <tr>
       <td>OpenObserve</td>
       <td>轻量级可观测性工具</td>
@@ -68,19 +86,39 @@
       <td></td>
       <td>本周 AI 小结</td>
       <td>https://github.com/ggerganov/llama.cpp/pull/1827</td>
+    </tr><tr>
+      <td>一周 AI 小结</td>
+      <td></td>
+      <td></td>
+    </tr><tr>
+      <td></td>
+      <td></td>
+      <td>https://github.com/ggerganov/llama.cpp/pull/1827</td>
+    </tr><tr>
+      <td></td>
+      <td></td>
+      <td>https://techcrunch.com/2023/06/12/meta-open-sources-an-ai-powered-music-generator</td>
+    </tr><tr>
+      <td></td>
+      <td></td>
+      <td>https://github.com/baichuan-inc/baichuan-7B</td>
+    </tr><tr>
+      <td></td>
+      <td></td>
+      <td>https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/the-economic-potential-of-generative-ai-the-next-productivity-frontier</td>
     </tr>
   </tbody>
 </table>
 
 [[Hacker News 周报] Jupyter notebook 快速变为 web app；文字生成 3D 人物；AI
 探索更快排序算法](https://www.bilibili.com/video/BV1Wo4y1N7ZP)
+
 <table>
   <theader>
     <th>名称</th>
     <th>简介</th>
     <th>链接</th>
-  </theader>
-  <tbody>
+  </theader><tbody>
     <tr>
       <td>Mercury</td>
       <td>Jupyter notebook 快速变为 web app</td>
@@ -105,19 +143,39 @@
       <td></td>
       <td>一周 AI 小结</td>
       <td>https://platform.openai.com/docs/guides/gpt-best-practices/strategy-provide-reference-text</td>
+    </tr><tr>
+      <td>一周 AI 小结</td>
+      <td></td>
+      <td></td>
+    </tr><tr>
+      <td></td>
+      <td></td>
+      <td>https://platform.openai.com/docs/guides/gpt-best-practices/strategy-provide-reference-text</td>
+    </tr><tr>
+      <td></td>
+      <td></td>
+      <td>https://www.deepmind.com/blog/alphadev-discovers-faster-sorting-algorithms</td>
+    </tr><tr>
+      <td></td>
+      <td></td>
+      <td>https://supabase.com/vector</td>
+    </tr><tr>
+      <td></td>
+      <td></td>
+      <td>https://maketafi.com/ai</td>
     </tr>
   </tbody>
 </table>
 
 [[Hacker News 周报] 面向机器学习设计的列式数据结构；开源 Jira 替代品；Nvidia
 万亿市值](https://www.bilibili.com/video/BV1Mk4y1p7Jg)
+
 <table>
   <theader>
     <th>名称</th>
     <th>简介</th>
     <th>链接</th>
-  </theader>
-  <tbody>
+  </theader><tbody>
     <tr>
       <td>Lance</td>
       <td>面向机器学习设计的列式数据结构</td>
@@ -147,6 +205,10 @@
       <td>处的字幕trogon打成了trogan</td>
       <td>https://technomancers.ai/japan-goes-all-in-copyright-doesnt-apply-to-ai-training
         https://www.theverge.com/2023/5/30/23742123/nvidia-stock-ai-gpu-1-trillion-market-cap-price-value</td>
+    </tr><tr>
+      <td>一周 AI 小结</td>
+      <td></td>
+      <td></td>
     </tr>
   </tbody>
 </table>

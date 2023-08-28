@@ -1,12 +1,14 @@
+
+
 [[Hacker News 周报] 多功能 serverless JS 运行时；Grammarly 开源替代品；K8s
 轻量级虚拟化插件](https://www.bilibili.com/video/BV1mT411j7LR)
+
 <table>
   <theader>
     <th>名称</th>
     <th>简介</th>
     <th>链接</th>
-  </theader>
-  <tbody>
+  </theader><tbody>
     <tr>
       <td>Blueboat</td>
       <td>多功能 serverless JS 运行时</td>
@@ -31,19 +33,23 @@
       <td></td>
       <td>K8s 提出了 Gateway 网关 API</td>
       <td>https://www.armosec.io/blog/kubernetes-gateway-api</td>
+    </tr><tr>
+      <td>一周 AI 小结</td>
+      <td></td>
+      <td></td>
     </tr>
   </tbody>
 </table>
 
 [[Hacker News 周报] Google 发布新编程语言 Carbon；低代码工具开发框架榫卯；AI 系统 DALL·E 开放 Beta
 测试](https://www.bilibili.com/video/BV1hV4y177P9)
+
 <table>
   <theader>
     <th>名称</th>
     <th>简介</th>
     <th>链接</th>
-  </theader>
-  <tbody>
+  </theader><tbody>
     <tr>
       <td></td>
       <td>Google 发布新编程语言 Carbon</td>
@@ -68,19 +74,23 @@
       <td></td>
       <td>一篇关于 Scratch 潜能的文章</td>
       <td>https://www.bryanbraun.com/2022/07/16/scratch-is-a-big-deal</td>
+    </tr><tr>
+      <td>一周 AI 小结</td>
+      <td></td>
+      <td></td>
     </tr>
   </tbody>
 </table>
 
 [[Hacker News 周报] Vite 3.0 发布；Bun 性能实测；性能更强的 Prometheus
 替代方案](https://www.bilibili.com/video/BV16N4y1T7Hu)
+
 <table>
   <theader>
     <th>名称</th>
     <th>简介</th>
     <th>链接</th>
-  </theader>
-  <tbody>
+  </theader><tbody>
     <tr>
       <td></td>
       <td>Vite 发布 3.0 版本</td>
@@ -105,19 +115,23 @@
       <td></td>
       <td>推荐《PostgreSQL 14 Internals》一书</td>
       <td>https://postgrespro.com/community/books/internals</td>
+    </tr><tr>
+      <td>一周 AI 小结</td>
+      <td></td>
+      <td></td>
     </tr>
   </tbody>
 </table>
 
 [[Hacker News 周报] 高性能 JS 运行时 Bun；Electron 轻量级替代品；自动探测 Web
 应用内存泄漏](https://www.bilibili.com/video/BV1Wg411f7VV)
+
 <table>
   <theader>
     <th>名称</th>
     <th>简介</th>
     <th>链接</th>
-  </theader>
-  <tbody>
+  </theader><tbody>
     <tr>
       <td>Bun</td>
       <td>高性能 JS 运行时</td>
@@ -142,19 +156,23 @@
       <td></td>
       <td>一篇关于 rsync 工作原理的文章</td>
       <td>https://michael.stapelberg.ch/posts/2022-07-02-rsync-how-does-it-work</td>
+    </tr><tr>
+      <td>一周 AI 小结</td>
+      <td></td>
+      <td></td>
     </tr>
   </tbody>
 </table>
 
 [[Hacker News 周报] 性能持续分析工具；数据库必须知道的那些事；Spark 与 K8s
 集成新动向](https://www.bilibili.com/video/BV1Xr4y1M7T7)
+
 <table>
   <theader>
     <th>名称</th>
     <th>简介</th>
     <th>链接</th>
-  </theader>
-  <tbody>
+  </theader><tbody>
     <tr>
       <td>Pyroscope</td>
       <td>性能持续分析工具</td>
@@ -179,6 +197,10 @@
       <td>Raindrop</td>
       <td>书签管理小工具</td>
       <td>https://raindrop.io/</td>
+    </tr><tr>
+      <td>一周 AI 小结</td>
+      <td></td>
+      <td></td>
     </tr>
   </tbody>
 </table>

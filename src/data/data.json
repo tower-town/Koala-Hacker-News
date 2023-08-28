@@ -126,6 +126,12 @@
         ],
         "source": [
             "https://mailchi.mp/hackernewsletter/661"
+        ],
+        "ai": [
+            "https://ai.meta.com/llama/",
+            "https://openai.com/blog/custom-instructions-for-chatgpt",
+            "https://arxiv.org/pdf/2307.09009.pdf",
+            "https://microsoft.github.io/TypeChat/blog/introducing-typechat/"
         ]
     },
     "BV1bM4y1x78f": {
@@ -208,6 +214,13 @@
         ],
         "source": [
             "https://mailchi.mp/hackernewsletter/659"
+        ],
+        "ai": [
+            "https://twitter.com/OpenAI/status/1677029947544838144",
+            "https://twitter.com/OpenAI/status/1676072388436594688",
+            "https://twitter.com/openai/status/1677015057316872192",
+            "https://wccftech.com/inflection-ai-develops-supercomputer-equipped-with-22000-nvidia-h100-ai-gpus",
+            "https://github.com/AntonOsika/gpt-engineer"
         ]
     },
     "BV1eM4y1772Y": {
@@ -295,6 +308,11 @@
         ],
         "source": [
             "https://mailchi.mp/hackernewsletter/657"
+        ],
+        "ai": [
+            "https://vercel.com/blog/introducing-the-vercel-ai-sdk",
+            "https://github.com/steven-tey/novel",
+            "https://github.com/bentoml/OpenLLM"
         ]
     },
     "BV13N411r7eS": {
@@ -429,7 +447,8 @@
         ],
         "source": [
             "https://mailchi.mp/hackernewsletter/654"
-        ]
+        ],
+        "ai": []
     },
     "BV1ek4y1W7eg": {
         "title": "[Hacker News 周报] 微软开源 IoT 设备开发框架；Windows 11 集成 AI Copilot；Paypal 自研 NoSQL 数据库开源；",
@@ -595,7 +614,8 @@
         ],
         "source": [
             "https://mailchi.mp/hackernewsletter/650"
-        ]
+        ],
+        "ai": []
     },
     "BV16P41127ZY": {
         "title": "[Hacker News 周报] 端到端后端开发平台；Babylon.JS 6.0 发布超强物理引擎；无代码训练自己的 ChatGPT 机器人",
@@ -720,7 +740,8 @@
         ],
         "source": [
             "https://mailchi.mp/hackernewsletter/647"
-        ]
+        ],
+        "ai": []
     },
     "BV1hT411x7Mi": {
         "title": "[Hacker News 周报] Facebook 发布图像识别新模型；Twitter 开源推荐算法；Rust 编写流式计算引擎",
@@ -936,7 +957,8 @@
         ],
         "source": [
             "https://mailchi.mp/hackernewsletter/642"
-        ]
+        ],
+        "ai": []
     },
     "BV1xM41147Te": {
         "title": "[Hacker News 周报] Google 新编程框架；ChatGPT 官方 API；Typescript 5.0；",
@@ -977,7 +999,8 @@
         ],
         "source": [
             "https://mailchi.mp/hackernewsletter/641"
-        ]
+        ],
+        "ai": []
     },
     "BV1pY4y127Bx": {
         "title": "[Hacker News 周报] 新一代设计工具；开源 Web 应用监控方案；自动生成 commit message 工具；",
@@ -1110,7 +1133,8 @@
         ],
         "source": [
             "https://mailchi.mp/hackernewsletter/638"
-        ]
+        ],
+        "ai": []
     },
     "BV1ed4y1n7cF": {
         "title": "[Hacker News 周报] 开源 CRDT 2.0；终端中运行浏览器；Netlify 收购 Gatsby",
@@ -1192,7 +1216,8 @@
         ],
         "source": [
             "https://mailchi.mp/hackernewsletter/636"
-        ]
+        ],
+        "ai": []
     },
     "BV1C24y1r7yJ": {
         "title": "[Hacker News 周报] 2 小时开发 GPT 模型；持久化工作流平台；数据 ETL 工具 AirByte",
@@ -1946,7 +1971,8 @@
         ],
         "source": [
             "https://mailchi.mp/hackernewsletter/622"
-        ]
+        ],
+        "ai": []
     },
     "BV1Je4y1r7B4": {
         "title": "[Hacker News 周报] Git 终端 UI；开源短链接服务；AI 作画图库",
@@ -2469,7 +2495,8 @@
         ],
         "source": [
             "https://mailchi.mp/hackernewsletter/611"
-        ]
+        ],
+        "ai": []
     },
     "BV1Xr4y1M7T7": {
         "title": "[Hacker News 周报] 性能持续分析工具；数据库必须知道的那些事；Spark 与 K8s 集成新动向",
@@ -3031,7 +3058,8 @@
         ],
         "source": [
             "https://mailchi.mp/hackernewsletter/599"
-        ]
+        ],
+        "ai": []
     },
     "BV12i4y1D78x": {
         "title": "[Hacker News 周报] 自部署 PaaS coolify；现代化终端 Warp；Ruby 增加 WASM 支持",
@@ -3795,7 +3823,8 @@
         ],
         "source": [
             "https://mailchi.mp/hackernewsletter/585"
-        ]
+        ],
+        "ai": []
     },
     "BV1GD4y1F7Ri": {
         "title": "[Hacker News 周报] 波斯王子在浏览器中运行；开发者工具大集合；数据库年度报告",

@@ -1,12 +1,14 @@
+
+
 [[Hacker News 周报] GitHub AI 代码助手 Copilot 正式发布；增强版 watch 命令；Deno 完成 A
 轮融资](https://www.bilibili.com/video/BV1B3411u7ZG)
+
 <table>
   <theader>
     <th>名称</th>
     <th>简介</th>
     <th>链接</th>
-  </theader>
-  <tbody>
+  </theader><tbody>
     <tr>
       <td></td>
       <td>Github AI 代码助手 Copilot 正式发布</td>
@@ -39,19 +41,23 @@
       <td></td>
       <td>Deno 完成 A 轮融资</td>
       <td>https://deno.com/blog/series-a</td>
+    </tr><tr>
+      <td>一周 AI 小结</td>
+      <td></td>
+      <td></td>
     </tr>
   </tbody>
 </table>
 
 [[Hacker News 周报] Deno 原生 SSR web 框架；基于 Vite
 的单元测试框架；程序员社交新尝试](https://www.bilibili.com/video/BV1sY411T7QL)
+
 <table>
   <theader>
     <th>名称</th>
     <th>简介</th>
     <th>链接</th>
-  </theader>
-  <tbody>
+  </theader><tbody>
     <tr>
       <td>FRESH</td>
       <td>Deno 原生 SSR Web 框架</td>
@@ -80,19 +86,23 @@
       <td></td>
       <td>程序员社交新尝试</td>
       <td>https://connectdome.com/</td>
+    </tr><tr>
+      <td>一周 AI 小结</td>
+      <td></td>
+      <td></td>
     </tr>
   </tbody>
 </table>
 
 [[Hacker News 周报] TypeScript
 高性能框架；浏览器插件开发平台；用代码更好地讲故事](https://www.bilibili.com/video/BV1rS4y1i72U)
+
 <table>
   <theader>
     <th>名称</th>
     <th>简介</th>
     <th>链接</th>
-  </theader>
-  <tbody>
+  </theader><tbody>
     <tr>
       <td>Knight Lab</td>
       <td>用代码更好地讲故事</td>
@@ -117,19 +127,23 @@
       <td>untools</td>
       <td>一组帮助思考的工具和方法论</td>
       <td>https://untools.co/</td>
+    </tr><tr>
+      <td>一周 AI 小结</td>
+      <td></td>
+      <td></td>
     </tr>
   </tbody>
 </table>
 
 [[Hacker News 周报] 25 倍快的 Redis 竞品；开源 serverless Postgres 方案；快速编写 UML
 图](https://www.bilibili.com/video/BV1L34y1L7zK)
+
 <table>
   <theader>
     <th>名称</th>
     <th>简介</th>
     <th>链接</th>
-  </theader>
-  <tbody>
+  </theader><tbody>
     <tr>
       <td>Dragonfly</td>
       <td>一个 25 倍快的 Redis 竞品</td>
@@ -162,6 +176,10 @@
       <td>ffmpeg buddy</td>
       <td>FFmpeg 命令生成工具</td>
       <td>https://evanhahn.github.io/ffmpeg-buddy/</td>
+    </tr><tr>
+      <td>一周 AI 小结</td>
+      <td></td>
+      <td></td>
     </tr>
   </tbody>
 </table>

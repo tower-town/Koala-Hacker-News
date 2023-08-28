@@ -1,12 +1,14 @@
+
+
 [[Hacker News 周报] CRUD 最佳工具；论文专用 PDF 阅读器；JS
 协同算法库](https://www.bilibili.com/video/BV1m34y1r7EY)
+
 <table>
   <theader>
     <th>名称</th>
     <th>简介</th>
     <th>链接</th>
-  </theader>
-  <tbody>
+  </theader><tbody>
     <tr>
       <td>怎样实现一个最简单的 CRUD 应用？</td>
       <td>本期专题问答</td>
@@ -39,19 +41,23 @@
       <td>Sioyek</td>
       <td>论文专用 PDF 阅读器</td>
       <td>https://github.com/ahrm/sioyek</td>
+    </tr><tr>
+      <td>一周 AI 小结</td>
+      <td></td>
+      <td></td>
     </tr>
   </tbody>
 </table>
 
 [[Hacker News 周报] 基于 WASM 在浏览器中运行 Office；K8s 纪录片；GitHub markdown
 功能增强](https://www.bilibili.com/video/BV19P4y1F7s7)
+
 <table>
   <theader>
     <th>名称</th>
     <th>简介</th>
     <th>链接</th>
-  </theader>
-  <tbody>
+  </theader><tbody>
     <tr>
       <td>Mermaid</td>
       <td>GitHub 的 Markdown 新功能</td>
@@ -80,19 +86,23 @@
       <td>shortwave</td>
       <td>邮件工具</td>
       <td>https://www.shortwave.com/blog/introducing-shortwave/</td>
+    </tr><tr>
+      <td>一周 AI 小结</td>
+      <td></td>
+      <td></td>
     </tr>
   </tbody>
 </table>
 
 [[Hacker News 周报] 数据可视化神器；10 大 web 黑客技术；Postman 支持
 gRPC](https://www.bilibili.com/video/BV16a411y7fw)
+
 <table>
   <theader>
     <th>名称</th>
     <th>简介</th>
     <th>链接</th>
-  </theader>
-  <tbody>
+  </theader><tbody>
     <tr>
       <td>Files Gallery</td>
       <td>应用</td>
@@ -133,19 +143,23 @@ gRPC](https://www.bilibili.com/video/BV16a411y7fw)
       <td></td>
       <td>SHA256 算法可视化演示</td>
       <td>https://sha256algorithm.com/</td>
+    </tr><tr>
+      <td>一周 AI 小结</td>
+      <td></td>
+      <td></td>
     </tr>
   </tbody>
 </table>
 
 [[Hacker News 周报] Python 开发者的完美终端工具；、Systemd
 示例教程；你的云上数据库安全吗？](https://www.bilibili.com/video/BV1nL4y1s7q1)
+
 <table>
   <theader>
     <th>名称</th>
     <th>简介</th>
     <th>链接</th>
-  </theader>
-  <tbody>
+  </theader><tbody>
     <tr>
       <td>Hibiki HTML</td>
       <td>新的前端框架 - 没有脚手架，没有 Webpack</td>
@@ -166,6 +180,10 @@ gRPC](https://www.bilibili.com/video/BV16a411y7fw)
       <td></td>
       <td>《我是如何在 AWS 上发现数千个开放数据库的》</td>
       <td>https://infosecwriteups.com/how-i-discovered-thousands-of-open-databases-on-aws-764729aa7f32</td>
+    </tr><tr>
+      <td>一周 AI 小结</td>
+      <td></td>
+      <td></td>
     </tr>
   </tbody>
 </table>

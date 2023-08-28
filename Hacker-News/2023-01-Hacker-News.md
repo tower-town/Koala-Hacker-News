@@ -1,12 +1,14 @@
+
+
 [[Hacker News 周报] 基于 WebRTC 分享终端会话；自动化工作流工具；通过网络访问
 SQLite](https://www.bilibili.com/video/BV1Y8411371f)
+
 <table>
   <theader>
     <th>名称</th>
     <th>简介</th>
     <th>链接</th>
-  </theader>
-  <tbody>
+  </theader><tbody>
     <tr>
       <td></td>
       <td>一组可复用的 UI 组件</td>
@@ -31,19 +33,23 @@ SQLite](https://www.bilibili.com/video/BV1Y8411371f)
       <td></td>
       <td>轻松一刻时间：小游戏 Summer Afternoon</td>
       <td>https://summer-afternoon.vlucendo.com/</td>
+    </tr><tr>
+      <td>一周 AI 小结</td>
+      <td></td>
+      <td></td>
     </tr>
   </tbody>
 </table>
 
 [[Hacker News 周报] 2 小时开发 GPT 模型；持久化工作流平台；数据 ETL 工具
 AirByte](https://www.bilibili.com/video/BV1C24y1r7yJ)
+
 <table>
   <theader>
     <th>名称</th>
     <th>简介</th>
     <th>链接</th>
-  </theader>
-  <tbody>
+  </theader><tbody>
     <tr>
       <td>Temporal</td>
       <td>持久化工作流平台</td>
@@ -72,19 +78,23 @@ AirByte](https://www.bilibili.com/video/BV1C24y1r7yJ)
       <td></td>
       <td>2小时开发 GPT 模型</td>
       <td>https://www.youtube.com/watch?v=kCc8FmEb1nY</td>
+    </tr><tr>
+      <td>一周 AI 小结</td>
+      <td></td>
+      <td></td>
     </tr>
   </tbody>
 </table>
 
 [[Hacker News 周报] 简单有趣的 serverless 平台；自动化数据探索工具；Google
 开源文件同步工具](https://www.bilibili.com/video/BV1784y1h7eq)
+
 <table>
   <theader>
     <th>名称</th>
     <th>简介</th>
     <th>链接</th>
-  </theader>
-  <tbody>
+  </theader><tbody>
     <tr>
       <td>val.town</td>
       <td>简单有趣的 serverless 平台</td>
@@ -110,19 +120,23 @@ AirByte](https://www.bilibili.com/video/BV1C24y1r7yJ)
       <td></td>
       <td></td>
       <td></td>
+    </tr><tr>
+      <td>一周 AI 小结</td>
+      <td></td>
+      <td></td>
     </tr>
   </tbody>
 </table>
 
 [[Hacker News 周报] 发布 clickhouse-local；使用 HTTP/3 连接 MySQL；使用 WebAssembly 运行
 Vim](https://www.bilibili.com/video/BV1ad4y1E7SC)
+
 <table>
   <theader>
     <th>名称</th>
     <th>简介</th>
     <th>链接</th>
-  </theader>
-  <tbody>
+  </theader><tbody>
     <tr>
       <td></td>
       <td>clickhouse 发布数据分析工具 clickhouse-local</td>
@@ -147,19 +161,23 @@ Vim](https://www.bilibili.com/video/BV1ad4y1E7SC)
       <td>uiverse</td>
       <td>UI 组件库</td>
       <td>https://uiverse.io/</td>
+    </tr><tr>
+      <td>一周 AI 小结</td>
+      <td></td>
+      <td></td>
     </tr>
   </tbody>
 </table>
 
 [[Hacker News 周报] Google 内部 Rust 教程；从零学习开发 CDN；serverless
 数据库对比](https://www.bilibili.com/video/BV1pM411y72o)
+
 <table>
   <theader>
     <th>名称</th>
     <th>简介</th>
     <th>链接</th>
-  </theader>
-  <tbody>
+  </theader><tbody>
     <tr>
       <td>APITable</td>
       <td>新开源的 Airtable 替代品</td>
@@ -184,6 +202,10 @@ Vim](https://www.bilibili.com/video/BV1ad4y1E7SC)
       <td></td>
       <td>一篇 serverless 数据库对比的博客</td>
       <td>https://fauna.com/blog/comparison-of-serverless-databases</td>
+    </tr><tr>
+      <td>一周 AI 小结</td>
+      <td></td>
+      <td></td>
     </tr>
   </tbody>
 </table>

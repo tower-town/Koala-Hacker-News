@@ -1,12 +1,14 @@
+
+
 [[Hacker News 周报] GitHub Action 教程；基于 web 的远程桌面工具；在 serverless 中使用
 SQLite](https://www.bilibili.com/video/BV1r34y127VU)
+
 <table>
   <theader>
     <th>名称</th>
     <th>简介</th>
     <th>链接</th>
-  </theader>
-  <tbody>
+  </theader><tbody>
     <tr>
       <td></td>
       <td>Charm 用来开发命令行工具的框架</td>
@@ -47,19 +49,23 @@ SQLite](https://www.bilibili.com/video/BV1r34y127VU)
       <td></td>
       <td>《Kubernetes 如此复杂有两个原因》</td>
       <td>https://buttondown.email/nelhage/archive/two-reasons-kubernetes-is-so-complex/</td>
+    </tr><tr>
+      <td>一周 AI 小结</td>
+      <td></td>
+      <td></td>
     </tr>
   </tbody>
 </table>
 
 [[Hacker News 周报] faker.js 删库事件新进展；暴雪被收购；GPS
 工作原理详解](https://www.bilibili.com/video/BV1AT4y127tr)
+
 <table>
   <theader>
     <th>名称</th>
     <th>简介</th>
     <th>链接</th>
-  </theader>
-  <tbody>
+  </theader><tbody>
     <tr>
       <td></td>
       <td>faker.js 删库事件新进展</td>
@@ -104,19 +110,23 @@ SQLite](https://www.bilibili.com/video/BV1r34y127VU)
       <td>轻松一刻</td>
       <td>弹珠撞击木块游戏</td>
       <td>https://wallsmash.com/</td>
+    </tr><tr>
+      <td>一周 AI 小结</td>
+      <td></td>
+      <td></td>
     </tr>
   </tbody>
 </table>
 
 [[Hacker News 周报] 开源软件被植入恶意代码；浏览器中实现 POSIX；开源 wiki
 工具推荐](https://www.bilibili.com/video/BV1eT4y117Xh)
+
 <table>
   <theader>
     <th>名称</th>
     <th>简介</th>
     <th>链接</th>
-  </theader>
-  <tbody>
+  </theader><tbody>
     <tr>
       <td></td>
       <td>开源软件被植入恶意代码</td>
@@ -153,19 +163,23 @@ SQLite](https://www.bilibili.com/video/BV1r34y127VU)
       <td>轻松一刻时间</td>
       <td>介绍一个打发时间的小游戏</td>
       <td>https://looptap.vasanthv.com/</td>
+    </tr><tr>
+      <td>一周 AI 小结</td>
+      <td></td>
+      <td></td>
     </tr>
   </tbody>
 </table>
 
 [[Hacker News 周报] 任天堂掌机发展史；开源学术工具 Zotero；SpaceX
 空间站对接模拟器](https://www.bilibili.com/video/BV1vL4y1b78S)
+
 <table>
   <theader>
     <th>名称</th>
     <th>简介</th>
     <th>链接</th>
-  </theader>
-  <tbody>
+  </theader><tbody>
     <tr>
       <td></td>
       <td>任天堂掌上游戏机发展史回顾</td>
@@ -214,19 +228,23 @@ SQLite](https://www.bilibili.com/video/BV1r34y127VU)
       <td></td>
       <td>SpaceX Dragon 2 与国际空间站对接的模拟机</td>
       <td>https://iss-sim.spacex.com/</td>
+    </tr><tr>
+      <td>一周 AI 小结</td>
+      <td></td>
+      <td></td>
     </tr>
   </tbody>
 </table>
 
 [[Hacker News 周报]
 波斯王子在浏览器中运行；开发者工具大集合；数据库年度报告](https://www.bilibili.com/video/BV1GD4y1F7Ri)
+
 <table>
   <theader>
     <th>名称</th>
     <th>简介</th>
     <th>链接</th>
-  </theader>
-  <tbody>
+  </theader><tbody>
     <tr>
       <td></td>
       <td>波斯王子 一款为 Mac 开发的游戏</td>
@@ -275,6 +293,10 @@ SQLite](https://www.bilibili.com/video/BV1r34y127VU)
       <td>Miller</td>
       <td>用于查询、塑造、重新格式化 CSV、TSV 和 JSON 中的数据的工具</td>
       <td>https://miller.readthedocs.io/en/latest/</td>
+    </tr><tr>
+      <td>一周 AI 小结</td>
+      <td></td>
+      <td></td>
     </tr>
   </tbody>
 </table>

@@ -1,12 +1,14 @@
+
+
 [[Hacker News 周报] Blender 3.0 发布；GitHub 再出 Code
 Search](https://www.bilibili.com/video/BV1NL411L7U1)
+
 <table>
   <theader>
     <th>名称</th>
     <th>简介</th>
     <th>链接</th>
-  </theader>
-  <tbody>
+  </theader><tbody>
     <tr>
       <td></td>
       <td>blender3.0 图形渲染工具</td>
@@ -59,6 +61,10 @@ Search](https://www.bilibili.com/video/BV1NL411L7U1)
       <td></td>
       <td>Paper Website 从纸上建立一个网站界面</td>
       <td>https://daily.tinyprojects.dev/paper_website</td>
+    </tr><tr>
+      <td>一周 AI 小结</td>
+      <td></td>
+      <td></td>
     </tr>
   </tbody>
 </table>
