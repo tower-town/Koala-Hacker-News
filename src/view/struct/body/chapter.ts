@@ -30,7 +30,7 @@ export class ChapterBody {
         const hns = await this.splitDict(hnlist);
         _.chain(hns)
             .map((v, k) => {
-                const cpath = path.join(this.#chapterPath, k);
+                const cpath = path.join(this.#chapterPath, `${k}-Hacker-News.md`);
                 const data = _.chain(v)
                     .reduce((memo, v) => {
                         return memo + this.#markdown.getTab(v);
@@ -50,6 +50,6 @@ export class ChapterBody {
     fill 0 if the month little 10
     */
     #fmtChapter(chapter: Date): string {
-        return `${chapter.getFullYear()}-${chapter.getMonth() + 1 < 10 ? `0${chapter.getMonth() + 1}` : chapter.getMonth() + 1}-Hacker-News.md`;
+        return `${chapter.getFullYear()}-${chapter.getMonth() + 1 < 10 ? `0${chapter.getMonth() + 1}` : chapter.getMonth() + 1}`;
     }
 }
