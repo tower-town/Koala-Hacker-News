@@ -17,7 +17,5 @@ const utils = Utils
 test("test captureLink", () => {
     const str = "https://about.fb.com https://blog.google/  https://www.p.x https://exmaple.com";
     const result = utils.captureLink(str)
-
-    console.log(result);
-
+    expect(result).toEqual(["https://about.fb.com", "https://blog.google/", "https://www.p.x", "https://exmaple.com"]);
 })

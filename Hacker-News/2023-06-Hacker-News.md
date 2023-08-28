@@ -83,10 +83,6 @@
       <td>命令行代码搜索工具</td>
       <td>https://github.com/boyter/cs</td>
     </tr><tr>
-      <td></td>
-      <td>本周 AI 小结</td>
-      <td>https://github.com/ggerganov/llama.cpp/pull/1827</td>
-    </tr><tr>
       <td>一周 AI 小结</td>
       <td></td>
       <td></td>
@@ -140,10 +136,6 @@
       <td>Apple 发布头显设备 Apple Vision Pro</td>
       <td>https://www.apple.com/newsroom/2023/06/introducing-apple-vision-pro</td>
     </tr><tr>
-      <td></td>
-      <td>一周 AI 小结</td>
-      <td>https://platform.openai.com/docs/guides/gpt-best-practices/strategy-provide-reference-text</td>
-    </tr><tr>
       <td>一周 AI 小结</td>
       <td></td>
       <td></td>
@@ -151,18 +143,6 @@
       <td></td>
       <td></td>
       <td>https://platform.openai.com/docs/guides/gpt-best-practices/strategy-provide-reference-text</td>
-    </tr><tr>
-      <td></td>
-      <td></td>
-      <td>https://www.deepmind.com/blog/alphadev-discovers-faster-sorting-algorithms</td>
-    </tr><tr>
-      <td></td>
-      <td></td>
-      <td>https://supabase.com/vector</td>
-    </tr><tr>
-      <td></td>
-      <td></td>
-      <td>https://maketafi.com/ai</td>
     </tr>
   </tbody>
 </table>
@@ -197,18 +177,21 @@
       <td>一个在线编程工具</td>
       <td>https://logicboard.com/demo 以及 https://logicboard.com/demo/:replay</td>
     </tr><tr>
-      <td></td>
-      <td>AI 小结</td>
-      <td>https://www.tii.ae/news/uaes-falcon-40b-now-royalty-free</td>
-    </tr><tr>
-      <td></td>
-      <td>处的字幕trogon打成了trogan</td>
-      <td>https://technomancers.ai/japan-goes-all-in-copyright-doesnt-apply-to-ai-training
-        https://www.theverge.com/2023/5/30/23742123/nvidia-stock-ai-gpu-1-trillion-market-cap-price-value</td>
-    </tr><tr>
       <td>一周 AI 小结</td>
       <td></td>
       <td></td>
+    </tr><tr>
+      <td></td>
+      <td></td>
+      <td>https://www.tii.ae/news/uaes-falcon-40b-now-royalty-free</td>
+    </tr><tr>
+      <td></td>
+      <td></td>
+      <td>https://technomancers.ai/japan-goes-all-in-copyright-doesnt-apply-to-ai-training</td>
+    </tr><tr>
+      <td></td>
+      <td></td>
+      <td>https://www.theverge.com/2023/5/30/23742123/nvidia-stock-ai-gpu-1-trillion-market-cap-price-value</td>
     </tr>
   </tbody>
 </table>

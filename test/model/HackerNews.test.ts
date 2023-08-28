@@ -28,12 +28,5 @@ test("test HackerNewsList getMap", async () => {
 	hn.Pathjson = path.join(__dirname, "../data/data.json");
 	const hnlist = await hn.getList();
 
-	console.log("chain_begin");
-
-	_.chain(hnlist)
-		.head(2)
-		.map(key => console.log(key))
-		.value();
-
 	expect(hnlist.length).toBeGreaterThan(0);
 })

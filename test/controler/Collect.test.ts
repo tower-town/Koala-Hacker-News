@@ -17,7 +17,6 @@ import { Collect } from "../../src/controler/service/Collect";
 const collect = new Collect();
 
 test("test Collect InitUrl", () => {
-    console.log(collect.initUrl());
     expect(collect.initUrl()).toBeNull;
 })
 

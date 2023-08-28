@@ -30,12 +30,6 @@
       <td>一篇介绍内存泄漏的文章？</td>
       <td>https://v8.dev/blog/speeding-up-v8-heap-snapshots</td>
     </tr><tr>
-      <td></td>
-      <td>一周 AI 小结</td>
-      <td>https://about.fb.com/news/2023/08/audiocraft-generative-ai-for-music-and-audio
-        https://blog.google/technology/ai/google-deepmind-rt2-robotics-vla-model/
-        https://www.prettypolly.app/</td>
-    </tr><tr>
       <td>一周 AI 小结</td>
       <td></td>
       <td></td>
@@ -50,7 +44,7 @@
     </tr><tr>
       <td></td>
       <td></td>
-      <td>https://www.prettypolly.app/</td>
+      <td> https://www.prettypolly.app/</td>
     </tr>
   </tbody>
 </table>

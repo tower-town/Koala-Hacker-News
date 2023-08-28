@@ -100,13 +100,10 @@ export class HackerNewsList extends BaseDAO implements HackerNewsDAO {
 	async updateList(hnlist: HackerNews[], hn: HackerNews): Promise<void> {
 		try {
 			hnlist.forEach((v, _) => {
-				if (v.Bvid === hn.Bvid) {
-					hnlist.push(hn);
-				}
+				hnlist.push(hn);
 			});
 
 			const sort_hnlist = hnlist.sort((a, b) => b.Pubdate - a.Pubdate)
-
 			await this.writeData(this.#pathjson, this.#getObj(sort_hnlist));
 		} catch (error) {
 			throw new Error(`${error}`);

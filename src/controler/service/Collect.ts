@@ -35,7 +35,12 @@ export class Collect extends ServiceBaseDAO {
 		try {
 			const hnlist = await u as HackerNews[];
 			const hn = v as HackerNews;
-			new HackerNewsList().updateList(hnlist, hn);
+			hnlist.forEach((v, _) => {
+				if (v.Bvid !== hn.Bvid) {
+					new HackerNewsList().updateList(hnlist, hn);
+					return;
+				}
+			})
 		} catch (error) {
 			throw new Error(`${error}`)
 

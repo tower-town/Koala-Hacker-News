@@ -32,7 +32,7 @@ export class Comment extends ServiceBaseDAO {
     }
 
     checkData(hn: HackerNews): boolean {
-        if (!(hn.Ai?.length !== 0) && hn.Data) {
+        if (hn.Data) {
             return false;
         }
         return true;
@@ -66,7 +66,7 @@ export class Comment extends ServiceBaseDAO {
     async init(): Promise<void> {
         const hnlist = await this.loadData();
         const result = _.chain(hnlist)
-            .filter(this.checkData)
+            .filter(v => this.checkData(v))
             .map((value) => this.initUrl(value.Aid))
             .map((url) => fetchJson(url))
             .map((promise) =>
@@ -175,7 +175,9 @@ export class Comment extends ServiceBaseDAO {
                         /^https?:\/\/\S+/.test(value) && intro.ai.push(value);
                         break;
                     default:
-                        ms_status && console.warn(`oid: ${message.oid} missing catch ${value}`);
+                        console.warn(`oid: ${message.oid} missing catch ${value}`);
+                        console.warn(`oid: ${message.oid} the message data is \n${message_data}`);
+                        break;
                 }
             }
         }
@@ -230,7 +232,7 @@ export class Comment extends ServiceBaseDAO {
         name: string;
         intro: string
     } {
-        const regexp = /\d{2}(?::|：)\d{2}(?:\s+)?([^｜|，,]+)?([｜\|，,])?(.+$)/g;
+        const regexp = /\d{2}(?::|：)(?:\s+)?\d{2}(?:\s+)?([^｜|，,]+)?([｜\|，,])?(.+$)/g;
         const value = intro_str;
         const capture = {
             name: "",
@@ -247,7 +249,7 @@ export class Comment extends ServiceBaseDAO {
                 capture.intro = captures[1] + captures[3];
             }
         } else {
-            console.warn(`warning: escaple capture is ${value} in ${bvid}`);
+            console.warn(`warning: escaple capture is ${value} in bvid: ${bvid}`);
         }
         return {
             name: capture.name.trim(),

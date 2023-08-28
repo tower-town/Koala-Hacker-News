@@ -30,11 +30,6 @@
       <td>基于 JavaScript 编写的定时编排工具</td>
       <td>https://github.com/Hexagon/croner</td>
     </tr><tr>
-      <td></td>
-      <td>一周 AI 小结</td>
-      <td>https://stability.ai/blog/stable-diffusion-sdxl-1-announcement 及
-        https://stability.ai/blog/stable-beluga-large-instruction-fine-tuned-models</td>
-    </tr><tr>
       <td>一周 AI 小结</td>
       <td></td>
       <td></td>
@@ -88,10 +83,6 @@ Llama2](https://www.bilibili.com/video/BV1Rp4y1V7UT)
       <td>新的 PostgreSQL 存储引擎</td>
       <td>https://www.orioledata.com/blog/no-more-vacuum-in-postgresql/</td>
     </tr><tr>
-      <td></td>
-      <td>一周 AI 小结</td>
-      <td>https://ai.meta.com/llama/</td>
-    </tr><tr>
       <td>一周 AI 小结</td>
       <td></td>
       <td></td>
@@ -144,10 +135,6 @@ Llama2](https://www.bilibili.com/video/BV1Rp4y1V7UT)
       <td>Digger</td>
       <td>Terraform Cloud 的开源替代品</td>
       <td>https://digger.dev/</td>
-    </tr><tr>
-      <td></td>
-      <td>一周 AI 小结</td>
-      <td>https://www.anthropic.com/index/claude-2</td>
     </tr><tr>
       <td>一周 AI 小结</td>
       <td></td>
@@ -206,12 +193,6 @@ Llama2](https://www.bilibili.com/video/BV1Rp4y1V7UT)
       <td>基于 Three.js 的 3D 解密小游戏</td>
       <td>https://www.thomasfriday.com/cuboid/</td>
     </tr><tr>
-      <td></td>
-      <td>一周 AI 小结</td>
-      <td>https://twitter.com/OpenAI/status/1677029947544838144 和
-        https://twitter.com/OpenAI/status/1676072388436594688 和
-        https://twitter.com/openai/status/1677015057316872192</td>
-    </tr><tr>
       <td>一周 AI 小结</td>
       <td></td>
       <td></td>
@@ -268,10 +249,6 @@ Llama2](https://www.bilibili.com/video/BV1Rp4y1V7UT)
       <td></td>
       <td>在 Go 程序中实现插件系统</td>
       <td>https://www.youtube.com/watch?v=pRT36VqpljA</td>
-    </tr><tr>
-      <td></td>
-      <td>本周 AI 小结</td>
-      <td>https://about.sourcegraph.com/cody</td>
     </tr><tr>
       <td>一周 AI 小结</td>
       <td></td>

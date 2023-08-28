@@ -29,15 +29,15 @@
                 "name": "",
                 "intro": "一篇介绍内存泄漏的文章？",
                 "link": "https://v8.dev/blog/speeding-up-v8-heap-snapshots"
-            },
-            {
-                "name": "",
-                "intro": "一周 AI 小结",
-                "link": "https://about.fb.com/news/2023/08/audiocraft-generative-ai-for-music-and-audio https://blog.google/technology/ai/google-deepmind-rt2-robotics-vla-model/  https://www.prettypolly.app/"
             }
         ],
         "source": [
             "https://mailchi.mp/hackernewsletter/662663"
+        ],
+        "ai": [
+            "https://about.fb.com/news/2023/08/audiocraft-generative-ai-for-music-and-audio",
+            "https://blog.google/technology/ai/google-deepmind-rt2-robotics-vla-model/",
+            " https://www.prettypolly.app/"
         ]
     },
     "BV1bj41197vF": {
@@ -70,11 +70,6 @@
                 "name": "Croner",
                 "intro": "基于 JavaScript 编写的定时编排工具",
                 "link": "https://github.com/Hexagon/croner"
-            },
-            {
-                "name": "",
-                "intro": "一周 AI 小结",
-                "link": "https://stability.ai/blog/stable-diffusion-sdxl-1-announcement 及 https://stability.ai/blog/stable-beluga-large-instruction-fine-tuned-models"
             }
         ],
         "source": [
@@ -117,11 +112,6 @@
                 "name": "OrioleDB",
                 "intro": "新的 PostgreSQL 存储引擎",
                 "link": "https://www.orioledata.com/blog/no-more-vacuum-in-postgresql/"
-            },
-            {
-                "name": "",
-                "intro": "一周 AI 小结",
-                "link": "https://ai.meta.com/llama/"
             }
         ],
         "source": [
@@ -164,15 +154,17 @@
                 "name": "Digger",
                 "intro": "Terraform Cloud 的开源替代品",
                 "link": "https://digger.dev/"
-            },
-            {
-                "name": "",
-                "intro": "一周 AI 小结",
-                "link": "https://www.anthropic.com/index/claude-2"
             }
         ],
         "source": [
             "https://mailchi.mp/hackernewsletter/660"
+        ],
+        "ai": [
+            "https://www.anthropic.com/index/claude-2",
+            "https://stability.ai/blog/clipdrop-launches-stable-doodle",
+            "https://www.foxbusiness.com/technology/google-ceo-sounds-alarm-ai-deepfake-videos-can-cause-lot-harm",
+            "https://www.wired.co.uk/article/mission-impossible-dead-reckoning-ai-villain",
+            "https://x.ai/"
         ]
     },
     "BV13z4y1J73N": {
@@ -205,11 +197,6 @@
                 "name": "",
                 "intro": "基于 Three.js 的 3D 解密小游戏",
                 "link": "https://www.thomasfriday.com/cuboid/"
-            },
-            {
-                "name": "",
-                "intro": "一周 AI 小结",
-                "link": "https://twitter.com/OpenAI/status/1677029947544838144 和  https://twitter.com/OpenAI/status/1676072388436594688 和 https://twitter.com/openai/status/1677015057316872192"
             }
         ],
         "source": [
@@ -253,11 +240,6 @@
                 "name": "",
                 "intro": "在 Go 程序中实现插件系统",
                 "link": "https://www.youtube.com/watch?v=pRT36VqpljA"
-            },
-            {
-                "name": "",
-                "intro": "本周 AI 小结",
-                "link": "https://about.sourcegraph.com/cody"
             }
         ],
         "source": [
@@ -345,11 +327,6 @@
                 "name": "codespelunker",
                 "intro": "命令行代码搜索工具",
                 "link": "https://github.com/boyter/cs"
-            },
-            {
-                "name": "",
-                "intro": "本周 AI 小结",
-                "link": "https://github.com/ggerganov/llama.cpp/pull/1827"
             }
         ],
         "source": [
@@ -392,15 +369,13 @@
                 "name": "",
                 "intro": "Apple 发布头显设备 Apple Vision Pro",
                 "link": "https://www.apple.com/newsroom/2023/06/introducing-apple-vision-pro"
-            },
-            {
-                "name": "",
-                "intro": "一周 AI 小结",
-                "link": "https://platform.openai.com/docs/guides/gpt-best-practices/strategy-provide-reference-text"
             }
         ],
         "source": [
             "https://mailchi.mp/hackernewsletter/655"
+        ],
+        "ai": [
+            "https://platform.openai.com/docs/guides/gpt-best-practices/strategy-provide-reference-text"
         ]
     },
     "BV1Mk4y1p7Jg": {
@@ -433,22 +408,16 @@
                 "name": "Logicboard",
                 "intro": "一个在线编程工具",
                 "link": "https://logicboard.com/demo 以及 https://logicboard.com/demo/:replay"
-            },
-            {
-                "name": "",
-                "intro": "AI 小结",
-                "link": "https://www.tii.ae/news/uaes-falcon-40b-now-royalty-free"
-            },
-            {
-                "name": "",
-                "intro": "处的字幕trogon打成了trogan",
-                "link": "https://technomancers.ai/japan-goes-all-in-copyright-doesnt-apply-to-ai-training https://www.theverge.com/2023/5/30/23742123/nvidia-stock-ai-gpu-1-trillion-market-cap-price-value"
             }
         ],
         "source": [
             "https://mailchi.mp/hackernewsletter/654"
         ],
-        "ai": []
+        "ai": [
+            "https://www.tii.ae/news/uaes-falcon-40b-now-royalty-free",
+            "https://technomancers.ai/japan-goes-all-in-copyright-doesnt-apply-to-ai-training",
+            "https://www.theverge.com/2023/5/30/23742123/nvidia-stock-ai-gpu-1-trillion-market-cap-price-value"
+        ]
     },
     "BV1ek4y1W7eg": {
         "title": "[Hacker News 周报] 微软开源 IoT 设备开发框架；Windows 11 集成 AI Copilot；Paypal 自研 NoSQL 数据库开源；",
@@ -1787,7 +1756,8 @@
         ],
         "source": [
             "https://mailchi.mp/hackernewsletter/626"
-        ]
+        ],
+        "ai": []
     },
     "BV14G4y1H7VM": {
         "title": "[Hacker News 周报] 手机编程 App；WebAssembly 应用；高性能 TypeScript 编译器",
