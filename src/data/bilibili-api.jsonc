@@ -10,7 +10,7 @@
             "page_size": "30"
         }
     },
-    // https://github.com/SocialSisterYi/bilibili-API-collect/blob/master/comment/list.md
+    // https://github.com/SocialSisterYi/bilibili-API-collect/blob/master/docs/comment/list.md
     "comment": {
         "url": "http://api.bilibili.com/x/v2/reply/main",
         "params": {
@@ -18,7 +18,7 @@
             "oid": "aid"
         }
     },
-    // https://github.com/SocialSisterYi/bilibili-API-collect/blob/master/video/info.md
+    // https://github.com/SocialSisterYi/bilibili-API-collect/blob/master/docs/video/info.md 
     "video_info": {
         "url": "http://api.bilibili.com/x/web-interface/view",
         "params": {

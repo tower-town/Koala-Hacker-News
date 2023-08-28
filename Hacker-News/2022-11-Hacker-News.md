@@ -1,12 +1,14 @@
+
+
 [[Hacker News 周报] Stable Diffusion AI 作画
 V2；开源数据可视化平台；命令行的艺术](https://www.bilibili.com/video/BV1Z24y1C793)
+
 <table>
   <theader>
     <th>名称</th>
     <th>简介</th>
     <th>链接</th>
-  </theader>
-  <tbody>
+  </theader><tbody>
     <tr>
       <td>Script Kit</td>
       <td>面向开发者的自动化工具，</td>
@@ -35,19 +37,23 @@ V2；开源数据可视化平台；命令行的艺术](https://www.bilibili.com/
       <td>Diátaxis</td>
       <td>帮助创作技术文档的写作框架</td>
       <td>https://diataxis.fr/</td>
+    </tr><tr>
+      <td>一周 AI 小结</td>
+      <td></td>
+      <td></td>
     </tr>
   </tbody>
 </table>
 
 [[Hacker News 周报] Mathematica 开源替代品；数据库领域多个新项目；Meta
 大规模代码管理方案](https://www.bilibili.com/video/BV1oP4y197dF)
+
 <table>
   <theader>
     <th>名称</th>
     <th>简介</th>
     <th>链接</th>
-  </theader>
-  <tbody>
+  </theader><tbody>
     <tr>
       <td>Redpanda</td>
       <td>与 Kafka PAI 兼容的流式数据平台</td>
@@ -72,19 +78,23 @@ V2；开源数据可视化平台；命令行的艺术](https://www.bilibili.com/
       <td>Mathics</td>
       <td>Mathematica 开源替代品</td>
       <td>https://mathics.org/</td>
+    </tr><tr>
+      <td>一周 AI 小结</td>
+      <td></td>
+      <td></td>
     </tr>
   </tbody>
 </table>
 
 [[Hacker News 周报] GitHub 下一代功能；Docker 支持
 Webassembly；新式代码教学工具](https://www.bilibili.com/video/BV1oY411Z7mU)
+
 <table>
   <theader>
     <th>名称</th>
     <th>简介</th>
     <th>链接</th>
-  </theader>
-  <tbody>
+  </theader><tbody>
     <tr>
       <td>Github Next</td>
       <td>GitHub 下一代功能</td>
@@ -113,19 +123,23 @@ Webassembly；新式代码教学工具](https://www.bilibili.com/video/BV1oY411Z
       <td></td>
       <td>.Net 发布了新版本 .Net7</td>
       <td>https://devblogs.microsoft.com/dotnet/announcing-dotnet-7/</td>
+    </tr><tr>
+      <td>一周 AI 小结</td>
+      <td></td>
+      <td></td>
     </tr>
   </tbody>
 </table>
 
 [[Hacker News 周报] Grafana Labs 新产品；Vite 与 Turbopack 性能对比；Heroku
 替代方案](https://www.bilibili.com/video/BV1u14y157NA)
+
 <table>
   <theader>
     <th>名称</th>
     <th>简介</th>
     <th>链接</th>
-  </theader>
-  <tbody>
+  </theader><tbody>
     <tr>
       <td>phlare</td>
       <td>GrafanaLabs 推出持续性能分析平台 Phlare</td>
@@ -154,6 +168,10 @@ Webassembly；新式代码教学工具](https://www.bilibili.com/video/BV1oY411Z
       <td></td>
       <td>Heroku 免费替代品</td>
       <td>https://github.com/Engagespot/heroku-free-alternatives</td>
+    </tr><tr>
+      <td>一周 AI 小结</td>
+      <td></td>
+      <td></td>
     </tr>
   </tbody>
 </table>

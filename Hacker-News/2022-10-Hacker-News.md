@@ -1,12 +1,14 @@
+
+
 [[Hacker News 周报] Vercel 推出 Webpack 替代品；Python 发布新版；轻量级搜索引擎
 Sonic](https://www.bilibili.com/video/BV1DD4y1b76j)
+
 <table>
   <theader>
     <th>名称</th>
     <th>简介</th>
     <th>链接</th>
-  </theader>
-  <tbody>
+  </theader><tbody>
     <tr>
       <td></td>
       <td>Vercel 推出 webpack 替代品</td>
@@ -35,19 +37,23 @@ Sonic](https://www.bilibili.com/video/BV1DD4y1b76j)
       <td>Starter Tab</td>
       <td>自定义主页工具</td>
       <td>https://startertab.com/</td>
+    </tr><tr>
+      <td>一周 AI 小结</td>
+      <td></td>
+      <td></td>
     </tr>
   </tbody>
 </table>
 
 [[Hacker News 周报] 手机编程 App；WebAssembly 应用；高性能 TypeScript
 编译器](https://www.bilibili.com/video/BV14G4y1H7VM)
+
 <table>
   <theader>
     <th>名称</th>
     <th>简介</th>
     <th>链接</th>
-  </theader>
-  <tbody>
+  </theader><tbody>
     <tr>
       <td>Tabby</td>
       <td>用 web 开发的现代化终端</td>
@@ -76,19 +82,23 @@ Sonic](https://www.bilibili.com/video/BV1DD4y1b76j)
       <td></td>
       <td>Koala 频道观众贡献的 2 个 Hacker News 周报检索项目</td>
       <td>https://github.com/ZutJoe/Koala_hacker_news</td>
+    </tr><tr>
+      <td>一周 AI 小结</td>
+      <td></td>
+      <td></td>
     </tr>
   </tbody>
 </table>
 
 [[Hacker News 周报] Obsidian 发布 1.0；命令行中编辑视频与收发邮件；Jet Brains 新一代 IDE
 公测](https://www.bilibili.com/video/BV1Ae411V7UR)
+
 <table>
   <theader>
     <th>名称</th>
     <th>简介</th>
     <th>链接</th>
-  </theader>
-  <tbody>
+  </theader><tbody>
     <tr>
       <td></td>
       <td>Obsidian 发布 1.0</td>
@@ -117,19 +127,23 @@ Sonic](https://www.bilibili.com/video/BV1DD4y1b76j)
       <td></td>
       <td>Go 语言设计讨论</td>
       <td>https://github.com/golang/go/discussions/56010</td>
+    </tr><tr>
+      <td>一周 AI 小结</td>
+      <td></td>
+      <td></td>
     </tr>
   </tbody>
 </table>
 
 [[Hacker News 周报] 通过二维码分享电脑中任意文件；开源 WASM 运行 PostgresSQL 方案；社区尝试维护 SQLite
 下游版本](https://www.bilibili.com/video/BV1GR4y1R7Yw)
+
 <table>
   <theader>
     <th>名称</th>
     <th>简介</th>
     <th>链接</th>
-  </theader>
-  <tbody>
+  </theader><tbody>
     <tr>
       <td>sharing</td>
       <td>将电脑中的文件通过二维码分享给手机</td>
@@ -159,19 +173,23 @@ Sonic](https://www.bilibili.com/video/BV1DD4y1b76j)
       <td></td>
       <td>TypeScript 10 years anniversary</td>
       <td>https://devblogs.microsoft.com/typescript/ten-years-of-typescript/</td>
+    </tr><tr>
+      <td>一周 AI 小结</td>
+      <td></td>
+      <td></td>
     </tr>
   </tbody>
 </table>
 
 [[Hacker News 周报] CloudFlare 开源 serverless 运行时 workerd；开源 APM 系统；使用 Go 和 Web
 技术开发](https://www.bilibili.com/video/BV1td4y1B7Y1)
+
 <table>
   <theader>
     <th>名称</th>
     <th>简介</th>
     <th>链接</th>
-  </theader>
-  <tbody>
+  </theader><tbody>
     <tr>
       <td>SigNoz</td>
       <td>开源的 APM 系统</td>
@@ -200,6 +218,10 @@ Sonic](https://www.bilibili.com/video/BV1DD4y1b76j)
       <td></td>
       <td>Google 计划关停云游戏服务 Stadia</td>
       <td>https://www.theverge.com/2022/9/29/23378713/google-stadia-shutting-down-game-streaming-january-2023</td>
+    </tr><tr>
+      <td>一周 AI 小结</td>
+      <td></td>
+      <td></td>
     </tr>
   </tbody>
 </table>

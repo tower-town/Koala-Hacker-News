@@ -1,12 +1,14 @@
+
+
 [[Hacker News 周报] Obsidian Canvas
 发布；开源免费视频会议服务；一周末复刻赛伯朋克中的语音识别](https://www.bilibili.com/video/BV1z14y1P7uC)
+
 <table>
   <theader>
     <th>名称</th>
     <th>简介</th>
     <th>链接</th>
-  </theader>
-  <tbody>
+  </theader><tbody>
     <tr>
       <td></td>
       <td>Obsidian Canvas 发布</td>
@@ -31,19 +33,23 @@
       <td></td>
       <td>一篇文章介绍如何在 1 毫秒内搜索 37 GB 文本的文章</td>
       <td>https://death.andgravity.com/pwned</td>
+    </tr><tr>
+      <td>一周 AI 小结</td>
+      <td></td>
+      <td></td>
     </tr>
   </tbody>
 </table>
 
 [[Hacker News 周报] 高性能 Python 编译器；Linux 文本处理技巧；在命令行中渲染
 Markdown；](https://www.bilibili.com/video/BV1wA411R72Y)
+
 <table>
   <theader>
     <th>名称</th>
     <th>简介</th>
     <th>链接</th>
-  </theader>
-  <tbody>
+  </theader><tbody>
     <tr>
       <td>Codon</td>
       <td>高性能 Python 编译器</td>
@@ -73,19 +79,23 @@ Markdown；](https://www.bilibili.com/video/BV1wA411R72Y)
       <td></td>
       <td>类似 Wordle 的中文字谜小游戏</td>
       <td>https://hanzi.gg/</td>
+    </tr><tr>
+      <td>一周 AI 小结</td>
+      <td></td>
+      <td></td>
     </tr>
   </tbody>
 </table>
 
 [[Hacker News 周报] 浏览器中运行桌面环境；轻量级网站监控方案；可视化 React 组件
 IDE](https://www.bilibili.com/video/BV1Gv4y197md)
+
 <table>
   <theader>
     <th>名称</th>
     <th>简介</th>
     <th>链接</th>
-  </theader>
-  <tbody>
+  </theader><tbody>
     <tr>
       <td>Pynecone</td>
       <td>Python 全栈 Web 开发方案</td>
@@ -110,19 +120,23 @@ IDE](https://www.bilibili.com/video/BV1Gv4y197md)
       <td>Blockbench</td>
       <td>创建 low-poly 视觉风格的 3D 模型编辑器</td>
       <td>https://github.com/JannisX11/blockbench</td>
+    </tr><tr>
+      <td>一周 AI 小结</td>
+      <td></td>
+      <td></td>
     </tr>
   </tbody>
 </table>
 
 [[Hacker News 周报] OpenAI 开放 ChatGPT 模型；NLP 在线课程；k8s
 流量监测工具](https://www.bilibili.com/video/BV1tP4y1Q7Vt)
+
 <table>
   <theader>
     <th>名称</th>
     <th>简介</th>
     <th>链接</th>
-  </theader>
-  <tbody>
+  </theader><tbody>
     <tr>
       <td></td>
       <td>OpenAI 开放 ChatGPT 模型</td>
@@ -151,6 +165,10 @@ IDE](https://www.bilibili.com/video/BV1Gv4y197md)
       <td>"Sql for Devs"</td>
       <td>数据库详解电子书</td>
       <td>https://sqlfordevs.com/ebook</td>
+    </tr><tr>
+      <td>一周 AI 小结</td>
+      <td></td>
+      <td></td>
     </tr>
   </tbody>
 </table>

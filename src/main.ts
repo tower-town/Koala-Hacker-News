@@ -1,19 +1,15 @@
-import path from "path";
-import { HackerNews } from "./componet/HackerNews";
+import { Startup } from "../src/controler/main";
+import { View } from "../src/view/main";
 
-let md_path = path.join(__dirname, "../Hacker-News/");
-let readme_path = path.join(__dirname, "../README.md");
-let jsonpath = path.join(__dirname, "./data/data.json");
+const startup = new Startup();
+const view = new View();
 
-let HN = new HackerNews();
 (async () => {
 	try {
-		HN.json_data = await HN.initCollect();
-		HN.json_data = await HN.getComment();
-		let jsonData = await HN.getSourceLinks();
-		await HN.writeJson(jsonData);
-		await HN.updateReadme(readme_path, md_path);
+		await startup.init();
+		const hnlist = await startup.hnlist();
+		await view.display(hnlist);
 	} catch (err) {
-		throw err;
+		throw Error(`${err}`);
 	}
 })();
