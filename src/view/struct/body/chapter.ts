@@ -55,8 +55,21 @@ export class ChapterBody {
             const quarter = format(v.fmtPubdate, "yyyyQQQ");
             const yearmonth = format(v.fmtPubdate, "yyyy-MM");
             const datetime = format(v.fmtPubdate, "yyyy-MM-dd");
-            return `${memo}- ${datetime} [${v.Title}](./${quarter}/${yearmonth}-Hacker-News.md) \n`
+            const title = this.#getTitleOutline(v.Title) ? this.#getTitleOutline(v.Title) : v.Title;
+            return `${memo}- ${datetime} [HackerNews周报](./${quarter}/${yearmonth}-Hacker-News.md)\n${title}`
         }, "")
+    }
+
+    #getTitleOutline(title: string): string | undefined {
+        return _.chain(title.split(/；/))
+            .map(v => v.replaceAll(" ", ""))
+            .map(v => v.replace("[HackerNews周报]", ""))
+            .map(v => v.trim())
+            .reduce((memo, v) => {
+                return `${memo}  - ${v}\n`;
+            }, "")
+            .value();
+
     }
 
     async #updateOutline(path: string, data: string): Promise<void> {

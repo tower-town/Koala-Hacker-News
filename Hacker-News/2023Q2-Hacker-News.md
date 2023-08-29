@@ -1,15 +1,53 @@
 ## [返回主目录](../README.md)
 
-- 2023-06-25 [[Hacker News 周报]  Vercel AI SDK 发布；开源 codespaces 替代品；UI 原型工具创新](./2023Q2/2023-06-Hacker-News.md) 
-- 2023-06-18 [[Hacker News 周报] 轻量级可观测性工具；云原生流处理引擎；llama.cpp 优化 GPU 加速](./2023Q2/2023-06-Hacker-News.md) 
-- 2023-06-11 [[Hacker News 周报] Jupyter notebook 快速变为 web app；文字生成 3D 人物；AI 探索更快排序算法](./2023Q2/2023-06-Hacker-News.md) 
-- 2023-06-04 [[Hacker News 周报] 面向机器学习设计的列式数据结构；开源 Jira 替代品；Nvidia 万亿市值](./2023Q2/2023-06-Hacker-News.md) 
-- 2023-05-28 [[Hacker News 周报] 微软开源 IoT 设备开发框架；Windows 11 集成 AI Copilot；Paypal 自研 NoSQL 数据库开源；](./2023Q2/2023-05-Hacker-News.md) 
-- 2023-05-21 [[Hacker News 周报] 低代码 + serverless = ?；WebAssembly 性能分析工具；AI 一周概述](./2023Q2/2023-05-Hacker-News.md) 
-- 2023-05-14 [[Hacker News 周报] 支持十万 token 的 AI 对话模型；MySQL + Git = Dolt；React Native 优化编译器](./2023Q2/2023-05-Hacker-News.md) 
-- 2023-05-07 [[Hacker News 周报] 面向 AI 的编程语言 Mojo、Mozilla 收购新动向、基于 V8 的开源 serverless 平台](./2023Q2/2023-05-Hacker-News.md) 
-- 2023-04-30 [[Hacker News 周报] 端到端后端开发平台；Babylon.JS 6.0 发布超强物理引擎；无代码训练自己的 ChatGPT 机器人](./2023Q2/2023-04-Hacker-News.md) 
-- 2023-04-23 [[Hacker News 周报] 轻量灵活的 BI 工具；高性能数据库连接池；开源函数服务框架](./2023Q2/2023-04-Hacker-News.md) 
-- 2023-04-16 [[Hacker News 周报] 面向开发者的 AI 搜索引擎；交互式代码文档；有趣的人体键盘](./2023Q2/2023-04-Hacker-News.md) 
-- 2023-04-09 [[Hacker News 周报] Facebook 发布图像识别新模型；Twitter 开源推荐算法；Rust 编写流式计算引擎](./2023Q2/2023-04-Hacker-News.md) 
-- 2023-04-02 [[Hacker News 周报] 在编辑器中和 AI 结对编程；高性能 Go 哈希表；训练自己的 AI 模型](./2023Q2/2023-04-Hacker-News.md) 
+- 2023-06-25 [HackerNews周报](./2023Q2/2023-06-Hacker-News.md)
+  - VercelAISDK发布
+  - 开源codespaces替代品
+  - UI原型工具创新
+- 2023-06-18 [HackerNews周报](./2023Q2/2023-06-Hacker-News.md)
+  - 轻量级可观测性工具
+  - 云原生流处理引擎
+  - llama.cpp优化GPU加速
+- 2023-06-11 [HackerNews周报](./2023Q2/2023-06-Hacker-News.md)
+  - Jupyternotebook快速变为webapp
+  - 文字生成3D人物
+  - AI探索更快排序算法
+- 2023-06-04 [HackerNews周报](./2023Q2/2023-06-Hacker-News.md)
+  - 面向机器学习设计的列式数据结构
+  - 开源Jira替代品
+  - Nvidia万亿市值
+- 2023-05-28 [HackerNews周报](./2023Q2/2023-05-Hacker-News.md)
+  - 微软开源IoT设备开发框架
+  - Windows11集成AICopilot
+  - Paypal自研NoSQL数据库开源
+  - 
+- 2023-05-21 [HackerNews周报](./2023Q2/2023-05-Hacker-News.md)
+  - 低代码+serverless=?
+  - WebAssembly性能分析工具
+  - AI一周概述
+- 2023-05-14 [HackerNews周报](./2023Q2/2023-05-Hacker-News.md)
+  - 支持十万token的AI对话模型
+  - MySQL+Git=Dolt
+  - ReactNative优化编译器
+- 2023-05-07 [HackerNews周报](./2023Q2/2023-05-Hacker-News.md)
+  - 面向AI的编程语言Mojo、Mozilla收购新动向、基于V8的开源serverless平台
+- 2023-04-30 [HackerNews周报](./2023Q2/2023-04-Hacker-News.md)
+  - 端到端后端开发平台
+  - Babylon.JS6.0发布超强物理引擎
+  - 无代码训练自己的ChatGPT机器人
+- 2023-04-23 [HackerNews周报](./2023Q2/2023-04-Hacker-News.md)
+  - 轻量灵活的BI工具
+  - 高性能数据库连接池
+  - 开源函数服务框架
+- 2023-04-16 [HackerNews周报](./2023Q2/2023-04-Hacker-News.md)
+  - 面向开发者的AI搜索引擎
+  - 交互式代码文档
+  - 有趣的人体键盘
+- 2023-04-09 [HackerNews周报](./2023Q2/2023-04-Hacker-News.md)
+  - Facebook发布图像识别新模型
+  - Twitter开源推荐算法
+  - Rust编写流式计算引擎
+- 2023-04-02 [HackerNews周报](./2023Q2/2023-04-Hacker-News.md)
+  - 在编辑器中和AI结对编程
+  - 高性能Go哈希表
+  - 训练自己的AI模型

@@ -1,15 +1,54 @@
 ## [返回主目录](../README.md)
 
-- 2022-06-26 [[Hacker News 周报] GitHub AI 代码助手 Copilot 正式发布；增强版 watch 命令；Deno 完成 A 轮融资](./2022Q2/2022-06-Hacker-News.md) 
-- 2022-06-19 [[Hacker News 周报] Deno 原生 SSR web 框架；基于 Vite 的单元测试框架；程序员社交新尝试](./2022Q2/2022-06-Hacker-News.md) 
-- 2022-06-12 [[Hacker News 周报] TypeScript 高性能框架；浏览器插件开发平台；用代码更好地讲故事](./2022Q2/2022-06-Hacker-News.md) 
-- 2022-06-05 [[Hacker News 周报] 25 倍快的 Redis 竞品；开源 serverless Postgres 方案；快速编写 UML 图](./2022Q2/2022-06-Hacker-News.md) 
-- 2022-05-29 [[Hacker News 周报] 超轻量级 Python 引擎；快速阅读英文插件；TypeScript 发布新版本](./2022Q2/2022-05-Hacker-News.md) 
-- 2022-05-22 [[Hacker News 周报] GO 全栈开发框架；开发终端风格网站；大厂技术架构赏析](./2022Q2/2022-05-Hacker-News.md) 
-- 2022-05-15 [[Hacker News 周报] SQLite 再次流行；JS 性能分析指南；魔方竞速工具 CubeDesk](./2022Q2/2022-05-Hacker-News.md) 
-- 2022-05-08 [[Hacker News 周报] 浏览器中运行 Python；JSON 可视化神器；避免电脑休眠的网页](./2022Q2/2022-05-Hacker-News.md) 
-- 2022-05-01 [[Hacker News 周报] 性能分析工具合集；通过 TDD 学习 GO 语言；基于 Deno 的 serverless 平台](./2022Q2/2022-05-Hacker-News.md) 
-- 2022-04-24 [[Hacker News 周报] Meta 开源富文本编辑器 lexical；Yandex 开源分布式数据库 YDB；Node.js 18 发布](./2022Q2/2022-04-Hacker-News.md) 
-- 2022-04-17 [[Hacker News 周报] 现代 CLI 大全；Deno 推出 FaaS 服务；基于 Rust 的隧道工具](./2022Q2/2022-04-Hacker-News.md) 
-- 2022-04-10 [[Hacker News 周报] 自部署 PaaS coolify；现代化终端 Warp；Ruby 增加 WASM 支持](./2022Q2/2022-04-Hacker-News.md) 
-- 2022-04-03 [[Hacker News 周报] WebAssembly 运行 Python；云原生 CI/CD 开发包；React 18 发布](./2022Q2/2022-04-Hacker-News.md) 
+- 2022-06-26 [HackerNews周报](./2022Q2/2022-06-Hacker-News.md)
+  - GitHubAI代码助手Copilot正式发布
+  - 增强版watch命令
+  - Deno完成A轮融资
+- 2022-06-19 [HackerNews周报](./2022Q2/2022-06-Hacker-News.md)
+  - Deno原生SSRweb框架
+  - 基于Vite的单元测试框架
+  - 程序员社交新尝试
+- 2022-06-12 [HackerNews周报](./2022Q2/2022-06-Hacker-News.md)
+  - TypeScript高性能框架
+  - 浏览器插件开发平台
+  - 用代码更好地讲故事
+- 2022-06-05 [HackerNews周报](./2022Q2/2022-06-Hacker-News.md)
+  - 25倍快的Redis竞品
+  - 开源serverlessPostgres方案
+  - 快速编写UML图
+- 2022-05-29 [HackerNews周报](./2022Q2/2022-05-Hacker-News.md)
+  - 超轻量级Python引擎
+  - 快速阅读英文插件
+  - TypeScript发布新版本
+- 2022-05-22 [HackerNews周报](./2022Q2/2022-05-Hacker-News.md)
+  - GO全栈开发框架
+  - 开发终端风格网站
+  - 大厂技术架构赏析
+- 2022-05-15 [HackerNews周报](./2022Q2/2022-05-Hacker-News.md)
+  - SQLite再次流行
+  - JS性能分析指南
+  - 魔方竞速工具CubeDesk
+- 2022-05-08 [HackerNews周报](./2022Q2/2022-05-Hacker-News.md)
+  - 浏览器中运行Python
+  - JSON可视化神器
+  - 避免电脑休眠的网页
+- 2022-05-01 [HackerNews周报](./2022Q2/2022-05-Hacker-News.md)
+  - 性能分析工具合集
+  - 通过TDD学习GO语言
+  - 基于Deno的serverless平台
+- 2022-04-24 [HackerNews周报](./2022Q2/2022-04-Hacker-News.md)
+  - Meta开源富文本编辑器lexical
+  - Yandex开源分布式数据库YDB
+  - Node.js18发布
+- 2022-04-17 [HackerNews周报](./2022Q2/2022-04-Hacker-News.md)
+  - 现代CLI大全
+  - Deno推出FaaS服务
+  - 基于Rust的隧道工具
+- 2022-04-10 [HackerNews周报](./2022Q2/2022-04-Hacker-News.md)
+  - 自部署PaaScoolify
+  - 现代化终端Warp
+  - Ruby增加WASM支持
+- 2022-04-03 [HackerNews周报](./2022Q2/2022-04-Hacker-News.md)
+  - WebAssembly运行Python
+  - 云原生CI/CD开发包
+  - React18发布
