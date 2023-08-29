@@ -18,6 +18,7 @@ import { Markdown } from "../../script/Markdown";
 import path from "path";
 import { Utils } from "../../../common/utils";
 import { format } from "date-fns";
+import { da } from "date-fns/locale";
 
 export class ChapterBody {
     #markdown = new Markdown();
@@ -48,7 +49,10 @@ export class ChapterBody {
 
     #getOutline(hnlist: HackerNews[]): string {
         return _.reduce(hnlist, (memo: string, v) => {
-            return `${memo}- ${format(v.fmtPubdate, "yyyy-MM-dd")} [${v.Title}](./${format(v.fmtPubdate, "yyyy-MM")}-Hacker-News.md) \n`
+            const quarter = format(v.fmtPubdate, "yyyyQQQ");
+            const yearmonth = format(v.fmtPubdate, "yyyy-MM");
+            const datetime = format(v.fmtPubdate, "yyyy-MM-dd");
+            return `${memo}- ${datetime} [${v.Title}](./${quarter}/${yearmonth}-Hacker-News.md) \n`
         }, "")
     }
 
