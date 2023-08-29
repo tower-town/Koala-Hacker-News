@@ -1,5 +1,5 @@
 import fs from "fs";
-import { JsonData, Response } from "./type";
+import { Response } from "./type";
 
 export class Utils {
 
