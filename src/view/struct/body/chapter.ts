@@ -12,10 +12,12 @@
 */
 
 import _ from "underscore";
+import fs from "fs";
 import { HackerNews } from "../../../model/beamer/HackerNews";
 import { Markdown } from "../../script/Markdown";
 import path from "path";
 import { Utils } from "../../../common/utils";
+import { format } from "date-fns";
 
 export class ChapterBody {
     #markdown = new Markdown();
@@ -29,15 +31,13 @@ export class ChapterBody {
 
         const hns = await this.splitDict(hnlist);
         _.chain(hns)
-            .map((v, k) => {
-                const cpath = path.join(this.#chapterPath, `${k}-Hacker-News.md`);
-                const data = _.chain(v)
-                    .reduce((memo, v) => {
-                        return memo + this.#markdown.getTab(v);
-                    }, "")
-                    .value();
+            .map((v, quarter) => {
+                this.#updateOutline(
+                    `${this.#chapterPath}/${quarter}-Hacker-News.md`,
+                    this.#getOutline(v)
+                )
+                this.#updateQM(quarter, v);
                 // console.warn(cpath, data);
-                Utils.writeFile(cpath, data);
             })
             .value();
     }
@@ -46,10 +46,33 @@ export class ChapterBody {
         return true;
     }
 
-    /*
-    fill 0 if the month little 10
-    */
+    #getOutline(hnlist: HackerNews[]): string {
+        return _.reduce(hnlist, (memo: string, v) => {
+            return `${memo}- ${format(v.fmtPubdate, "yyyy-MM-dd")} [${v.Title}](./${format(v.fmtPubdate, "yyyy-MM")}-Hacker-News.md) \n`
+        }, "")
+    }
+
+    async #updateOutline(path: string, data: string): Promise<void> {
+        const outlineHead = "## 目录\n\n";
+        await Utils.writeFile(path, `${outlineHead}${data}`);
+    }
+
+    #updateQM(quarter: string, hnlist: HackerNews[]): void {
+        _.chain(hnlist)
+            .groupBy(v => `${format(v.fmtPubdate, "yyyy-MM")}`)
+            .map((v, k) => {
+                const cpath = path.join(this.#chapterPath, `./${quarter}/${k}-Hacker-News.md`);
+                fs.promises.mkdir(path.dirname(cpath), { recursive: true });
+                const data = _.reduce(v, (memo, v) => {
+                    return memo + this.#markdown.getTab(v);
+                }, "");
+                Utils.writeFile(cpath, data);
+            })
+            .value();
+    }
+
     #fmtChapter(chapter: Date): string {
-        return `${chapter.getFullYear()}-${chapter.getMonth() + 1 < 10 ? `0${chapter.getMonth() + 1}` : chapter.getMonth() + 1}`;
+        // if you use much more date oparation, I recommend you use date-fnt or moment.js
+        return `${format(chapter, "yyyyQQQ")}`;
     }
 }

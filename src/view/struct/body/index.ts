@@ -32,7 +32,7 @@ export class BodyStruct {
         const hnDict = await this.#chapter.splitDict(hnlist);
         const chapterList = _.chain(hnDict).keys()
             .map((key) =>
-                this.#getOutLine(
+                this.#getOutline(
                     this.#transformPath(`${key}-Hacker-News.md`),
                     key,
                 ))
@@ -46,7 +46,7 @@ export class BodyStruct {
         await Utils.writeFile(path.join(this.#indexPath), readme);
     }
 
-    #getOutLine(path: string, chapter: string): string {
+    #getOutline(path: string, chapter: string): string {
         return `- [${chapter}: [Hacker News 周报]](${path})\n`;
     }
 

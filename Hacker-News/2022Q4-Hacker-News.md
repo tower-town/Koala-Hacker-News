@@ -1,0 +1,15 @@
+## 目录
+
+- 2022-12-25 [[Hacker News 周报] Obsidian Canvas 发布；开源免费视频会议服务；一周末复刻赛伯朋克中的语音识别](./2022-12-Hacker-News.md) 
+- 2022-12-18 [[Hacker News 周报] 高性能 Python 编译器；Linux 文本处理技巧；在命令行中渲染 Markdown；](./2022-12-Hacker-News.md) 
+- 2022-12-11 [[Hacker News 周报] 浏览器中运行桌面环境；轻量级网站监控方案；可视化 React 组件 IDE](./2022-12-Hacker-News.md) 
+- 2022-12-05 [[Hacker News 周报] OpenAI 开放 ChatGPT 模型；NLP 在线课程；k8s 流量监测工具](./2022-12-Hacker-News.md) 
+- 2022-11-27 [[Hacker News 周报] Stable Diffusion AI 作画 V2；开源数据可视化平台；命令行的艺术](./2022-11-Hacker-News.md) 
+- 2022-11-20 [[Hacker News 周报] Mathematica 开源替代品；数据库领域多个新项目；Meta 大规模代码管理方案](./2022-11-Hacker-News.md) 
+- 2022-11-13 [[Hacker News 周报] GitHub 下一代功能；Docker 支持 Webassembly；新式代码教学工具](./2022-11-Hacker-News.md) 
+- 2022-11-06 [[Hacker News 周报] Grafana Labs 新产品；Vite 与 Turbopack 性能对比；Heroku 替代方案](./2022-11-Hacker-News.md) 
+- 2022-10-30 [[Hacker News 周报] Vercel 推出 Webpack 替代品；Python 发布新版；轻量级搜索引擎 Sonic](./2022-10-Hacker-News.md) 
+- 2022-10-23 [[Hacker News 周报] 手机编程 App；WebAssembly 应用；高性能 TypeScript 编译器](./2022-10-Hacker-News.md) 
+- 2022-10-16 [[Hacker News 周报] Obsidian 发布 1.0；命令行中编辑视频与收发邮件；Jet Brains 新一代 IDE 公测](./2022-10-Hacker-News.md) 
+- 2022-10-09 [[Hacker News 周报] 通过二维码分享电脑中任意文件；开源 WASM 运行 PostgresSQL 方案；社区尝试维护 SQLite 下游版本](./2022-10-Hacker-News.md) 
+- 2022-10-03 [[Hacker News 周报] CloudFlare 开源 serverless 运行时 workerd；开源 APM 系统；使用 Go 和 Web 技术开发](./2022-10-Hacker-News.md) 

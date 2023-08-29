@@ -16,6 +16,7 @@
     "@types/underscore": "^1.11.8",
     "async": "^3.2.4",
     "cheerio": "1.0.0-rc.12",
+    "date-fns": "^2.30.0",
     "fs": "0.0.1-security",
     "html-format": "^1.1.2",
     "json5": "^2.2.3",

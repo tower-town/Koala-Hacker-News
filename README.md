@@ -4,27 +4,14 @@
 
 ## 目录
 
-- [2023-08: [Hacker News 周报]](Hacker-News/2023-08-Hacker-News.md)
-- [2023-07: [Hacker News 周报]](Hacker-News/2023-07-Hacker-News.md)
-- [2023-06: [Hacker News 周报]](Hacker-News/2023-06-Hacker-News.md)
-- [2023-05: [Hacker News 周报]](Hacker-News/2023-05-Hacker-News.md)
-- [2023-04: [Hacker News 周报]](Hacker-News/2023-04-Hacker-News.md)
-- [2023-03: [Hacker News 周报]](Hacker-News/2023-03-Hacker-News.md)
-- [2023-02: [Hacker News 周报]](Hacker-News/2023-02-Hacker-News.md)
-- [2023-01: [Hacker News 周报]](Hacker-News/2023-01-Hacker-News.md)
-- [2022-12: [Hacker News 周报]](Hacker-News/2022-12-Hacker-News.md)
-- [2022-11: [Hacker News 周报]](Hacker-News/2022-11-Hacker-News.md)
-- [2022-10: [Hacker News 周报]](Hacker-News/2022-10-Hacker-News.md)
-- [2022-09: [Hacker News 周报]](Hacker-News/2022-09-Hacker-News.md)
-- [2022-08: [Hacker News 周报]](Hacker-News/2022-08-Hacker-News.md)
-- [2022-07: [Hacker News 周报]](Hacker-News/2022-07-Hacker-News.md)
-- [2022-06: [Hacker News 周报]](Hacker-News/2022-06-Hacker-News.md)
-- [2022-05: [Hacker News 周报]](Hacker-News/2022-05-Hacker-News.md)
-- [2022-04: [Hacker News 周报]](Hacker-News/2022-04-Hacker-News.md)
-- [2022-03: [Hacker News 周报]](Hacker-News/2022-03-Hacker-News.md)
-- [2022-02: [Hacker News 周报]](Hacker-News/2022-02-Hacker-News.md)
-- [2022-01: [Hacker News 周报]](Hacker-News/2022-01-Hacker-News.md)
-- [2021-12: [Hacker News 周报]](Hacker-News/2021-12-Hacker-News.md)
+- [2023Q3: [Hacker News 周报]](Hacker-News/2023Q3-Hacker-News.md)
+- [2023Q2: [Hacker News 周报]](Hacker-News/2023Q2-Hacker-News.md)
+- [2023Q1: [Hacker News 周报]](Hacker-News/2023Q1-Hacker-News.md)
+- [2022Q4: [Hacker News 周报]](Hacker-News/2022Q4-Hacker-News.md)
+- [2022Q3: [Hacker News 周报]](Hacker-News/2022Q3-Hacker-News.md)
+- [2022Q2: [Hacker News 周报]](Hacker-News/2022Q2-Hacker-News.md)
+- [2022Q1: [Hacker News 周报]](Hacker-News/2022Q1-Hacker-News.md)
+- [2021Q4: [Hacker News 周报]](Hacker-News/2021Q4-Hacker-News.md)
 
 ## 参考
 
