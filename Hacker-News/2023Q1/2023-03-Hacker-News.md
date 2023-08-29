@@ -1,3 +1,4 @@
+## [返回章节目录](../2023Q1-Hacker-News.md)
 
 
 [[Hacker News 周报] ChatGPT 发布插件能力；功能强大使用便捷的排版系统；Adobe 推出 AI

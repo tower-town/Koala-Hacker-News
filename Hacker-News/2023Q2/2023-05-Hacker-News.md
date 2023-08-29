@@ -1,3 +1,4 @@
+## [返回章节目录](../2023Q2-Hacker-News.md)
 
 
 [[Hacker News 周报] 微软开源 IoT 设备开发框架；Windows 11 集成 AI Copilot；Paypal 自研 NoSQL

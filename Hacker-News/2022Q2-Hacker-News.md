@@ -1,4 +1,4 @@
-## 目录
+## [返回主目录](../README.md)
 
 - 2022-06-26 [[Hacker News 周报] GitHub AI 代码助手 Copilot 正式发布；增强版 watch 命令；Deno 完成 A 轮融资](./2022Q2/2022-06-Hacker-News.md) 
 - 2022-06-19 [[Hacker News 周报] Deno 原生 SSR web 框架；基于 Vite 的单元测试框架；程序员社交新尝试](./2022Q2/2022-06-Hacker-News.md) 

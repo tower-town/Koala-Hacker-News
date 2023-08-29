@@ -18,10 +18,13 @@ import { Markdown } from "../../script/Markdown";
 import path from "path";
 import { Utils } from "../../../common/utils";
 import { format } from "date-fns";
-import { da } from "date-fns/locale";
+import { chapter_foot } from "../foot/chapter";
+import { chapter_head } from "../head/chapter";
 
 export class ChapterBody {
     #markdown = new Markdown();
+    #chapterHead = chapter_head;
+    #chapterFoot = chapter_foot;
     #chapterPath = this.#markdown.chapterPath;
 
     async splitDict(hnlist: HackerNews[]): Promise<_.Dictionary<HackerNews[]>> {
@@ -57,7 +60,7 @@ export class ChapterBody {
     }
 
     async #updateOutline(path: string, data: string): Promise<void> {
-        const outlineHead = "## 目录\n\n";
+        const outlineHead = "## [返回主目录](../README.md)\n\n";
         await Utils.writeFile(path, `${outlineHead}${data}`);
     }
 
@@ -67,10 +70,14 @@ export class ChapterBody {
             .map((v, k) => {
                 const cpath = path.join(this.#chapterPath, `./${quarter}/${k}-Hacker-News.md`);
                 fs.promises.mkdir(path.dirname(cpath), { recursive: true });
-                const data = _.reduce(v, (memo, v) => {
+
+                const chapterHead = `${this.#chapterHead}## [返回章节目录](../${quarter}-Hacker-News.md)\n`;
+                const chapterBody = _.reduce(v, (memo, v) => {
                     return memo + this.#markdown.getTab(v);
                 }, "");
-                Utils.writeFile(cpath, data);
+                const chapterFoot = this.#chapterFoot;
+                const data = `${chapterHead}${chapterBody}${chapterFoot}`;
+                Utils.writeFile(cpath, `${data}`);
             })
             .value();
     }

@@ -1,4 +1,4 @@
-## 目录
+## [返回主目录](../README.md)
 
 - 2022-09-25 [[Hacker News 周报] Git 终端 UI；开源短链接服务；AI 作画图库](./2022Q3/2022-09-Hacker-News.md) 
 - 2022-09-18 [[Hacker News 周报] 在线设计工具新动向；交互式 Markdown；Mac 中体验 AI 作画](./2022Q3/2022-09-Hacker-News.md) 

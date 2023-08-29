@@ -1,4 +1,4 @@
-## 目录
+## [返回主目录](../README.md)
 
 - 2022-12-25 [[Hacker News 周报] Obsidian Canvas 发布；开源免费视频会议服务；一周末复刻赛伯朋克中的语音识别](./2022Q4/2022-12-Hacker-News.md) 
 - 2022-12-18 [[Hacker News 周报] 高性能 Python 编译器；Linux 文本处理技巧；在命令行中渲染 Markdown；](./2022Q4/2022-12-Hacker-News.md) 

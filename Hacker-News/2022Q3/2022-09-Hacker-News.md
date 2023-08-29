@@ -1,3 +1,4 @@
+## [返回章节目录](../2022Q3-Hacker-News.md)
 
 
 [[Hacker News 周报] Git 终端 UI；开源短链接服务；AI

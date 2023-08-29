@@ -1,4 +1,4 @@
-## 目录
+## [返回主目录](../README.md)
 
 - 2023-03-26 [[Hacker News 周报] ChatGPT 发布插件能力；功能强大使用便捷的排版系统；Adobe 推出 AI 创意工具](./2023Q1/2023-03-Hacker-News.md) 
 - 2023-03-19 [[Hacker News 周报]  GPT-4 发布；Wasm 跨语言运行时；React 新官网上线](./2023Q1/2023-03-Hacker-News.md) 

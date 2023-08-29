@@ -1,3 +1,4 @@
+## [返回章节目录](../2022Q4-Hacker-News.md)
 
 
 [[Hacker News 周报] Stable Diffusion AI 作画

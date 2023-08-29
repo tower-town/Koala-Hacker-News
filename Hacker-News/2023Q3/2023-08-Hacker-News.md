@@ -1,3 +1,4 @@
+## [返回章节目录](../2023Q3-Hacker-News.md)
 
 
 [[Hacker News 周报] 协同 Lottie 动画创作工具；轻量级 systemd 服务管理工具；使用 PS 一样使用 Diffusion
