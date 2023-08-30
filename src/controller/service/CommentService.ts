@@ -11,13 +11,13 @@
 * ====================================================
 */
 
+import { DetailsJson } from "@src/common/type";
+import { Utils, fetchJson } from "@src/common/utils";
+import { DetailsList } from "@src/model/DetailsList";
+import { HackerNewsList } from "@src/model/HackerNewsList";
+import { HackerNewsBeamer } from "@src/model/beamer/HackerNewsBeamer";
 import _ from "underscore";
-import { Utils, fetchJson } from "../../common/utils";
-import { HackerNewsBeamer } from "../../model/beamer/HackerNewsBeamer";
 import { ServiceBaseDAO } from "../base/ServiceBase";
-import { HackerNewsList } from "../../model/HackerNewsList";
-import { DetailsList } from "../../model/DetailsList";
-import { DetailsJson } from "../../common/type";
 
 export class CommentService extends ServiceBaseDAO {
     #mid = new URLSearchParams(this.data.commentURLParams.params).get("mid");
@@ -49,11 +49,18 @@ export class CommentService extends ServiceBaseDAO {
             const hnlist = await u as HackerNewsBeamer[];
             let hn = {} as HackerNewsBeamer;
             _.chain(hnlist)
-                .filter(v => v.Aid === data.oid)
+                .filter(item => item.Aid === data.oid)
                 .map((v, _) => {
                     hn = v;
-                    hn.Details = hn.Details ? hn.Details : new DetailsList().getList(data.data);
-                    hn.Ai = hn.Ai ? hn.Ai : data.ai;
+                    if (hn.Ai?.length === 0 && hn.Details?.length === 0) {
+                        console.warn(`Details data is ${hn.Details}\n Ai is ${hn.Ai}`);
+                    }
+                    if (hn.Ai?.length === 0) {
+                        hn.Ai = data.ai;
+                    }
+                    if (hn.Details?.length === 0) {
+                        hn.Details = new DetailsList().getList(data.data);
+                    }
                     new HackerNewsList().updateList(hnlist, hn);
                 })
                 .value()
@@ -85,12 +92,6 @@ export class CommentService extends ServiceBaseDAO {
                     })
                 }
                 ))
-            // .map((promise) =>
-            //     promise.then((value) => {
-            //         console.log(value);
-            //         return value;
-            //     })
-            // )
             .value();
     }
 
@@ -202,6 +203,7 @@ export class CommentService extends ServiceBaseDAO {
                 }
             })
     }
+
     #flatmapAi(ai: string[]): string[] {
         return ai
             .map((value) => Utils.captureLink(value))

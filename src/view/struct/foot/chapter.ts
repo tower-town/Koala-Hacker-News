@@ -11,4 +11,4 @@
 * ====================================================
 */
 
-export const chapter_foot = ""
+export const footChapter = ""

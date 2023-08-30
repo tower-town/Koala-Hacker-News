@@ -14,10 +14,10 @@
 import path from "path";
 import { Utils } from "@src/common/utils";
 import { HackerNewsBeamer } from "@src/model/beamer/HackerNewsBeamer";
+import { MarkdownView } from "@src/view/script/MarkdownView";
 import _ from "underscore";
-import { MarkdownView } from "../../script/MarkdownView";
-import { foot_index } from "../foot/index";
-import { head_index } from "../head/index";
+import { footIndex } from "../foot/index";
+import { headIndex } from "../head/index";
 import { ChapterBody } from "./chapter";
 
 export class BodyStruct {
@@ -25,8 +25,8 @@ export class BodyStruct {
     #indexPath = this.#markdown.indexPath;
     #chapterPath = this.#markdown.chapterPath;
     #chapter = new ChapterBody();
-    #head = head_index;
-    #foot = foot_index;
+    #head = headIndex;
+    #foot = footIndex;
 
     async loadChapterList(hnlist: HackerNewsBeamer[]): Promise<void> {
         const hnDict = await this.#chapter.groupChapter(hnlist);

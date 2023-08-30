@@ -1,0 +1,78 @@
+{
+    "BV1NL411L7U1": {
+        "title": "[Hacker News 周报] Blender 3.0 发布；GitHub 再出 Code Search",
+        "aid": 465206549,
+        "bvid": "BV1NL411L7U1",
+        "pubdate": 1640736002,
+        "data": [
+            {
+                "name": "",
+                "intro": "blender3.0 图形渲染工具",
+                "link": "https://www.blender.org/download/releases/3-0/"
+            },
+            {
+                "name": "uBlacklist",
+                "intro": "阻止特定的站点出现在谷歌的搜索结果中",
+                "link": "https://github.com/iorate/uBlacklist"
+            },
+            {
+                "name": "",
+                "intro": "Apache Guacamole 无客户端的远程桌面网端",
+                "link": "https://guacamole.apache.org/"
+            },
+            {
+                "name": "",
+                "intro": "Learn X in Y minutes",
+                "link": "https://learnxinyminutes.com/"
+            },
+            {
+                "name": "",
+                "intro": "《语义搜索的自然语言处理》",
+                "link": "https://www.pinecone.io/learn/nlp/"
+            },
+            {
+                "name": "",
+                "intro": "Jam 自部署工具",
+                "link": "https://github.com/jam-systems/jam"
+            },
+            {
+                "name": "",
+                "intro": "Milk Video 通过上传的视频和音频生成声波图的工具",
+                "link": "https://app.milkvideo.com/"
+            },
+            {
+                "name": "AlterClass",
+                "intro": "一个制作和销售编程课程的平台",
+                "link": "https://alterclass.io/"
+            },
+            {
+                "name": "",
+                "intro": "Code Search 搜索代码工具",
+                "link": "https://github.blog/2021-12-08-improving-github-code-search/"
+            },
+            {
+                "name": "Lapce",
+                "intro": "基于原生 GUI 和 Rust 编写的开源代码编辑器",
+                "link": "https://github.com/lapce/lapce"
+            },
+            {
+                "name": "Rough.js",
+                "intro": "创建一个手绘的，粗略的图形外观的工具",
+                "link": "https://roughjs.com/"
+            },
+            {
+                "name": "",
+                "intro": "Doodle CSS 手绘风格的主题 css",
+                "link": "https://chr15m.github.io/DoodleCSS/"
+            },
+            {
+                "name": "",
+                "intro": "Paper Website 从纸上建立一个网站界面",
+                "link": "https://daily.tinyprojects.dev/paper_website"
+            }
+        ],
+        "source": [
+            "https://mailchi.mp/hackernewsletter/583"
+        ]
+    }
+}

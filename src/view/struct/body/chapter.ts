@@ -18,13 +18,13 @@ import { HackerNewsBeamer } from "@src/model/beamer/HackerNewsBeamer";
 import { format } from "date-fns";
 import _ from "underscore";
 import { MarkdownView } from "../../script/MarkdownView";
-import { chapter_foot } from "../foot/chapter";
-import { chapter_head } from "../head/chapter";
+import { footChapter } from "../foot/chapter";
+import { headChapter } from "../head/chapter";
 
 export class ChapterBody {
     #markdown = new MarkdownView();
-    #chapterHead = chapter_head;
-    #chapterFoot = chapter_foot;
+    #chapterHead = headChapter;
+    #chapterFoot = footChapter;
     #chapterPath = this.#markdown.chapterPath;
 
     async groupChapter(hnlist: HackerNewsBeamer[]): Promise<_.Dictionary<HackerNewsBeamer[]>> {

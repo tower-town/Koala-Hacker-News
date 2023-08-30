@@ -13,6 +13,8 @@
 
 import path from "path";
 import { JsonData } from "@src/common/type";
+import { Utils } from "@src/common/utils";
+import _ from "underscore";
 import { HackerNewsDAO } from "./DAO/HackerNewsDAO";
 import { DetailsList } from "./DetailsList";
 import { BaseDAO } from "./base/BaseDAO";
@@ -20,66 +22,72 @@ import { DetailsBeamer } from "./beamer/DetailsBeamer";
 import { HackerNewsBeamer } from "./beamer/HackerNewsBeamer";
 
 export class HackerNewsList extends BaseDAO implements HackerNewsDAO {
-	#pathjson: string = path.join(__dirname, "../data/data.json");
+	#databaseDir = path.join(__dirname, '../data/json');
 	#details: DetailsList = new DetailsList();
 
-	get Pathjson(): string {
-		return this.#pathjson;
+
+	get DatabaseDir(): string {
+		return this.#databaseDir;
 	}
 
-	set Pathjson(value: string) {
-		this.#pathjson = value;
+	set DatabaseDir(value: string) {
+		this.#databaseDir = value;
 	}
 
-	getList(): Promise<HackerNewsBeamer[]> {
-		return new Promise((resolve, reject) => {
-			const jsonObj: JsonData = this.readData(this.#pathjson);
+	async getList(): Promise<HackerNewsBeamer[]> {
+		const jsonListFile = await Utils.readDir(this.#databaseDir);
+		const hnlist: HackerNewsBeamer[] = [] as HackerNewsBeamer[];
 
-			const jsonList = Object.values(jsonObj);
-			const hnlist: HackerNewsBeamer[] = [] as HackerNewsBeamer[];
-
-			jsonList.forEach((v, _) => {
-				hnlist.push(
-					new HackerNewsBeamer(
-						v.bvid,
-						v.title,
-						Number(v.aid),
-						v.pubdate,
-						v.source,
-						this.#details.getList(v.data),
-						v.ai
-					),
-				);
+		jsonListFile.sort((a, b) => Number(b.slice(4, 9)) - Number(a.slice(4, 9)))
+			.forEach((v, i) => {
+				const jsonObj: JsonData = this.readData(path.join(this.#databaseDir, v));
+				_.chain(jsonObj)
+					.values()
+					.each((v, i) => {
+						hnlist.push(
+							new HackerNewsBeamer(
+								v.bvid,
+								v.title,
+								Number(v.aid),
+								v.pubdate,
+								v.source,
+								this.#details.getList(v.data),
+								v.ai
+							),
+						);
+					});
 			});
-			resolve(hnlist);
-		});
+
+		return hnlist;
 	}
-	getMap(): Promise<Map<string, HackerNewsBeamer>> {
-		return new Promise((resolve, reject) => {
-			const jsonObj: JsonData = this.readData(this.#pathjson);
 
-			const jsonList = Object.values(jsonObj);
-			const hnmap: Map<string, HackerNewsBeamer> = new Map<string, HackerNewsBeamer>();
+	async getMap(): Promise<Map<string, HackerNewsBeamer>> {
+		const jsonListFile = await Utils.readDir(this.#databaseDir);
 
-			jsonList.forEach((v, _) => {
-				hnmap.set(
-					v.bvid,
-					new HackerNewsBeamer(
+		const hnmap: Map<string, HackerNewsBeamer> = new Map<string, HackerNewsBeamer>();
+		jsonListFile.forEach((v, i) => {
+			const jsonObj: JsonData = this.readData(path.join(this.#databaseDir, v));
+			_.chain(jsonObj)
+				.values()
+				.each((v, i) => {
+					hnmap.set(
 						v.bvid,
-						v.title,
-						Number(v.aid),
-						v.pubdate,
-						v.source,
-						this.#details.getList(v.data),
-					),
-				);
-			});
-			resolve(hnmap);
-		});
-	}
+						new HackerNewsBeamer(
+							v.bvid,
+							v.title,
+							Number(v.aid),
+							v.pubdate,
+							v.source,
+							this.#details.getList(v.data),
+						),
+					);
+				})
+		})
+		return hnmap;
+	};
 
 
-	#getObj(hnlist: HackerNewsBeamer[]): JsonData {
+	getObj(hnlist: HackerNewsBeamer[]): JsonData {
 		const jsonObj: JsonData = {};
 
 		hnlist.forEach((v, _) => {
@@ -97,14 +105,27 @@ export class HackerNewsList extends BaseDAO implements HackerNewsDAO {
 		return jsonObj;
 	}
 
+	#groupDatabase(hnlist: HackerNewsBeamer[]): _.Dictionary<HackerNewsBeamer[]> {
+		return _.groupBy(hnlist, (v) => `${v.fmtPubdate.getFullYear()}`);
+	}
+
 	async updateList(hnlist: HackerNewsBeamer[], hn: HackerNewsBeamer): Promise<void> {
 		try {
-			hnlist.forEach((v, _) => {
+			if (hn.Bvid) {
 				hnlist.push(hn);
-			});
+			}
+			else {
+				console.warn(`maybe the update item: ${hn} is null`);
+			}
 
-			const sort_hnlist = hnlist.sort((a, b) => b.Pubdate - a.Pubdate)
-			await this.writeData(this.#pathjson, this.#getObj(sort_hnlist));
+			const sort_hnlist = hnlist.sort((a, b) => b.Pubdate - a.Pubdate);
+			_.chain(this.#groupDatabase(sort_hnlist))
+				.each((v, k) =>
+					this.writeData(
+						path.join(this.#databaseDir, `data${k}.json`),
+						this.getObj(v)
+					))
+				.value();
 		} catch (error) {
 			throw new Error(`${error}`);
 		}

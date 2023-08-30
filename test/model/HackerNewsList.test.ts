@@ -17,7 +17,7 @@ import _ from "underscore";
 
 test("test HackerNewsList getList", async () => {
 	const hn = new HackerNewsList();
-	hn.Pathjson = path.join(__dirname, "../data/data.json");
+	hn.DatabaseDir = path.join(__dirname, "../data/json");
 	const hnlist = await hn.getList();
 
 	expect(hnlist.length).toBeGreaterThan(0);
@@ -25,8 +25,8 @@ test("test HackerNewsList getList", async () => {
 
 test("test HackerNewsList getMap", async () => {
 	const hn = new HackerNewsList();
-	hn.Pathjson = path.join(__dirname, "../data/data.json");
-	const hnlist = await hn.getList();
+	hn.DatabaseDir = path.join(__dirname, "../data/json");
+	const hnmap = await hn.getMap();
 
-	expect(hnlist.length).toBeGreaterThan(0);
+	expect(hnmap.size).toBeGreaterThan(0);
 })

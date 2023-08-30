@@ -34,8 +34,8 @@ export class DetailsBeamer {
 		return this.#intro;
 	}
 
-	set Intro(introduce: string) {
-		this.#intro = introduce;
+	set Intro(intro: string) {
+		this.#intro = intro;
 	}
 
 	get Link(): string {

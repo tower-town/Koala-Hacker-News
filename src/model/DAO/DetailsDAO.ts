@@ -11,7 +11,7 @@
  * ====================================================
  */
 
-import { DetailsJson } from "../../common/type";
+import { DetailsJson } from "@src/common/type";
 import { DetailsBeamer } from "../beamer/DetailsBeamer";
 
 export interface DetailsDAO {

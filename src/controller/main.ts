@@ -15,7 +15,7 @@ import { CollectService } from "./service/CollectService";
 import { CommentService } from "./service/CommentService";
 import { SourceLinkService } from "./service/SourceLinkService";
 
-export class Startup {
+export class Service {
     #comment = new CommentService();
     #sourcelink = new SourceLinkService()
     #collect = new CollectService()

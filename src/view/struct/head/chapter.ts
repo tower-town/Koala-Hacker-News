@@ -11,4 +11,4 @@
 * ====================================================
 */
 
-export const chapter_head = ""
+export const headChapter = ""

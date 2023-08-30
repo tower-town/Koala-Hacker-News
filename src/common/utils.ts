@@ -18,6 +18,18 @@ export class Utils {
 		return data;
 	}
 
+	static async readDir(path: fs.PathLike): Promise<string[]> {
+		try {
+			const files = await fs.promises.readdir(path);
+			return files;
+		} catch (error) {
+			throw new Error(`no such file: ${path}\n${error}`);
+		}
+	}
+
+
+
+
 	/*
 	rewreite follow  writeFile function aim to support check string if it's null.
 	*/

@@ -11,7 +11,7 @@
 * ====================================================
 */
 
-export const foot_index = `
+export const footIndex = `
 ## 参考
 
  - [bilibili-api-collect](https://github.com/SocialSisterYi/bilibili-API-collect)

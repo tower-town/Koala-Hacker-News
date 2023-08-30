@@ -11,11 +11,11 @@
  * ====================================================
  */
 
+import { BvidData } from "@src/common/type";
+import { Utils, fetchJson } from "@src/common/utils";
+import { HackerNewsList } from "@src/model/HackerNewsList";
+import { HackerNewsBeamer } from "@src/model/beamer/HackerNewsBeamer";
 import _ from "underscore";
-import { BvidData } from "../../common/type";
-import { Utils, fetchJson } from "../../common/utils";
-import { HackerNewsList } from "../../model/HackerNewsList";
-import { HackerNewsBeamer } from "../../model/beamer/HackerNewsBeamer";
 import { ServiceBaseDAO } from "../base/ServiceBase";
 
 export class CollectService extends ServiceBaseDAO {
