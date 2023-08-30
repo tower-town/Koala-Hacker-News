@@ -1,6 +1,6 @@
 {
     // https://github.com/SocialSisterYi/bilibili-API-collect/pull/437/files
-    "collect": {
+    "collectURLParams": {
         "url": "http://api.bilibili.com/x/polymer/space/seasons_archives_list",
         "params": {
             "mid": "489667127",
@@ -11,7 +11,7 @@
         }
     },
     // https://github.com/SocialSisterYi/bilibili-API-collect/blob/master/docs/comment/list.md
-    "comment": {
+    "commentURLParams": {
         "url": "http://api.bilibili.com/x/v2/reply/main",
         "params": {
             "type": 1,
@@ -19,7 +19,7 @@
         }
     },
     // https://github.com/SocialSisterYi/bilibili-API-collect/blob/master/docs/video/info.md 
-    "video_info": {
+    "videoInfoURLParams": {
         "url": "http://api.bilibili.com/x/web-interface/view",
         "params": {
             "bvid": "bvid"

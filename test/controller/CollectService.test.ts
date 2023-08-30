@@ -12,15 +12,16 @@
 */
 
 
-import { Collect } from "../../src/controler/service/Collect";
+import { CollectService } from "@src/controller/service/CollectService";
 
-const collect = new Collect();
+const collect = new CollectService();
 
 test("test Collect InitUrl", () => {
-    expect(collect.initUrl()).toBeNull;
+    const url: URL = collect.initUrl()
+    expect(url).toBeInstanceOf(URL);
 })
 
 test("test Collect initData", async () => {
     await collect.init();
-    expect(collect.init()).toBeNull;
+    expect(!collect.init()).toBeNull;
 })

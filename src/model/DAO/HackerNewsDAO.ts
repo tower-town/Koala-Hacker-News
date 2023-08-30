@@ -11,11 +11,11 @@
  * ====================================================
  */
 
-import { HackerNews } from "../beamer/HackerNews";
+import { HackerNewsBeamer } from "../beamer/HackerNewsBeamer";
 
 export interface HackerNewsDAO {
-	getList(): Promise<HackerNews[]>;
-	getMap(): Promise<Map<string, HackerNews>>;
+	getList(): Promise<HackerNewsBeamer[]>;
+	getMap(): Promise<Map<string, HackerNewsBeamer>>;
 
-	updateList(hnlist: HackerNews[], hn: HackerNews): Promise<void>;
+	updateList(hnlist: HackerNewsBeamer[], hn: HackerNewsBeamer): Promise<void>;
 }

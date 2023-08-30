@@ -1,5 +1,5 @@
-import { Startup } from "../src/controler/main";
-import { View } from "../src/view/main";
+import { Startup } from "@src/controller/main";
+import { View } from "@src/view/main";
 
 const startup = new Startup();
 const view = new View();

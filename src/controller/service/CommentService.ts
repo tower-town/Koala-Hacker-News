@@ -13,26 +13,26 @@
 
 import _ from "underscore";
 import { Utils, fetchJson } from "../../common/utils";
-import { HackerNews } from "../../model/beamer/HackerNews";
+import { HackerNewsBeamer } from "../../model/beamer/HackerNewsBeamer";
 import { ServiceBaseDAO } from "../base/ServiceBase";
 import { HackerNewsList } from "../../model/HackerNewsList";
 import { DetailsList } from "../../model/DetailsList";
-import { IntroJson } from "../../common/type";
+import { DetailsJson } from "../../common/type";
 
-export class Comment extends ServiceBaseDAO {
-    #mid = new URLSearchParams(this.data.comment.params).get("mid");
+export class CommentService extends ServiceBaseDAO {
+    #mid = new URLSearchParams(this.data.commentURLParams.params).get("mid");
 
     initUrl(aid: number): URL {
-        const api_data = this.data.comment;
-        const url = new URL(api_data.url);
-        const api_params = new URLSearchParams(api_data.params);
+        const apiData = this.data.commentURLParams;
+        const url = new URL(apiData.url);
+        const apiParams = new URLSearchParams(apiData.params);
 
-        api_params.set("oid", String(aid));
-        return Utils.parseUrl(url, api_params);
+        apiParams.set("oid", String(aid));
+        return Utils.parseUrl(url, apiParams);
     }
 
-    checkData(hn: HackerNews): boolean {
-        if (hn.Data) {
+    filterData(hn: HackerNewsBeamer): boolean {
+        if (hn.Details) {
             return false;
         }
         return true;
@@ -42,17 +42,17 @@ export class Comment extends ServiceBaseDAO {
     async updateData<U, V>(u: U, v: V): Promise<void> {
         try {
             const data = await v as {
-                data: IntroJson[]
+                data: DetailsJson[]
                 ai: string[]
                 oid: number
             }
-            const hnlist = await u as HackerNews[];
-            let hn = {} as HackerNews;
+            const hnlist = await u as HackerNewsBeamer[];
+            let hn = {} as HackerNewsBeamer;
             _.chain(hnlist)
                 .filter(v => v.Aid === data.oid)
                 .map((v, _) => {
                     hn = v;
-                    hn.Data = hn.Data ? hn.Data : new DetailsList().getList(data.data);
+                    hn.Details = hn.Details ? hn.Details : new DetailsList().getList(data.data);
                     hn.Ai = hn.Ai ? hn.Ai : data.ai;
                     new HackerNewsList().updateList(hnlist, hn);
                 })
@@ -66,7 +66,7 @@ export class Comment extends ServiceBaseDAO {
     async init(): Promise<void> {
         const hnlist = await this.loadData();
         const result = _.chain(hnlist)
-            .filter(v => this.checkData(v))
+            .filter(v => this.filterData(v))
             .map((value) => this.initUrl(value.Aid))
             .map((url) => fetchJson(url))
             .map((promise) =>

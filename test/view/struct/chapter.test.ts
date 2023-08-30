@@ -1,3 +1,4 @@
+import { HackerNewsList } from "@src/model/HackerNewsList";
 /*
 * ====================================================
 *   Copyright (C) 2023 river All rights reserved.
@@ -10,15 +11,14 @@
 *
 * ====================================================
 */
-import { ChapterBody } from "../../../src/view/struct/body/chapter";
-import { HackerNewsList } from "../../../src/model/HackerNewsList";
+import { ChapterBody } from "@src/view/struct/body/chapter";
 import _ from "underscore";
 
 const chapterBody = new ChapterBody()
 
 test("test splitDict", async () => {
     const hnlist = await new HackerNewsList().getList();
-    await chapterBody.splitDict(hnlist)
+    await chapterBody.groupChapter(hnlist)
 })
 
 test("test updateChapter", async () => {

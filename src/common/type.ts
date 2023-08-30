@@ -8,11 +8,11 @@ export interface BvidData {
 	bvid: string;
 	pubdate: number;
 	source: string[] | undefined;
-	data: IntroJson[] | undefined;
+	data: DetailsJson[] | undefined;
 	ai: string[] | undefined;
 }
 
-export interface IntroJson {
+export interface DetailsJson {
 	name: string;
 	intro: string;
 	link: string;

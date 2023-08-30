@@ -11,25 +11,25 @@
 * ====================================================
 */
 
-import { Markdown } from "../../script/Markdown";
-import { head_index } from "../head/index";
-import { foot_index } from "../foot/index";
-import { ChapterBody } from "./chapter";
-import { HackerNews } from "../../../model/beamer/HackerNews";
-import _ from "underscore";
 import path from "path";
-import { Utils } from "../../../common/utils";
+import { Utils } from "@src/common/utils";
+import { HackerNewsBeamer } from "@src/model/beamer/HackerNewsBeamer";
+import _ from "underscore";
+import { MarkdownView } from "../../script/MarkdownView";
+import { foot_index } from "../foot/index";
+import { head_index } from "../head/index";
+import { ChapterBody } from "./chapter";
 
 export class BodyStruct {
-    #markdown = new Markdown();
+    #markdown = new MarkdownView();
     #indexPath = this.#markdown.indexPath;
     #chapterPath = this.#markdown.chapterPath;
     #chapter = new ChapterBody();
     #head = head_index;
     #foot = foot_index;
 
-    async loadChapterList(hnlist: HackerNews[]): Promise<void> {
-        const hnDict = await this.#chapter.splitDict(hnlist);
+    async loadChapterList(hnlist: HackerNewsBeamer[]): Promise<void> {
+        const hnDict = await this.#chapter.groupChapter(hnlist);
         const chapterList = _.chain(hnDict).keys()
             .map((key) =>
                 this.#getOutline(

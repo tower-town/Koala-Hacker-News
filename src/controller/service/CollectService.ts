@@ -12,35 +12,35 @@
  */
 
 import _ from "underscore";
+import { BvidData } from "../../common/type";
 import { Utils, fetchJson } from "../../common/utils";
 import { HackerNewsList } from "../../model/HackerNewsList";
-import { HackerNews } from "../../model/beamer/HackerNews";
+import { HackerNewsBeamer } from "../../model/beamer/HackerNewsBeamer";
 import { ServiceBaseDAO } from "../base/ServiceBase";
-import { BvidData } from "../../common/type";
 
-export class Collect extends ServiceBaseDAO {
+export class CollectService extends ServiceBaseDAO {
 	initUrl(): URL {
-		const api_data = this.data.collect;
-		const url = new URL(api_data.url);
-		const params = new URLSearchParams(api_data.params);
+		const apiData = this.data.collectURLParams;
+		const url = new URL(apiData.url);
+		const params = new URLSearchParams(apiData.params);
 
 		return Utils.parseUrl(url, params)
 	}
 
-	checkData(): boolean {
-		return true;
+	filterData(hn: HackerNewsBeamer, hnlist: HackerNewsBeamer[]): boolean {
+		hnlist.forEach((v, _) => {
+			if (v.Bvid !== hn.Bvid) {
+				return true;
+			}
+		})
+		return false;
 	}
 
 	async updateData<U, V>(u: U, v: V): Promise<void> {
 		try {
-			const hnlist = await u as HackerNews[];
-			const hn = v as HackerNews;
-			hnlist.forEach((v, _) => {
-				if (v.Bvid !== hn.Bvid) {
-					new HackerNewsList().updateList(hnlist, hn);
-					return;
-				}
-			})
+			const hnlist = await u as HackerNewsBeamer[];
+			const hn = v as HackerNewsBeamer;
+			this.filterData(hn, hnlist) && new HackerNewsList().updateList(hnlist, hn);
 		} catch (error) {
 			throw new Error(`${error}`)
 
@@ -70,7 +70,7 @@ export class Collect extends ServiceBaseDAO {
 						.map((data) => async () => {
 							await this.updateData(
 								hnlist,
-								new HackerNews(data.bvid,
+								new HackerNewsBeamer(data.bvid,
 									data.title,
 									data.aid,
 									data.pubdate)

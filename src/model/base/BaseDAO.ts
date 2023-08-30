@@ -11,7 +11,7 @@
  * ====================================================
  */
 
-import { Utils } from "../../common/utils";
+import { Utils } from "@src/common/utils";
 
 export abstract class BaseDAO {
 	readData<T>(filePath: string): T {

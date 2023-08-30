@@ -10,16 +10,21 @@
 *
 * ====================================================
 */
-import { SourceLink } from "../../src/controler/service/SourceLink";
+import { SourceLinkService } from "@src/controller/service/SourceLinkService";
 
-const sourcelink = new SourceLink();
+const sourcelink = new SourceLinkService();
+
+test("test sourceLinkService initUrl", () => {
+    const url: URL = sourcelink.initUrl("BV1Tz4y1u7VR")
+    expect(url).toBeInstanceOf(URL);
+})
 
 test("test source link", async () => {
     try {
         await sourcelink.init();
     }
     catch (e) {
-        throw new Error(e);
+        throw new Error(`${e}`);
     }
 
     expect(1).toBe(1);

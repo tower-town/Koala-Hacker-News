@@ -10,21 +10,21 @@
 *
 * ====================================================
 */
-import { Details } from "../../../src/model/beamer/Details";
-import { HackerNews } from "../../../src/model/beamer/HackerNews";
-import { Markdown } from "../../../src/view/script/Markdown";
+import { DetailsBeamer } from "@src/model/beamer/DetailsBeamer";
+import { HackerNewsBeamer } from "@src/model/beamer/HackerNewsBeamer";
+import { MarkdownView } from "@src/view/script/MarkdownView";
 
-const markdown = new Markdown();
+const markdown = new MarkdownView();
 test("test getTab", async () => {
-    const hn = new HackerNews(
+    const hn = new HackerNewsBeamer(
         "bvid",
         "title",
         1,
         1,
         [],
-        [new Details("author", "time", "url")],
+        [new DetailsBeamer("author", "time", "url")],
         ["ai-1.com", "ai-2.com", "ai-3.com"]
     )
-    const tab = await markdown.getTab(hn);
+    const tab = await markdown.generateTable(hn);
     // expect(tab).toBe("");
 })

@@ -11,22 +11,22 @@
  * ====================================================
  */
 
-import { IntroJson } from "../common/type";
+import { DetailsJson } from "../common/type";
 import { DetailsDAO } from "./DAO/DetailsDAO";
 import { BaseDAO } from "./base/BaseDAO";
-import { Details } from "./beamer/Details";
+import { DetailsBeamer } from "./beamer/DetailsBeamer";
 
 export class DetailsList extends BaseDAO implements DetailsDAO {
-	getList(intro: IntroJson[] | undefined): Details[] {
-		const details: Details[] = [] as Details[];
+	getList(intro: DetailsJson[] | undefined): DetailsBeamer[] {
+		const details: DetailsBeamer[] = [] as DetailsBeamer[];
 		intro?.forEach((v, _) => {
-			details.push(new Details(v.name, v.intro, v.link));
+			details.push(new DetailsBeamer(v.name, v.intro, v.link));
 		});
 		return details;
 	}
 
-	getObj(details: Details[]): IntroJson[] {
-		const intro: IntroJson[] = [] as IntroJson[];
+	getObj(details: DetailsBeamer[]): DetailsJson[] {
+		const intro: DetailsJson[] = [] as DetailsJson[];
 		details.forEach((v, _) => {
 			intro.push({
 				name: v.Name,

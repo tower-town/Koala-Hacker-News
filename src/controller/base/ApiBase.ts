@@ -16,9 +16,9 @@ import JSON5 from "json5";
 import { Utils } from "../../common/utils";
 
 export interface ApiData {
-	collect: ApiParams;
-	comment: ApiParams;
-	video_info: ApiParams;
+	collectURLParams: ApiParams;
+	commentURLParams: ApiParams;
+	videoInfoURLParams: ApiParams;
 }
 
 interface ApiParams {

@@ -11,9 +11,9 @@
  * ====================================================
  */
 
-import { IntroJson } from "../../common/type";
-import { Details } from "../beamer/Details";
+import { DetailsJson } from "../../common/type";
+import { DetailsBeamer } from "../beamer/DetailsBeamer";
 
 export interface DetailsDAO {
-	getList(intro: IntroJson[]): Details[];
+	getList(intro: DetailsJson[]): DetailsBeamer[];
 }

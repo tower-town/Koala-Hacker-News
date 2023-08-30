@@ -11,25 +11,25 @@
 * ====================================================
 */
 
-import _ from "underscore";
+import { DetailsBeamer } from "@src/model/beamer/DetailsBeamer";
+import { HackerNewsBeamer } from "@src/model/beamer/HackerNewsBeamer";
 import format from "html-format";
-import { Details } from "../../model/beamer/Details";
-import { HackerNews } from "../../model/beamer/HackerNews";
+import _ from "underscore";
 import { ViewBase } from "./base";
 
 
-export class Markdown extends ViewBase {
+export class MarkdownView extends ViewBase {
     sendMsg(): string {
         throw new Error("Method not implemented.");
     }
 
 
-    getTab(hn: HackerNews): string {
+    generateTable(hn: HackerNewsBeamer): string {
         const table = new Tables();
         return table.init(hn);
     }
 
-    async loadDocsDict(hn: HackerNews[]): Promise<_.Dictionary<HackerNews[]>> {
+    async loadDocsDict(hn: HackerNewsBeamer[]): Promise<_.Dictionary<HackerNewsBeamer[]>> {
         const docs = new Docs()
         return await docs.loadDict(hn);
     }
@@ -38,7 +38,7 @@ export class Markdown extends ViewBase {
 
 class Tables {
 
-    #getTrDetailsItem(details: Details): string {
+    #loadTrDetailsItem(details: DetailsBeamer): string {
         return `
             <tr>
                 <td>${details.Name}</td>
@@ -47,7 +47,7 @@ class Tables {
             </tr>`.trim();
     }
 
-    #getTrAIItem(ai: string): string {
+    #loadTrAIItem(ai: string): string {
         return `
             <tr>
                 <td></td>
@@ -79,31 +79,31 @@ class Tables {
             </table>`.trim();
     }
 
-    #getTitle(title: string, bvid: string): string {
+    #loadTitle(title: string, bvid: string): string {
         return `\n\n[${title}](https://www.bilibili.com/video/${bvid})\n\n`
     }
 
 
-    init(hn: HackerNews): string {
+    init(hn: HackerNewsBeamer): string {
         return format(
-            this.#getTitle(hn.Title, hn.Bvid).concat(
+            this.#loadTitle(hn.Title, hn.Bvid).concat(
                 this.#wrapTable(
                     this.#getHead()
                         .concat(this.#wrapBody(
-                            _.reduce(hn.Data as Details[], (acc, item) => acc.concat(this.#getTrDetailsItem(item)), "")
+                            _.reduce(hn.Details as DetailsBeamer[], (acc, item) => acc.concat(this.#loadTrDetailsItem(item)), "")
                                 .concat(`<tr>
                                 <td>一周 AI 小结</td>
                                 <td></td>
                                 <td></td>
                             </tr>`)
-                                .concat(_.reduce(hn.Ai as string[], (acc, item) => acc.concat(this.#getTrAIItem(item)), ""))
+                                .concat(_.reduce(hn.Ai as string[], (acc, item) => acc.concat(this.#loadTrAIItem(item)), ""))
                         )))));
 
     }
 }
 
 class Docs {
-    #groupbyPubdate(hn: HackerNews[]) {
+    #groupbyPubdate(hn: HackerNewsBeamer[]) {
         return _.groupBy(hn, v => this.#fmtPubdate(v.Pubdate))
     }
 
@@ -112,7 +112,7 @@ class Docs {
         return `${date.getFullYear()}-${date.getMonth() + 1}`;
     }
 
-    async loadDict(hn: HackerNews[]): Promise<_.Dictionary<HackerNews[]>> {
+    async loadDict(hn: HackerNewsBeamer[]): Promise<_.Dictionary<HackerNewsBeamer[]>> {
         return this.#groupbyPubdate(hn);
     }
 }

@@ -11,8 +11,8 @@
 * ====================================================
 */
 
-import { HackerNewsList } from "../../../src/model/HackerNewsList";
-import { ViewStruct } from "../../../src/view/struct/index";
+import { HackerNewsList } from "@src/model/HackerNewsList";
+import { ViewStruct } from "@src/view/struct/index";
 
 const struct = new ViewStruct();
 

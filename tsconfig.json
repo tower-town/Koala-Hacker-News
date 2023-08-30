@@ -7,9 +7,16 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "outDir": "build",
-    
+    "paths": {
+      "@src/*": [
+        "./src/*"
+      ],
+    }
   },
   // "$schema": "https://json.schemastore.org/tsconfig",
   "display": "Recommended",
-  "include": ["./src/"]
+  "include": [
+    "./src/",
+    "./test/"
+  ]
 }

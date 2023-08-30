@@ -11,7 +11,7 @@
 * ====================================================
 */
 
-import { HackerNews } from "../../model/beamer/HackerNews";
+import { HackerNewsBeamer } from "@src/model/beamer/HackerNewsBeamer";
 import { ChapterBody } from "./body/chapter";
 import { BodyStruct } from "./body/index";
 
@@ -19,7 +19,7 @@ export class ViewStruct {
     #index = new BodyStruct();
     #chapter = new ChapterBody()
 
-    async updateData(hnlist: HackerNews[]): Promise<void> {
+    async updateData(hnlist: HackerNewsBeamer[]): Promise<void> {
         await this.#index.loadChapterList(hnlist);
         await this.#chapter.updateChapter(hnlist);
     }

@@ -11,7 +11,8 @@
 * ====================================================
 */
 
-import { Utils } from "../../src/common/utils";
+// rome-ignore unableToResolveModule
+import { Utils } from "@src/common/utils";
 
 const utils = Utils
 test("test captureLink", () => {

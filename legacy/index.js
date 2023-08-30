@@ -1,8 +1,8 @@
-let choice = document.getElementById("choice");
-let widget = document.querySelector(".widget");
-let body = document.getElementById("body");
-let content = document.getElementById("content");
-let tables = document.getElementsByTagName("table");
+const choice = document.getElementById("choice");
+const widget = document.querySelector(".widget");
+const body = document.getElementById("body");
+const content = document.getElementById("content");
+const tables = document.getElementsByTagName("table");
 let temp = 1;
 widget.addEventListener("click", function () {
 	if (temp === 1) {

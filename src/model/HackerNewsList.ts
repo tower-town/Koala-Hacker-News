@@ -11,13 +11,13 @@
  * ====================================================
  */
 
-import { HackerNewsDAO } from "./DAO/HackerNewsDAO";
-import { BaseDAO } from "./base/BaseDAO";
-import { HackerNews } from "./beamer/HackerNews";
 import path from "path";
-import { JsonData } from "../common/type";
+import { JsonData } from "@src/common/type";
+import { HackerNewsDAO } from "./DAO/HackerNewsDAO";
 import { DetailsList } from "./DetailsList";
-import { Details } from "./beamer/Details";
+import { BaseDAO } from "./base/BaseDAO";
+import { DetailsBeamer } from "./beamer/DetailsBeamer";
+import { HackerNewsBeamer } from "./beamer/HackerNewsBeamer";
 
 export class HackerNewsList extends BaseDAO implements HackerNewsDAO {
 	#pathjson: string = path.join(__dirname, "../data/data.json");
@@ -31,16 +31,16 @@ export class HackerNewsList extends BaseDAO implements HackerNewsDAO {
 		this.#pathjson = value;
 	}
 
-	getList(): Promise<HackerNews[]> {
+	getList(): Promise<HackerNewsBeamer[]> {
 		return new Promise((resolve, reject) => {
 			const jsonObj: JsonData = this.readData(this.#pathjson);
 
 			const jsonList = Object.values(jsonObj);
-			const hnlist: HackerNews[] = [] as HackerNews[];
+			const hnlist: HackerNewsBeamer[] = [] as HackerNewsBeamer[];
 
 			jsonList.forEach((v, _) => {
 				hnlist.push(
-					new HackerNews(
+					new HackerNewsBeamer(
 						v.bvid,
 						v.title,
 						Number(v.aid),
@@ -54,17 +54,17 @@ export class HackerNewsList extends BaseDAO implements HackerNewsDAO {
 			resolve(hnlist);
 		});
 	}
-	getMap(): Promise<Map<string, HackerNews>> {
+	getMap(): Promise<Map<string, HackerNewsBeamer>> {
 		return new Promise((resolve, reject) => {
 			const jsonObj: JsonData = this.readData(this.#pathjson);
 
 			const jsonList = Object.values(jsonObj);
-			const hnmap: Map<string, HackerNews> = new Map<string, HackerNews>();
+			const hnmap: Map<string, HackerNewsBeamer> = new Map<string, HackerNewsBeamer>();
 
 			jsonList.forEach((v, _) => {
 				hnmap.set(
 					v.bvid,
-					new HackerNews(
+					new HackerNewsBeamer(
 						v.bvid,
 						v.title,
 						Number(v.aid),
@@ -79,7 +79,7 @@ export class HackerNewsList extends BaseDAO implements HackerNewsDAO {
 	}
 
 
-	#getObj(hnlist: HackerNews[]): JsonData {
+	#getObj(hnlist: HackerNewsBeamer[]): JsonData {
 		const jsonObj: JsonData = {};
 
 		hnlist.forEach((v, _) => {
@@ -88,7 +88,7 @@ export class HackerNewsList extends BaseDAO implements HackerNewsDAO {
 				aid: v.Aid,
 				bvid: v.Bvid,
 				pubdate: v.Pubdate,
-				data: this.#details.getObj(v.Data as Details[]),
+				data: this.#details.getObj(v.Details as DetailsBeamer[]),
 				source: v.Source as string[],
 				ai: v.Ai,
 			};
@@ -97,7 +97,7 @@ export class HackerNewsList extends BaseDAO implements HackerNewsDAO {
 		return jsonObj;
 	}
 
-	async updateList(hnlist: HackerNews[], hn: HackerNews): Promise<void> {
+	async updateList(hnlist: HackerNewsBeamer[], hn: HackerNewsBeamer): Promise<void> {
 		try {
 			hnlist.forEach((v, _) => {
 				hnlist.push(hn);

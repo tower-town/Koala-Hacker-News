@@ -11,8 +11,8 @@
  * ====================================================
  */
 
-import { HackerNewsList } from "../../model/HackerNewsList";
-import { HackerNews } from "../../model/beamer/HackerNews";
+import { HackerNewsList } from "@src/model/HackerNewsList";
+import { HackerNewsBeamer } from "@src/model/beamer/HackerNewsBeamer";
 import { ApiBase, ApiData } from "./ApiBase";
 
 export abstract class ServiceBaseDAO {
@@ -24,9 +24,9 @@ export abstract class ServiceBaseDAO {
 
 	abstract updateData<U, V>(u: U, v: V): Promise<void>;
 
-	abstract checkData(hn: HackerNews): boolean;
+	abstract filterData(hn: HackerNewsBeamer, hnlist: HackerNewsBeamer[]): boolean;
 
-	async loadData(): Promise<HackerNews[]> {
+	async loadData(): Promise<HackerNewsBeamer[]> {
 		try {
 			const hnlist = new HackerNewsList();
 			const result = await hnlist.getList();

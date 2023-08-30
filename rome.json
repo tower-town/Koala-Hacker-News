@@ -5,5 +5,13 @@
     "rules": {
       "recommended": true
     }
+  },
+  "files": {
+    "ignore": [
+      "legacy/*"
+    ]
+  },
+  "organizeImports": {
+    "enabled": true
   }
 }

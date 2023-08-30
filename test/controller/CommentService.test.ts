@@ -11,10 +11,15 @@
 * ====================================================
 */
 
-import { Comment } from "../../src/controler/service/Comment";
+import { CommentService } from "@src/controller/service/CommentService";
 
-const comment = new Comment();
-test("test Comment initData", async () => {
+const comment = new CommentService();
+
+test("test CommentService initUrl", async () => {
+    const url: URL = comment.initUrl(574943888);
+    expect(url).toBeInstanceOf(URL);
+})
+
+test("test CommentService initData", async () => {
     await comment.init();
-    expect(1).toBe(1);
 })

@@ -11,13 +11,13 @@
 * ====================================================
 */
 
-import { HackerNews } from "../model/beamer/HackerNews";
+import { HackerNewsBeamer } from "@src/model/beamer/HackerNewsBeamer";
 import { ViewStruct } from "./struct";
 
 export class View {
     #struct = new ViewStruct();
 
-    async display(hnlist: HackerNews[]): Promise<void> {
+    async display(hnlist: HackerNewsBeamer[]): Promise<void> {
         await this.#struct.updateData(hnlist);
     }
 }

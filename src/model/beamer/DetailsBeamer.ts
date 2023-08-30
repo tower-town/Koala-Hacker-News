@@ -11,7 +11,7 @@
  * ====================================================
  */
 
-export class Details {
+export class DetailsBeamer {
 	#name: string;
 	#intro: string;
 	#link: string;
@@ -34,8 +34,8 @@ export class Details {
 		return this.#intro;
 	}
 
-	set Intro(intro: string) {
-		this.#intro = intro;
+	set Intro(introduce: string) {
+		this.#intro = introduce;
 	}
 
 	get Link(): string {

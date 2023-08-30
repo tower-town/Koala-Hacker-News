@@ -11,36 +11,36 @@
 * ====================================================
 */
 
-import _ from "underscore";
 import fs from "fs";
-import { HackerNews } from "../../../model/beamer/HackerNews";
-import { Markdown } from "../../script/Markdown";
 import path from "path";
-import { Utils } from "../../../common/utils";
+import { Utils } from "@src/common/utils";
+import { HackerNewsBeamer } from "@src/model/beamer/HackerNewsBeamer";
 import { format } from "date-fns";
+import _ from "underscore";
+import { MarkdownView } from "../../script/MarkdownView";
 import { chapter_foot } from "../foot/chapter";
 import { chapter_head } from "../head/chapter";
 
 export class ChapterBody {
-    #markdown = new Markdown();
+    #markdown = new MarkdownView();
     #chapterHead = chapter_head;
     #chapterFoot = chapter_foot;
     #chapterPath = this.#markdown.chapterPath;
 
-    async splitDict(hnlist: HackerNews[]): Promise<_.Dictionary<HackerNews[]>> {
+    async groupChapter(hnlist: HackerNewsBeamer[]): Promise<_.Dictionary<HackerNewsBeamer[]>> {
         return _.groupBy(hnlist, (item) => this.#fmtChapter(item.fmtPubdate));
     }
 
-    async updateChapter(hnlist: HackerNews[]): Promise<void> {
+    async updateChapter(hnlist: HackerNewsBeamer[]): Promise<void> {
 
-        const hns = await this.splitDict(hnlist);
+        const hns = await this.groupChapter(hnlist);
         _.chain(hns)
             .map((v, quarter) => {
                 this.#updateOutline(
                     `${this.#chapterPath}/${quarter}-Hacker-News.md`,
-                    this.#getOutline(v)
+                    this.#loadQuarterOutline(v)
                 )
-                this.#updateQM(quarter, v);
+                this.#updateQuarterTable(quarter, v);
                 // console.warn(cpath, data);
             })
             .value();
@@ -50,17 +50,17 @@ export class ChapterBody {
         return true;
     }
 
-    #getOutline(hnlist: HackerNews[]): string {
+    #loadQuarterOutline(hnlist: HackerNewsBeamer[]): string {
         return _.reduce(hnlist, (memo: string, v) => {
             const quarter = format(v.fmtPubdate, "yyyyQQQ");
             const yearmonth = format(v.fmtPubdate, "yyyy-MM");
             const datetime = format(v.fmtPubdate, "yyyy-MM-dd");
-            const title = this.#getTitleOutline(v.Title) ? this.#getTitleOutline(v.Title) : v.Title;
+            const title = this.#loadChapterOutline(v.Title) ? this.#loadChapterOutline(v.Title) : v.Title;
             return `${memo}- ${datetime} [HackerNews周报](./${quarter}/${yearmonth}-Hacker-News.md)\n${title}`
         }, "")
     }
 
-    #getTitleOutline(title: string): string | undefined {
+    #loadChapterOutline(title: string): string | undefined {
         return _.chain(title.split(/；/))
             .map(v => v.replaceAll(" ", ""))
             .map(v => v.replace("[HackerNews周报]", ""))
@@ -77,7 +77,7 @@ export class ChapterBody {
         await Utils.writeFile(path, `${outlineHead}${data}`);
     }
 
-    #updateQM(quarter: string, hnlist: HackerNews[]): void {
+    #updateQuarterTable(quarter: string, hnlist: HackerNewsBeamer[]): void {
         _.chain(hnlist)
             .groupBy(v => `${format(v.fmtPubdate, "yyyy-MM")}`)
             .map((v, k) => {
@@ -86,7 +86,7 @@ export class ChapterBody {
 
                 const chapterHead = `${this.#chapterHead}## [返回章节目录](../${quarter}-Hacker-News.md)\n`;
                 const chapterBody = _.reduce(v, (memo, v) => {
-                    return memo + this.#markdown.getTab(v);
+                    return memo + this.#markdown.generateTable(v);
                 }, "");
                 const chapterFoot = this.#chapterFoot;
                 const data = `${chapterHead}${chapterBody}${chapterFoot}`;

@@ -56,7 +56,7 @@ export default {
 	// },
 
 	// Force coverage collection from ignored files using an array of glob patterns
-	forceCoverageMatch: ["./test/data/*"],
+	// forceCoverageMatch: [],
 
 	// A path to a module which exports an async function that is triggered once before all test suites
 	// globalSetup: undefined,
@@ -124,9 +124,9 @@ export default {
 	// rootDir: undefined,
 
 	// A list of paths to directories that Jest should use to search for files in
-	// roots: [
-	//   "<rootDir>"
-	// ],
+	roots: [
+		"test",
+	],
 
 	// Allows you to use a custom runner instead of Jest's default test runner
 	// runner: "jest-runner",
@@ -159,9 +159,10 @@ export default {
 	// ],
 
 	// An array of regexp pattern strings that are matched against all test paths, matched tests are skipped
-	// testPathIgnorePatterns: [
-	//   "\\\\node_modules\\\\"
-	// ],
+	testPathIgnorePatterns: [
+		"\\\\node_modules\\\\",
+		"/test/igonore"
+	],
 
 	// The regexp pattern or array of patterns that Jest uses to detect test files
 	// testRegex: [],
@@ -188,8 +189,15 @@ export default {
 	// verbose: undefined,
 
 	// An array of regexp patterns that are matched against all source file paths before re-running tests in watch mode
-	watchPathIgnorePatterns: ["./test/data/*"],
+	watchPathIgnorePatterns: ["./test/data/*", "/test/igonore/*"],
 
 	// Whether to use watchman for file crawling
 	// watchman: true,
 };
+
+
+module.exports = {
+	moduleNameMapper: {
+		'@src/(.*)': '<rootDir>/src/$1',
+	}
+}

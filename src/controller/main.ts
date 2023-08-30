@@ -11,14 +11,14 @@
 * ====================================================
 */
 
-import { Collect } from "./service/Collect";
-import { Comment } from "./service/Comment";
-import { SourceLink } from "./service/SourceLink";
+import { CollectService } from "./service/CollectService";
+import { CommentService } from "./service/CommentService";
+import { SourceLinkService } from "./service/SourceLinkService";
 
 export class Startup {
-    #comment = new Comment();
-    #sourcelink = new SourceLink()
-    #collect = new Collect()
+    #comment = new CommentService();
+    #sourcelink = new SourceLinkService()
+    #collect = new CollectService()
     hnlist = this.#collect.loadData
 
     async init() {

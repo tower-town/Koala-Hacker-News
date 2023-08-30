@@ -11,15 +11,15 @@
  * ====================================================
  */
 
-import { Details } from "./Details";
+import { DetailsBeamer } from "./DetailsBeamer";
 
-export class HackerNews {
+export class HackerNewsBeamer {
 	#bvid: string;
 	#aid: number;
 	#title: string;
 	#pubdate: number;
 	#source?: string[];
-	#data?: Details[];
+	#details?: DetailsBeamer[];
 	#ai?: string[];
 
 	constructor(
@@ -28,7 +28,7 @@ export class HackerNews {
 		aid: number,
 		pubdate: number,
 		source?: string[],
-		data?: Details[],
+		details?: DetailsBeamer[],
 		ai?: string[],
 	) {
 		this.#bvid = bvid;
@@ -36,7 +36,7 @@ export class HackerNews {
 		this.#title = title;
 		this.#pubdate = pubdate;
 		this.#source = source;
-		this.#data = data;
+		this.#details = details;
 		this.#ai = ai;
 	}
 
@@ -69,12 +69,12 @@ export class HackerNews {
 		this.#source = source;
 	}
 
-	get Data(): Details[] | undefined {
-		return this.#data;
+	get Details(): DetailsBeamer[] | undefined {
+		return this.#details;
 	}
 
-	set Data(details: Details[] | undefined) {
-		this.#data = details;
+	set Details(details: DetailsBeamer[] | undefined) {
+		this.#details = details;
 	}
 
 	get Ai(): string[] | undefined {
@@ -85,7 +85,7 @@ export class HackerNews {
 		this.#ai = ai;
 	}
 
-	compareTo(that: HackerNews): number {
+	compareTo(that: HackerNewsBeamer): number {
 		return Number(this.Pubdate) - Number(that.Pubdate);
 	}
 }

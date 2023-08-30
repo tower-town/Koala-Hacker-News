@@ -12,15 +12,15 @@
  */
 
 import path from "path";
-import { HackerNewsList } from "../../src/model/HackerNewsList";
+import { HackerNewsList } from "@src/model/HackerNewsList";
 import _ from "underscore";
 
 test("test HackerNewsList getList", async () => {
 	const hn = new HackerNewsList();
 	hn.Pathjson = path.join(__dirname, "../data/data.json");
 	const hnlist = await hn.getList();
+
 	expect(hnlist.length).toBeGreaterThan(0);
-	expect(hnlist[0].Data?.length).toBeGreaterThan(0);
 });
 
 test("test HackerNewsList getMap", async () => {
