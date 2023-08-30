@@ -7,9 +7,10 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "outDir": "build",
+    "baseUrl": ".",
     "paths": {
       "@src/*": [
-        "./src/*"
+        "src/*"
       ],
     }
   },
@@ -18,5 +19,11 @@
   "include": [
     "./src/",
     "./test/"
-  ]
+  ],
+  "ts-node": {
+    // Do not forget to `npm i -D tsconfig-paths`
+    "require": [
+      "tsconfig-paths/register"
+    ]
+  }
 }
