@@ -23,5 +23,6 @@ test("test Collect InitUrl", () => {
 
 test("test Collect initData", async () => {
     await collect.init();
-    expect(!collect.init()).toBeNull;
+    const hnList = await collect.loadData();
+    expect(hnList.length).toBeGreaterThan(0);
 })

@@ -26,7 +26,7 @@ test('database', () => {
             console.error(err);
             return;
         }
-        // console.warn(files);
+        expect(files.length).toBeGreaterThan(0);
     })
 })
 
@@ -35,8 +35,8 @@ test("group database", async () => {
     expect(fs.existsSync(databaseDir)).toBe(true);
 
     const hn = new HackerNewsList();
-    const hnlist = await hn.getList();
     hn.DatabaseDir = databaseDir;
+    const hnlist = await hn.getList();
     hn.updateList(hnlist, {} as HackerNewsBeamer);
     const fileList = await Utils.readDir(databaseDir);
     expect(fileList.length).toBeGreaterThan(0);

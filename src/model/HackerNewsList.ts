@@ -118,8 +118,8 @@ export class HackerNewsList extends BaseDAO implements HackerNewsDAO {
 				console.warn(`maybe the update item: ${hn} is null`);
 			}
 
-			const sort_hnlist = hnlist.sort((a, b) => b.Pubdate - a.Pubdate);
-			_.chain(this.#groupDatabase(sort_hnlist))
+			const sortHNList = hnlist.sort((a, b) => b.compareTo(a));
+			_.chain(this.#groupDatabase(sortHNList))
 				.each((v, k) =>
 					this.writeData(
 						path.join(this.#databaseDir, `data${k}.json`),

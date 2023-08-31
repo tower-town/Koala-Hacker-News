@@ -26,5 +26,5 @@ test("test getTab", async () => {
         ["ai-1.com", "ai-2.com", "ai-3.com"]
     )
     const tab = await markdown.generateTable(hn);
-    // expect(tab).toBe("");
+    expect(!tab).toBe(false);
 })

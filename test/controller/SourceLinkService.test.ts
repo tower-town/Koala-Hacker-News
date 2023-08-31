@@ -19,13 +19,13 @@ test("test sourceLinkService initUrl", () => {
     expect(url).toBeInstanceOf(URL);
 })
 
-test("test source link", async () => {
+test("test sourcelink", async () => {
     try {
         await sourcelink.init();
     }
     catch (e) {
         throw new Error(`${e}`);
     }
-
-    expect(1).toBe(1);
+    const hnList = await sourcelink.loadData();
+    expect(hnList.length).toBeGreaterThan(0);
 })

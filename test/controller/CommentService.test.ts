@@ -11,6 +11,7 @@
 * ====================================================
 */
 
+import exp from "constants";
 import { CommentService } from "@src/controller/service/CommentService";
 
 const comment = new CommentService();
@@ -22,4 +23,6 @@ test("test CommentService initUrl", async () => {
 
 test("test CommentService initData", async () => {
     await comment.init();
+    const hnList = await comment.loadData()
+    expect(hnList.length).toBeGreaterThan(0);
 })
