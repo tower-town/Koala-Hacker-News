@@ -38,7 +38,7 @@ export class ChapterBody {
 
     async updateData(pathNode: PathNode, hnlist: HackerNewsBeamer[], groupKey: string): Promise<void> {
         const groupData = await this.sliceData(hnlist);
-        const outlineHead = this.#outline.loadHead(pathNode.relPrevPath);
+        const outlineHead = this.#outline.loadHead(pathNode.end().prevPath);
         const outlineTail = this.#outline.loadTail();
         const outlineBody = _.chain(groupData)
             .map((v, k) => {
@@ -49,14 +49,14 @@ export class ChapterBody {
             .reduce((acc, item) => acc + item, "")
             .value();
         const data = `${outlineHead}${outlineBody}${outlineTail}`;
-        await Utils.writeFile(pathNode.currentPath, `${data}`);
+        await Utils.writeFile(pathNode.realNextPath, `${data}`);
         // console.warn(cpath, data);
     }
 
     async updateSubPathTable(pathNode: PathNode, hnlist: HackerNewsBeamer[]): Promise<void> {
-        const cpath = pathNode.absNextPath;
+        const cpath = pathNode.realNextPath;
         await fs.promises.mkdir(path.dirname(cpath), { recursive: true });
-        const chapterHead = `${this.#chapterHead}## [返回章节目录](${pathNode.relPrevPath})\n`;
+        const chapterHead = `${this.#chapterHead}## [返回章节目录](${pathNode.prevPath})\n`;
         const chapterBody = _.chain(hnlist)
             .reduce((memo, v) => {
                 return memo + this.#markdown.generateTable(v);
@@ -71,7 +71,7 @@ export class ChapterBody {
 
 class Outline extends OutlineView {
     async update(pathNode: PathNode, hnList: HackerNewsBeamer[]): Promise<string> {
-        const head = this.loadHead(pathNode.relPrevPath);
+        const head = this.loadHead(pathNode.prevPath);
         const body = _.reduce(hnList, (memo: string, v) => memo + this.loadBody(v, pathNode), "");
         const tail = this.loadTail();
         const data = `${head}${body}${tail}`;
@@ -107,6 +107,6 @@ class Outline extends OutlineView {
 
     #wrapTitleHead(pathNode: PathNode, pubdate: Date): string {
         const datetime = format(pubdate, "yyyy-MM-dd");
-        return `- ${datetime} [HackerNews周报](${pathNode.relNextPath})\n`;
+        return `- ${datetime} [HackerNews周报](${pathNode.nextPath})\n`;
     }
 }

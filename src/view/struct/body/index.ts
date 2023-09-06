@@ -78,7 +78,7 @@ class Outline extends OutlineView {
     }
 
     #loadTitle(pathNode: PathNode, prefix: string): string {
-        return `- [${prefix}: [Hacker News 周报]](${pathNode.relNextPath})\n`;
+        return `- [${prefix}: [Hacker News 周报]](${pathNode.nextPath})\n`;
     }
 
 }

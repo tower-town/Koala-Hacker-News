@@ -20,14 +20,14 @@ test("test PathNode join", () => {
     const pathnode = new PathNode(prevpath, nextpath);
 
     expect(pathnode.currentPath).toBe(prevpath);
-    expect(pathnode.relNextPath).toBe('ch/ch01.md');
+    expect(pathnode.nextPath).toBe('ch/ch01.md');
 
     const subpath = '/test/ch/ch01/1.md';
     const subpathnode = pathnode.join(subpath);
-    expect(subpathnode.relPrevPath).toBe('../README.md');
-    expect(subpathnode.relNextPath).toBe('ch01/1.md');
+    expect(subpathnode.prevPath).toBe('../README.md');
+    expect(subpathnode.nextPath).toBe('ch01/1.md');
 
     const endPathNode = subpathnode.end();
     expect(endPathNode.currentPath).toBe(subpath);
-    expect(endPathNode.relPrevPath).toBe('../ch01.md');
+    expect(endPathNode.prevPath).toBe('../ch01.md');
 })

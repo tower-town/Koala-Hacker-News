@@ -1,54 +1,54 @@
 ## [返回主目录](../README.md)
 
-- 2022-03-27 [HackerNews周报](./2022Q1/2022-03-Hacker-News.md)
+- 2022-03-27 [HackerNews周报](2022Q1/2022-03-Hacker-News.md)
   - Firebase开源替代方案
   - 高效阅读工具
   - MDN推出plus订阅计划
-- 2022-03-20 [HackerNews周报](./2022Q1/2022-03-Hacker-News.md)
+- 2022-03-20 [HackerNews周报](2022Q1/2022-03-Hacker-News.md)
   - Zotero发布6.0版本
   - 500行代码学习OpenGL
   - GO支持泛型
-- 2022-03-13 [HackerNews周报](./2022Q1/2022-03-Hacker-News.md)
+- 2022-03-13 [HackerNews周报](2022Q1/2022-03-Hacker-News.md)
   - JS类型系统提案
   - 开源游戏引擎Godot
   - 数据库索引工作原理
-- 2022-03-06 [HackerNews周报](./2022Q1/2022-03-Hacker-News.md)
+- 2022-03-06 [HackerNews周报](2022Q1/2022-03-Hacker-News.md)
   - MDN文档全新上线
   - SaaS产品开源替代品大全
   - 使用Python直接开发WebUI
-- 2022-02-27 [HackerNews周报](./2022Q1/2022-02-Hacker-News.md)
+- 2022-02-27 [HackerNews周报](2022Q1/2022-02-Hacker-News.md)
   - CRUD最佳工具
   - 论文专用PDF阅读器
   - JS协同算法库
-- 2022-02-19 [HackerNews周报](./2022Q1/2022-02-Hacker-News.md)
+- 2022-02-20 [HackerNews周报](2022Q1/2022-02-Hacker-News.md)
   - 基于WASM在浏览器中运行Office
   - K8s纪录片
   - GitHubmarkdown功能增强
-- 2022-02-13 [HackerNews周报](./2022Q1/2022-02-Hacker-News.md)
+- 2022-02-13 [HackerNews周报](2022Q1/2022-02-Hacker-News.md)
   - 数据可视化神器
   - 10大web黑客技术
   - Postman支持gRPC
-- 2022-02-06 [HackerNews周报](./2022Q1/2022-02-Hacker-News.md)
+- 2022-02-06 [HackerNews周报](2022Q1/2022-02-Hacker-News.md)
   - Python开发者的完美终端工具
   - 、Systemd示例教程
   - 你的云上数据库安全吗？
-- 2022-01-31 [HackerNews周报](./2022Q1/2022-01-Hacker-News.md)
+- 2022-01-31 [HackerNews周报](2022Q1/2022-01-Hacker-News.md)
   - GitHubAction教程
   - 基于web的远程桌面工具
   - 在serverless中使用SQLite
-- 2022-01-23 [HackerNews周报](./2022Q1/2022-01-Hacker-News.md)
+- 2022-01-23 [HackerNews周报](2022Q1/2022-01-Hacker-News.md)
   - faker.js删库事件新进展
   - 暴雪被收购
   - GPS工作原理详解
-- 2022-01-16 [HackerNews周报](./2022Q1/2022-01-Hacker-News.md)
+- 2022-01-16 [HackerNews周报](2022Q1/2022-01-Hacker-News.md)
   - 开源软件被植入恶意代码
   - 浏览器中实现POSIX
   - 开源wiki工具推荐
-- 2022-01-09 [HackerNews周报](./2022Q1/2022-01-Hacker-News.md)
+- 2022-01-09 [HackerNews周报](2022Q1/2022-01-Hacker-News.md)
   - 任天堂掌机发展史
   - 开源学术工具Zotero
   - SpaceX空间站对接模拟器
-- 2022-01-02 [HackerNews周报](./2022Q1/2022-01-Hacker-News.md)
+- 2022-01-02 [HackerNews周报](2022Q1/2022-01-Hacker-News.md)
   - 波斯王子在浏览器中运行
   - 开发者工具大集合
   - 数据库年度报告

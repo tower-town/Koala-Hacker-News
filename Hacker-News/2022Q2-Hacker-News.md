@@ -1,54 +1,54 @@
 ## [返回主目录](../README.md)
 
-- 2022-06-26 [HackerNews周报](./2022Q2/2022-06-Hacker-News.md)
+- 2022-06-26 [HackerNews周报](2022Q2/2022-06-Hacker-News.md)
   - GitHubAI代码助手Copilot正式发布
   - 增强版watch命令
   - Deno完成A轮融资
-- 2022-06-19 [HackerNews周报](./2022Q2/2022-06-Hacker-News.md)
+- 2022-06-19 [HackerNews周报](2022Q2/2022-06-Hacker-News.md)
   - Deno原生SSRweb框架
   - 基于Vite的单元测试框架
   - 程序员社交新尝试
-- 2022-06-12 [HackerNews周报](./2022Q2/2022-06-Hacker-News.md)
+- 2022-06-12 [HackerNews周报](2022Q2/2022-06-Hacker-News.md)
   - TypeScript高性能框架
   - 浏览器插件开发平台
   - 用代码更好地讲故事
-- 2022-06-05 [HackerNews周报](./2022Q2/2022-06-Hacker-News.md)
+- 2022-06-05 [HackerNews周报](2022Q2/2022-06-Hacker-News.md)
   - 25倍快的Redis竞品
   - 开源serverlessPostgres方案
   - 快速编写UML图
-- 2022-05-29 [HackerNews周报](./2022Q2/2022-05-Hacker-News.md)
+- 2022-05-29 [HackerNews周报](2022Q2/2022-05-Hacker-News.md)
   - 超轻量级Python引擎
   - 快速阅读英文插件
   - TypeScript发布新版本
-- 2022-05-22 [HackerNews周报](./2022Q2/2022-05-Hacker-News.md)
+- 2022-05-22 [HackerNews周报](2022Q2/2022-05-Hacker-News.md)
   - GO全栈开发框架
   - 开发终端风格网站
   - 大厂技术架构赏析
-- 2022-05-15 [HackerNews周报](./2022Q2/2022-05-Hacker-News.md)
+- 2022-05-15 [HackerNews周报](2022Q2/2022-05-Hacker-News.md)
   - SQLite再次流行
   - JS性能分析指南
   - 魔方竞速工具CubeDesk
-- 2022-05-08 [HackerNews周报](./2022Q2/2022-05-Hacker-News.md)
+- 2022-05-08 [HackerNews周报](2022Q2/2022-05-Hacker-News.md)
   - 浏览器中运行Python
   - JSON可视化神器
   - 避免电脑休眠的网页
-- 2022-05-01 [HackerNews周报](./2022Q2/2022-05-Hacker-News.md)
+- 2022-05-01 [HackerNews周报](2022Q2/2022-05-Hacker-News.md)
   - 性能分析工具合集
   - 通过TDD学习GO语言
   - 基于Deno的serverless平台
-- 2022-04-24 [HackerNews周报](./2022Q2/2022-04-Hacker-News.md)
+- 2022-04-24 [HackerNews周报](2022Q2/2022-04-Hacker-News.md)
   - Meta开源富文本编辑器lexical
   - Yandex开源分布式数据库YDB
   - Node.js18发布
-- 2022-04-17 [HackerNews周报](./2022Q2/2022-04-Hacker-News.md)
+- 2022-04-17 [HackerNews周报](2022Q2/2022-04-Hacker-News.md)
   - 现代CLI大全
   - Deno推出FaaS服务
   - 基于Rust的隧道工具
-- 2022-04-10 [HackerNews周报](./2022Q2/2022-04-Hacker-News.md)
+- 2022-04-10 [HackerNews周报](2022Q2/2022-04-Hacker-News.md)
   - 自部署PaaScoolify
   - 现代化终端Warp
   - Ruby增加WASM支持
-- 2022-04-03 [HackerNews周报](./2022Q2/2022-04-Hacker-News.md)
+- 2022-04-03 [HackerNews周报](2022Q2/2022-04-Hacker-News.md)
   - WebAssembly运行Python
   - 云原生CI/CD开发包
   - React18发布
