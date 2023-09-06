@@ -32,19 +32,19 @@ export class PathNode {
         this.#nextPath = nextPath;
     }
 
-    get relPrevPath(): string {
+    get prevPath(): string {
         return this.#transformPath(this.#currentPath, this.#prevPath);
     }
 
-    get absPrevPath(): string {
+    get realPrevPath(): string {
         return this.#prevPath;
     }
 
-    get relNextPath(): string {
+    get nextPath(): string {
         return this.#transformPath(this.#currentPath, this.#nextPath);
     }
 
-    get absNextPath(): string {
+    get realNextPath(): string {
         return this.#nextPath;
     }
 

@@ -1,54 +1,54 @@
 ## [返回主目录](../README.md)
 
-- 2022-09-25 [HackerNews周报](./2022Q3/2022-09-Hacker-News.md)
+- 2022-09-25 [HackerNews周报](2022Q3/2022-09-Hacker-News.md)
   - Git终端UI
   - 开源短链接服务
   - AI作画图库
-- 2022-09-18 [HackerNews周报](./2022Q3/2022-09-Hacker-News.md)
+- 2022-09-18 [HackerNews周报](2022Q3/2022-09-Hacker-News.md)
   - 在线设计工具新动向
   - 交互式Markdown
   - Mac中体验AI作画
-- 2022-09-11 [HackerNews周报](./2022Q3/2022-09-Hacker-News.md)
+- 2022-09-11 [HackerNews周报](2022Q3/2022-09-Hacker-News.md)
   - 结构化diff工具
   - 百倍快的Pythonlinter
   - PREACT状态管理新方案signals
-- 2022-09-04 [HackerNews周报](./2022Q3/2022-09-Hacker-News.md)
+- 2022-09-04 [HackerNews周报](2022Q3/2022-09-Hacker-News.md)
   - 快速启动隔离开发环境
   - JSON可视化工具
   - Heroku即将停止免费额度
-- 2022-08-28 [HackerNews周报](./2022Q3/2022-08-Hacker-News.md)
+- 2022-08-28 [HackerNews周报](2022Q3/2022-08-Hacker-News.md)
   - 野心勃勃的数据库SurrealDB
   - 80岁计算机科学家仍在优化开源代码
   - 将触屏设备变为触摸板
-- 2022-08-21 [HackerNews周报](./2022Q3/2022-08-Hacker-News.md)
+- 2022-08-21 [HackerNews周报](2022Q3/2022-08-Hacker-News.md)
   - 浏览器中运行Postgres
   - 与Python兼容的静态类型语言
   - 分布式文件系统JuiceFS
-- 2022-08-14 [HackerNews周报](./2022Q3/2022-08-Hacker-News.md)
+- 2022-08-14 [HackerNews周报](2022Q3/2022-08-Hacker-News.md)
   - 远程开发方案Coder
   - 高性能virtualDOM
   - 深入Redis技术细节
-- 2022-08-07 [HackerNews周报](./2022Q3/2022-08-Hacker-News.md)
+- 2022-08-07 [HackerNews周报](2022Q3/2022-08-Hacker-News.md)
   - 开源知识库软件能否替代Notion
   - Copilot开源替代品
   - 逆向工程工具箱。
-- 2022-07-31 [HackerNews周报](./2022Q3/2022-07-Hacker-News.md)
+- 2022-07-31 [HackerNews周报](2022Q3/2022-07-Hacker-News.md)
   - 多功能serverlessJS运行时
   - Grammarly开源替代品
   - K8s轻量级虚拟化插件
-- 2022-07-24 [HackerNews周报](./2022Q3/2022-07-Hacker-News.md)
+- 2022-07-24 [HackerNews周报](2022Q3/2022-07-Hacker-News.md)
   - Google发布新编程语言Carbon
   - 低代码工具开发框架榫卯
   - AI系统DALL·E开放Beta测试
-- 2022-07-17 [HackerNews周报](./2022Q3/2022-07-Hacker-News.md)
+- 2022-07-17 [HackerNews周报](2022Q3/2022-07-Hacker-News.md)
   - Vite3.0发布
   - Bun性能实测
   - 性能更强的Prometheus替代方案
-- 2022-07-10 [HackerNews周报](./2022Q3/2022-07-Hacker-News.md)
+- 2022-07-10 [HackerNews周报](2022Q3/2022-07-Hacker-News.md)
   - 高性能JS运行时Bun
   - Electron轻量级替代品
   - 自动探测Web应用内存泄漏
-- 2022-07-03 [HackerNews周报](./2022Q3/2022-07-Hacker-News.md)
+- 2022-07-03 [HackerNews周报](2022Q3/2022-07-Hacker-News.md)
   - 性能持续分析工具
   - 数据库必须知道的那些事
   - Spark与K8s集成新动向

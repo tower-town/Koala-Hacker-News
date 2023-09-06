@@ -1,55 +1,54 @@
 ## [返回主目录](../README.md)
 
-- 2022-12-25 [HackerNews周报](./2022Q4/2022-12-Hacker-News.md)
+- 2022-12-25 [HackerNews周报](2022Q4/2022-12-Hacker-News.md)
   - ObsidianCanvas发布
   - 开源免费视频会议服务
   - 一周末复刻赛伯朋克中的语音识别
-- 2022-12-18 [HackerNews周报](./2022Q4/2022-12-Hacker-News.md)
+- 2022-12-18 [HackerNews周报](2022Q4/2022-12-Hacker-News.md)
   - 高性能Python编译器
   - Linux文本处理技巧
   - 在命令行中渲染Markdown
-  - 
-- 2022-12-11 [HackerNews周报](./2022Q4/2022-12-Hacker-News.md)
+- 2022-12-11 [HackerNews周报](2022Q4/2022-12-Hacker-News.md)
   - 浏览器中运行桌面环境
   - 轻量级网站监控方案
   - 可视化React组件IDE
-- 2022-12-05 [HackerNews周报](./2022Q4/2022-12-Hacker-News.md)
+- 2022-12-05 [HackerNews周报](2022Q4/2022-12-Hacker-News.md)
   - OpenAI开放ChatGPT模型
   - NLP在线课程
   - k8s流量监测工具
-- 2022-11-27 [HackerNews周报](./2022Q4/2022-11-Hacker-News.md)
+- 2022-11-27 [HackerNews周报](2022Q4/2022-11-Hacker-News.md)
   - StableDiffusionAI作画V2
   - 开源数据可视化平台
   - 命令行的艺术
-- 2022-11-20 [HackerNews周报](./2022Q4/2022-11-Hacker-News.md)
+- 2022-11-20 [HackerNews周报](2022Q4/2022-11-Hacker-News.md)
   - Mathematica开源替代品
   - 数据库领域多个新项目
   - Meta大规模代码管理方案
-- 2022-11-13 [HackerNews周报](./2022Q4/2022-11-Hacker-News.md)
+- 2022-11-13 [HackerNews周报](2022Q4/2022-11-Hacker-News.md)
   - GitHub下一代功能
   - Docker支持Webassembly
   - 新式代码教学工具
-- 2022-11-06 [HackerNews周报](./2022Q4/2022-11-Hacker-News.md)
+- 2022-11-06 [HackerNews周报](2022Q4/2022-11-Hacker-News.md)
   - GrafanaLabs新产品
   - Vite与Turbopack性能对比
   - Heroku替代方案
-- 2022-10-30 [HackerNews周报](./2022Q4/2022-10-Hacker-News.md)
+- 2022-10-30 [HackerNews周报](2022Q4/2022-10-Hacker-News.md)
   - Vercel推出Webpack替代品
   - Python发布新版
   - 轻量级搜索引擎Sonic
-- 2022-10-23 [HackerNews周报](./2022Q4/2022-10-Hacker-News.md)
+- 2022-10-23 [HackerNews周报](2022Q4/2022-10-Hacker-News.md)
   - 手机编程App
   - WebAssembly应用
   - 高性能TypeScript编译器
-- 2022-10-16 [HackerNews周报](./2022Q4/2022-10-Hacker-News.md)
+- 2022-10-16 [HackerNews周报](2022Q4/2022-10-Hacker-News.md)
   - Obsidian发布1.0
   - 命令行中编辑视频与收发邮件
   - JetBrains新一代IDE公测
-- 2022-10-09 [HackerNews周报](./2022Q4/2022-10-Hacker-News.md)
+- 2022-10-09 [HackerNews周报](2022Q4/2022-10-Hacker-News.md)
   - 通过二维码分享电脑中任意文件
   - 开源WASM运行PostgresSQL方案
   - 社区尝试维护SQLite下游版本
-- 2022-10-03 [HackerNews周报](./2022Q4/2022-10-Hacker-News.md)
+- 2022-10-03 [HackerNews周报](2022Q4/2022-10-Hacker-News.md)
   - CloudFlare开源serverless运行时workerd
   - 开源APM系统
   - 使用Go和Web技术开发
