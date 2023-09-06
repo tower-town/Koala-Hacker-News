@@ -1,4 +1,55 @@
 {
+    "BV1o94y1471e": {
+        "title": "[Hacker News 周报] 将打字工作量减少一半；开源工作流自动化工具；在 Excel 中使用 Python",
+        "aid": 363004766,
+        "bvid": "BV1o94y1471e",
+        "pubdate": 1693738867,
+        "data": [
+            {
+                "name": "Lightning CSS",
+                "intro": "CSS 解析转换打包压缩工具",
+                "link": "https://lightningcss.dev/"
+            },
+            {
+                "name": "SQLedge",
+                "intro": "基于 PostgreSQL 逻辑复制的边缘计算数据库",
+                "link": "https://github.com/zknill/sqledge"
+            },
+            {
+                "name": "Compress",
+                "intro": "将打字工作量减少一半的工具",
+                "link": "https://github.com/eschluntz/compress"
+            },
+            {
+                "name": "n8n",
+                "intro": "开源工作流自动化工具",
+                "link": "https://n8n.io/"
+            },
+            {
+                "name": "dataherald",
+                "intro": "结构化数据查询引擎",
+                "link": "https://github.com/Dataherald/dataherald"
+            },
+            {
+                "name": "",
+                "intro": "在 Excel 中使用 Python",
+                "link": "https://www.theverge.com/2023/8/22/23841167/microsoft-excel-python-integration-support"
+            },
+            {
+                "name": "",
+                "intro": "Meta 发布了 Code Llama",
+                "link": "https://about.fb.com/news/2023/08/code-llama-ai-for-coding/"
+            },
+            {
+                "name": "",
+                "intro": "OpenAI 开放 GPT-3.5 Turbo 模型微调功能",
+                "link": "https://openai.com/blog/gpt-3-5-turbo-fine-tuning-and-api-updates"
+            }
+        ],
+        "source": [
+            "https://mailchi.mp/hackernewsletter/667"
+        ]
+    },
     "BV1Tz4y1u7VR": {
         "title": "[Hacker News 周报] 协同 Lottie 动画创作工具；轻量级 systemd 服务管理工具；使用 PS 一样使用 Diffusion AI",
         "aid": 574943888,

@@ -96,7 +96,7 @@ export class HackerNewsList extends BaseDAO implements HackerNewsDAO {
 				aid: v.Aid,
 				bvid: v.Bvid,
 				pubdate: v.Pubdate,
-				data: this.#details.getObj(v.Details as DetailsBeamer[]),
+				data: this.#details.getObj(v.Details || [] as DetailsBeamer[]),
 				source: v.Source as string[],
 				ai: v.Ai,
 			};

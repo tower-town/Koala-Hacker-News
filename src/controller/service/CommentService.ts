@@ -20,10 +20,10 @@ import _ from "underscore";
 import { ServiceBaseDAO } from "../base/ServiceBase";
 
 export class CommentService extends ServiceBaseDAO {
-    #mid = new URLSearchParams(this.data.commentURLParams.params).get("mid");
+    #mid = new URLSearchParams(this.apiData.commentURLParams.params).get("mid");
 
     initUrl(aid: number): URL {
-        const apiData = this.data.commentURLParams;
+        const apiData = this.apiData.commentURLParams;
         const url = new URL(apiData.url);
         const apiParams = new URLSearchParams(apiData.params);
 
@@ -32,7 +32,7 @@ export class CommentService extends ServiceBaseDAO {
     }
 
     filterData(hn: HackerNewsBeamer): boolean {
-        if (hn.Details) {
+        if (hn.Details?.length) {
             return false;
         }
         return true;
@@ -160,12 +160,12 @@ export class CommentService extends ServiceBaseDAO {
             ai: [] as string[],
         }
 
-        let ms_status = "";
+        let msStatus = "";
         for (const value of message_data) {
-            const pre_ms_status = value.match(/^[\u4e00-\u9fa5].*：?$/)?.[0] || "";
-            ms_status = pre_ms_status ? pre_ms_status.replace(/(本周)|(一周)|(本期)/, "").replace(/：.*/, "").trim() : ms_status;
-            if (!pre_ms_status) {
-                switch (ms_status) {
+            const prevStatus = value.match(/^[\u4e00-\u9fa5].*：?$/)?.[0] || "";
+            msStatus = prevStatus ? prevStatus.replace(/(本周)|(一周)|(本期)/, "").replace(/：.*/, "").trim() : msStatus;
+            if (!prevStatus) {
+                switch (msStatus) {
                     case "时间轴":
                         /^[0-9hw].*/.test(value) && !value.includes('AI 小结') && intro.intro.push(value);
                         break;

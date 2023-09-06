@@ -20,7 +20,7 @@ export class ViewStruct {
     #chapter = new ChapterBody()
 
     async updateData(hnlist: HackerNewsBeamer[]): Promise<void> {
-        await this.#index.loadChapterList(hnlist);
-        await this.#chapter.updateChapter(hnlist);
+        await this.#index.update(hnlist);
+        // await this.#chapter.update(hnlist);
     }
 }

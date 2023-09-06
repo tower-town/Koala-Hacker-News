@@ -11,11 +11,11 @@
 * ====================================================
 */
 
-import _ from "underscore";
 import { Utils, fetchJson } from "@src/common/utils";
-import { HackerNewsBeamer } from "@src/model/beamer/HackerNewsBeamer";
-import { ServiceBaseDAO } from "../base/ServiceBase";
 import { HackerNewsList } from "@src/model/HackerNewsList";
+import { HackerNewsBeamer } from "@src/model/beamer/HackerNewsBeamer";
+import _ from "underscore";
+import { ServiceBaseDAO } from "../base/ServiceBase";
 
 export class SourceLinkService extends ServiceBaseDAO {
 
@@ -34,7 +34,7 @@ export class SourceLinkService extends ServiceBaseDAO {
     }
 
     initUrl(bvid: string): URL {
-        const infoApi = this.data.videoInfoURLParams;
+        const infoApi = this.apiData.videoInfoURLParams;
         const url = new URL(infoApi.url);
         const params = new URLSearchParams(infoApi.params);
         params.set("bvid", String(bvid));

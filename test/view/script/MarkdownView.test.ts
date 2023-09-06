@@ -28,3 +28,4 @@ test("test getTab", async () => {
     const tab = await markdown.generateTable(hn);
     expect(!tab).toBe(false);
 })
+

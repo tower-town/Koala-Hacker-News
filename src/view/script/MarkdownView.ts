@@ -15,7 +15,7 @@ import { DetailsBeamer } from "@src/model/beamer/DetailsBeamer";
 import { HackerNewsBeamer } from "@src/model/beamer/HackerNewsBeamer";
 import format from "html-format";
 import _ from "underscore";
-import { ViewBase } from "./base";
+import { ViewBase } from "./ViewBase";
 
 
 export class MarkdownView extends ViewBase {

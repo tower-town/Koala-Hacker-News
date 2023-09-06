@@ -8,7 +8,9 @@
   },
   "files": {
     "ignore": [
-      "legacy/*"
+      "legacy/*",
+      "node_modules",
+      "*.json"
     ]
   },
   "organizeImports": {

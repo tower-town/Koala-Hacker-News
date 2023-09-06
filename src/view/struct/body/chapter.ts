@@ -15,6 +15,7 @@ import fs from "fs";
 import path from "path";
 import { Utils } from "@src/common/utils";
 import { HackerNewsBeamer } from "@src/model/beamer/HackerNewsBeamer";
+import { OutlineView, PathNode } from "@src/view/script/OutlineView";
 import { format } from "date-fns";
 import _ from "underscore";
 import { MarkdownView } from "../../script/MarkdownView";
@@ -26,77 +27,86 @@ export class ChapterBody {
     #chapterHead = headChapter;
     #chapterFoot = footChapter;
     #chapterPath = this.#markdown.chapterPath;
+    #outline = new Outline();
 
-    async groupChapter(hnlist: HackerNewsBeamer[]): Promise<_.Dictionary<HackerNewsBeamer[]>> {
-        return _.groupBy(hnlist, (item) => this.#fmtChapter(item.fmtPubdate));
+    async sliceData(hnlist: HackerNewsBeamer[]): Promise<_.Dictionary<HackerNewsBeamer[]>> {
+        function fmtChapter(chapter: Date): string {
+            return `${format(chapter, "yyyy-MM")}`;
+        }
+        return _.groupBy(hnlist, (item) => fmtChapter(item.fmtPubdate));
     }
 
-    async updateChapter(hnlist: HackerNewsBeamer[]): Promise<void> {
-
-        const hns = await this.groupChapter(hnlist);
-        _.chain(hns)
-            .map((v, quarter) => {
-                this.#updateOutline(
-                    `${this.#chapterPath}/${quarter}-Hacker-News.md`,
-                    this.#loadQuarterOutline(v)
-                )
-                this.#updateQuarterTable(quarter, v);
-                // console.warn(cpath, data);
+    async updateData(pathNode: PathNode, hnlist: HackerNewsBeamer[], groupKey: string): Promise<void> {
+        const groupData = await this.sliceData(hnlist);
+        const outlineHead = this.#outline.loadHead(pathNode.relPrevPath);
+        const outlineTail = this.#outline.loadTail();
+        const outlineBody = _.chain(groupData)
+            .map((v, k) => {
+                const subPathNode = pathNode.join(path.join(this.#chapterPath, `${groupKey}/${k}-Hacker-News.md`));
+                this.updateSubPathTable(subPathNode.end(), v);
+                return _.reduce(v, (memo, val) => memo + this.#outline.loadBody(val, subPathNode), "");
             })
+            .reduce((acc, item) => acc + item, "")
             .value();
+        const data = `${outlineHead}${outlineBody}${outlineTail}`;
+        await Utils.writeFile(pathNode.currentPath, `${data}`);
+        // console.warn(cpath, data);
     }
 
-    #checkChapterPath(chapter: string): boolean {
-        return true;
+    async updateSubPathTable(pathNode: PathNode, hnlist: HackerNewsBeamer[]): Promise<void> {
+        const cpath = pathNode.absNextPath;
+        await fs.promises.mkdir(path.dirname(cpath), { recursive: true });
+        const chapterHead = `${this.#chapterHead}## [返回章节目录](${pathNode.relPrevPath})\n`;
+        const chapterBody = _.chain(hnlist)
+            .reduce((memo, v) => {
+                return memo + this.#markdown.generateTable(v);
+            }, "")
+            .value();
+        const chapterFoot = this.#chapterFoot;
+        const data = `${chapterHead}${chapterBody}${chapterFoot}`;
+        await Utils.writeFile(cpath, `${data}`);
     }
 
-    #loadQuarterOutline(hnlist: HackerNewsBeamer[]): string {
-        return _.reduce(hnlist, (memo: string, v) => {
-            const quarter = format(v.fmtPubdate, "yyyyQQQ");
-            const yearmonth = format(v.fmtPubdate, "yyyy-MM");
-            const datetime = format(v.fmtPubdate, "yyyy-MM-dd");
-            const title = this.#loadChapterOutline(v.Title) ? this.#loadChapterOutline(v.Title) : v.Title;
-            return `${memo}- ${datetime} [HackerNews周报](./${quarter}/${yearmonth}-Hacker-News.md)\n${title}`
-        }, "")
+}
+
+class Outline extends OutlineView {
+    async update(pathNode: PathNode, hnList: HackerNewsBeamer[]): Promise<string> {
+        const head = this.loadHead(pathNode.relPrevPath);
+        const body = _.reduce(hnList, (memo: string, v) => memo + this.loadBody(v, pathNode), "");
+        const tail = this.loadTail();
+        const data = `${head}${body}${tail}`;
+        return data;
     }
 
-    #loadChapterOutline(title: string): string | undefined {
-        return _.chain(title.split(/；/))
+    loadHead(str: string): string {
+        return `## [返回主目录](${str})\n\n`;
+    }
+
+    loadBody(data: HackerNewsBeamer, pathNode: PathNode): string {
+        return `${this.#loadTitle(pathNode, data.fmtPubdate, data.Title)}`;
+    }
+
+    loadTail(): string {
+        return "";
+    }
+
+    #loadTitle(pathNode: PathNode, pubdate: Date, title: string): string {
+        return `${this.#wrapTitleHead(pathNode, pubdate)}${this.#loadTitleItem(title) || title}`;
+    }
+
+    #loadTitleItem(title: string): string | undefined {
+        return _.chain(title.split(/\]|；/))?.slice(1)
+            .compact()
             .map(v => v.replaceAll(" ", ""))
-            .map(v => v.replace("[HackerNews周报]", ""))
             .map(v => v.trim())
             .reduce((memo, v) => {
                 return `${memo}  - ${v}\n`;
             }, "")
             .value();
-
     }
 
-    async #updateOutline(path: string, data: string): Promise<void> {
-        const outlineHead = "## [返回主目录](../README.md)\n\n";
-        await Utils.writeFile(path, `${outlineHead}${data}`);
-    }
-
-    #updateQuarterTable(quarter: string, hnlist: HackerNewsBeamer[]): void {
-        _.chain(hnlist)
-            .groupBy(v => `${format(v.fmtPubdate, "yyyy-MM")}`)
-            .map((v, k) => {
-                const cpath = path.join(this.#chapterPath, `./${quarter}/${k}-Hacker-News.md`);
-                fs.promises.mkdir(path.dirname(cpath), { recursive: true });
-
-                const chapterHead = `${this.#chapterHead}## [返回章节目录](../${quarter}-Hacker-News.md)\n`;
-                const chapterBody = _.reduce(v, (memo, v) => {
-                    return memo + this.#markdown.generateTable(v);
-                }, "");
-                const chapterFoot = this.#chapterFoot;
-                const data = `${chapterHead}${chapterBody}${chapterFoot}`;
-                Utils.writeFile(cpath, `${data}`);
-            })
-            .value();
-    }
-
-    #fmtChapter(chapter: Date): string {
-        // if you use much more date oparation, I recommend you use date-fnt or moment.js
-        return `${format(chapter, "yyyyQQQ")}`;
+    #wrapTitleHead(pathNode: PathNode, pubdate: Date): string {
+        const datetime = format(pubdate, "yyyy-MM-dd");
+        return `- ${datetime} [HackerNews周报](${pathNode.relNextPath})\n`;
     }
 }

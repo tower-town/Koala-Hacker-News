@@ -18,4 +18,4 @@ export abstract class ViewBase {
     indexPath: string = path.join(__dirname, "../../../README.md");
 
     abstract sendMsg(): string;
-}
+};

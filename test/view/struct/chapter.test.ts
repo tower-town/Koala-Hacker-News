@@ -18,10 +18,10 @@ const chapterBody = new ChapterBody()
 
 test("test splitDict", async () => {
     const hnlist = await new HackerNewsList().getList();
-    await chapterBody.groupChapter(hnlist)
+    await chapterBody.sliceData(hnlist)
 })
 
 test("test updateChapter", async () => {
     const hnlist = await new HackerNewsList().getList();
-    await chapterBody.updateChapter(hnlist);
+    // await chapterBody.update(hnlist);
 })

@@ -16,7 +16,7 @@ import { HackerNewsBeamer } from "@src/model/beamer/HackerNewsBeamer";
 import { ApiBase, ApiData } from "./ApiBase";
 
 export abstract class ServiceBaseDAO {
-	data: ApiData = ApiBase.init();
+	apiData: ApiData = ApiBase.init();
 
 	abstract initUrl(params: string | number): URL | Promise<URL>;
 
