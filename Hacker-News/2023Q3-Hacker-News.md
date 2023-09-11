@@ -1,5 +1,9 @@
 ## [返回主目录](../README.md)
 
+- 2023-09-10 [HackerNews周报](2023Q3/2023-09-Hacker-News.md)
+  - Astro3.0发布
+  - 告警管理与自动化平台
+  - 本地AI助手
 - 2023-09-03 [HackerNews周报](2023Q3/2023-09-Hacker-News.md)
   - 将打字工作量减少一半
   - 开源工作流自动化工具

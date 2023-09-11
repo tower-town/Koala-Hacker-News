@@ -1,6 +1,23 @@
 ## [返回章节目录](../2023Q3-Hacker-News.md)
 
 
+[[Hacker News 周报] Astro 3.0 发布；告警管理与自动化平台；本地 AI
+助手](https://www.bilibili.com/video/BV17p4y1j7Ra)
+
+<table>
+  <theader>
+    <th>名称</th>
+    <th>简介</th>
+    <th>链接</th>
+  </theader><tbody>
+    <tr>
+      <td>一周 AI 小结</td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
 [[Hacker News 周报] 将打字工作量减少一半；开源工作流自动化工具；在 Excel 中使用
 Python](https://www.bilibili.com/video/BV1o94y1471e)
 
