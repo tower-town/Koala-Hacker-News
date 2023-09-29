@@ -66,7 +66,23 @@ export class Utils {
 }
 
 export async function fetchJson(url: URL): Promise<Response> {
-	const response = await fetch(url);
-	const json = await response.json();
-	return json;
+	try {
+		// referer: https://github.com/SocialSisterYi/bilibili-API-collect/issues/686
+
+		let headers = {}
+		if (url.host === 'api.bilibili.com') {
+			headers = {
+				"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.43",
+				Cookies: "buvid3=DAEEB42F-CD0A-BF05-7072-F07D0BE6865E82525infoc;"
+			}
+		}
+		const response = await fetch(url, { headers });
+		const json = await response.json();
+		if (json.code !== 0) {
+			throw new Error(`fetch error: ${json.message}, code is ${json.code}`);
+		}
+		return json;
+	} catch (error) {
+		throw new Error(`fetch error: ${error}`);
+	}
 }

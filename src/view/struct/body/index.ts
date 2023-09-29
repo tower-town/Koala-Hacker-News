@@ -35,14 +35,14 @@ export class BodyStruct {
         const hnDict = await this.sliceChapter(hnlist);
 
         const outlineHead = this.#outline.loadHead();
-        const outlineBody = await _.chain(hnDict)
-            .map((v, k) => (async () => {
+        const outlineBody = _.chain(hnDict)
+            .map((v, k) => {
                 const cpath = path.join(this.#chapterPath, `${k}-Hacker-News.md`);
                 const pathNode = new PathNode(this.#indexPath, cpath);
-                await this.#chapter.updateData(pathNode, v, k);
+                this.#chapter.updateData(pathNode, v, k);
                 return this.#outline.loadBody(k, pathNode);
-            })())
-            .reduce((acc, item) => acc.then(async (v) => v + await item), Promise.resolve(""))
+            })
+            .reduce((acc, item) => acc + item, "")
             .value();
         const outlineTail = this.#outline.loadTail();
 
