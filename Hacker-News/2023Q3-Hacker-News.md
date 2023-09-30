@@ -1,5 +1,16 @@
 ## [返回主目录](../README.md)
 
+<<<<<<< HEAD
+=======
+- 2023-09-24 [HackerNews周报](2023Q3/2023-09-Hacker-News.md)
+  - 开源Datadog替代品
+  - DALL·E3亮相
+  - TypeScript纪录片
+- 2023-09-17 [HackerNews周报](2023Q3/2023-09-Hacker-News.md)
+  - react-native开发工具链
+  - 高质量K8sPython客户端
+  - PostgreSQL发布16版本
+>>>>>>> dev
 - 2023-09-10 [HackerNews周报](2023Q3/2023-09-Hacker-News.md)
   - Astro3.0发布
   - 告警管理与自动化平台
