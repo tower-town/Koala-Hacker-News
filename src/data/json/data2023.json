@@ -1,4 +1,162 @@
 {
+    "BV1uu41137gH": {
+        "title": "[Hacker News 周报] 开源 Datadog 替代品；DALL·E 3 亮相；TypeScript 纪录片",
+        "aid": 533867070,
+        "bvid": "BV1uu41137gH",
+        "pubdate": 1695533396,
+        "data": [
+            {
+                "name": "HyperDX",
+                "intro": "Datadog 开源替代品",
+                "link": "https://github.com/hyperdxio/hyperdx"
+            },
+            {
+                "name": "ElectricSQL",
+                "intro": "构建本地优先应用的数据库同步工具",
+                "link": "https://electric-sql.com/"
+            },
+            {
+                "name": "rapidpages",
+                "intro": "Vercel v0 的开源实现",
+                "link": "https://github.com/rapidpages/rapidpages"
+            },
+            {
+                "name": "",
+                "intro": "fly.io 开源服务发现工具 Corrosion",
+                "link": "https://github.com/superfly/corrosion"
+            },
+            {
+                "name": "Gitness",
+                "intro": "开源的代码托管与 CI/CD 流水线引擎",
+                "link": "https://gitness.com/"
+            },
+            {
+                "name": "",
+                "intro": "最新发布的 TypeScript 纪录片",
+                "link": "https://www.youtube.com/watch?v=U6s2pdxebSo"
+            },
+            {
+                "name": "",
+                "intro": "OpenAI 发布 Dalle.E 3",
+                "link": "https://openai.com/dall-e-3"
+            },
+            {
+                "name": "SeaGOAT",
+                "intro": "基于向量数据库构建的本地代码搜索工具",
+                "link": "https://github.com/kantord/SeaGOAT"
+            },
+            {
+                "name": "",
+                "intro": "OpenAI 展示 fine tuning 功能的 UI 管理能力",
+                "link": "https://twitter.com/OfficialLoganK/status/1704181284036300970"
+            }
+        ],
+        "source": [
+            "https://mailchi.mp/hackernewsletter/670"
+        ]
+    },
+    "BV1p34y1P7Mc": {
+        "title": "[Hacker News 周报] react-native 开发工具链；高质量 K8s Python 客户端；PostgreSQL 发布 16 版本",
+        "aid": 831001154,
+        "bvid": "BV1p34y1P7Mc",
+        "pubdate": 1694938290,
+        "data": [
+            {
+                "name": "Expo",
+                "intro": "react-native 开发工具链",
+                "link": "https://expo.dev/"
+            },
+            {
+                "name": "kr8s",
+                "intro": "高质量的 Python K8s 客户端",
+                "link": "https://github.com/kr8s-org/kr8s"
+            },
+            {
+                "name": "Unit",
+                "intro": "Nginx 开发的 Web 应用服务器",
+                "link": "https://github.com/nginx/unit/"
+            },
+            {
+                "name": "tldraw",
+                "intro": "精致灵活的开源白板工具",
+                "link": "https://github.com/tldraw/tldraw"
+            },
+            {
+                "name": "starry night",
+                "intro": "开源代码语法高亮库",
+                "link": "https://github.com/wooorm/starry-night"
+            },
+            {
+                "name": "",
+                "intro": "PostgreSQL 发布了 16 版本",
+                "link": "https://www.postgresql.org/about/news/postgresql-16-released-2715"
+            },
+            {
+                "name": "Trickle",
+                "intro": "一款基于 AI 的图片信息管理软件",
+                "link": "https://www.trickle.so/"
+            },
+            {
+                "name": "",
+                "intro": "Vercel 发布 AI 功能 v0.dev",
+                "link": "https://twitter.com/vercel/status/1702351846445080953"
+            }
+        ],
+        "source": [
+            "https://mailchi.mp/hackernewsletter/669"
+        ]
+    },
+    "BV17p4y1j7Ra": {
+        "title": "[Hacker News 周报]  Astro 3.0 发布；告警管理与自动化平台；本地 AI 助手",
+        "aid": 958340126,
+        "bvid": "BV17p4y1j7Ra",
+        "pubdate": 1694321781,
+        "data": [
+            {
+                "name": "Open Interpreter",
+                "intro": "本地 AI 助手",
+                "link": "https://github.com/KillianLucas/open-interpreter"
+            },
+            {
+                "name": "chartbrew",
+                "intro": "开源数据可视化 Web 应用",
+                "link": "https://github.com/chartbrew/chartbrew"
+            },
+            {
+                "name": "",
+                "intro": "RecipeUI 团队开发提升 API 开发体验的同名工具",
+                "link": "https://github.com/RecipeUI/RecipeUI"
+            },
+            {
+                "name": "Keep",
+                "intro": "告警管理与自动化平台",
+                "link": "https://github.com/keephq/keep"
+            },
+            {
+                "name": "Ddosify",
+                "intro": "开源可观测性项目",
+                "link": "https://github.com/ddosify/alaz"
+            },
+            {
+                "name": "",
+                "intro": "textual 发布实验性项目 textual-web",
+                "link": "https://github.com/Textualize/textual-web"
+            },
+            {
+                "name": "",
+                "intro": "Web 框架 Astro 发布了 3.0 版本",
+                "link": "https://astro.build/blog/astro-3/"
+            },
+            {
+                "name": "Watlings",
+                "intro": "用来学习 WebAssembly 的项目",
+                "link": "https://github.com/EmNudge/watlings"
+            }
+        ],
+        "source": [
+            "https://mailchi.mp/hackernewsletter/668"
+        ]
+    },
     "BV1o94y1471e": {
         "title": "[Hacker News 周报] 将打字工作量减少一半；开源工作流自动化工具；在 Excel 中使用 Python",
         "aid": 363004766,
