@@ -1,54 +1,54 @@
 ## [返回主目录](../README.md)
 
-- 2023-03-26 [HackerNews周报](2023Q1/2023-03-Hacker-News.md)
+- 2023-03-26 [HackerNews 周报](2023Q1/2023-03-Hacker-News.md)
   - ChatGPT发布插件能力
   - 功能强大使用便捷的排版系统
   - Adobe推出AI创意工具
-- 2023-03-19 [HackerNews周报](2023Q1/2023-03-Hacker-News.md)
+- 2023-03-19 [HackerNews 周报](2023Q1/2023-03-Hacker-News.md)
   - GPT-4发布
   - Wasm跨语言运行时
   - React新官网上线
-- 2023-03-12 [HackerNews周报](2023Q1/2023-03-Hacker-News.md)
+- 2023-03-12 [HackerNews 周报](2023Q1/2023-03-Hacker-News.md)
   - Vue全功能表单框架
   - 软件定义键盘
   - 从SQL语句中推断Typescript类型
-- 2023-03-05 [HackerNews周报](2023Q1/2023-03-Hacker-News.md)
+- 2023-03-05 [HackerNews 周报](2023Q1/2023-03-Hacker-News.md)
   - Google新编程框架
   - ChatGPT官方API
   - Typescript5.0
-- 2023-02-26 [HackerNews周报](2023Q1/2023-02-Hacker-News.md)
+- 2023-02-26 [HackerNews 周报](2023Q1/2023-02-Hacker-News.md)
   - 新一代设计工具
   - 开源Web应用监控方案
   - 自动生成commitmessage工具
-- 2023-02-19 [HackerNews周报](2023Q1/2023-02-Hacker-News.md)
+- 2023-02-19 [HackerNews 周报](2023Q1/2023-02-Hacker-News.md)
   - 开源多云网盘
   - HelmWebUI
   - ChatGPT讲解文章
-- 2023-02-12 [HackerNews周报](2023Q1/2023-02-Hacker-News.md)
+- 2023-02-12 [HackerNews 周报](2023Q1/2023-02-Hacker-News.md)
   - 开箱即用OAuth解决方案
   - React.JS纪录片
   - Notion风格的富文本编辑器
-- 2023-02-05 [HackerNews周报](2023Q1/2023-02-Hacker-News.md)
+- 2023-02-05 [HackerNews 周报](2023Q1/2023-02-Hacker-News.md)
   - 开源CRDT2.0
   - 终端中运行浏览器
   - Netlify收购Gatsby
-- 2023-01-29 [HackerNews周报](2023Q1/2023-01-Hacker-News.md)
+- 2023-01-29 [HackerNews 周报](2023Q1/2023-01-Hacker-News.md)
   - 基于WebRTC分享终端会话
   - 自动化工作流工具
   - 通过网络访问SQLite
-- 2023-01-24 [HackerNews周报](2023Q1/2023-01-Hacker-News.md)
+- 2023-01-24 [HackerNews 周报](2023Q1/2023-01-Hacker-News.md)
   - 2小时开发GPT模型
   - 持久化工作流平台
   - 数据ETL工具AirByte
-- 2023-01-15 [HackerNews周报](2023Q1/2023-01-Hacker-News.md)
+- 2023-01-15 [HackerNews 周报](2023Q1/2023-01-Hacker-News.md)
   - 简单有趣的serverless平台
   - 自动化数据探索工具
   - Google开源文件同步工具
-- 2023-01-08 [HackerNews周报](2023Q1/2023-01-Hacker-News.md)
+- 2023-01-08 [HackerNews 周报](2023Q1/2023-01-Hacker-News.md)
   - 发布clickhouse-local
   - 使用HTTP/3连接MySQL
   - 使用WebAssembly运行Vim
-- 2023-01-01 [HackerNews周报](2023Q1/2023-01-Hacker-News.md)
+- 2023-01-01 [HackerNews 周报](2023Q1/2023-01-Hacker-News.md)
   - Google内部Rust教程
   - 从零学习开发CDN
   - serverless数据库对比

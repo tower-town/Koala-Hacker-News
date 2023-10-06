@@ -29,27 +29,25 @@ export class ChapterBody {
     #chapterPath = this.#markdown.chapterPath;
     #outline = new Outline();
 
-    async sliceData(hnlist: HackerNewsBeamer[]): Promise<_.Dictionary<HackerNewsBeamer[]>> {
+    sliceData(hnlist: HackerNewsBeamer[]): _.Dictionary<HackerNewsBeamer[]> {
         function fmtChapter(chapter: Date): string {
             return `${format(chapter, "yyyy-MM")}`;
         }
         return _.groupBy(hnlist, (item) => fmtChapter(item.fmtPubdate));
     }
 
-    async updateData(pathNode: PathNode, hnlist: HackerNewsBeamer[], groupKey: string): Promise<void> {
-        const groupData = await this.sliceData(hnlist);
-        const outlineHead = this.#outline.loadHead(pathNode.end().prevPath);
+    async updateData(data: { pathNode: PathNode, HackerNews: HackerNewsBeamer[] }[]): Promise<void> {
+        const outlineHead = this.#outline.loadHead(data[0].pathNode.nextNode.prevPath);
         const outlineTail = this.#outline.loadTail();
-        const outlineBody = _.chain(groupData)
-            .map((v, k) => {
-                const subPathNode = pathNode.join(path.join(this.#chapterPath, `${groupKey}/${k}-Hacker-News.md`));
-                this.updateSubPathTable(subPathNode.end(), v);
-                return _.reduce(v, (memo, val) => memo + this.#outline.loadBody(val, subPathNode), "");
+        const outlineBody = _.chain(data)
+            .map((val, k) => {
+                this.updateSubPathTable(val.pathNode.nextNode.nextNode, val.HackerNews);
+                return _.reduce(val.HackerNews, (memo, h_val) => memo + this.#outline.loadBody(h_val, val.pathNode.nextNode), "");
             })
             .reduce((acc, item) => acc + item, "")
             .value();
-        const data = `${outlineHead}${outlineBody}${outlineTail}`;
-        await Utils.writeFile(pathNode.realNextPath, `${data}`);
+        const outlineData = `${outlineHead}${outlineBody}${outlineTail}`;
+        await Utils.writeFile(data[0].pathNode.realNextPath, `${outlineData}`);
         // console.warn(cpath, data);
     }
 
@@ -107,6 +105,6 @@ class Outline extends OutlineView {
 
     #wrapTitleHead(pathNode: PathNode, pubdate: Date): string {
         const datetime = format(pubdate, "yyyy-MM-dd");
-        return `- ${datetime} [HackerNews周报](${pathNode.nextPath})\n`;
+        return `- ${datetime} [HackerNews 周报](${pathNode.nextPath})\n`;
     }
 }

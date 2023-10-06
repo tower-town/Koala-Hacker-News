@@ -1,4 +1,49 @@
 {
+    "BV1ou4y147JR": {
+        "title": "[Hacker News 周报] Yandex 开源 BI 项目；开发者的瑞士军刀；面向 serverless 的 ORM",
+        "aid": 916616420,
+        "bvid": "BV1ou4y147JR",
+        "pubdate": 1696120200,
+        "data": [
+            {
+                "name": "",
+                "intro": "Yandex 开源 BI 项目 DataLens",
+                "link": "https://github.com/datalens-tech/datalens"
+            },
+            {
+                "name": "vizro",
+                "intro": "创建模块化数据可视化应用程序的工具包",
+                "link": "https://github.com/mckinsey/vizro"
+            },
+            {
+                "name": "Driver.js",
+                "intro": "在 Web 上实现产品向导等功能的工具库",
+                "link": "https://driverjs.com/"
+            },
+            {
+                "name": "Drizzle ORM",
+                "intro": "面向 serverless 的 ORM",
+                "link": "https://orm.drizzle.team/"
+            },
+            {
+                "name": "DevToys",
+                "intro": "开发者的瑞士军刀",
+                "link": "https://devtoys.app/"
+            },
+            {
+                "name": "",
+                "intro": "Adobe 正式将 Photoshop 搬到了 Web 平台上",
+                "link": "https://photoshop.adobe.com/discover"
+            },
+            {
+                "name": "",
+                "intro": "《Koala 聊开源》频道开启直播栏目"
+            }
+        ],
+        "source": [
+            "https://mailchi.mp/hackernewsletter/671"
+        ]
+    },
     "BV1uu41137gH": {
         "title": "[Hacker News 周报] 开源 Datadog 替代品；DALL·E 3 亮相；TypeScript 纪录片",
         "aid": 533867070,

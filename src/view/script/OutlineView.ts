@@ -23,42 +23,71 @@ export abstract class OutlineView {
 }
 
 export class PathNode {
-    #prevPath: string;
-    #currentPath: string;
-    #nextPath: string;
+    #preNode: PathNode = {} as PathNode;
+    #nextNode: PathNode = {} as PathNode;
+    #data: {
+        prevPath: string;
+        currentPath: string;
+        nextPath: string;
+    } = {
+            prevPath: "",
+            currentPath: "",
+            nextPath: ""
+        }
+
     constructor(prevPath: string, nextPath: string, currentPath = "") {
-        this.#prevPath = prevPath;
-        this.#currentPath = currentPath || prevPath;
-        this.#nextPath = nextPath;
+        this.#data.prevPath = prevPath;
+        this.#data.currentPath = currentPath || prevPath;
+        this.#data.nextPath = nextPath;
+    }
+
+    public get nextNode(): PathNode {
+        return this.#nextNode;
+    }
+    public set nextNode(value: PathNode) {
+        this.#nextNode = value;
+    }
+
+    public get preNode(): PathNode {
+        return this.#preNode;
+    }
+    public set preNode(value: PathNode) {
+        this.#preNode = value;
     }
 
     get prevPath(): string {
-        return this.#transformPath(this.#currentPath, this.#prevPath);
+        return this.#transformPath(this.#data.currentPath, this.#data.prevPath);
     }
 
     get realPrevPath(): string {
-        return this.#prevPath;
+        return this.#data.prevPath;
     }
 
     get nextPath(): string {
-        return this.#transformPath(this.#currentPath, this.#nextPath);
+        return this.#transformPath(this.#data.currentPath, this.#data.nextPath);
     }
 
     get realNextPath(): string {
-        return this.#nextPath;
+        return this.#data.nextPath;
     }
 
     get currentPath(): string {
-        return this.#currentPath;
+        return this.#data.currentPath;
     }
 
 
     join(nextPath: string): PathNode {
-        return new PathNode(this.#prevPath, nextPath, this.#nextPath);
+        const newNode = new PathNode(this.#data.prevPath, nextPath, this.#data.nextPath);
+        newNode.preNode = this;
+        this.#nextNode = newNode;
+        return this.#nextNode;
     }
 
     end(): PathNode {
-        return new PathNode(this.#currentPath, this.#nextPath, this.#nextPath);
+        const newNode = new PathNode(this.#data.currentPath, this.#data.nextPath, this.#data.nextPath);
+        newNode.preNode = this;
+        this.#nextNode = newNode;
+        return this.#nextNode;
     }
 
     #transformPath(from: string, to: string): string {
