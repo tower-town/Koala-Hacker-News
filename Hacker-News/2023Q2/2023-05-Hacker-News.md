@@ -29,7 +29,8 @@
     </tr><tr>
       <td></td>
       <td>Paypal 开源数据库 JunoDB 并发表介绍博客</td>
-      <td>https://medium.com/paypal-tech/unlocking-the-power-of-junodb-paypals-key-value-store-goes-open-source-ee85f935bdc1；https://github.com/paypal/junodb
+      <td>https://medium.com/paypal-tech/unlocking-the-power-of-junodb-paypals-key-value-store-goes-open-source-ee85f935bdc1.
+        https://github.com/paypal/junodb
         https://twitter.com/rowancheung/status/1661356887651020802</td>
     </tr><tr>
       <td></td>

@@ -164,7 +164,7 @@
       <td>https://github.com/centerofci/mathesar</td>
     </tr><tr>
       <td>Unfolder</td>
-      <td>将3D 模型生成折纸零件图纸的工具</td>
+      <td>将 3D 模型生成折纸零件图纸的工具</td>
       <td>https://www.unfolder.app/</td>
     </tr><tr>
       <td>一周 AI 小结</td>

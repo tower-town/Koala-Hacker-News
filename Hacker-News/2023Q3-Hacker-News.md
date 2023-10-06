@@ -1,50 +1,50 @@
 ## [返回主目录](../README.md)
 
 - 2023-09-24 [HackerNews 周报](2023Q3/2023-09-Hacker-News.md)
-  - 开源 Datadog 替代品
-  - DALL·E3 亮相
-  - TypeScript 纪录片
+  - 开源Datadog替代品
+  - DALL·E3亮相
+  - TypeScript纪录片
 - 2023-09-17 [HackerNews 周报](2023Q3/2023-09-Hacker-News.md)
-  - react-native 开发工具链
-  - 高质量 K8sPython 客户端
-  - PostgreSQL 发布 16 版本
+  - react-native开发工具链
+  - 高质量K8sPython客户端
+  - PostgreSQL发布16版本
 - 2023-09-10 [HackerNews 周报](2023Q3/2023-09-Hacker-News.md)
-  - Astro3.0 发布
+  - Astro3.0发布
   - 告警管理与自动化平台
-  - 本地 AI 助手
+  - 本地AI助手
 - 2023-09-03 [HackerNews 周报](2023Q3/2023-09-Hacker-News.md)
   - 将打字工作量减少一半
   - 开源工作流自动化工具
-  - 在 Excel 中使用 Python
+  - 在Excel中使用Python
 - 2023-08-20 [HackerNews 周报](2023Q3/2023-08-Hacker-News.md)
-  - 协同 Lottie 动画创作工具
-  - 轻量级 systemd 服务管理工具
-  - 使用 PS 一样使用 DiffusionAI
+  - 协同Lottie动画创作工具
+  - 轻量级systemd服务管理工具
+  - 使用PS一样使用DiffusionAI
 - 2023-08-13 [HackerNews 周报](2023Q3/2023-08-Hacker-News.md)
-  - 开源 RDS 替代方案
-  - Mac 应用管理工具
-  - Deno 中调用 Python 模块
+  - 开源RDS替代方案
+  - Mac应用管理工具
+  - Deno中调用Python模块
 - 2023-08-07 [HackerNews 周报](2023Q3/2023-08-Hacker-News.md)
-  - Bloomberg 开源高性能消息队列
-  - Go 语言新工具
-  - Meta 开源 AI 音乐生成模型
+  - Bloomberg开源高性能消息队列
+  - Go语言新工具
+  - Meta开源AI音乐生成模型
 - 2023-07-30 [HackerNews 周报](2023Q3/2023-07-Hacker-News.md)
-  - 面向边缘场景设计的 Web 框架
-  - 功能更强的 PostgresSQL 池化工具
-  - GitHubCopilot 开源竞品
+  - 面向边缘场景设计的Web框架
+  - 功能更强的PostgresSQL池化工具
+  - GitHubCopilot开源竞品
 - 2023-07-23 [HackerNews 周报](2023Q3/2023-07-Hacker-News.md)
-  - 浏览器中运行 WordPress
-  - Postgres 数据引擎优化
-  - Meta 发布 Llama2
+  - 浏览器中运行WordPress
+  - Postgres数据引擎优化
+  - Meta发布Llama2
 - 2023-07-16 [HackerNews 周报](2023Q3/2023-07-Hacker-News.md)
-  - ChatGPT 最强竞争对手
-  - K8s 成本测量工具
+  - ChatGPT最强竞争对手
+  - K8s成本测量工具
   - 开源健身小程序
 - 2023-07-09 [HackerNews 周报](2023Q3/2023-07-Hacker-News.md)
-  - 22000 张 GPU 组成超级电脑
+  - 22000张GPU组成超级电脑
   - 通用协同编辑器
   - 高性能列式存储引擎
 - 2023-07-02 [HackerNews 周报](2023Q3/2023-07-Hacker-News.md)
-  - 更快的 SegmentAnything
+  - 更快的SegmentAnything
   - 轻量级数据库缓存
-  - 更好的 React 开发框架
+  - 更好的React开发框架

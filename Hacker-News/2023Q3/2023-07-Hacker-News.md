@@ -45,7 +45,7 @@
     </tr><tr>
       <td></td>
       <td></td>
-      <td>https://github.com/continuedev/continue。</td>
+      <td>https://github.com/continuedev/continue.</td>
     </tr><tr>
       <td></td>
       <td></td>

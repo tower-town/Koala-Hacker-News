@@ -1,8 +1,6 @@
 ## [返回章节目录](../2023Q3-Hacker-News.md)
 
 
-<<<<<<< HEAD
-=======
 [[Hacker News 周报] 开源 Datadog 替代品；DALL·E 3 亮相；TypeScript
 纪录片](https://www.bilibili.com/video/BV1uu41137gH)
 
@@ -105,7 +103,6 @@
   </tbody>
 </table>
 
->>>>>>> dev
 [[Hacker News 周报] Astro 3.0 发布；告警管理与自动化平台；本地 AI
 助手](https://www.bilibili.com/video/BV17p4y1j7Ra)
 
@@ -116,8 +113,6 @@
     <th>链接</th>
   </theader><tbody>
     <tr>
-<<<<<<< HEAD
-=======
       <td>Open Interpreter</td>
       <td>本地 AI 助手</td>
       <td>https://github.com/KillianLucas/open-interpreter</td>
@@ -150,7 +145,6 @@
       <td>用来学习 WebAssembly 的项目</td>
       <td>https://github.com/EmNudge/watlings</td>
     </tr><tr>
->>>>>>> dev
       <td>一周 AI 小结</td>
       <td></td>
       <td></td>

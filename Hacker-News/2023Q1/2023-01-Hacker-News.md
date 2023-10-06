@@ -77,7 +77,7 @@ AirByte](https://www.bilibili.com/video/BV1C24y1r7yJ)
       <td>https://cal.com/</td>
     </tr><tr>
       <td></td>
-      <td>2小时开发 GPT 模型</td>
+      <td>2 小时开发 GPT 模型</td>
       <td>https://www.youtube.com/watch?v=kCc8FmEb1nY</td>
     </tr><tr>
       <td>一周 AI 小结</td>
