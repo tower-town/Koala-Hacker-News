@@ -11,6 +11,9 @@ dependencies:
   '@types/underscore':
     specifier: ^1.11.8
     version: 1.11.8
+  '@types/uuid':
+    specifier: ^9.0.4
+    version: 9.0.4
   async:
     specifier: ^3.2.4
     version: 3.2.4
@@ -41,6 +44,9 @@ dependencies:
   underscore:
     specifier: ^1.13.6
     version: 1.13.6
+  uuid:
+    specifier: ^9.0.1
+    version: 9.0.1
 
 devDependencies:
   '@babel/core':
@@ -1718,6 +1724,10 @@ packages:
 
   /@types/underscore@1.11.8:
     resolution: {integrity: sha512-p6xsoGDciPWrMc5EgyYwPdluONx1dXiXAZ+CqfGMJfsGcm+VkSLS8fP7I1DWGa3uRo9o2E6mAgBAXpWQAhk8jg==}
+    dev: false
+
+  /@types/uuid@9.0.4:
+    resolution: {integrity: sha512-zAuJWQflfx6dYJM62vna+Sn5aeSWhh3OB+wfUEACNcqUSc0AGc5JKl+ycL1vrH7frGTXhJchYjE1Hak8L819dA==}
     dev: false
 
   /@types/yargs-parser@21.0.0:
@@ -3522,6 +3532,11 @@ packages:
     resolution: {integrity: sha512-0Pm9hTQ3se5ll1XihRic3FDIku70C+iHUdT/W926rSgHV5QgXsYbKZN8MSC3tJtSkhuROzvsQjAaFENRXr+19A==}
     dependencies:
       inherits: 2.0.3
+    dev: false
+
+  /uuid@9.0.1:
+    resolution: {integrity: sha512-b+1eJOlsR9K8HJpow9Ok3fiWOWSIcIzXodvv0rQjVoOVNpWMpxf1wZNpt4y9h10odCNrqnYp1OBzRktckBe3sA==}
+    hasBin: true
     dev: false
 
   /v8-compile-cache-lib@3.0.1:
