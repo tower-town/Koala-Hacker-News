@@ -1,6 +1,40 @@
 ## [返回章节目录](../2023Q4-Hacker-News.md)
 
 
+[[Hacker News 周报] Figma 转代码新方案；自动为函数添加监控指标；Vue
+中预览文件](https://www.bilibili.com/video/BV1qh4y1z7yo)
+
+<table>
+  <theader>
+    <th>名称</th>
+    <th>简介</th>
+    <th>链接</th>
+  </theader><tbody>
+    <tr>
+      <td>一周 AI 小结</td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+[[Hacker News 周报] 做一面智能魔镜；ChatGPT 支持语音和图像；Rust 原生 serverless
+服务](https://www.bilibili.com/video/BV1fH4y1d74T)
+
+<table>
+  <theader>
+    <th>名称</th>
+    <th>简介</th>
+    <th>链接</th>
+  </theader><tbody>
+    <tr>
+      <td>一周 AI 小结</td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
 [[Hacker News 周报] Yandex 开源 BI 项目；开发者的瑞士军刀；面向 serverless 的
 ORM](https://www.bilibili.com/video/BV1ou4y147JR)
 

@@ -44,7 +44,7 @@
   - Obsidian发布1.0
   - 命令行中编辑视频与收发邮件
   - JetBrains新一代IDE公测
-- 2022-10-09 [HackerNews 周报](2022Q4/2022-10-Hacker-News.md)
+- 2022-10-08 [HackerNews 周报](2022Q4/2022-10-Hacker-News.md)
   - 通过二维码分享电脑中任意文件
   - 开源WASM运行PostgresSQL方案
   - 社区尝试维护SQLite下游版本

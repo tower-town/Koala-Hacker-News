@@ -20,7 +20,7 @@
   - CRUD最佳工具
   - 论文专用PDF阅读器
   - JS协同算法库
-- 2022-02-20 [HackerNews 周报](2022Q1/2022-02-Hacker-News.md)
+- 2022-02-19 [HackerNews 周报](2022Q1/2022-02-Hacker-News.md)
   - 基于WASM在浏览器中运行Office
   - K8s纪录片
   - GitHubmarkdown功能增强

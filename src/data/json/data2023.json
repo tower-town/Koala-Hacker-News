@@ -1,4 +1,24 @@
 {
+    "BV1qh4y1z7yo": {
+        "title": "[Hacker News 周报] Figma 转代码新方案；自动为函数添加监控指标；Vue 中预览文件",
+        "aid": 662142190,
+        "bvid": "BV1qh4y1z7yo",
+        "pubdate": 1697345556,
+        "data": [],
+        "source": [
+            "http://www.daemonology.net/hn-daily/"
+        ]
+    },
+    "BV1fH4y1d74T": {
+        "title": "[Hacker News 周报] 做一面智能魔镜；ChatGPT 支持语音和图像；Rust 原生 serverless 服务",
+        "aid": 961905108,
+        "bvid": "BV1fH4y1d74T",
+        "pubdate": 1696740065,
+        "data": [],
+        "source": [
+            "https://mailchi.mp/hackernewsletter/672"
+        ]
+    },
     "BV1ou4y147JR": {
         "title": "[Hacker News 周报] Yandex 开源 BI 项目；开发者的瑞士军刀；面向 serverless 的 ORM",
         "aid": 916616420,
