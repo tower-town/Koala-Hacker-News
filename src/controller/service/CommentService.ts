@@ -128,7 +128,7 @@ export class CommentService extends ServiceBaseDAO {
             }
         } else {
             message.comment = top.comment.content.message;
-            if (top.comment.replies !== null) {
+            if (top.comment.replies.length) {
                 message.reply = top.comment.replies[0].content.message;
             }
         }
