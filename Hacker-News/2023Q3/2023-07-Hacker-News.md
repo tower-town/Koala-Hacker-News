@@ -119,7 +119,8 @@ Llama2](https://www.bilibili.com/video/BV1Rp4y1V7UT)
     <tr>
       <td>Vizzu</td>
       <td>开源的数据可视化动画库</td>
-      <td>https://lib.vizzuhq.com/ 和 https://lib.vizzuhq.com/latest/showcases/</td>
+      <td>https://lib.vizzuhq.com/ 和
+        https://lib.vizzuhq.com/latest/showcases/</td>
     </tr><tr>
       <td>Workout</td>
       <td>开源健身小程序</td>

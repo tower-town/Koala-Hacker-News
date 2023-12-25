@@ -176,7 +176,8 @@
     </tr><tr>
       <td>Logicboard</td>
       <td>一个在线编程工具</td>
-      <td>https://logicboard.com/demo 以及 https://logicboard.com/demo/:replay</td>
+      <td>https://logicboard.com/demo 以及
+        https://logicboard.com/demo/:replay</td>
     </tr><tr>
       <td>一周 AI 小结</td>
       <td></td>

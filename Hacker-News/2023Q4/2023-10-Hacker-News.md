@@ -1,6 +1,40 @@
 ## [返回章节目录](../2023Q4-Hacker-News.md)
 
 
+[[Hacker News 周报] 在线实时编程方案；解析 ChatGPT 如何控制 DALL.E
+3；高质量开源地图数据](https://www.bilibili.com/video/BV1Fg4y1R7fE)
+
+<table>
+  <theader>
+    <th>名称</th>
+    <th>简介</th>
+    <th>链接</th>
+  </theader><tbody>
+    <tr>
+      <td>一周 AI 小结</td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+[[Hacker News 周报] Airdrop 跨平台开源替代品；快速分析优化容器镜像；AI 生成 Selenium
+脚本](https://www.bilibili.com/video/BV1mu4y1n7hc)
+
+<table>
+  <theader>
+    <th>名称</th>
+    <th>简介</th>
+    <th>链接</th>
+  </theader><tbody>
+    <tr>
+      <td>一周 AI 小结</td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
 [[Hacker News 周报] Figma 转代码新方案；自动为函数添加监控指标；Vue
 中预览文件](https://www.bilibili.com/video/BV1qh4y1z7yo)
 

@@ -1,4 +1,104 @@
 {
+    "BV1n94y1w7mQ": {
+        "title": "[Hacker News 周报] Vue2 即将结束生命周期；JS 桌面端自动化框架；v0.dev 开源替代",
+        "aid": 367680645,
+        "bvid": "BV1n94y1w7mQ",
+        "pubdate": 1703392056,
+        "data": [],
+        "source": [
+            "https://mailchi.mp/hackernewsletter/681"
+        ]
+    },
+    "BV1f94y1A7SV": {
+        "title": "[Hacker News 周报] 百倍块的 ESlint 替代品；开源多专家混合模型；Go 语言的 HTML 模板引擎",
+        "aid": 367443410,
+        "bvid": "BV1f94y1A7SV",
+        "pubdate": 1702786199,
+        "data": [],
+        "source": [
+            "https://www.daemonology.net/hn-daily/"
+        ]
+    },
+    "BV1Ri4y1v7ae": {
+        "title": "[Hacker News 周报] 低代码与 AI 结合；Rust 快速开发框架；Apple 进军 AI",
+        "aid": 537119136,
+        "bvid": "BV1Ri4y1v7ae",
+        "pubdate": 1702179170,
+        "data": [],
+        "source": [
+            "https://mailchi.mp/hackernewsletter/680"
+        ]
+    },
+    "BV1eu4y1c71w": {
+        "title": "[Hacker News 周报] 更现代的 React 拖拽库；PDF 转 markdown 工具；废弃代码扫描工具",
+        "aid": 921625197,
+        "bvid": "BV1eu4y1c71w",
+        "pubdate": 1701563400,
+        "data": [],
+        "source": [
+            "https://mailchi.mp/hackernewsletter/679"
+        ]
+    },
+    "BV1qv411F7DB": {
+        "title": "[Hacker News 周报] Vite 5.0 发布；白板+AI 的无限创意；Go 轻量级消息队列",
+        "aid": 236434868,
+        "bvid": "BV1qv411F7DB",
+        "pubdate": 1700973417,
+        "data": [],
+        "source": [
+            "https://mailchi.mp/hackernewsletter/678"
+        ]
+    },
+    "BV1Fv411c781": {
+        "title": "[Hacker News 周报] 前端调试技巧大全；Google 发布高效天气预报模型；开源 Airtable 式表格组件",
+        "aid": 236018397,
+        "bvid": "BV1Fv411c781",
+        "pubdate": 1700353800,
+        "data": [],
+        "source": [
+            "https://mailchi.mp/hackernewsletter/677"
+        ]
+    },
+    "BV1Lu4y1N7Tq": {
+        "title": "[Hacker News 周报] 多人协同终端 SSHX；Angular 卷土重来；Web 中的虚幻4游戏",
+        "aid": 920776277,
+        "bvid": "BV1Lu4y1N7Tq",
+        "pubdate": 1699760019,
+        "data": [],
+        "source": [
+            "https://mailchi.mp/hackernewsletter/676"
+        ]
+    },
+    "BV1vj411Y7WL": {
+        "title": "[Hacker News 周报] Next.js 新版本惹争议；强大的 Redis 客户端；全自动 K8s tracing",
+        "aid": 450543574,
+        "bvid": "BV1vj411Y7WL",
+        "pubdate": 1699160014,
+        "data": [],
+        "source": [
+            "https://mailchi.mp/hackernewsletter/674-2563024"
+        ]
+    },
+    "BV1Fg4y1R7fE": {
+        "title": "[Hacker News 周报] 在线实时编程方案；解析 ChatGPT 如何控制 DALL.E 3；高质量开源地图数据",
+        "aid": 832844191,
+        "bvid": "BV1Fg4y1R7fE",
+        "pubdate": 1698639598,
+        "data": [],
+        "source": [
+            "https://mailchi.mp/hackernewsletter/674"
+        ]
+    },
+    "BV1mu4y1n7hc": {
+        "title": "[Hacker News 周报] Airdrop 跨平台开源替代品；快速分析优化容器镜像；AI 生成 Selenium 脚本",
+        "aid": 920103822,
+        "bvid": "BV1mu4y1n7hc",
+        "pubdate": 1698193800,
+        "data": [],
+        "source": [
+            "https://mailchi.mp/hackernewsletter/673"
+        ]
+    },
     "BV1qh4y1z7yo": {
         "title": "[Hacker News 周报] Figma 转代码新方案；自动为函数添加监控指标；Vue 中预览文件",
         "aid": 662142190,

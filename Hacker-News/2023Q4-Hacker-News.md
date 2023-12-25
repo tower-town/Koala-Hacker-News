@@ -1,5 +1,45 @@
 ## [返回主目录](../README.md)
 
+- 2023-12-24 [HackerNews 周报](2023Q4/2023-12-Hacker-News.md)
+  - Vue2即将结束生命周期
+  - JS桌面端自动化框架
+  - v0.dev开源替代
+- 2023-12-17 [HackerNews 周报](2023Q4/2023-12-Hacker-News.md)
+  - 百倍块的ESlint替代品
+  - 开源多专家混合模型
+  - Go语言的HTML模板引擎
+- 2023-12-10 [HackerNews 周报](2023Q4/2023-12-Hacker-News.md)
+  - 低代码与AI结合
+  - Rust快速开发框架
+  - Apple进军AI
+- 2023-12-03 [HackerNews 周报](2023Q4/2023-12-Hacker-News.md)
+  - 更现代的React拖拽库
+  - PDF转markdown工具
+  - 废弃代码扫描工具
+- 2023-11-26 [HackerNews 周报](2023Q4/2023-11-Hacker-News.md)
+  - Vite5.0发布
+  - 白板+AI的无限创意
+  - Go轻量级消息队列
+- 2023-11-19 [HackerNews 周报](2023Q4/2023-11-Hacker-News.md)
+  - 前端调试技巧大全
+  - Google发布高效天气预报模型
+  - 开源Airtable式表格组件
+- 2023-11-12 [HackerNews 周报](2023Q4/2023-11-Hacker-News.md)
+  - 多人协同终端SSHX
+  - Angular卷土重来
+  - Web中的虚幻4游戏
+- 2023-11-05 [HackerNews 周报](2023Q4/2023-11-Hacker-News.md)
+  - Next.js新版本惹争议
+  - 强大的Redis客户端
+  - 全自动K8stracing
+- 2023-10-30 [HackerNews 周报](2023Q4/2023-10-Hacker-News.md)
+  - 在线实时编程方案
+  - 解析ChatGPT如何控制DALL.E3
+  - 高质量开源地图数据
+- 2023-10-25 [HackerNews 周报](2023Q4/2023-10-Hacker-News.md)
+  - Airdrop跨平台开源替代品
+  - 快速分析优化容器镜像
+  - AI生成Selenium脚本
 - 2023-10-15 [HackerNews 周报](2023Q4/2023-10-Hacker-News.md)
   - Figma转代码新方案
   - 自动为函数添加监控指标
